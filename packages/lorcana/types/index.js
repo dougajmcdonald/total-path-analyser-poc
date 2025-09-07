@@ -1,6 +1,22 @@
 // Lorcana card data types and validation schemas
 
-import { z } from "zod"
+import { z } from "zod";
+
+// Rule configuration types
+export const ruleConfigSchema = z.enum(["infinity", "core-constructed"]);
+
+export const ruleConfigs = {
+  infinity: {
+    name: "Infinity",
+    description: "All sets (1-9)",
+    validSetNums: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  },
+  "core-constructed": {
+    name: "Core Constructed",
+    description: "Sets 5-9 only",
+    validSetNums: [5, 6, 7, 8, 9],
+  },
+};
 
 // Base card schema for the raw API data (PascalCase)
 export const RawLorcanaCardSchema = z.object({
@@ -30,7 +46,7 @@ export const RawLorcanaCardSchema = z.object({
   Set_ID: z.string(),
   Move_Cost: z.number().optional(),
   Abilities: z.string().optional(),
-})
+});
 
 // Transformed card schema (camelCase)
 export const LorcanaCardSchema = z.object({
@@ -60,17 +76,17 @@ export const LorcanaCardSchema = z.object({
   setId: z.string(),
   moveCost: z.number().optional(),
   abilities: z.string().optional(),
-})
+});
 
 // Array schemas
-export const RawLorcanaCardsSchema = z.array(RawLorcanaCardSchema)
-export const LorcanaCardsSchema = z.array(LorcanaCardSchema)
+export const RawLorcanaCardsSchema = z.array(RawLorcanaCardSchema);
+export const LorcanaCardsSchema = z.array(LorcanaCardSchema);
 
 // Type inference
-export const RawLorcanaCard = RawLorcanaCardSchema
-export const LorcanaCard = LorcanaCardSchema
-export const RawLorcanaCards = RawLorcanaCardsSchema
-export const LorcanaCards = LorcanaCardsSchema
+export const RawLorcanaCard = RawLorcanaCardSchema;
+export const LorcanaCard = LorcanaCardSchema;
+export const RawLorcanaCards = RawLorcanaCardsSchema;
+export const LorcanaCards = LorcanaCardsSchema;
 
 // TypeScript-style type exports (for JSDoc)
 /**
@@ -81,35 +97,44 @@ export const LorcanaCards = LorcanaCardsSchema
  */
 
 // Validation helpers
-export function validateRawCard (data) {
-  return RawLorcanaCardSchema.parse(data)
+export function validateRawCard(data) {
+  return RawLorcanaCardSchema.parse(data);
 }
 
-export function validateCard (data) {
-  return LorcanaCardSchema.parse(data)
+export function validateCard(data) {
+  return LorcanaCardSchema.parse(data);
 }
 
-export function validateRawCards (data) {
-  return RawLorcanaCardsSchema.parse(data)
+export function validateRawCards(data) {
+  return RawLorcanaCardsSchema.parse(data);
 }
 
-export function validateCards (data) {
-  return LorcanaCardsSchema.parse(data)
+export function validateCards(data) {
+  return LorcanaCardsSchema.parse(data);
 }
 
 // Safe validation helpers (returns success/error instead of throwing)
-export function safeValidateRawCard (data) {
-  return RawLorcanaCardSchema.safeParse(data)
+export function safeValidateRawCard(data) {
+  return RawLorcanaCardSchema.safeParse(data);
 }
 
-export function safeValidateCard (data) {
-  return LorcanaCardSchema.safeParse(data)
+export function safeValidateCard(data) {
+  return LorcanaCardSchema.safeParse(data);
 }
 
-export function safeValidateRawCards (data) {
-  return RawLorcanaCardsSchema.safeParse(data)
+export function safeValidateRawCards(data) {
+  return RawLorcanaCardsSchema.safeParse(data);
 }
 
-export function safeValidateCards (data) {
-  return LorcanaCardsSchema.safeParse(data)
+export function safeValidateCards(data) {
+  return LorcanaCardsSchema.safeParse(data);
+}
+
+// Rule config validation
+export function validateRuleConfig(config) {
+  return ruleConfigSchema.parse(config);
+}
+
+export function safeValidateRuleConfig(config) {
+  return ruleConfigSchema.safeParse(config);
 }

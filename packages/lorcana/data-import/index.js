@@ -1,6 +1,10 @@
 // Lorcana data import utilities
 
-import { validateCards, validateRawCards } from "@total-path/lorcana-types";
+import {
+  ruleConfigs,
+  validateCards,
+  validateRawCards,
+} from "@total-path/lorcana-types";
 import axios from "axios";
 import fs from "fs/promises";
 import path from "path";
@@ -54,6 +58,21 @@ function transformCardToCamelCase(rawCard) {
  */
 function transformCardsToCamelCase(rawCards) {
   return rawCards.map(transformCardToCamelCase);
+}
+
+/**
+ * Filter cards by rule configuration (setNum)
+ * @param {Array} cards - Array of transformed card data
+ * @param {string} ruleConfig - Rule configuration key
+ * @returns {Array} Filtered array of card data
+ */
+function filterCardsByRuleConfig(cards, ruleConfig) {
+  const config = ruleConfigs[ruleConfig];
+  if (!config) {
+    throw new Error(`Invalid rule config: ${ruleConfig}`);
+  }
+
+  return cards.filter((card) => config.validSetNums.includes(card.setNum));
 }
 
 /**
@@ -159,6 +178,26 @@ export async function importCardData(force = false) {
       `Latest data saved to: ${latestRawPath} and ${latestTransformedPath}`,
     );
 
+    // Create filtered files for each rule config
+    console.log("Creating filtered files for rule configurations...");
+    for (const [configKey, config] of Object.entries(ruleConfigs)) {
+      const filteredCards = filterCardsByRuleConfig(
+        validatedTransformedCards,
+        configKey,
+      );
+
+      const filteredFilename = `latest-${configKey}.json`;
+      const filteredFilepath = path.join(DATA_DIR, filteredFilename);
+      await fs.writeFile(
+        filteredFilepath,
+        JSON.stringify(filteredCards, null, 2),
+      );
+
+      console.log(
+        `✅ ${config.name}: ${filteredCards.length} cards saved to ${filteredFilename}`,
+      );
+    }
+
     return validatedTransformedCards;
   } catch (error) {
     console.error("Error importing card data:", error.message);
@@ -223,4 +262,33 @@ export async function loadLatestRawData() {
  */
 export function transformCardData(rawData) {
   return transformCardsToCamelCase(rawData);
+}
+
+/**
+ * Load filtered card data by rule configuration
+ * @param {string} ruleConfig - Rule configuration key
+ * @returns {Promise<Array>} Array of filtered card data
+ */
+export async function loadFilteredData(ruleConfig) {
+  try {
+    const config = ruleConfigs[ruleConfig];
+    if (!config) {
+      throw new Error(`Invalid rule config: ${ruleConfig}`);
+    }
+
+    const filteredPath = path.join(DATA_DIR, `latest-${ruleConfig}.json`);
+    const data = await fs.readFile(filteredPath, "utf8");
+    const parsedData = JSON.parse(data);
+
+    // Validate the loaded data
+    return validateCards(parsedData);
+  } catch (error) {
+    console.error(
+      `Error loading filtered data for ${ruleConfig}:`,
+      error.message,
+    );
+    throw new Error(
+      `No filtered data found for ${ruleConfig}. Run import first.`,
+    );
+  }
 }

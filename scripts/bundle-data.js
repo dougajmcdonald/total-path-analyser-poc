@@ -2,9 +2,11 @@
 
 // Script to bundle Lorcana data for browser consumption
 
-import { mkdir, readFile, writeFile } from "fs/promises";
+import { mkdir, writeFile } from "fs/promises";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
+import { loadFilteredData } from "../packages/lorcana/data-import/index.js"; // Node.js data loader
+import { ruleConfigs } from "../packages/lorcana/types/index.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -19,64 +21,83 @@ async function bundleData() {
     // Ensure output directory exists
     await mkdir(OUTPUT_DIR, { recursive: true });
 
-    // Read the latest transformed data
-    const dataPath = join(DATA_IMPORT_DIR, "latest-transformed.json");
-    const rawData = await readFile(dataPath, "utf8");
-    const cards = JSON.parse(rawData);
+    // Process each rule configuration
+    for (const [configKey, config] of Object.entries(ruleConfigs)) {
+      console.log(`\n🔄 Processing ${config.name} (${configKey})...`);
 
-    console.log(`📊 Found ${cards.length} cards to bundle`);
+      // Load filtered data for this rule config
+      const cards = await loadFilteredData(configKey);
+      console.log(`📊 Found ${cards.length} cards for ${config.name}`);
 
-    // Create a JS module that exports the data
-    const jsContent = `// Auto-generated Lorcana card data
-// Generated at: ${new Date().toISOString()}
-// Total cards: ${cards.length}
+      // Create compressed JSON for this rule config
+      const compressedData = JSON.stringify(cards);
+      const compressedPath = join(
+        OUTPUT_DIR,
+        `lorcana-cards-${configKey}-min.json`,
+      );
+      await writeFile(compressedPath, compressedData);
 
-export const lorcanaCards = ${JSON.stringify(cards, null, 2)};
+      // Create pretty JSON for this rule config
+      const prettyData = JSON.stringify(cards, null, 2);
+      const prettyPath = join(OUTPUT_DIR, `lorcana-cards-${configKey}.json`);
+      await writeFile(prettyPath, prettyData);
 
-export const cardCount = ${cards.length};
+      // Generate stats for this rule config
+      const stats = {
+        total: cards.length,
+        byType: {},
+        byColor: {},
+        byRarity: {},
+        bySet: {},
+      };
 
-export const lastUpdated = "${new Date().toISOString()}";
-`;
+      cards.forEach((card) => {
+        stats.byType[card.type] = (stats.byType[card.type] || 0) + 1;
+        stats.byColor[card.color] = (stats.byColor[card.color] || 0) + 1;
+        stats.byRarity[card.rarity] = (stats.byRarity[card.rarity] || 0) + 1;
+        stats.bySet[card.setNum] = (stats.bySet[card.setNum] || 0) + 1;
+      });
 
-    // Write the JS module
-    const outputPath = join(OUTPUT_DIR, "lorcana-cards.js");
-    await writeFile(outputPath, jsContent);
+      // Write stats file for this rule config
+      const statsPath = join(OUTPUT_DIR, `lorcana-stats-${configKey}.json`);
+      const statsData = {
+        cardStats: stats,
+        ruleConfig: config,
+        lastUpdated: new Date().toISOString(),
+      };
+      await writeFile(statsPath, JSON.stringify(statsData, null, 2));
 
-    // Also create a JSON file for direct import
-    const jsonPath = join(OUTPUT_DIR, "lorcana-cards.json");
-    await writeFile(jsonPath, rawData);
+      // Show file sizes
+      const fs = await import("fs/promises");
+      const prettyStats = await fs.stat(prettyPath);
+      const minStats = await fs.stat(compressedPath);
 
-    console.log("✅ Data bundled successfully!");
-    console.log(`📁 JS module: ${outputPath}`);
-    console.log(`📁 JSON file: ${jsonPath}`);
+      console.log(`✅ ${config.name} bundled successfully!`);
+      console.log(
+        `📁 Pretty JSON: ${prettyPath} (${(prettyStats.size / 1024 / 1024).toFixed(2)} MB)`,
+      );
+      console.log(
+        `📁 Minified JSON: ${compressedPath} (${(minStats.size / 1024 / 1024).toFixed(2)} MB)`,
+      );
+      console.log(`📈 Stats file: ${statsPath}`);
+      console.log(
+        `📊 Cards by set: ${Object.entries(stats.bySet)
+          .map(([set, count]) => `Set ${set}: ${count}`)
+          .join(", ")}`,
+      );
+    }
 
-    // Generate some basic stats
-    const stats = {
-      total: cards.length,
-      byType: {},
-      byColor: {},
-      byRarity: {},
+    // Create a rule configs JSON file
+    const ruleConfigsPath = join(OUTPUT_DIR, "rule-configs.json");
+    const ruleConfigsData = {
+      ruleConfigs,
+      defaultRuleConfig: "core-constructed",
+      lastUpdated: new Date().toISOString(),
     };
+    await writeFile(ruleConfigsPath, JSON.stringify(ruleConfigsData, null, 2));
+    console.log(`\n📋 Rule configs index: ${ruleConfigsPath}`);
 
-    cards.forEach((card) => {
-      stats.byType[card.type] = (stats.byType[card.type] || 0) + 1;
-      stats.byColor[card.color] = (stats.byColor[card.color] || 0) + 1;
-      stats.byRarity[card.rarity] = (stats.byRarity[card.rarity] || 0) + 1;
-    });
-
-    // Write stats file
-    const statsPath = join(OUTPUT_DIR, "lorcana-stats.js");
-    const statsContent = `// Auto-generated Lorcana card statistics
-export const cardStats = ${JSON.stringify(stats, null, 2)};
-`;
-    await writeFile(statsPath, statsContent);
-
-    console.log(`📈 Stats file: ${statsPath}`);
-    console.log("\n📊 Bundle Statistics:");
-    console.log(`Total cards: ${stats.total}`);
-    console.log(`Types: ${Object.keys(stats.byType).length}`);
-    console.log(`Colors: ${Object.keys(stats.byColor).length}`);
-    console.log(`Rarities: ${Object.keys(stats.byRarity).length}`);
+    console.log("\n🎉 All data bundled successfully!");
   } catch (error) {
     console.error("❌ Error bundling data:", error.message);
     process.exit(1);

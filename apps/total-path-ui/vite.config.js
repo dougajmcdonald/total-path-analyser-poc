@@ -9,6 +9,10 @@ export default defineConfig({
     fs: {
       allow: [".."],
     },
+    // Optimize caching for large static assets
+    headers: {
+      "Cache-Control": "public, max-age=31536000", // 1 year for static assets
+    },
   },
   publicDir: "public",
   resolve: {
@@ -26,6 +30,20 @@ export default defineConfig({
         __dirname,
         "../../packages/lorcana/rules",
       ),
+    },
+  },
+  // Optimize build for production
+  build: {
+    rollupOptions: {
+      output: {
+        // Ensure large JSON files are treated as assets
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name?.endsWith(".json")) {
+            return "data/[name]-[hash][extname]";
+          }
+          return "assets/[name]-[hash][extname]";
+        },
+      },
     },
   },
 });

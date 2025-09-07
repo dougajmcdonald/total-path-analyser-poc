@@ -1,8 +1,4 @@
-// Auto-generated Lorcana card data
-// Generated at: 2025-09-07T12:53:54.081Z
-// Total cards: 1837
-
-export const lorcanaCards = [
+[
   {
     "artist": "Stefano Zanchi",
     "setName": "Archazia's Island",
@@ -45020,8 +45016,4 @@ export const lorcanaCards = [
     "setId": "URS",
     "moveCost": 1
   }
-];
-
-export const cardCount = 1837;
-
-export const lastUpdated = "2025-09-07T12:53:54.084Z";
+]

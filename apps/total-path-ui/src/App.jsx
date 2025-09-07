@@ -1,44 +1,61 @@
 import { useEffect, useState } from "react";
 
-// Temporarily comment out the imports to test basic functionality
-// import {
-//   analyzeLorcanaData,
-//   getCardStatistics,
-// } from "@total-path/analyser/browser.js";
+import {
+  analyzeLorcanaData,
+  getCardStatistics,
+} from "@total-path/analyser/browser.js";
+import { loadRuleConfigs } from "@total-path/lorcana-data-import/browser.js";
 
 function App() {
   const [analysis, setAnalysis] = useState(null);
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [ruleConfig, setRuleConfig] = useState("core-constructed");
+  const [availableConfigs, setAvailableConfigs] = useState({});
+  const [configLoading, setConfigLoading] = useState(true);
 
+  // Load available rule configurations
   useEffect(() => {
-    // Temporarily set some mock data to test the UI
-    setAnalysis({
-      totalCards: 1837,
-      averageCost: 3.52,
-      recommendations: [
-        {
-          type: "test",
-          message: "This is a test recommendation",
-          priority: "medium",
-        },
-      ],
-    });
-    setStats({
-      total: 1837,
-      byType: { character: 1387, action: 163, item: 149, location: 60 },
-      byColor: {
-        Amber: 286,
-        Amethyst: 287,
-        Emerald: 286,
-        Ruby: 286,
-        Sapphire: 286,
-        Steel: 286,
-      },
-    });
-    setLoading(false);
+    async function loadConfigs() {
+      try {
+        const configs = await loadRuleConfigs();
+        setAvailableConfigs(configs);
+        setConfigLoading(false);
+      } catch (err) {
+        console.error("Error loading rule configs:", err);
+        setConfigLoading(false);
+      }
+    }
+    loadConfigs();
   }, []);
+
+  // Load data when rule config changes
+  useEffect(() => {
+    async function loadData() {
+      if (configLoading) return;
+
+      setLoading(true);
+      setError(null);
+
+      try {
+        const [analysisData, statsData] = await Promise.all([
+          analyzeLorcanaData(ruleConfig),
+          getCardStatistics(ruleConfig),
+        ]);
+
+        setAnalysis(analysisData);
+        setStats(statsData);
+      } catch (err) {
+        console.error("Error loading data:", err);
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadData();
+  }, [ruleConfig, configLoading]);
 
   if (loading) {
     return (
@@ -78,7 +95,40 @@ function App() {
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
             Total Path Analyser
           </h1>
-          <p className="text-gray-600">Disney Lorcana Card Analysis</p>
+          <p className="text-gray-600 mb-6">Disney Lorcana Card Analysis</p>
+
+          {/* Rule Config Selector */}
+          <div className="max-w-md mx-auto">
+            <label
+              htmlFor="rule-config"
+              className="block text-sm font-medium text-gray-700 mb-2"
+            >
+              Game Format
+            </label>
+            <select
+              id="rule-config"
+              value={ruleConfig}
+              onChange={(e) => setRuleConfig(e.target.value)}
+              disabled={configLoading}
+              className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
+            >
+              {configLoading ? (
+                <option>Loading formats...</option>
+              ) : (
+                Object.entries(availableConfigs).map(([key, config]) => (
+                  <option key={key} value={key}>
+                    {config.name} - {config.description}
+                  </option>
+                ))
+              )}
+            </select>
+            {!configLoading && availableConfigs[ruleConfig] && (
+              <p className="mt-2 text-sm text-gray-600">
+                Valid sets:{" "}
+                {availableConfigs[ruleConfig].validSetNums.join(", ")}
+              </p>
+            )}
+          </div>
         </div>
 
         {analysis && stats && (

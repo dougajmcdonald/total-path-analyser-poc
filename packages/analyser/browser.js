@@ -122,21 +122,23 @@ export class Analyser {
 }
 
 /**
- * Convenience function to analyze Lorcana data in browser
+ * Convenience function to analyze Lorcana data in browser by rule config
+ * @param {string} ruleConfig - Rule configuration key (default: "core-constructed")
  * @returns {Promise<Object>} Analysis results
  */
-export async function analyzeLorcanaData() {
+export async function analyzeLorcanaData(ruleConfig = "core-constructed") {
   const analyser = new Analyser();
-  const cards = await loadLorcanaCards();
+  const cards = await loadLorcanaCards(ruleConfig);
   return analyser.analyze(cards);
 }
 
 /**
- * Get basic card statistics
+ * Get basic card statistics by rule config
+ * @param {string} ruleConfig - Rule configuration key (default: "core-constructed")
  * @returns {Promise<Object>} Card statistics
  */
-export async function getCardStatistics() {
-  const cards = await loadLorcanaCards();
+export async function getCardStatistics(ruleConfig = "core-constructed") {
+  const cards = await loadLorcanaCards(ruleConfig);
   const analyser = new Analyser();
 
   return {
