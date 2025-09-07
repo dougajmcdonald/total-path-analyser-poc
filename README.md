@@ -51,18 +51,26 @@ pnpm run dev --filter=total-path-ui
 
 The project features a robust data pipeline with type safety:
 
-1. **Import**: Fetches data from [Lorcana API](https://lorcana-api.com)
+1. **Import**: Fetches data from [Lorcana API](https://lorcana-api.com) (with daily caching)
 2. **Validate**: Uses Zod schemas to validate raw API data
 3. **Transform**: Converts PascalCase API fields to camelCase
 4. **Store**: Saves both raw and transformed data
 5. **Analyze**: Processes data with type-safe analysis functions
 
+**Smart Caching**: The import process automatically skips API calls if data from the current day already exists, preventing unnecessary requests since card data is relatively static.
+
 ### Data Import
 
 ```bash
-# Import fresh Lorcana card data
+# Import Lorcana card data (skips if data exists from today)
 cd packages/lorcana/data-import
 pnpm run import:cards
+
+# Force import even if data exists from today
+pnpm run import:cards:force
+
+# Show help
+pnpm run import:cards --help
 ```
 
 ### Analysis

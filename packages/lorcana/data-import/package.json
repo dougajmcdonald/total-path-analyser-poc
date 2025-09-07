@@ -8,7 +8,8 @@
         "lint": "eslint .",
         "build": "echo 'No build step required for data-import package'",
         "import": "node import.js",
-        "import:cards": "node import.js"
+        "import:cards": "node import.js",
+        "import:cards:force": "node import.js --force"
     },
     "keywords": [
         "lorcana",
