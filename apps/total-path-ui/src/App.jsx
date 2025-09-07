@@ -1,30 +1,42 @@
-import { useEffect, useState } from "react";
-import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { useEffect, useState } from "react"
+import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom"
 
-import { loadRuleConfigs } from "@total-path/lorcana-data-import/browser.js";
-import CardsPage from "./pages/CardsPage.jsx";
-import DashboardPage from "./pages/DashboardPage.jsx";
-import DecksPage from "./pages/DecksPage.jsx";
+import { Button } from "./components/ui/button"
+import { Card, CardContent } from "./components/ui/card"
+import { Label } from "./components/ui/label"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "./components/ui/select"
+import CardsPage from "./pages/CardsPage.jsx"
+import DashboardPage from "./pages/DashboardPage.jsx"
+import DecksPage from "./pages/DecksPage.jsx"
 
-function App() {
-  const [ruleConfig, setRuleConfig] = useState("core-constructed");
-  const [availableConfigs, setAvailableConfigs] = useState({});
-  const [configLoading, setConfigLoading] = useState(true);
+import "./index.css"
+
+function App () {
+  const [ruleConfig, setRuleConfig] = useState("core-constructed")
+  const [availableConfigs, setAvailableConfigs] = useState({})
+  const [configLoading, setConfigLoading] = useState(true)
 
   // Load available rule configurations
   useEffect(() => {
-    async function loadConfigs() {
+    async function loadConfigs () {
       try {
-        const configs = await loadRuleConfigs();
-        setAvailableConfigs(configs);
-        setConfigLoading(false);
+        const response = await fetch("http://localhost:3001/api/lorcana/rule-configs")
+        const configs = await response.json()
+        setAvailableConfigs(configs)
+        setConfigLoading(false)
       } catch (err) {
-        console.error("Error loading rule configs:", err);
-        setConfigLoading(false);
+        console.error("Error loading rule configs:", err)
+        setConfigLoading(false)
       }
     }
-    loadConfigs();
-  }, []);
+    loadConfigs()
+  }, [])
 
   return (
     <Router>
@@ -34,67 +46,62 @@ function App() {
           <nav className="mb-8">
             <div className="flex justify-between items-center">
               <div className="text-center flex-1">
-                <h1 className="text-4xl font-bold text-gray-800 mb-2">
+                <h1 className="text-4xl font-bold mb-2">
                   Total Path Analyser
                 </h1>
-                <p className="text-gray-600 mb-6">
+                <p className="text-muted-foreground mb-6">
                   Disney Lorcana Card Analysis
                 </p>
               </div>
               <div className="flex space-x-4">
-                <Link
-                  to="/"
-                  className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-                >
-                  Dashboard
-                </Link>
-                <Link
-                  to="/cards"
-                  className="px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
-                >
-                  Browse Cards
-                </Link>
-                <Link
-                  to="/decks"
-                  className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
-                >
-                  Deck Builder
-                </Link>
+                <Button asChild variant="default">
+                  <Link to="/">Dashboard</Link>
+                </Button>
+                <Button asChild variant="secondary">
+                  <Link to="/cards">Browse Cards</Link>
+                </Button>
+                <Button asChild variant="outline">
+                  <Link to="/decks">Deck Builder</Link>
+                </Button>
               </div>
             </div>
 
             {/* Rule Config Selector */}
-            <div className="max-w-md mx-auto mt-6">
-              <label
-                htmlFor="rule-config"
-                className="block text-sm font-medium text-gray-700 mb-2"
-              >
-                Game Format
-              </label>
-              <select
-                id="rule-config"
-                value={ruleConfig}
-                onChange={(e) => setRuleConfig(e.target.value)}
-                disabled={configLoading}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
-              >
-                {configLoading ? (
-                  <option>Loading formats...</option>
-                ) : (
-                  Object.entries(availableConfigs).map(([key, config]) => (
-                    <option key={key} value={key}>
-                      {config.name} - {config.description}
-                    </option>
-                  ))
+            <Card className="max-w-md mx-auto mt-6">
+              <CardContent className="pt-6">
+                <Label htmlFor="rule-config" className="block text-sm font-medium mb-2">
+                  Game Format
+                </Label>
+                <Select
+                  value={ruleConfig}
+                  onValueChange={setRuleConfig}
+                  disabled={configLoading}
+                >
+                  <SelectTrigger>
+                    <SelectValue placeholder={configLoading ? "Loading formats..." : "Select format"} />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {configLoading ? (
+                      <SelectItem value="loading" disabled>
+                        Loading formats...
+                      </SelectItem>
+                    ) : (
+                      Object.entries(availableConfigs).map(([key, config]) => (
+                        <SelectItem key={key} value={key}>
+                          {config.name}
+                        </SelectItem>
+                      ))
+                    )}
+                  </SelectContent>
+                </Select>
+                {!configLoading && availableConfigs[ruleConfig] && (
+                  <p className="mt-2 text-sm text-muted-foreground">
+                    Valid sets:{" "}
+                    {availableConfigs[ruleConfig].validSetNums.join(", ")}
+                  </p>
                 )}
-              </select>
-              {!configLoading && availableConfigs[ruleConfig] && (
-                <p className="mt-2 text-sm text-gray-600">
-                  Valid sets:{" "}
-                  {availableConfigs[ruleConfig].validSetNums.join(", ")}
-                </p>
-              )}
-            </div>
+              </CardContent>
+            </Card>
           </nav>
 
           {/* Routes */}
@@ -130,7 +137,7 @@ function App() {
         </div>
       </div>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App

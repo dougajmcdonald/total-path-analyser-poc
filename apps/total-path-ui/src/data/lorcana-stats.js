@@ -38,4 +38,4 @@ export const cardStats = {
     "uncommon": 481,
     "legendary": 107
   }
-};
+}

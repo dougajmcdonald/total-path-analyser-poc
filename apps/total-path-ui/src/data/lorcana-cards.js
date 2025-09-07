@@ -45020,8 +45020,8 @@ export const lorcanaCards = [
     "setId": "URS",
     "moveCost": 1
   }
-];
+]
 
-export const cardCount = 1837;
+export const cardCount = 1837
 
-export const lastUpdated = "2025-09-07T12:41:32.410Z";
+export const lastUpdated = "2025-09-07T12:41:32.410Z"
