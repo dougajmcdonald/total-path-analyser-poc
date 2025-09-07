@@ -1,16 +1,11 @@
 import { useEffect, useState } from "react";
+import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
-import {
-  analyzeLorcanaData,
-  getCardStatistics,
-} from "@total-path/analyser/browser.js";
 import { loadRuleConfigs } from "@total-path/lorcana-data-import/browser.js";
+import CardsPage from "./pages/CardsPage.jsx";
+import DashboardPage from "./pages/DashboardPage.jsx";
 
 function App() {
-  const [analysis, setAnalysis] = useState(null);
-  const [stats, setStats] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
   const [ruleConfig, setRuleConfig] = useState("core-constructed");
   const [availableConfigs, setAvailableConfigs] = useState({});
   const [configLoading, setConfigLoading] = useState(true);
@@ -30,194 +25,95 @@ function App() {
     loadConfigs();
   }, []);
 
-  // Load data when rule config changes
-  useEffect(() => {
-    async function loadData() {
-      if (configLoading) return;
-
-      setLoading(true);
-      setError(null);
-
-      try {
-        const [analysisData, statsData] = await Promise.all([
-          analyzeLorcanaData(ruleConfig),
-          getCardStatistics(ruleConfig),
-        ]);
-
-        setAnalysis(analysisData);
-        setStats(statsData);
-      } catch (err) {
-        console.error("Error loading data:", err);
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    loadData();
-  }, [ruleConfig, configLoading]);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading Lorcana data...</p>
-        </div>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-red-50 to-pink-100 flex items-center justify-center">
-        <div className="text-center bg-white rounded-lg shadow-lg p-8 max-w-md mx-auto">
-          <h2 className="text-2xl font-semibold text-red-700 mb-4">
-            Error Loading Data
-          </h2>
-          <p className="text-red-600 mb-4">{error}</p>
-          <p className="text-sm text-gray-500">
-            Make sure to run{" "}
-            <code className="bg-gray-100 px-2 py-1 rounded">
-              pnpm run build:data
-            </code>{" "}
-            first
-          </p>
-        </div>
-      </div>
-    );
-  }
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <div className="container mx-auto px-4 py-8">
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            Total Path Analyser
-          </h1>
-          <p className="text-gray-600 mb-6">Disney Lorcana Card Analysis</p>
-
-          {/* Rule Config Selector */}
-          <div className="max-w-md mx-auto">
-            <label
-              htmlFor="rule-config"
-              className="block text-sm font-medium text-gray-700 mb-2"
-            >
-              Game Format
-            </label>
-            <select
-              id="rule-config"
-              value={ruleConfig}
-              onChange={(e) => setRuleConfig(e.target.value)}
-              disabled={configLoading}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
-            >
-              {configLoading ? (
-                <option>Loading formats...</option>
-              ) : (
-                Object.entries(availableConfigs).map(([key, config]) => (
-                  <option key={key} value={key}>
-                    {config.name} - {config.description}
-                  </option>
-                ))
-              )}
-            </select>
-            {!configLoading && availableConfigs[ruleConfig] && (
-              <p className="mt-2 text-sm text-gray-600">
-                Valid sets:{" "}
-                {availableConfigs[ruleConfig].validSetNums.join(", ")}
-              </p>
-            )}
-          </div>
-        </div>
-
-        {analysis && stats && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Total Cards */}
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
-                Total Cards
-              </h3>
-              <p className="text-3xl font-bold text-blue-600">
-                {stats.total.toLocaleString()}
-              </p>
-            </div>
-
-            {/* Average Cost */}
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
-                Average Cost
-              </h3>
-              <p className="text-3xl font-bold text-green-600">
-                {analysis.averageCost}
-              </p>
-            </div>
-
-            {/* Card Types */}
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-4">
-                Card Types
-              </h3>
-              <div className="space-y-2">
-                {Object.entries(stats.byType).map(([type, count]) => (
-                  <div key={type} className="flex justify-between">
-                    <span className="capitalize text-gray-600">{type}</span>
-                    <span className="font-semibold">{count}</span>
-                  </div>
-                ))}
+    <Router>
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div className="container mx-auto px-4 py-8">
+          {/* Navigation */}
+          <nav className="mb-8">
+            <div className="flex justify-between items-center">
+              <div className="text-center flex-1">
+                <h1 className="text-4xl font-bold text-gray-800 mb-2">
+                  Total Path Analyser
+                </h1>
+                <p className="text-gray-600 mb-6">
+                  Disney Lorcana Card Analysis
+                </p>
+              </div>
+              <div className="flex space-x-4">
+                <Link
+                  to="/"
+                  className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+                >
+                  Dashboard
+                </Link>
+                <Link
+                  to="/cards"
+                  className="px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
+                >
+                  Browse Cards
+                </Link>
               </div>
             </div>
 
-            {/* Top Colors */}
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h3 className="text-xl font-semibold text-gray-700 mb-4">
-                Top Colors
-              </h3>
-              <div className="space-y-2">
-                {Object.entries(stats.byColor)
-                  .sort(([, a], [, b]) => b - a)
-                  .slice(0, 5)
-                  .map(([color, count]) => (
-                    <div key={color} className="flex justify-between">
-                      <span className="text-gray-600">{color}</span>
-                      <span className="font-semibold">{count}</span>
-                    </div>
-                  ))}
-              </div>
-            </div>
-
-            {/* Recommendations */}
-            <div className="bg-white rounded-lg shadow-lg p-6 md:col-span-2 lg:col-span-3">
-              <h3 className="text-xl font-semibold text-gray-700 mb-4">
-                Recommendations
-              </h3>
-              {analysis.recommendations.length > 0 ? (
-                <div className="space-y-3">
-                  {analysis.recommendations.map((rec, index) => (
-                    <div
-                      key={index}
-                      className={`p-3 rounded-lg ${
-                        rec.priority === "high"
-                          ? "bg-red-50 border-l-4 border-red-400"
-                          : rec.priority === "medium"
-                            ? "bg-yellow-50 border-l-4 border-yellow-400"
-                            : "bg-blue-50 border-l-4 border-blue-400"
-                      }`}
-                    >
-                      <p className="text-gray-700">{rec.message}</p>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <p className="text-gray-500">
-                  No specific recommendations at this time.
+            {/* Rule Config Selector */}
+            <div className="max-w-md mx-auto mt-6">
+              <label
+                htmlFor="rule-config"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
+                Game Format
+              </label>
+              <select
+                id="rule-config"
+                value={ruleConfig}
+                onChange={(e) => setRuleConfig(e.target.value)}
+                disabled={configLoading}
+                className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
+              >
+                {configLoading ? (
+                  <option>Loading formats...</option>
+                ) : (
+                  Object.entries(availableConfigs).map(([key, config]) => (
+                    <option key={key} value={key}>
+                      {config.name} - {config.description}
+                    </option>
+                  ))
+                )}
+              </select>
+              {!configLoading && availableConfigs[ruleConfig] && (
+                <p className="mt-2 text-sm text-gray-600">
+                  Valid sets:{" "}
+                  {availableConfigs[ruleConfig].validSetNums.join(", ")}
                 </p>
               )}
             </div>
-          </div>
-        )}
+          </nav>
+
+          {/* Routes */}
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <DashboardPage
+                  ruleConfig={ruleConfig}
+                  availableConfigs={availableConfigs}
+                />
+              }
+            />
+            <Route
+              path="/cards"
+              element={
+                <CardsPage
+                  ruleConfig={ruleConfig}
+                  availableConfigs={availableConfigs}
+                />
+              }
+            />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
