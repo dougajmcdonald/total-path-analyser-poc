@@ -1,0 +1,23 @@
+{
+    "name": "@total-path/lorcana-data-import",
+    "version": "0.0.0",
+    "description": "Scripts to retrieve and import Lorcana card data in bulk",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint .",
+        "build": "echo 'No build step required for data-import package'",
+        "import": "node import.js"
+    },
+    "keywords": [
+        "lorcana",
+        "data",
+        "import",
+        "scraping"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.7.9"
+    }
+}

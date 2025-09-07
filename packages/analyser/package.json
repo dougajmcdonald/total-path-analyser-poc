@@ -1,0 +1,23 @@
+{
+    "name": "@total-path/analyser",
+    "version": "0.0.0",
+    "description": "Central analysis package that consumes game-specific packages",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint .",
+        "build": "echo 'No build step required for analyser package'"
+    },
+    "keywords": [
+        "analysis",
+        "game",
+        "strategy",
+        "path"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@total-path/lorcana-rules": "workspace:*",
+        "@total-path/lorcana-data-import": "workspace:*"
+    }
+}

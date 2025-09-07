@@ -1,12 +1,12 @@
 {
-  "name": "@repo/eslint-config",
+  "name": "@total-path/eslint-config",
   "version": "0.0.0",
   "type": "module",
   "private": true,
   "exports": {
     "./base": "./base.js",
-    "./next-js": "./next.js",
-    "./react-internal": "./react-internal.js"
+    "./javascript": "./javascript.js",
+    "./react": "./react.js"
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",

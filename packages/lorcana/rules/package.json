@@ -1,0 +1,19 @@
+{
+    "name": "@total-path/lorcana-rules",
+    "version": "0.0.0",
+    "description": "Lorcana game rules, data structures and constants",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint .",
+        "build": "echo 'No build step required for rules package'"
+    },
+    "keywords": [
+        "lorcana",
+        "rules",
+        "game",
+        "data"
+    ],
+    "author": "",
+    "license": "MIT"
+}
