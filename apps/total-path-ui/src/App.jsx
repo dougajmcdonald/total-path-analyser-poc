@@ -4,6 +4,7 @@ import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { loadRuleConfigs } from "@total-path/lorcana-data-import/browser.js";
 import CardsPage from "./pages/CardsPage.jsx";
 import DashboardPage from "./pages/DashboardPage.jsx";
+import DecksPage from "./pages/DecksPage.jsx";
 
 function App() {
   const [ruleConfig, setRuleConfig] = useState("core-constructed");
@@ -52,6 +53,12 @@ function App() {
                   className="px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 transition-colors"
                 >
                   Browse Cards
+                </Link>
+                <Link
+                  to="/decks"
+                  className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+                >
+                  Deck Builder
                 </Link>
               </div>
             </div>
@@ -105,6 +112,15 @@ function App() {
               path="/cards"
               element={
                 <CardsPage
+                  ruleConfig={ruleConfig}
+                  availableConfigs={availableConfigs}
+                />
+              }
+            />
+            <Route
+              path="/decks"
+              element={
+                <DecksPage
                   ruleConfig={ruleConfig}
                   availableConfigs={availableConfigs}
                 />
