@@ -31,3 +31,14 @@ Run your thoughts past me first so I can validate the proposed approach before w
 Shout for any clarification.
 
 ====
+
+Ok, here are the criteria for assessing the cumulative "value" for a sequence of actions which represent a turn.
+1. Lore gain - this is the only real that leads to winning, so should be a top priority.
+2. Ink efficiency - ideally you want to play "on curve" as in, on turn one, you ink once and play a 1 cost card. On turn two you ink again and play a two cost card and so on. Whilst it's possible to play two 1 cost cards on turn 2 in place of 1, 2 cost card, the power of cards increases with costs, so generally it's better to play as high a cost character as possible
+2. Board state - this can be evaluated 3 ways - a) number of cards, more cards on boards is better b) cumulative strength, more is better, c) cumulative willpower, more is better. You should consider d) cumulative lore, generally playing characters than can quest for more lore is better.
+3. Ink progressiong, not inking is rarely a good idea unless you have no inkable cards, or inking a would mean you could play nothing, vs a less optimal card.
+4. Hand size - bigger hand is better, but it's a low weighing measure as the act of inking and playing cards will naturally reduce hand size.  
+
+Each of these should have weighings so we can adjust things as we go if needed.
+
+====

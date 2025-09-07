@@ -21,7 +21,7 @@ export function runSimulation (deck1, deck2, maxTurns = 7) {
   
   for (let turn = 1; turn <= maxTurns; turn++) {
     const currentPlayer = getCurrentPlayer(gameState)
-    const simulations = simulateTurn(gameState, currentPlayer.id)
+    const simulations = simulateTurn(gameState, currentPlayer.id, turn)
     
     results.push({
       turn,
