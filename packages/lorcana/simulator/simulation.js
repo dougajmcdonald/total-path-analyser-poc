@@ -164,7 +164,23 @@ function calculateInkEfficiency (gameState, player, turnNumber) {
   // Bonus for using all available ink efficiently
   const inkUsageBonus = availableInk > 0 ? 0.5 : 0
   
-  return (inkEfficiency + inkUsageBonus) * SCORING_WEIGHTS.INK_EFFICIENCY
+  // Bonus for inking higher cost cards earlier (they provide value for more turns)
+  const inkValueBonus = calculateInkValueBonus(player)
+  
+  return (inkEfficiency + inkUsageBonus + inkValueBonus) * SCORING_WEIGHTS.INK_EFFICIENCY
+}
+
+// Calculate bonus for inking higher cost cards (better long-term value)
+function calculateInkValueBonus (player) {
+  const inkedCards = player.inkwell
+  if (inkedCards.length === 0) return 0
+  
+  // Calculate average cost of inked cards (higher is better for long-term value)
+  const totalCost = inkedCards.reduce((sum, card) => sum + (card.cost || 0), 0)
+  const averageCost = totalCost / inkedCards.length
+  
+  // Bonus based on average cost (0.1 per cost point, capped at 1.0)
+  return Math.min(averageCost * 0.1, 1.0)
 }
 
 // Calculate board state score
@@ -204,6 +220,14 @@ function calculateInkProgressionScore (gameState, player) {
   if (hasInkableCards && availableInk === 0) {
     // Good: have inkable cards and no ink (should ink)
     score += 1.0
+    
+    // Bonus for having high-cost inkable cards (better long-term value)
+    const inkableCards = player.hand.filter(card => card.inkable)
+    if (inkableCards.length > 0) {
+      const maxCost = Math.max(...inkableCards.map(card => card.cost || 0))
+      const highCostBonus = Math.min(maxCost * 0.05, 0.3) // Up to 0.3 bonus
+      score += highCostBonus
+    }
   } else if (hasInkableCards && availableInk > 0) {
     // Neutral: have inkable cards and some ink (could ink or not)
     score += 0.5
