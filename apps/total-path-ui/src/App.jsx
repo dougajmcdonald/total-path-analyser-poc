@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom"
-
+import { ThemeProvider } from "./components/ThemeProvider"
 import { Button } from "./components/ui/button"
 import { Card, CardContent } from "./components/ui/card"
 import { Label } from "./components/ui/label"
@@ -40,102 +40,104 @@ function App () {
 
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-        <div className="container mx-auto px-4 py-8">
-          {/* Navigation */}
-          <nav className="mb-8">
-            <div className="flex justify-between items-center">
-              <div className="text-center flex-1">
-                <h1 className="text-4xl font-bold mb-2">
+      <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+        <div className="min-h-screen">
+          <div className="container mx-auto px-4 py-8">
+            {/* Navigation */}
+            <nav className="mb-8">
+              <div className="flex justify-between items-center">
+                <div className="text-center flex-1">
+                  <h1 className="text-4xl font-bold mb-2">
                   Total Path Analyser
-                </h1>
-                <p className="text-muted-foreground mb-6">
+                  </h1>
+                  <p className="text-muted-foreground mb-6">
                   Disney Lorcana Card Analysis
-                </p>
-              </div>
-              <div className="flex space-x-4">
-                <Button asChild variant="default">
-                  <Link to="/">Dashboard</Link>
-                </Button>
-                <Button asChild variant="secondary">
-                  <Link to="/cards">Browse Cards</Link>
-                </Button>
-                <Button asChild variant="outline">
-                  <Link to="/decks">Deck Builder</Link>
-                </Button>
-              </div>
-            </div>
-
-            {/* Rule Config Selector */}
-            <Card className="max-w-md mx-auto mt-6">
-              <CardContent className="pt-6">
-                <Label htmlFor="rule-config" className="block text-sm font-medium mb-2">
-                  Game Format
-                </Label>
-                <Select
-                  value={ruleConfig}
-                  onValueChange={setRuleConfig}
-                  disabled={configLoading}
-                >
-                  <SelectTrigger>
-                    <SelectValue placeholder={configLoading ? "Loading formats..." : "Select format"} />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {configLoading ? (
-                      <SelectItem value="loading" disabled>
-                        Loading formats...
-                      </SelectItem>
-                    ) : (
-                      Object.entries(availableConfigs).map(([key, config]) => (
-                        <SelectItem key={key} value={key}>
-                          {config.name}
-                        </SelectItem>
-                      ))
-                    )}
-                  </SelectContent>
-                </Select>
-                {!configLoading && availableConfigs[ruleConfig] && (
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    Valid sets:{" "}
-                    {availableConfigs[ruleConfig].validSetNums.join(", ")}
                   </p>
-                )}
-              </CardContent>
-            </Card>
-          </nav>
+                </div>
+                <div className="flex space-x-4">
+                  <Button asChild variant="outline">
+                    <Link to="/">Dashboard</Link>
+                  </Button>
+                  <Button asChild variant="outline">
+                    <Link to="/cards">Browse Cards</Link>
+                  </Button>
+                  <Button asChild variant="outline">
+                    <Link to="/decks">Deck Builder</Link>
+                  </Button>
+                </div>
+              </div>
 
-          {/* Routes */}
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <DashboardPage
-                  ruleConfig={ruleConfig}
-                  availableConfigs={availableConfigs}
-                />
-              }
-            />
-            <Route
-              path="/cards"
-              element={
-                <CardsPage
-                  ruleConfig={ruleConfig}
-                  availableConfigs={availableConfigs}
-                />
-              }
-            />
-            <Route
-              path="/decks"
-              element={
-                <DecksPage
-                  ruleConfig={ruleConfig}
-                  availableConfigs={availableConfigs}
-                />
-              }
-            />
-          </Routes>
+              {/* Rule Config Selector */}
+              <Card className="max-w-md mx-auto mt-6">
+                <CardContent className="pt-6">
+                  <Label htmlFor="rule-config" className="block text-sm font-medium mb-2">
+                  Game Format
+                  </Label>
+                  <Select
+                    value={ruleConfig}
+                    onValueChange={setRuleConfig}
+                    disabled={configLoading}
+                  >
+                    <SelectTrigger>
+                      <SelectValue placeholder={configLoading ? "Loading formats..." : "Select format"} />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {configLoading ? (
+                        <SelectItem value="loading" disabled>
+                        Loading formats...
+                        </SelectItem>
+                      ) : (
+                        Object.entries(availableConfigs).map(([key, config]) => (
+                          <SelectItem key={key} value={key}>
+                            {config.name}
+                          </SelectItem>
+                        ))
+                      )}
+                    </SelectContent>
+                  </Select>
+                  {!configLoading && availableConfigs[ruleConfig] && (
+                    <p className="mt-2 text-sm text-muted-foreground">
+                    Valid sets:{" "}
+                      {availableConfigs[ruleConfig].validSetNums.join(", ")}
+                    </p>
+                  )}
+                </CardContent>
+              </Card>
+            </nav>
+
+            {/* Routes */}
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <DashboardPage
+                    ruleConfig={ruleConfig}
+                    availableConfigs={availableConfigs}
+                  />
+                }
+              />
+              <Route
+                path="/cards"
+                element={
+                  <CardsPage
+                    ruleConfig={ruleConfig}
+                    availableConfigs={availableConfigs}
+                  />
+                }
+              />
+              <Route
+                path="/decks"
+                element={
+                  <DecksPage
+                    ruleConfig={ruleConfig}
+                    availableConfigs={availableConfigs}
+                  />
+                }
+              />
+            </Routes>
+          </div>
         </div>
-      </div>
+      </ThemeProvider>
     </Router>
   )
 }
