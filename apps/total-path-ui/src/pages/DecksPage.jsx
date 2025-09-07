@@ -345,8 +345,8 @@ function DecksPage ({ ruleConfig }) {
         </Card>
 
         {/* Deck Display */}
-        <div className="space-y-6">
-          {parsedDeck && (
+        {parsedDeck && (
+          <div className="col-span-1 lg:col-span-2">
             <Card>
               <CardHeader>
                 <div className="flex items-center justify-between">
@@ -365,28 +365,23 @@ function DecksPage ({ ruleConfig }) {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                {/* Deck Cards Grid */}
-                <div
-                  className="grid gap-4 justify-items-center"
-                  style={{
-                    gridTemplateColumns:
-                      "repeat(auto-fit, minmax(256px, 256px))",
-                    justifyContent: "center",
-                  }}
-                >
-                  {parsedDeck.map((card, index) => (
-                    <div key={`${card.uniqueId}-${index}`} className="relative">
-                      <CardComponent card={card} />
-                      <div className="absolute -top-2 -right-2 bg-blue-600 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center">
-                        {card.quantity}
+                {/* Deck Cards Grid - Full Width */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                  {parsedDeck
+                    .sort((a, b) => (a.cost || 0) - (b.cost || 0))
+                    .map((card, index) => (
+                      <div key={`${card.uniqueId}-${index}`} className="relative">
+                        <CardComponent card={card} />
+                        <div className="absolute -top-2 -right-2 bg-blue-600 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center">
+                          {card.quantity}
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
                 </div>
               </CardContent>
             </Card>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   )
