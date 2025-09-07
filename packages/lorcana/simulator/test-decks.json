@@ -1,0 +1,142 @@
+{
+    "deck1": [
+        {
+            "name": "Tinker Bell - Giant Fairy",
+            "quantity": 4
+        },
+        {
+            "name": "Tipo - Growing Son",
+            "quantity": 4
+        },
+        {
+            "name": "Happy - Lively Knight",
+            "quantity": 4
+        },
+        {
+            "name": "Doc - Bold Knight",
+            "quantity": 4
+        },
+        {
+            "name": "Pleakley - Scientific Expert",
+            "quantity": 4
+        },
+        {
+            "name": "Alice - Savvy Sailor",
+            "quantity": 4
+        },
+        {
+            "name": "Mr. Arrow - Legacy's First Mate",
+            "quantity": 2
+        },
+        {
+            "name": "Pluto - Guard Dog",
+            "quantity": 4
+        },
+        {
+            "name": "Jasmine - Resourceful Infiltrator",
+            "quantity": 4
+        },
+        {
+            "name": "Jasmine - Steady Strategist",
+            "quantity": 4
+        },
+        {
+            "name": "Vincenzo Santorini - The Explosives Expert",
+            "quantity": 4
+        },
+        {
+            "name": "Namaari - Single-Minded Rival",
+            "quantity": 2
+        },
+        {
+            "name": "Strength of a Raging Fire",
+            "quantity": 4
+        },
+        {
+            "name": "Hades - Infernal Schemer",
+            "quantity": 2
+        },
+        {
+            "name": "Nala - Undaunted Lioness",
+            "quantity": 4
+        },
+        {
+            "name": "Lilo - Best Explorer Ever",
+            "quantity": 4
+        },
+        {
+            "name": "Scar - Finally King",
+            "quantity": 4
+        }
+    ],
+    "deck2": [
+        {
+            "name": "Hades - Infernal Schemer",
+            "quantity": 4
+        },
+        {
+            "name": "Develop Your Brain",
+            "quantity": 4
+        },
+        {
+            "name": "Belle - Accomplished Mystic",
+            "quantity": 2
+        },
+        {
+            "name": "Elsa - The Fifth Spirit",
+            "quantity": 4
+        },
+        {
+            "name": "Finders Keepers",
+            "quantity": 3
+        },
+        {
+            "name": "Tipo - Growing Son",
+            "quantity": 4
+        },
+        {
+            "name": "Diablo - Obedient Raven",
+            "quantity": 4
+        },
+        {
+            "name": "Sail The Azurite Sea",
+            "quantity": 4
+        },
+        {
+            "name": "Genie - Wish Fulfilled",
+            "quantity": 4
+        },
+        {
+            "name": "Iago - Giant Spectral Parrot",
+            "quantity": 3
+        },
+        {
+            "name": "All is Found",
+            "quantity": 4
+        },
+        {
+            "name": "Yelana - Northuldra Leader",
+            "quantity": 3
+        },
+        {
+            "name": "Monstro - Infamous Whale",
+            "quantity": 3
+        },
+        {
+            "name": "Into the Unknown",
+            "quantity": 4
+        },
+        {
+            "name": "Ursula - Voice Stealer",
+            "quantity": 4
+        },
+        {
+            "name": "Dumbo - Ninth Wonder of the Universe",
+            "quantity": 4
+        },
+        {
+            "name": "The Magic Feather",
+            "quantity": 3
+        }
+    ]
+}
