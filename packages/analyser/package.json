@@ -4,6 +4,10 @@
     "description": "Central analysis package that consumes game-specific packages",
     "main": "index.js",
     "type": "module",
+    "exports": {
+        ".": "./index.js",
+        "./browser.js": "./browser.js"
+    },
     "scripts": {
         "lint": "eslint .",
         "build": "echo 'No build step required for analyser package'"

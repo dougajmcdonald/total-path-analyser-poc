@@ -4,6 +4,10 @@
     "description": "Scripts to retrieve and import Lorcana card data in bulk",
     "main": "index.js",
     "type": "module",
+    "exports": {
+        ".": "./index.js",
+        "./browser.js": "./browser.js"
+    },
     "scripts": {
         "lint": "eslint .",
         "build": "echo 'No build step required for data-import package'",
