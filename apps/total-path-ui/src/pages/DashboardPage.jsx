@@ -1,18 +1,18 @@
 import { useEffect, useState } from "react"
 
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
 import {
   analyzeLorcanaData,
   getCardStatistics,
 } from "../utils/dataLoader.js"
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
 
-function DashboardPage ({ ruleConfig, availableConfigs }) {
+function DashboardPage ({ ruleConfig, availableConfigs, selectedColors, setSelectedColors }) {
   const [analysis, setAnalysis] = useState(null)
   const [stats, setStats] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  // Load data when rule config changes
+  // Load data when rule config or color filter changes
   useEffect(() => {
     async function loadData () {
       setLoading(true)
@@ -20,8 +20,8 @@ function DashboardPage ({ ruleConfig, availableConfigs }) {
 
       try {
         const [analysisData, statsData] = await Promise.all([
-          analyzeLorcanaData(ruleConfig),
-          getCardStatistics(ruleConfig),
+          analyzeLorcanaData(ruleConfig, selectedColors),
+          getCardStatistics(ruleConfig, selectedColors),
         ])
 
         setAnalysis(analysisData)
@@ -35,7 +35,7 @@ function DashboardPage ({ ruleConfig, availableConfigs }) {
     }
 
     loadData()
-  }, [ruleConfig])
+  }, [ruleConfig, selectedColors])
 
   if (loading) {
     return (
@@ -93,6 +93,7 @@ function DashboardPage ({ ruleConfig, availableConfigs }) {
             </CardContent>
           </Card>
 
+
           {/* Average Cost */}
           <Card>
             <CardHeader>
@@ -103,6 +104,45 @@ function DashboardPage ({ ruleConfig, availableConfigs }) {
                 {analysis?.averageCost || 0}
               </p>
               <p className="text-sm text-muted-foreground mt-1">Ink cost per card</p>
+            </CardContent>
+          </Card>
+
+          {/* Average Lore */}
+          <Card>
+            <CardHeader>
+              <CardTitle>Average Lore</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-3xl font-bold text-purple-600">
+                {analysis?.averageLore || 0}
+              </p>
+              <p className="text-sm text-muted-foreground mt-1">Lore per character</p>
+            </CardContent>
+          </Card>
+
+          {/* Average Strength */}
+          <Card>
+            <CardHeader>
+              <CardTitle>Average Strength</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-3xl font-bold text-red-600">
+                {analysis?.averageStrength || 0}
+              </p>
+              <p className="text-sm text-muted-foreground mt-1">Strength per character</p>
+            </CardContent>
+          </Card>
+
+          {/* Average Willpower */}
+          <Card>
+            <CardHeader>
+              <CardTitle>Average Willpower</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-3xl font-bold text-blue-600">
+                {analysis?.averageWillpower || 0}
+              </p>
+              <p className="text-sm text-muted-foreground mt-1">Willpower per character</p>
             </CardContent>
           </Card>
 
@@ -135,7 +175,7 @@ function DashboardPage ({ ruleConfig, availableConfigs }) {
             <CardContent>
               <div className="space-y-1">
                 {stats?.colorDistribution ? Object.entries(stats.colorDistribution)
-                  .slice(0, 6)
+                  .sort(([, a], [, b]) => b - a)
                   .map(([color, count]) => (
                     <div key={color} className="flex justify-between">
                       <span className="text-sm text-muted-foreground">{color}</span>
@@ -156,7 +196,7 @@ function DashboardPage ({ ruleConfig, availableConfigs }) {
             <CardContent>
               <div className="space-y-1">
                 {stats?.costDistribution ? Object.entries(stats.costDistribution)
-                  .slice(0, 6)
+                  .sort(([a], [b]) => Number(a) - Number(b))
                   .map(([cost, count]) => (
                     <div key={cost} className="flex justify-between">
                       <span className="text-sm text-muted-foreground">Cost {cost}</span>

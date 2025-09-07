@@ -41,38 +41,72 @@ export async function loadRuleConfigs () {
 }
 
 // Simple analysis functions
-export async function analyzeLorcanaData (ruleConfig = "core-constructed") {
+export async function analyzeLorcanaData (ruleConfig = "core-constructed", colorFilters = ["all"]) {
   const cards = await loadLorcanaCards(ruleConfig)
   
+  // Filter by colors - if "all" is selected, show all cards, otherwise filter by selected colors
+  const filteredCards = colorFilters.includes("all")
+    ? cards 
+    : cards.filter(card => colorFilters.includes(card.color))
+  
   // Calculate average cost
-  const totalCost = cards.reduce((sum, card) => sum + (card.cost || 0), 0)
-  const averageCost = cards.length > 0 ? (totalCost / cards.length).toFixed(1) : 0
+  const totalCost = filteredCards.reduce((sum, card) => sum + (card.cost || 0), 0)
+  const averageCost = filteredCards.length > 0 ? (totalCost / filteredCards.length).toFixed(1) : 0
+  
+  // Calculate average lore (only for characters)
+  const characterCards = filteredCards.filter(card => card.type === "character")
+  const totalLore = characterCards.reduce((sum, card) => sum + (card.lore || 0), 0)
+  const averageLore = characterCards.length > 0 ? (totalLore / characterCards.length).toFixed(1) : 0
+  
+  // Calculate average strength (only for characters)
+  const totalStrength = characterCards.reduce((sum, card) => sum + (card.strength || 0), 0)
+  const averageStrength = characterCards.length > 0 ? (totalStrength / characterCards.length).toFixed(1) : 0
+  
+  // Calculate average willpower (only for characters)
+  const totalWillpower = characterCards.reduce((sum, card) => sum + (card.willpower || 0), 0)
+  const averageWillpower = characterCards.length > 0 ? (totalWillpower / characterCards.length).toFixed(1) : 0
   
   return {
-    totalCards: cards.length,
+    totalCards: filteredCards.length,
     averageCost,
-    ruleConfig
+    averageLore,
+    averageStrength,
+    averageWillpower,
+    ruleConfig,
+    colorFilters
   }
 }
 
-export async function getCardStatistics (ruleConfig = "core-constructed") {
+export async function getCardStatistics (ruleConfig = "core-constructed", colorFilters = ["all"]) {
   const cards = await loadLorcanaCards(ruleConfig)
+  
+  // Filter by colors - if "all" is selected, show all cards, otherwise filter by selected colors
+  const filteredCards = colorFilters.includes("all")
+    ? cards 
+    : cards.filter(card => colorFilters.includes(card.color))
   
   // Simple statistics
   const typeCounts = {}
   const colorCounts = {}
   const costCounts = {}
-  
-  cards.forEach(card => {
+
+  filteredCards.forEach(card => {
     typeCounts[card.type] = (typeCounts[card.type] || 0) + 1
-    colorCounts[card.color] = (colorCounts[card.color] || 0) + 1
+
+    // Handle color distribution - combine multi-color cards into "Dual Ink"
+    if (card.color && card.color.includes(",")) {
+      colorCounts["Dual Ink"] = (colorCounts["Dual Ink"] || 0) + 1
+    } else {
+      colorCounts[card.color] = (colorCounts[card.color] || 0) + 1
+    }
+
     costCounts[card.cost] = (costCounts[card.cost] || 0) + 1
   })
-  
+
   return {
     typeDistribution: typeCounts,
     colorDistribution: colorCounts,
     costDistribution: costCounts,
-    totalCards: cards.length
+    totalCards: filteredCards.length
   }
 }
