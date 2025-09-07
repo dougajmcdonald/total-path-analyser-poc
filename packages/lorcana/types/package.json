@@ -1,0 +1,23 @@
+{
+    "name": "@total-path/lorcana-types",
+    "version": "0.0.0",
+    "description": "Shared Zod schemas and types for Lorcana card data",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint .",
+        "build": "echo 'No build step required for types package'"
+    },
+    "keywords": [
+        "lorcana",
+        "types",
+        "zod",
+        "validation",
+        "schemas"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "zod": "^4.1.5"
+    }
+}

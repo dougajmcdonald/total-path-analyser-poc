@@ -1,3 +1,3 @@
-import { config } from "@total-path/eslint-config/javascript";
+import { config } from "@total-path/eslint-config/javascript"
 
-export default config;
+export default config

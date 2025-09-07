@@ -5,14 +5,14 @@ export const CardTypes = {
   ACTION: "action",
   ITEM: "item",
   LOCATION: "location",
-};
+}
 
 export const AbilityTypes = {
   BODYGUARD: "bodyguard",
   CHALLENGER: "challenger",
   RUSH: "rush",
   WARD: "ward",
-};
+}
 
 export const Colors = {
   AMBER: "amber",
@@ -21,7 +21,7 @@ export const Colors = {
   RUBY: "ruby",
   SAPPHIRE: "sapphire",
   STEEL: "steel",
-};
+}
 
 // Game mechanics and rules
 export const GameRules = {
@@ -29,4 +29,4 @@ export const GameRules = {
   MAX_INKWELL_SIZE: 10,
   STARTING_LORE: 0,
   WINNING_LORE: 20,
-};
+}

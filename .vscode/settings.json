@@ -1,7 +1,28 @@
 {
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
   "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ]
+    "packages/lorcana/rules",
+    "packages/lorcana/data-import",
+    "packages/lorcana/types",
+    "packages/analyser",
+    "apps/total-path-ui"
+  ],
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

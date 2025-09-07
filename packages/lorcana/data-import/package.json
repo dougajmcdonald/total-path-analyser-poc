@@ -7,7 +7,8 @@
     "scripts": {
         "lint": "eslint .",
         "build": "echo 'No build step required for data-import package'",
-        "import": "node import.js"
+        "import": "node import.js",
+        "import:cards": "node import.js"
     },
     "keywords": [
         "lorcana",
@@ -18,6 +19,7 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "axios": "^1.7.9"
+        "axios": "^1.7.9",
+        "@total-path/lorcana-types": "workspace:*"
     }
 }

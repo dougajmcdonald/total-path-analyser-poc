@@ -18,6 +18,7 @@
     "license": "MIT",
     "dependencies": {
         "@total-path/lorcana-rules": "workspace:*",
-        "@total-path/lorcana-data-import": "workspace:*"
+        "@total-path/lorcana-data-import": "workspace:*",
+        "@total-path/lorcana-types": "workspace:*"
     }
 }
