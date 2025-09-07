@@ -81,7 +81,13 @@ function CardsPage({ ruleConfig, availableConfigs }) {
       </div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-8">
+      <div
+        className="grid gap-4 mb-8 justify-items-center"
+        style={{
+          gridTemplateColumns: "repeat(auto-fit, minmax(256px, 256px))",
+          justifyContent: "center",
+        }}
+      >
         {currentCards.map((card) => (
           <CardComponent key={card.uniqueId} card={card} />
         ))}

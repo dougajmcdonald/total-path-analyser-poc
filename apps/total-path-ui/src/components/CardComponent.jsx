@@ -34,9 +34,9 @@ function CardComponent({ card }) {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 overflow-hidden">
+    <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 overflow-hidden w-64 max-w-64 flex-shrink-0">
       {/* Card Image */}
-      <div className="aspect-[3/4] bg-gray-100 flex items-center justify-center">
+      <div className="w-full h-64 bg-gray-100 flex items-center justify-center">
         {card.image ? (
           <img
             src={card.image}
