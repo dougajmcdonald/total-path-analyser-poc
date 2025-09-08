@@ -94,6 +94,9 @@ export function drawCard (gameState, playerId) {
   const drawnCard = player.deck.splice(randomIndex, 1)[0]
   player.hand.push(drawnCard)
   
+  // Log the card draw
+  console.log(`  📥 ${playerId} drew: ${drawnCard.name} (Cost: ${drawnCard.cost}, Inkable: ${drawnCard.inkable})`)
+  
   return gameState
 }
 
@@ -103,16 +106,16 @@ export function getAvailableInk (gameState, playerId) {
   return player.inkwell.filter(ink => !ink.isExerted).length
 }
 
-// Ready all exerted cards for a player
-export function readyAllExertedCards (gameState, playerId) {
+// Single ready function to prepare a player for their turn
+export function ready (gameState, playerId) {
   const player = gameState.players.find(p => p.id === playerId)
   
-  // Ready exerted ink
+  // Ready all exerted ink
   player.inkwell.forEach(ink => {
     ink.isExerted = false
   })
   
-  // Ready exerted board cards and dry drying cards
+  // Ready exerted board cards and transition drying cards to dry
   player.board.forEach(card => {
     if (card.actionState === CARD_STATES.EXERTED) {
       card.actionState = CARD_STATES.READY
@@ -151,6 +154,11 @@ export function switchPlayer (gameState) {
     gameState.turn++
   }
   gameState.phase = TURN_PHASES.READY
+  
+  // Ready the new current player for their turn
+  const currentPlayer = gameState.players[gameState.currentPlayer]
+  ready(gameState, currentPlayer.id)
+  
   return gameState
 }
 
@@ -159,8 +167,8 @@ export function executeTurn (gameState, playerId, actions) {
   const player = gameState.players.find(p => p.id === playerId)
   if (!player) return gameState
   
-  // Ready phase: ready all exerted cards
-  readyAllExertedCards(gameState, playerId)
+  // Ready phase: prepare player for their turn
+  ready(gameState, playerId)
   gameState.phase = TURN_PHASES.READY
   
   // Draw phase: draw a card (unless it's the first turn and player is on the play)
