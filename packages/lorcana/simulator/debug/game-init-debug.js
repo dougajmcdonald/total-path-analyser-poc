@@ -60,7 +60,9 @@ async function debugGameInit() {
       const player1Deck = gameState.getPlayer('player1')?.activeDeck
       console.log(`👤 Player 1:`)
       console.log(`   Hand: ${player1?.hand?.length || 0} cards`)
-      console.log(`   Deck: ${player1Deck?.cards?.length || 0} cards`)
+      console.log(
+        `   Deck: ${player1Deck?.cards?.length || 0} cards [Original: ${deck1Size}]`
+      )
       console.log(`   Inkwell: ${player1?.inkwell?.length || 0} cards`)
       console.log(`   Board: ${player1?.board?.length || 0} cards`)
       console.log(`   Lore: ${player1?.lore || 0}`)
@@ -70,7 +72,9 @@ async function debugGameInit() {
       const player2Deck = gameState.getPlayer('player2')?.activeDeck
       console.log(`👤 Player 2:`)
       console.log(`   Hand: ${player2?.hand?.length || 0} cards`)
-      console.log(`   Deck: ${player2Deck?.cards?.length || 0} cards`)
+      console.log(
+        `   Deck: ${player2Deck?.cards?.length || 0} cards [Original: ${deck2Size}]`
+      )
       console.log(`   Inkwell: ${player2?.inkwell?.length || 0} cards`)
       console.log(`   Board: ${player2?.board?.length || 0} cards`)
       console.log(`   Lore: ${player2?.lore || 0}`)
