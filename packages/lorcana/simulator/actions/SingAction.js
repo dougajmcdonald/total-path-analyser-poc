@@ -1,11 +1,13 @@
 // Sing action for singing a song with a character
 
-import { ICardState } from '../entities/card-state/ICardState.js'
 import { ICardAction } from './ICardAction.js'
 
 export class SingAction extends ICardAction {
-  constructor(id = 'sing', name = 'Sing Song') {
-    super(id, name)
+  constructor(playerId, singerId, songId) {
+    super('sing', 'Sing Song')
+    this.playerId = playerId
+    this.singerId = singerId
+    this.songId = songId
   }
 
   perform(actionState) {
@@ -13,32 +15,40 @@ export class SingAction extends ICardAction {
     const playerState = gameState.getPlayerState(playerId)
 
     if (!playerState) {
-      return gameState
+      return false
     }
 
     // Find the singer on the board
     const singer = playerState.board.find((cs) => cs.card.id === singerId)
     if (!singer) {
-      return gameState
+      return false
     }
 
     // Find the song in hand
     const song = playerState.hand.find((card) => card.id === songId)
     if (!song) {
-      return gameState
+      return false
+    }
+
+    // Check if singer is ready and dry and is a character
+    if (!singer.isReady() || !singer.dry || singer.card.type !== 'character') {
+      return false
+    }
+
+    // Check if song is a song and singer can afford it
+    if (song.type !== 'action - song' || song.cost > singer.card.cost) {
+      return false
     }
 
     // Exert the singer
     singer.exert()
 
-    // Remove song from hand and play it
+    // Remove song from hand (song is discarded, not played to board)
     const songIndex = playerState.hand.indexOf(song)
     playerState.hand.splice(songIndex, 1)
 
-    // Create card state for the song on board
-    const songState = new ICardState(song, false, false) // wet, not exerted
-    playerState.addToBoard(songState)
+    // TODO: Resolve song effects here
 
-    return gameState
+    return true
   }
 }

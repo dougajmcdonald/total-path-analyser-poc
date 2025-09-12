@@ -3,6 +3,7 @@
 import { InkAction } from '../actions/InkAction.js'
 import { PlayAction } from '../actions/PlayAction.js'
 import { QuestAction } from '../actions/QuestAction.js'
+import { SingAction } from '../actions/SingAction.js'
 import { ICardState } from '../entities/card-state/ICardState.js'
 import { CardFactory } from '../utils/CardFactory.js'
 import { GameStateFactory } from '../utils/GameStateFactory.js'
@@ -1104,6 +1105,651 @@ describe('Card Actions - Quest Action', () => {
       expect(resultHigh).toBe(true)
       expect(highLoreState.exerted).toBe(true)
       expect(player1State.lore).toBe(5) // 1 + 4
+    })
+  })
+})
+
+describe('Card Actions - Sing Action', () => {
+  let gameState
+  let player1State
+  let validator
+
+  beforeEach(() => {
+    // Create empty decks for testing
+    const emptyDeck1 = CardFactory.createDeck([])
+    const emptyDeck2 = CardFactory.createDeck([])
+
+    // Create a fresh game state for each test
+    gameState = GameStateFactory.createGameState(emptyDeck1, emptyDeck2)
+    gameState.initializeGame()
+    player1State = gameState.getPlayerState('player1')
+    validator = new CardActionValidator()
+  })
+
+  describe('Song Card Playing (via Play Action)', () => {
+    test('should be able to play song card with sufficient ink', () => {
+      // Create a song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-1',
+        name: 'Test Song',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Add sufficient ink to inkwell
+      const inkCard1 = CardFactory.createCard({
+        id: 'ink-1',
+        name: 'Ink Card 1',
+        type: 'character',
+        cost: 1,
+        inkable: true,
+        color: 'amber',
+        strength: 1,
+        willpower: 1,
+      })
+      const inkCard2 = CardFactory.createCard({
+        id: 'ink-2',
+        name: 'Ink Card 2',
+        type: 'character',
+        cost: 1,
+        inkable: true,
+        color: 'amber',
+        strength: 1,
+        willpower: 1,
+      })
+
+      player1State.inkwell = [
+        new ICardState(inkCard1, true, false),
+        new ICardState(inkCard2, true, false),
+      ]
+
+      // Create play action for song
+      const playAction = new PlayAction('player1', songCard.id, 2)
+
+      // Validate the action
+      const isValid = validator.validatePlayAction(gameState, playAction)
+
+      expect(isValid).toBe(true)
+    })
+
+    test('should not be able to play song card with insufficient ink', () => {
+      // Create a song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-2',
+        name: 'Test Song',
+        type: 'action',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Add insufficient ink to inkwell
+      const inkCard = CardFactory.createCard({
+        id: 'ink-1',
+        name: 'Ink Card',
+        type: 'character',
+        cost: 1,
+        inkable: true,
+        color: 'amber',
+        strength: 1,
+        willpower: 1,
+      })
+
+      player1State.inkwell = [new ICardState(inkCard, true, false)]
+
+      // Create play action for song
+      const playAction = new PlayAction('player1', songCard.id, 3)
+
+      // Validate the action
+      const isValid = validator.validatePlayAction(gameState, playAction)
+
+      expect(isValid).toBe(false)
+    })
+  })
+
+  describe('Sing Action Validation', () => {
+    test('should validate sing action as valid when singer can afford song', () => {
+      // Create a character card (singer)
+      const singerCard = CardFactory.createCard({
+        id: 'test-singer-1',
+        name: 'Test Singer',
+        type: 'character',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Create a song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-3',
+        name: 'Test Song',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add singer to board (dry and ready)
+      const singerState = new ICardState(singerCard, true, false) // dry=true, exerted=false
+      player1State.board = [singerState]
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Create sing action
+      const singAction = new SingAction('player1', singerCard.id, songCard.id)
+
+      // Validate the action
+      const isValid = validator.validateSingAction(gameState, singAction)
+
+      expect(isValid).toBe(true)
+    })
+
+    test('should validate sing action as invalid when singer cannot afford song', () => {
+      // Create a character card (singer) with low cost
+      const singerCard = CardFactory.createCard({
+        id: 'test-singer-2',
+        name: 'Test Singer',
+        type: 'character',
+        cost: 1, // Low cost singer
+        inkable: true,
+        color: 'amber',
+        strength: 1,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create an expensive song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-4',
+        name: 'Expensive Song',
+        type: 'action',
+        cost: 3, // Expensive song
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add singer to board (dry and ready)
+      const singerState = new ICardState(singerCard, true, false) // dry=true, exerted=false
+      player1State.board = [singerState]
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Create sing action
+      const singAction = new SingAction('player1', singerCard.id, songCard.id)
+
+      // Validate the action
+      const isValid = validator.validateSingAction(gameState, singAction)
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate sing action as invalid when singer is not ready', () => {
+      // Create a character card (singer)
+      const singerCard = CardFactory.createCard({
+        id: 'test-singer-3',
+        name: 'Test Singer',
+        type: 'character',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Create a song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-5',
+        name: 'Test Song',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add singer to board (dry but exerted)
+      const singerState = new ICardState(singerCard, true, true) // dry=true, exerted=true
+      player1State.board = [singerState]
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Create sing action
+      const singAction = new SingAction('player1', singerCard.id, songCard.id)
+
+      // Validate the action
+      const isValid = validator.validateSingAction(gameState, singAction)
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate sing action as invalid when singer is wet', () => {
+      // Create a character card (singer)
+      const singerCard = CardFactory.createCard({
+        id: 'test-singer-4',
+        name: 'Test Singer',
+        type: 'character',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Create a song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-6',
+        name: 'Test Song',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add singer to board (wet)
+      const singerState = new ICardState(singerCard, false, false) // dry=false, exerted=false
+      player1State.board = [singerState]
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Create sing action
+      const singAction = new SingAction('player1', singerCard.id, songCard.id)
+
+      // Validate the action
+      const isValid = validator.validateSingAction(gameState, singAction)
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate sing action as invalid when singer is not a character', () => {
+      // Create an action card (not a character)
+      const actionCard = CardFactory.createCard({
+        id: 'test-action-1',
+        name: 'Test Action',
+        type: 'action',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+      })
+
+      // Create a song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-7',
+        name: 'Test Song',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add action card to board (dry and ready)
+      const actionState = new ICardState(actionCard, true, false) // dry=true, exerted=false
+      player1State.board = [actionState]
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Create sing action
+      const singAction = new SingAction('player1', actionCard.id, songCard.id)
+
+      // Validate the action
+      const isValid = validator.validateSingAction(gameState, singAction)
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate sing action as invalid when song is not in hand', () => {
+      // Create a character card (singer)
+      const singerCard = CardFactory.createCard({
+        id: 'test-singer-5',
+        name: 'Test Singer',
+        type: 'character',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Create a song card but don't add it to hand
+      const songCard = CardFactory.createCard({
+        id: 'test-song-8',
+        name: 'Test Song',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add singer to board (dry and ready)
+      const singerState = new ICardState(singerCard, true, false) // dry=true, exerted=false
+      player1State.board = [singerState]
+
+      // Keep hand empty
+      player1State.hand = []
+
+      // Create sing action
+      const singAction = new SingAction('player1', singerCard.id, songCard.id)
+
+      // Validate the action
+      const isValid = validator.validateSingAction(gameState, singAction)
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate sing action as invalid when song is not a song', () => {
+      // Create a character card (singer)
+      const singerCard = CardFactory.createCard({
+        id: 'test-singer-6',
+        name: 'Test Singer',
+        type: 'character',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Create a regular action card (not a song)
+      const actionCard = CardFactory.createCard({
+        id: 'test-action-2',
+        name: 'Test Action',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+      })
+
+      // Add singer to board (dry and ready)
+      const singerState = new ICardState(singerCard, true, false) // dry=true, exerted=false
+      player1State.board = [singerState]
+
+      // Add action card to hand
+      player1State.hand = [actionCard]
+
+      // Create sing action
+      const singAction = new SingAction('player1', singerCard.id, actionCard.id)
+
+      // Validate the action
+      const isValid = validator.validateSingAction(gameState, singAction)
+
+      expect(isValid).toBe(false)
+    })
+  })
+
+  describe('Sing Action Execution', () => {
+    test('should execute sing action successfully', () => {
+      // Create a character card (singer)
+      const singerCard = CardFactory.createCard({
+        id: 'test-singer-execute-1',
+        name: 'Test Singer',
+        type: 'character',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Create a song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-execute-1',
+        name: 'Test Song',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add singer to board (dry and ready)
+      const singerState = new ICardState(singerCard, true, false) // dry=true, exerted=false
+      player1State.board = [singerState]
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Create and execute sing action
+      const singAction = new SingAction('player1', singerCard.id, songCard.id)
+      const result = singAction.perform({
+        gameState,
+        playerId: 'player1',
+        singerId: singerCard.id,
+        songId: songCard.id,
+      })
+
+      // Check that song was removed from hand
+      expect(player1State.hand).toHaveLength(0)
+      expect(
+        player1State.hand.find((card) => card.id === songCard.id)
+      ).toBeUndefined()
+
+      // Check that singer is now exerted
+      expect(singerState.exerted).toBe(true)
+
+      // Check that no ink was exerted (inkwell should remain unchanged)
+      const exertedInk = player1State.inkwell.filter((ink) => ink.exerted)
+      expect(exertedInk).toHaveLength(0)
+
+      expect(result).toBe(true)
+    })
+
+    test('should not execute sing action when validation fails', () => {
+      // Create a character card (singer)
+      const singerCard = CardFactory.createCard({
+        id: 'test-singer-fail-1',
+        name: 'Test Singer',
+        type: 'character',
+        cost: 1, // Low cost singer
+        inkable: true,
+        color: 'amber',
+        strength: 1,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create an expensive song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-fail-1',
+        name: 'Expensive Song',
+        type: 'action',
+        cost: 3, // Expensive song
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add singer to board (dry and ready)
+      const singerState = new ICardState(singerCard, true, false) // dry=true, exerted=false
+      player1State.board = [singerState]
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Create sing action (should fail validation)
+      const singAction = new SingAction('player1', singerCard.id, songCard.id)
+      const result = singAction.perform({
+        gameState,
+        playerId: 'player1',
+        singerId: singerCard.id,
+        songId: songCard.id,
+      })
+
+      // Check that song remained in hand
+      expect(player1State.hand).toHaveLength(1)
+      expect(player1State.hand[0].id).toBe(songCard.id)
+
+      // Check that singer is still not exerted
+      expect(singerState.exerted).toBe(false)
+
+      expect(result).toBe(false)
+    })
+
+    test('should not execute sing action when singer is not ready', () => {
+      // Create a character card (singer)
+      const singerCard = CardFactory.createCard({
+        id: 'test-singer-not-ready-1',
+        name: 'Test Singer',
+        type: 'character',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Create a song card
+      const songCard = CardFactory.createCard({
+        id: 'test-song-not-ready-1',
+        name: 'Test Song',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add singer to board (dry but exerted)
+      const singerState = new ICardState(singerCard, true, true) // dry=true, exerted=true
+      player1State.board = [singerState]
+
+      // Add song to hand
+      player1State.hand = [songCard]
+
+      // Create sing action (should fail validation)
+      const singAction = new SingAction('player1', singerCard.id, songCard.id)
+      const result = singAction.perform({
+        gameState,
+        playerId: 'player1',
+        singerId: singerCard.id,
+        songId: songCard.id,
+      })
+
+      // Check that song remained in hand
+      expect(player1State.hand).toHaveLength(1)
+      expect(player1State.hand[0].id).toBe(songCard.id)
+
+      // Check that singer is still exerted (no change)
+      expect(singerState.exerted).toBe(true)
+
+      expect(result).toBe(false)
+    })
+
+    test('should execute sing action with different singer costs', () => {
+      // Create character cards with different costs
+      const lowCostSinger = CardFactory.createCard({
+        id: 'test-low-cost-singer-1',
+        name: 'Low Cost Singer',
+        type: 'character',
+        cost: 1,
+        inkable: true,
+        color: 'amber',
+        strength: 1,
+        willpower: 2,
+        lore: 1,
+      })
+
+      const highCostSinger = CardFactory.createCard({
+        id: 'test-high-cost-singer-1',
+        name: 'High Cost Singer',
+        type: 'character',
+        cost: 4,
+        inkable: true,
+        color: 'amber',
+        strength: 4,
+        willpower: 5,
+        lore: 2,
+      })
+
+      // Create song cards with different costs
+      const cheapSong = CardFactory.createCard({
+        id: 'test-cheap-song-1',
+        name: 'Cheap Song',
+        type: 'action',
+        cost: 1,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      const expensiveSong = CardFactory.createCard({
+        id: 'test-expensive-song-1',
+        name: 'Expensive Song',
+        type: 'action',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        classifications: ['song'],
+      })
+
+      // Add both singers to board (dry and ready)
+      const lowCostSingerState = new ICardState(lowCostSinger, true, false)
+      const highCostSingerState = new ICardState(highCostSinger, true, false)
+      player1State.board = [lowCostSingerState, highCostSingerState]
+
+      // Add both songs to hand
+      player1State.hand = [cheapSong, expensiveSong]
+
+      // Test: Low cost singer can sing cheap song
+      const singAction1 = new SingAction(
+        'player1',
+        lowCostSinger.id,
+        cheapSong.id
+      )
+      const result1 = singAction1.perform({
+        gameState,
+        playerId: 'player1',
+        singerId: lowCostSinger.id,
+        songId: cheapSong.id,
+      })
+
+      expect(result1).toBe(true)
+      expect(lowCostSingerState.exerted).toBe(true)
+      expect(player1State.hand).toHaveLength(1) // One song removed
+
+      // Test: High cost singer can sing expensive song
+      const singAction2 = new SingAction(
+        'player1',
+        highCostSinger.id,
+        expensiveSong.id
+      )
+      const result2 = singAction2.perform({
+        gameState,
+        playerId: 'player1',
+        singerId: highCostSinger.id,
+        songId: expensiveSong.id,
+      })
+
+      expect(result2).toBe(true)
+      expect(highCostSingerState.exerted).toBe(true)
+      expect(player1State.hand).toHaveLength(0) // Both songs removed
     })
   })
 })
