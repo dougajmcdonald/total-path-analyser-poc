@@ -2,6 +2,8 @@
 
 import { InkAction } from '../actions/InkAction.js'
 import { PlayAction } from '../actions/PlayAction.js'
+import { QuestAction } from '../actions/QuestAction.js'
+import { ICardState } from '../entities/card-state/ICardState.js'
 import { CardFactory } from '../utils/CardFactory.js'
 import { GameStateFactory } from '../utils/GameStateFactory.js'
 import { CardActionValidator } from '../validation/CardActionValidator.js'
@@ -703,6 +705,405 @@ describe('Card Actions - Play Action', () => {
       expect(exertedInk).toHaveLength(0)
 
       expect(result).toBe(false)
+    })
+  })
+})
+
+describe('Card Actions - Quest Action', () => {
+  let gameState
+  let player1State
+  let validator
+
+  beforeEach(() => {
+    // Create empty decks for testing
+    const emptyDeck1 = CardFactory.createDeck([])
+    const emptyDeck2 = CardFactory.createDeck([])
+
+    // Create a fresh game state for each test
+    gameState = GameStateFactory.createGameState(emptyDeck1, emptyDeck2)
+    gameState.initializeGame()
+    player1State = gameState.getPlayerState('player1')
+    validator = new CardActionValidator()
+  })
+
+  describe('Quest Action Validation', () => {
+    test('should validate quest action as invalid when card is wet (drying)', () => {
+      // Create a character card with lore
+      const characterCard = CardFactory.createCard({
+        id: 'test-character-1',
+        name: 'Test Character',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 2,
+      })
+
+      // Add card to board in wet state (drying)
+      const cardState = new ICardState(characterCard, false, false) // dry=false, exerted=false
+      player1State.board = [cardState]
+
+      // Create quest action
+      const questAction = new QuestAction('player1', characterCard.id)
+
+      // Validate the action
+      const isValid = validator.validateQuestAction(gameState, questAction)
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate quest action as valid when card is dry and ready', () => {
+      // Create a character card with lore
+      const characterCard = CardFactory.createCard({
+        id: 'test-character-2',
+        name: 'Test Character',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 2,
+      })
+
+      // Add card to board in dry state
+      const cardState = new ICardState(characterCard, true, false) // dry=true, exerted=false
+      player1State.board = [cardState]
+
+      // Create quest action
+      const questAction = new QuestAction('player1', characterCard.id)
+
+      // Validate the action
+      const isValid = validator.validateQuestAction(gameState, questAction)
+
+      expect(isValid).toBe(true)
+    })
+
+    test('should validate quest action as invalid when card is exerted', () => {
+      // Create a character card with lore
+      const characterCard = CardFactory.createCard({
+        id: 'test-character-3',
+        name: 'Test Character',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 2,
+      })
+
+      // Add card to board in dry but exerted state
+      const cardState = new ICardState(characterCard, true, true) // dry=true, exerted=true
+      player1State.board = [cardState]
+
+      // Create quest action
+      const questAction = new QuestAction('player1', characterCard.id)
+
+      // Validate the action
+      const isValid = validator.validateQuestAction(gameState, questAction)
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate quest action as invalid when card is not on board', () => {
+      // Create a character card but don't add it to board
+      const characterCard = CardFactory.createCard({
+        id: 'test-character-4',
+        name: 'Test Character',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 2,
+      })
+
+      // Keep board empty
+      player1State.board = []
+
+      // Create quest action
+      const questAction = new QuestAction('player1', characterCard.id)
+
+      // Validate the action
+      const isValid = validator.validateQuestAction(gameState, questAction)
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate quest action as invalid when card is not a character', () => {
+      // Create an action card (not a character)
+      const actionCard = CardFactory.createCard({
+        id: 'test-action-1',
+        name: 'Test Action',
+        type: 'action',
+        cost: 1,
+        inkable: true,
+        color: 'amber',
+      })
+
+      // Add card to board in dry state
+      const cardState = new ICardState(actionCard, true, false) // dry=true, exerted=false
+      player1State.board = [cardState]
+
+      // Create quest action
+      const questAction = new QuestAction('player1', actionCard.id)
+
+      // Validate the action
+      const isValid = validator.validateQuestAction(gameState, questAction)
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate quest action with mixed board states', () => {
+      // Create multiple cards with different states
+      const wetCard = CardFactory.createCard({
+        id: 'test-wet-1',
+        name: 'Wet Card',
+        type: 'character',
+        cost: 1,
+        inkable: true,
+        color: 'amber',
+        strength: 1,
+        willpower: 2,
+        lore: 1,
+      })
+
+      const dryReadyCard = CardFactory.createCard({
+        id: 'test-dry-ready-1',
+        name: 'Dry Ready Card',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 2,
+      })
+
+      const dryExertedCard = CardFactory.createCard({
+        id: 'test-dry-exerted-1',
+        name: 'Dry Exerted Card',
+        type: 'character',
+        cost: 3,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 4,
+        lore: 3,
+      })
+
+      // Add cards to board with different states
+      player1State.board = [
+        new ICardState(wetCard, false, false), // wet
+        new ICardState(dryReadyCard, true, false), // dry and ready
+        new ICardState(dryExertedCard, true, true), // dry but exerted
+      ]
+
+      // Test quest action on wet card (should be invalid)
+      const questActionWet = new QuestAction('player1', wetCard.id)
+      const isValidWet = validator.validateQuestAction(
+        gameState,
+        questActionWet
+      )
+      expect(isValidWet).toBe(false)
+
+      // Test quest action on dry ready card (should be valid)
+      const questActionDryReady = new QuestAction('player1', dryReadyCard.id)
+      const isValidDryReady = validator.validateQuestAction(
+        gameState,
+        questActionDryReady
+      )
+      expect(isValidDryReady).toBe(true)
+
+      // Test quest action on dry exerted card (should be invalid)
+      const questActionDryExerted = new QuestAction(
+        'player1',
+        dryExertedCard.id
+      )
+      const isValidDryExerted = validator.validateQuestAction(
+        gameState,
+        questActionDryExerted
+      )
+      expect(isValidDryExerted).toBe(false)
+    })
+  })
+
+  describe('Quest Action Execution', () => {
+    test('should execute quest action successfully and gain lore', () => {
+      // Create a character card with lore
+      const characterCard = CardFactory.createCard({
+        id: 'test-quest-execute-1',
+        name: 'Test Quest Character',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 2,
+      })
+
+      // Add card to board in dry state
+      const cardState = new ICardState(characterCard, true, false) // dry=true, exerted=false
+      player1State.board = [cardState]
+
+      // Set initial lore to 0
+      player1State.lore = 0
+
+      // Create and execute quest action
+      const questAction = new QuestAction('player1', characterCard.id)
+      const result = questAction.perform({
+        gameState,
+        playerId: 'player1',
+        cardId: characterCard.id,
+      })
+
+      // Check that card is now exerted
+      expect(cardState.exerted).toBe(true)
+
+      // Check that player gained lore
+      expect(player1State.lore).toBe(2)
+
+      expect(result).toBe(true)
+    })
+
+    test('should not execute quest action when validation fails', () => {
+      // Create a character card
+      const characterCard = CardFactory.createCard({
+        id: 'test-quest-fail-1',
+        name: 'Test Quest Character',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 2,
+      })
+
+      // Add card to board in wet state (should fail validation)
+      const cardState = new ICardState(characterCard, false, false) // dry=false, exerted=false
+      player1State.board = [cardState]
+
+      // Set initial lore to 0
+      player1State.lore = 0
+
+      // Create quest action (should fail validation)
+      const questAction = new QuestAction('player1', characterCard.id)
+      const result = questAction.perform({
+        gameState,
+        playerId: 'player1',
+        cardId: characterCard.id,
+      })
+
+      // Check that card is still not exerted
+      expect(cardState.exerted).toBe(false)
+
+      // Check that player did not gain lore
+      expect(player1State.lore).toBe(0)
+
+      expect(result).toBe(false)
+    })
+
+    test('should not execute quest action when card is already exerted', () => {
+      // Create a character card
+      const characterCard = CardFactory.createCard({
+        id: 'test-quest-exerted-1',
+        name: 'Test Quest Character',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 2,
+        willpower: 3,
+        lore: 2,
+      })
+
+      // Add card to board in dry but exerted state
+      const cardState = new ICardState(characterCard, true, true) // dry=true, exerted=true
+      player1State.board = [cardState]
+
+      // Set initial lore to 0
+      player1State.lore = 0
+
+      // Create quest action (should fail validation)
+      const questAction = new QuestAction('player1', characterCard.id)
+      const result = questAction.perform({
+        gameState,
+        playerId: 'player1',
+        cardId: characterCard.id,
+      })
+
+      // Check that card is still exerted (no change)
+      expect(cardState.exerted).toBe(true)
+
+      // Check that player did not gain lore
+      expect(player1State.lore).toBe(0)
+
+      expect(result).toBe(false)
+    })
+
+    test('should execute quest action with different lore values', () => {
+      // Create character cards with different lore values
+      const lowLoreCard = CardFactory.createCard({
+        id: 'test-low-lore-1',
+        name: 'Low Lore Character',
+        type: 'character',
+        cost: 1,
+        inkable: true,
+        color: 'amber',
+        strength: 1,
+        willpower: 2,
+        lore: 1,
+      })
+
+      const highLoreCard = CardFactory.createCard({
+        id: 'test-high-lore-1',
+        name: 'High Lore Character',
+        type: 'character',
+        cost: 4,
+        inkable: true,
+        color: 'amber',
+        strength: 4,
+        willpower: 5,
+        lore: 4,
+      })
+
+      // Add both cards to board in dry state
+      const lowLoreState = new ICardState(lowLoreCard, true, false) // dry=true, exerted=false
+      const highLoreState = new ICardState(highLoreCard, true, false) // dry=true, exerted=false
+      player1State.board = [lowLoreState, highLoreState]
+
+      // Set initial lore to 0
+      player1State.lore = 0
+
+      // Quest the low lore card
+      const questActionLow = new QuestAction('player1', lowLoreCard.id)
+      const resultLow = questActionLow.perform({
+        gameState,
+        playerId: 'player1',
+        cardId: lowLoreCard.id,
+      })
+
+      expect(resultLow).toBe(true)
+      expect(lowLoreState.exerted).toBe(true)
+      expect(player1State.lore).toBe(1)
+
+      // Quest the high lore card
+      const questActionHigh = new QuestAction('player1', highLoreCard.id)
+      const resultHigh = questActionHigh.perform({
+        gameState,
+        playerId: 'player1',
+        cardId: highLoreCard.id,
+      })
+
+      expect(resultHigh).toBe(true)
+      expect(highLoreState.exerted).toBe(true)
+      expect(player1State.lore).toBe(5) // 1 + 4
     })
   })
 })

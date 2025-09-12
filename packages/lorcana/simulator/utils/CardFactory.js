@@ -26,7 +26,8 @@ export class CardFactory {
           baseCard.ink,
           baseCard.cost,
           cardData.strength || 0,
-          cardData.willpower || 0
+          cardData.willpower || 0,
+          cardData.lore || 0
         )
 
       case 'action':
