@@ -266,12 +266,57 @@ describe('CardFactory', () => {
       testData.character,
       testData.action,
       testData.location,
+      {
+        Unique_ID: 'FAB-188',
+        Name: 'Tinker Bell - Giant Fairy',
+        Type: 'Character',
+        Cost: 6,
+        Inkable: true,
+        Color: 'Steel',
+        Strength: 4,
+        Willpower: 5,
+        Lore: 2,
+        Classifications: 'Floodborn, Ally, Fairy',
+        Rarity: 'Super Rare',
+        Set_Name: 'Fabled',
+        Franchise: '',
+      },
+      {
+        Unique_ID: 'FAB-001',
+        Name: 'Tipo - Growing Son',
+        Type: 'Character',
+        Cost: 2,
+        Inkable: true,
+        Color: 'Amber',
+        Strength: 2,
+        Willpower: 3,
+        Lore: 1,
+        Classifications: 'Storyborn, Ally',
+        Rarity: 'Uncommon',
+        Set_Name: 'Fabled',
+        Franchise: '',
+      },
+      {
+        Unique_ID: 'FAB-002',
+        Name: 'Happy - Lively Knight',
+        Type: 'Character',
+        Cost: 1,
+        Inkable: true,
+        Color: 'Amber',
+        Strength: 1,
+        Willpower: 2,
+        Lore: 1,
+        Classifications: 'Storyborn, Ally',
+        Rarity: 'Common',
+        Set_Name: 'Fabled',
+        Franchise: '',
+      },
     ]
 
     const deckFormat = [
-      { name: 'Mickey Mouse', quantity: 2 },
-      { name: 'Heal', quantity: 3 },
-      { name: 'Mickey Mouse House', quantity: 1 },
+      { name: 'Tinker Bell - Giant Fairy', quantity: 2 },
+      { name: 'Tipo - Growing Son', quantity: 3 },
+      { name: 'Happy - Lively Knight', quantity: 1 },
     ]
 
     test('should create deck from format with quantities', () => {
@@ -280,35 +325,37 @@ describe('CardFactory', () => {
       expect(deck).toBeInstanceOf(Deck)
       expect(deck.cards).toHaveLength(6) // 2 + 3 + 1
 
-      // Check Mickey Mouse cards
-      const mickeyCards = deck.cards.filter(
-        (card) => card.name === 'Mickey Mouse'
+      // Check Tinker Bell cards
+      const tinkerBellCards = deck.cards.filter(
+        (card) => card.name === 'Tinker Bell - Giant Fairy'
       )
-      expect(mickeyCards).toHaveLength(2)
-      expect(mickeyCards[0].id).toBe('Mickey Mouse-0')
-      expect(mickeyCards[1].id).toBe('Mickey Mouse-1')
+      expect(tinkerBellCards).toHaveLength(2)
+      expect(tinkerBellCards[0].id).toBe('Tinker Bell - Giant Fairy-0')
+      expect(tinkerBellCards[1].id).toBe('Tinker Bell - Giant Fairy-1')
 
-      // Check Heal cards
-      const healCards = deck.cards.filter((card) => card.name === 'Heal')
-      expect(healCards).toHaveLength(3)
-
-      // Check Location cards
-      const locationCards = deck.cards.filter(
-        (card) => card.name === 'Mickey Mouse House'
+      // Check Tipo cards
+      const tipoCards = deck.cards.filter(
+        (card) => card.name === 'Tipo - Growing Son'
       )
-      expect(locationCards).toHaveLength(1)
+      expect(tipoCards).toHaveLength(3)
+
+      // Check Happy cards
+      const happyCards = deck.cards.filter(
+        (card) => card.name === 'Happy - Lively Knight'
+      )
+      expect(happyCards).toHaveLength(1)
     })
 
     test('should handle missing cards gracefully', () => {
       const deckFormat = [
         { name: 'Non-existent Card', quantity: 1 },
-        { name: 'Mickey Mouse', quantity: 1 },
+        { name: 'Tinker Bell - Giant Fairy', quantity: 1 },
       ]
 
       const deck = CardFactory.createDeckFromFormat(deckFormat, cardDatabase)
 
       expect(deck).toBeInstanceOf(Deck)
-      expect(deck.cards).toHaveLength(1) // Only Mickey Mouse
+      expect(deck.cards).toHaveLength(1) // Only Tinker Bell - Giant Fairy
       // Note: Console warning is expected but not tested due to Jest setup
     })
 

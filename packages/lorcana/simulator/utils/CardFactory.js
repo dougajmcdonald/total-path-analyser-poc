@@ -92,7 +92,7 @@ export class CardFactory {
       const cardData = cardDatabase.find(
         (c) =>
           c.Name === cardEntry.name ||
-          c.Name.toLowerCase() === cardEntry.name.toLowerCase()
+          (c.Name && c.Name.toLowerCase() === cardEntry.name.toLowerCase())
       )
 
       if (!cardData) {

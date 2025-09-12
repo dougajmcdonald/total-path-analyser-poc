@@ -8,6 +8,7 @@ export class IPlayerState {
     this.inkwell = [] // ICardState[]
     this.board = [] // ICardState[]
     this.lore = 0
+    this.hasInkedThisTurn = false
   }
 
   // Helper methods for state management
