@@ -1,0 +1,274 @@
+{
+  "timestamp": "2025-09-12T20:23:48.610Z",
+  "summary": {
+    "total": 32,
+    "found": 32,
+    "partialMatches": 0,
+    "wordMatches": 0,
+    "missing": 0,
+    "coverage": "100.0%"
+  },
+  "results": {
+    "found": [
+      {
+        "deckName": "Tinker Bell - Giant Fairy",
+        "dbName": "Tinker Bell - Giant Fairy",
+        "type": "exact",
+        "cost": 6,
+        "inkable": true,
+        "rarity": "Super Rare"
+      },
+      {
+        "deckName": "Tipo - Growing Son",
+        "dbName": "Tipo - Growing Son",
+        "type": "exact",
+        "cost": 2,
+        "inkable": true,
+        "rarity": "Uncommon"
+      },
+      {
+        "deckName": "Happy - Lively Knight",
+        "dbName": "Happy - Lively Knight",
+        "type": "exact",
+        "cost": 1,
+        "inkable": true,
+        "rarity": "Common"
+      },
+      {
+        "deckName": "Doc - Bold Knight",
+        "dbName": "Doc - Bold Knight",
+        "type": "exact",
+        "cost": 2,
+        "inkable": false,
+        "rarity": "Rare"
+      },
+      {
+        "deckName": "Pleakley - Scientific Expert",
+        "dbName": "Pleakley - Scientific Expert",
+        "type": "exact",
+        "cost": 3,
+        "inkable": false,
+        "rarity": "Uncommon"
+      },
+      {
+        "deckName": "Alice - Savvy Sailor",
+        "dbName": "Alice - Savvy Sailor",
+        "type": "exact",
+        "cost": 3,
+        "inkable": false,
+        "rarity": "Super Rare"
+      },
+      {
+        "deckName": "Mr. Arrow - Legacy's First Mate",
+        "dbName": "Mr. Arrow - Legacy's First Mate",
+        "type": "exact",
+        "cost": 2,
+        "inkable": false,
+        "rarity": "Common"
+      },
+      {
+        "deckName": "Pluto - Guard Dog",
+        "dbName": "Pluto - Guard Dog",
+        "type": "exact",
+        "cost": 4,
+        "inkable": false,
+        "rarity": "Uncommon"
+      },
+      {
+        "deckName": "Jasmine - Resourceful Infiltrator",
+        "dbName": "Jasmine - Resourceful Infiltrator",
+        "type": "exact",
+        "cost": 1,
+        "inkable": true,
+        "rarity": "Common"
+      },
+      {
+        "deckName": "Jasmine - Steady Strategist",
+        "dbName": "Jasmine - Steady Strategist",
+        "type": "exact",
+        "cost": 4,
+        "inkable": true,
+        "rarity": "Super Rare"
+      },
+      {
+        "deckName": "Vincenzo Santorini - The Explosives Expert",
+        "dbName": "Vincenzo Santorini - The Explosives Expert",
+        "type": "exact",
+        "cost": 7,
+        "inkable": true,
+        "rarity": "Rare"
+      },
+      {
+        "deckName": "Namaari - Single-Minded Rival",
+        "dbName": "Namaari - Single-Minded Rival",
+        "type": "exact",
+        "cost": 5,
+        "inkable": true,
+        "rarity": "Legendary"
+      },
+      {
+        "deckName": "Strength of a Raging Fire",
+        "dbName": "Strength of a Raging Fire",
+        "type": "exact",
+        "cost": 3,
+        "inkable": true,
+        "rarity": "Rare"
+      },
+      {
+        "deckName": "Hades - Infernal Schemer",
+        "dbName": "Hades - Infernal Schemer",
+        "type": "exact",
+        "cost": 7,
+        "inkable": false,
+        "rarity": "Legendary"
+      },
+      {
+        "deckName": "Nala - Undaunted Lioness",
+        "dbName": "Nala - Undaunted Lioness",
+        "type": "exact",
+        "cost": 2,
+        "inkable": false,
+        "rarity": "Rare"
+      },
+      {
+        "deckName": "Lilo - Best Explorer Ever",
+        "dbName": "Lilo - Best Explorer Ever",
+        "type": "exact",
+        "cost": 3,
+        "inkable": true,
+        "rarity": "Super Rare"
+      },
+      {
+        "deckName": "Scar - Finally King",
+        "dbName": "Scar - Finally King",
+        "type": "exact",
+        "cost": 5,
+        "inkable": false,
+        "rarity": "Legendary"
+      },
+      {
+        "deckName": "Develop Your Brain",
+        "dbName": "Develop Your Brain",
+        "type": "exact",
+        "cost": 1,
+        "inkable": true,
+        "rarity": "Common"
+      },
+      {
+        "deckName": "Belle - Accomplished Mystic",
+        "dbName": "Belle - Accomplished Mystic",
+        "type": "exact",
+        "cost": 5,
+        "inkable": true,
+        "rarity": "Super Rare"
+      },
+      {
+        "deckName": "Elsa - The Fifth Spirit",
+        "dbName": "Elsa - The Fifth Spirit",
+        "type": "exact",
+        "cost": 5,
+        "inkable": true,
+        "rarity": "Super Rare"
+      },
+      {
+        "deckName": "Finders Keepers",
+        "dbName": "Finders Keepers",
+        "type": "exact",
+        "cost": 5,
+        "inkable": true,
+        "rarity": "Uncommon"
+      },
+      {
+        "deckName": "Diablo - Obedient Raven",
+        "dbName": "Diablo - Obedient Raven",
+        "type": "exact",
+        "cost": 1,
+        "inkable": true,
+        "rarity": "Uncommon"
+      },
+      {
+        "deckName": "Sail The Azurite Sea",
+        "dbName": "Sail the Azurite Sea",
+        "type": "case-insensitive",
+        "cost": 2,
+        "inkable": false,
+        "rarity": "Common"
+      },
+      {
+        "deckName": "Genie - Wish Fulfilled",
+        "dbName": "Genie - Wish Fulfilled",
+        "type": "exact",
+        "cost": 4,
+        "inkable": false,
+        "rarity": "Rare"
+      },
+      {
+        "deckName": "Iago - Giant Spectral Parrot",
+        "dbName": "Iago - Giant Spectral Parrot",
+        "type": "exact",
+        "cost": 4,
+        "inkable": true,
+        "rarity": "Rare"
+      },
+      {
+        "deckName": "All is Found",
+        "dbName": "All Is Found",
+        "type": "case-insensitive",
+        "cost": 5,
+        "inkable": true,
+        "rarity": "Rare"
+      },
+      {
+        "deckName": "Yelana - Northuldra Leader",
+        "dbName": "Yelana - Northuldra Leader",
+        "type": "exact",
+        "cost": 3,
+        "inkable": true,
+        "rarity": "Common"
+      },
+      {
+        "deckName": "Monstro - Infamous Whale",
+        "dbName": "Monstro - Infamous Whale",
+        "type": "exact",
+        "cost": 8,
+        "inkable": true,
+        "rarity": "Rare"
+      },
+      {
+        "deckName": "Into the Unknown",
+        "dbName": "Into the Unknown",
+        "type": "exact",
+        "cost": 3,
+        "inkable": true,
+        "rarity": "Super Rare"
+      },
+      {
+        "deckName": "Ursula - Voice Stealer",
+        "dbName": "Ursula - Voice Stealer",
+        "type": "exact",
+        "cost": 5,
+        "inkable": true,
+        "rarity": "Super Rare"
+      },
+      {
+        "deckName": "Dumbo - Ninth Wonder of the Universe",
+        "dbName": "Dumbo - Ninth Wonder of the Universe",
+        "type": "exact",
+        "cost": 4,
+        "inkable": true,
+        "rarity": "Legendary"
+      },
+      {
+        "deckName": "The Magic Feather",
+        "dbName": "The Magic Feather",
+        "type": "exact",
+        "cost": 2,
+        "inkable": true,
+        "rarity": "Rare"
+      }
+    ],
+    "notFound": [],
+    "partialMatches": [],
+    "wordMatches": []
+  }
+}

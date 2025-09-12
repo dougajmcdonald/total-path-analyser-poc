@@ -1,12 +1,13 @@
-// Simulation engine for turn-by-turn analysis
+// DEPRECATED: Simulation engine for turn-by-turn analysis
+// Use simulation/Simulator.js and simulation/TurnEvaluator.js instead
 
 import {
-    canChallengeCard,
-    canInkCard,
-    canPlayCard,
-    canQuestCard,
-    canSingCard,
-    executeAction
+  canChallengeCard,
+  canInkCard,
+  canPlayCard,
+  canQuestCard,
+  canSingCard,
+  executeAction,
 } from './actions.js'
 import { ACTION_TYPES, getAvailableInk } from './game-state.js'
 
@@ -14,32 +15,32 @@ import { ACTION_TYPES, getAvailableInk } from './game-state.js'
 export const SCORING_WEIGHTS = {
   // 1. Lore gain - highest priority (only way to win)
   LORE_GAINED: 20,
-  
+
   // 2. Ink efficiency - playing on curve
   INK_EFFICIENCY: 15,
-  
+
   // 3. Board state - multiple factors
   BOARD_CARD_COUNT: 8,
   BOARD_STRENGTH: 6,
   BOARD_WILLPOWER: 6,
   BOARD_LORE_POTENTIAL: 10,
-  
+
   // 4. Ink progression - inking vs not inking
   INK_PROGRESSION: 12,
-  
+
   // 5. Hand size - lower priority
   HAND_SIZE: 3,
-  
+
   // Legacy weights (can be removed if not needed)
-  OPPONENT_DAMAGE: 8
+  OPPONENT_DAMAGE: 8,
 }
 
 // Get all available actions for a player in current game state
-export function getAvailableActions (gameState, playerId) {
-  const player = gameState.players.find(p => p.id === playerId)
+export function getAvailableActions(gameState, playerId) {
+  const player = gameState.players.find((p) => p.id === playerId)
   const availableInk = getAvailableInk(gameState, playerId)
   const actions = []
-  
+
   // Ink actions
   for (const card of player.hand) {
     if (canInkCard(card, gameState, playerId)) {
@@ -47,11 +48,11 @@ export function getAvailableActions (gameState, playerId) {
         type: ACTION_TYPES.INK,
         playerId,
         cardId: card.uniqueId,
-        cost: 0
+        cost: 0,
       })
     }
   }
-  
+
   // Play card actions
   for (const card of player.hand) {
     if (canPlayCard(card, availableInk)) {
@@ -59,11 +60,11 @@ export function getAvailableActions (gameState, playerId) {
         type: ACTION_TYPES.PLAY,
         playerId,
         cardId: card.uniqueId,
-        cost: card.cost
+        cost: card.cost,
       })
     }
   }
-  
+
   // Quest actions
   for (const card of player.board) {
     if (canQuestCard(card)) {
@@ -71,11 +72,11 @@ export function getAvailableActions (gameState, playerId) {
         type: ACTION_TYPES.QUEST,
         playerId,
         cardId: card.uniqueId,
-        cost: 0
+        cost: 0,
       })
     }
   }
-  
+
   // Challenge actions
   for (const attacker of player.board) {
     for (const opponent of gameState.players) {
@@ -87,14 +88,14 @@ export function getAvailableActions (gameState, playerId) {
               playerId,
               attackerId: attacker.uniqueId,
               targetId: target.uniqueId,
-              cost: 0
+              cost: 0,
             })
           }
         }
       }
     }
   }
-  
+
   // Sing actions
   for (const singer of player.board) {
     for (const song of player.hand) {
@@ -104,100 +105,108 @@ export function getAvailableActions (gameState, playerId) {
           playerId,
           singerId: singer.uniqueId,
           songId: song.uniqueId,
-          cost: 0
+          cost: 0,
         })
       }
     }
   }
-  
+
   // Pass action (only available when no other meaningful actions)
   // Only add pass if no other actions are available
   if (actions.length === 0) {
     actions.push({
       type: ACTION_TYPES.PASS,
       playerId,
-      cost: 0
+      cost: 0,
     })
   }
-  
+
   return actions
 }
 
-
 // Evaluate a simulation state
-export function evaluateSimulation (gameState, playerId, turnNumber = 1) {
-  const player = gameState.players.find(p => p.id === playerId)
-  const opponent = gameState.players.find(p => p.id !== playerId)
-  
+export function evaluateSimulation(gameState, playerId, turnNumber = 1) {
+  const player = gameState.players.find((p) => p.id === playerId)
+  const opponent = gameState.players.find((p) => p.id !== playerId)
+
   let score = 0
-  
+
   // 1. Lore gained (highest priority - only way to win)
   score += player.lore * SCORING_WEIGHTS.LORE_GAINED
-  
+
   // 2. Ink efficiency - playing on curve
   score += calculateInkEfficiency(gameState, player, turnNumber)
-  
+
   // 3. Board state evaluation
   score += calculateBoardStateScore(player)
-  
+
   // 4. Ink progression - inking vs not inking
   score += calculateInkProgressionScore(gameState, player)
-  
+
   // 5. Hand size (lower priority)
   score += player.hand.length * SCORING_WEIGHTS.HAND_SIZE
-  
+
   // Legacy: Opponent damage (reduced board presence)
   score += (7 - opponent.board.length) * SCORING_WEIGHTS.OPPONENT_DAMAGE
-  
+
   return score
 }
 
 // Calculate ink efficiency score (playing on curve)
-function calculateInkEfficiency (gameState, player, turnNumber) {
+function calculateInkEfficiency(gameState, player, turnNumber) {
   const availableInk = getAvailableInk(gameState, player.id)
   const totalInk = player.inkwell.length
-  
+
   // Ideal curve: turn 1 = 1 ink, turn 2 = 2 ink, etc.
   const idealInk = turnNumber
   const inkEfficiency = Math.min(availableInk / idealInk, 1) // Cap at 1.0
-  
+
   // Bonus for using all available ink efficiently
   const inkUsageBonus = availableInk > 0 ? 0.5 : 0
-  
+
   // Bonus for inking higher cost cards earlier (they provide value for more turns)
   const inkValueBonus = calculateInkValueBonus(player)
-  
-  return (inkEfficiency + inkUsageBonus + inkValueBonus) * SCORING_WEIGHTS.INK_EFFICIENCY
+
+  return (
+    (inkEfficiency + inkUsageBonus + inkValueBonus) *
+    SCORING_WEIGHTS.INK_EFFICIENCY
+  )
 }
 
 // Calculate bonus for inking higher cost cards (better long-term value)
-function calculateInkValueBonus (player) {
+function calculateInkValueBonus(player) {
   const inkedCards = player.inkwell
   if (inkedCards.length === 0) return 0
-  
+
   // Calculate average cost of inked cards (higher is better for long-term value)
   const totalCost = inkedCards.reduce((sum, card) => sum + (card.cost || 0), 0)
   const averageCost = totalCost / inkedCards.length
-  
+
   // Bonus based on average cost (0.1 per cost point, capped at 1.0)
   return Math.min(averageCost * 0.1, 1.0)
 }
 
 // Calculate board state score
-function calculateBoardStateScore (player) {
+function calculateBoardStateScore(player) {
   let score = 0
-  
+
   // a) Number of cards on board
   score += player.board.length * SCORING_WEIGHTS.BOARD_CARD_COUNT
-  
+
   // b) Cumulative strength
-  const totalStrength = player.board.reduce((sum, card) => sum + (card.strength || 0), 0)
+  const totalStrength = player.board.reduce(
+    (sum, card) => sum + (card.strength || 0),
+    0
+  )
   score += totalStrength * SCORING_WEIGHTS.BOARD_STRENGTH
-  
+
   // c) Cumulative willpower
-  const totalWillpower = player.board.reduce((sum, card) => sum + (card.willpower || 0), 0)
+  const totalWillpower = player.board.reduce(
+    (sum, card) => sum + (card.willpower || 0),
+    0
+  )
   score += totalWillpower * SCORING_WEIGHTS.BOARD_WILLPOWER
-  
+
   // d) Cumulative lore potential (characters that can quest)
   const lorePotential = player.board.reduce((sum, card) => {
     if (card.type === 'character' && card.lore > 0) {
@@ -206,25 +215,25 @@ function calculateBoardStateScore (player) {
     return sum
   }, 0)
   score += lorePotential * SCORING_WEIGHTS.BOARD_LORE_POTENTIAL
-  
+
   return score
 }
 
 // Calculate ink progression score
-function calculateInkProgressionScore (gameState, player) {
-  const hasInkableCards = player.hand.some(card => card.inkable)
+function calculateInkProgressionScore(gameState, player) {
+  const hasInkableCards = player.hand.some((card) => card.inkable)
   const availableInk = getAvailableInk(gameState, player.id)
-  
+
   let score = 0
-  
+
   if (hasInkableCards && availableInk === 0) {
     // Good: have inkable cards and no ink (should ink)
     score += 1.0
-    
+
     // Bonus for having high-cost inkable cards (better long-term value)
-    const inkableCards = player.hand.filter(card => card.inkable)
+    const inkableCards = player.hand.filter((card) => card.inkable)
     if (inkableCards.length > 0) {
-      const maxCost = Math.max(...inkableCards.map(card => card.cost || 0))
+      const maxCost = Math.max(...inkableCards.map((card) => card.cost || 0))
       const highCostBonus = Math.min(maxCost * 0.05, 0.3) // Up to 0.3 bonus
       score += highCostBonus
     }
@@ -235,40 +244,49 @@ function calculateInkProgressionScore (gameState, player) {
     // Neutral: no inkable cards to ink
     score += 0.2
   }
-  
+
   return score * SCORING_WEIGHTS.INK_PROGRESSION
 }
 
 // Simulate a single turn with all possible action sequences
-export function simulateTurn (gameState, playerId, turnNumber = 1, maxDepth = 3) {
+export function simulateTurn(
+  gameState,
+  playerId,
+  turnNumber = 1,
+  maxDepth = 3
+) {
   const simulations = []
-  
-  function simulateActionSequence (currentState, actions, depth) {
+
+  function simulateActionSequence(currentState, actions, depth) {
     // If we've reached max depth or the last action was a pass, evaluate this sequence
-    if (depth >= maxDepth || (actions.length > 0 && actions[actions.length - 1].type === ACTION_TYPES.PASS)) {
+    if (
+      depth >= maxDepth ||
+      (actions.length > 0 &&
+        actions[actions.length - 1].type === ACTION_TYPES.PASS)
+    ) {
       const score = evaluateSimulation(currentState, playerId, turnNumber)
       simulations.push({
         state: JSON.parse(JSON.stringify(currentState)), // Deep copy
         actions: [...actions],
-        score
+        score,
       })
       return
     }
-    
+
     const availableActions = getAvailableActions(currentState, playerId)
-    
+
     for (const action of availableActions) {
-      const newState = executeAction(JSON.parse(JSON.stringify(currentState)), action)
+      const newState = executeAction(
+        JSON.parse(JSON.stringify(currentState)),
+        action
+      )
       const newActions = [...actions, action]
       simulateActionSequence(newState, newActions, depth + 1)
     }
   }
-  
-  simulateActionSequence(gameState, [], 0)
-  
-  // Sort by score and return top simulations
-  return simulations
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 4) // Top 4 simulations
-}
 
+  simulateActionSequence(gameState, [], 0)
+
+  // Sort by score and return top simulations
+  return simulations.sort((a, b) => b.score - a.score).slice(0, 4) // Top 4 simulations
+}

@@ -1,0 +1,12 @@
+
+// Fix for CardFactory.js - Case-insensitive card matching
+// Replace line ~92 in CardFactory.createDeckFromFormat method
+
+// OLD CODE:
+const cardData = cardDatabase.find((c) => c.name === cardEntry.name)
+
+// NEW CODE:
+const cardData = cardDatabase.find((c) => 
+  c.Name === cardEntry.name || 
+  c.Name.toLowerCase() === cardEntry.name.toLowerCase()
+)
