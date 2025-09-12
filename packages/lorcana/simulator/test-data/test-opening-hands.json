@@ -1,0 +1,118 @@
+{
+  "player1": [
+    {
+      "id": "Mr. Arrow - Legacy's First Mate-0",
+      "name": "Mr. Arrow - Legacy's First Mate",
+      "cost": 2,
+      "type": "character",
+      "inkable": false,
+      "lore": 2
+    },
+    {
+      "id": "Lilo - Best Explorer Ever-0",
+      "name": "Lilo - Best Explorer Ever",
+      "cost": 3,
+      "type": "character",
+      "inkable": true,
+      "lore": 1
+    },
+    {
+      "id": "Mr. Arrow - Legacy's First Mate-1",
+      "name": "Mr. Arrow - Legacy's First Mate",
+      "cost": 2,
+      "type": "character",
+      "inkable": false,
+      "lore": 2
+    },
+    {
+      "id": "Vincenzo Santorini - The Explosives Expert-1",
+      "name": "Vincenzo Santorini - The Explosives Expert",
+      "cost": 7,
+      "type": "character",
+      "inkable": true,
+      "lore": 3
+    },
+    {
+      "id": "Scar - Finally King-1",
+      "name": "Scar - Finally King",
+      "cost": 5,
+      "type": "character",
+      "inkable": false,
+      "lore": 2
+    },
+    {
+      "id": "Nala - Undaunted Lioness-3",
+      "name": "Nala - Undaunted Lioness",
+      "cost": 2,
+      "type": "character",
+      "inkable": false,
+      "lore": 2
+    },
+    {
+      "id": "Tinker Bell - Giant Fairy-0",
+      "name": "Tinker Bell - Giant Fairy",
+      "cost": 6,
+      "type": "character",
+      "inkable": true,
+      "lore": 2
+    }
+  ],
+  "player2": [
+    {
+      "id": "Ursula - Voice Stealer-3",
+      "name": "Ursula - Voice Stealer",
+      "cost": 5,
+      "type": "character",
+      "inkable": true,
+      "lore": 1
+    },
+    {
+      "id": "Iago - Giant Spectral Parrot-2",
+      "name": "Iago - Giant Spectral Parrot",
+      "cost": 4,
+      "type": "character",
+      "inkable": true,
+      "lore": 1
+    },
+    {
+      "id": "The Magic Feather-2",
+      "name": "The Magic Feather",
+      "cost": 2,
+      "type": "action",
+      "inkable": true,
+      "lore": 0
+    },
+    {
+      "id": "Develop Your Brain-2",
+      "name": "Develop Your Brain",
+      "cost": 1,
+      "type": "action",
+      "inkable": true,
+      "lore": 0
+    },
+    {
+      "id": "Hades - Infernal Schemer-3",
+      "name": "Hades - Infernal Schemer",
+      "cost": 7,
+      "type": "character",
+      "inkable": false,
+      "lore": 2
+    },
+    {
+      "id": "Tipo - Growing Son-0",
+      "name": "Tipo - Growing Son",
+      "cost": 2,
+      "type": "character",
+      "inkable": true,
+      "lore": 1
+    },
+    {
+      "id": "Ursula - Voice Stealer-2",
+      "name": "Ursula - Voice Stealer",
+      "cost": 5,
+      "type": "character",
+      "inkable": true,
+      "lore": 1
+    }
+  ]
+}

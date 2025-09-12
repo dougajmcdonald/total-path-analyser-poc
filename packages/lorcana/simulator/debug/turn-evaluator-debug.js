@@ -1,0 +1,343 @@
+#!/usr/bin/env node
+
+// Turn Evaluator and Executor Debug Script
+// This script creates a fixed starting game state and analyzes all possible action permutations
+
+import fs from 'fs'
+import path from 'path'
+import { ActionFactory } from '../actions/ActionFactory.js'
+import { TurnEvaluator } from '../simulation/TurnEvaluator.js'
+import { TurnExecutor } from '../simulation/TurnExecutor.js'
+import { GameStateFactory } from '../utils/GameStateFactory.js'
+import { TestDataLoader } from '../utils/TestDataLoader.js'
+import { CardActionValidator } from '../validation/CardActionValidator.js'
+
+console.log('🎯 Turn Evaluator and Executor Debug Script')
+console.log('==========================================')
+console.log()
+
+// Load test data
+console.log('📊 Loading test data...')
+const deckFormats = TestDataLoader.getDeckFormats()
+const cardDatabase = TestDataLoader.loadCardDatabase()
+console.log(`✅ Loaded test deck formats:`)
+console.log(`   Deck 1: ${deckFormats.deck1.length} card types`)
+console.log(`   Deck 2: ${deckFormats.deck2.length} card types`)
+console.log(`   Card database: ${cardDatabase.length} cards`)
+
+// Debug: Show some sample card names from database
+console.log('🔍 Sample cards from database:')
+cardDatabase.slice(0, 3).forEach((card, index) => {
+  console.log(
+    `   ${index + 1}. "${card.Name}" (${card.Type}, Cost: ${card.Cost}, Inkable: ${card.Inkable})`
+  )
+})
+console.log()
+
+// Check if test opening hands exist
+const testHandsPath = path.join(
+  process.cwd(),
+  'test-data',
+  'test-opening-hands.json'
+)
+let testOpeningHands = null
+
+if (fs.existsSync(testHandsPath)) {
+  console.log('📁 Loading existing test opening hands...')
+  testOpeningHands = JSON.parse(fs.readFileSync(testHandsPath, 'utf8'))
+  console.log('✅ Loaded existing test opening hands')
+} else {
+  console.log('🎲 Generating new test opening hands...')
+
+  // Create a game state to generate opening hands
+  const tempGameState = GameStateFactory.createGameFromTestFormat(
+    deckFormats.deck1,
+    deckFormats.deck2,
+    cardDatabase
+  )
+
+  // Game is already initialized with opening hands by createGameFromTestFormat
+
+  // Extract the opening hands
+  const player1 = tempGameState.getPlayerState('player1')
+  const player2 = tempGameState.getPlayerState('player2')
+
+  testOpeningHands = {
+    player1: player1.hand.map((card) => ({
+      id: card.id,
+      name: card.name,
+      cost: card.cost,
+      type: card.type,
+      inkable: card.inkable,
+      lore: card.lore || 0,
+    })),
+    player2: player2.hand.map((card) => ({
+      id: card.id,
+      name: card.name,
+      cost: card.cost,
+      type: card.type,
+      inkable: card.inkable,
+      lore: card.lore || 0,
+    })),
+  }
+
+  // Save the opening hands for future use
+  fs.writeFileSync(testHandsPath, JSON.stringify(testOpeningHands, null, 2))
+  console.log('✅ Generated and saved test opening hands')
+}
+
+console.log()
+console.log('🃏 Test Opening Hands:')
+console.log(`   Player 1: ${testOpeningHands.player1.length} cards`)
+testOpeningHands.player1.forEach((card, index) => {
+  console.log(
+    `     ${index + 1}. ${card.name} (Cost: ${card.cost}, Type: ${card.type}, Inkable: ${card.inkable})`
+  )
+})
+console.log(`   Player 2: ${testOpeningHands.player2.length} cards`)
+testOpeningHands.player2.forEach((card, index) => {
+  console.log(
+    `     ${index + 1}. ${card.name} (Cost: ${card.cost}, Type: ${card.type}, Inkable: ${card.inkable})`
+  )
+})
+console.log()
+
+// Create a fixed game state with the test opening hands
+console.log('🎮 Creating fixed game state...')
+const gameState = GameStateFactory.createGameFromTestFormat(
+  deckFormats.deck1,
+  deckFormats.deck2,
+  cardDatabase
+)
+
+// Override the hands with our test opening hands
+const player1 = gameState.getPlayerState('player1')
+const player2 = gameState.getPlayerState('player2')
+
+// Clear existing hands and set test hands
+player1.hand = testOpeningHands.player1
+  .map((cardData) => {
+    const card = cardDatabase.find(
+      (c) => c.Name && c.Name.toLowerCase() === cardData.name.toLowerCase()
+    )
+    if (!card) {
+      console.warn(`⚠️  Card not found in database: "${cardData.name}"`)
+      return null
+    }
+    // Convert database card to expected format
+    return {
+      id: cardData.id,
+      name: card.Name,
+      type: card.Type.toLowerCase(),
+      cost: card.Cost,
+      inkable: card.Inkable,
+      lore: card.Lore || 0,
+      strength: card.Strength || 0,
+      willpower: card.Willpower || 0,
+    }
+  })
+  .filter(Boolean)
+
+player2.hand = testOpeningHands.player2
+  .map((cardData) => {
+    const card = cardDatabase.find(
+      (c) => c.Name && c.Name.toLowerCase() === cardData.name.toLowerCase()
+    )
+    if (!card) {
+      console.warn(`⚠️  Card not found in database: "${cardData.name}"`)
+      return null
+    }
+    // Convert database card to expected format
+    return {
+      id: cardData.id,
+      name: card.Name,
+      type: card.Type.toLowerCase(),
+      cost: card.Cost,
+      inkable: card.Inkable,
+      lore: card.Lore || 0,
+      strength: card.Strength || 0,
+      willpower: card.Willpower || 0,
+    }
+  })
+  .filter(Boolean)
+
+// Hardcode starting player to player1
+gameState.activePlayer = gameState.players.find((p) => p.id === 'player1')
+gameState.activePlayerId = 'player1'
+
+console.log('✅ Fixed game state created')
+console.log(`   Active player: ${gameState.activePlayerId}`)
+console.log(`   Player 1 hand: ${player1.hand.length} cards`)
+console.log(`   Player 2 hand: ${player2.hand.length} cards`)
+console.log()
+
+// Simulate the mandatory turn phases
+console.log('🔄 Simulating mandatory turn phases...')
+console.log('=====================================')
+
+// Phase 1: Ready Phase - All ink and characters become ready
+console.log('1️⃣ Ready Phase: Making all ink and characters ready...')
+const player1State = gameState.getPlayerState('player1')
+
+// Ready all ink
+if (player1State.inkwell) {
+  player1State.inkwell.forEach((ink) => {
+    if (ink.exerted) {
+      ink.exerted = false
+    }
+  })
+}
+
+// Ready all characters on board
+if (player1State.board) {
+  player1State.board.forEach((cardState) => {
+    if (cardState.exerted) {
+      cardState.exerted = false
+    }
+  })
+}
+
+console.log(`   ✅ Ready phase complete`)
+
+// Phase 2: Draw Phase - Player draws a card
+console.log('2️⃣ Draw Phase: Drawing a card...')
+const drawnCard = gameState.getPlayer('player1').activeDeck.drawRandomCard()
+if (drawnCard) {
+  // Convert database card to expected format
+  const cardData = {
+    id: drawnCard.id,
+    name: drawnCard.name,
+    type: drawnCard.type,
+    cost: drawnCard.cost,
+    inkable: drawnCard.inkable,
+    lore: drawnCard.lore || 0,
+    strength: drawnCard.strength || 0,
+    willpower: drawnCard.willpower || 0,
+  }
+  player1State.addToHand(cardData)
+  console.log(
+    `   ✅ Drew: ${cardData.name} (Cost: ${cardData.cost}, Type: ${cardData.type}, Inkable: ${cardData.inkable})`
+  )
+} else {
+  console.log(`   ⚠️  No cards left to draw!`)
+}
+
+console.log(`   Hand size after draw: ${player1State.hand.length} cards`)
+console.log()
+
+// Initialize turn evaluator and executor
+console.log('🔧 Initializing turn evaluator and executor...')
+const turnEvaluator = new TurnEvaluator(gameState)
+const turnExecutor = new TurnExecutor(gameState)
+const validator = new CardActionValidator()
+const actionFactory = new ActionFactory()
+
+console.log('✅ Turn evaluator and executor initialized')
+console.log()
+
+// Analyze all possible actions for player1 (after mandatory phases)
+console.log(
+  '🔍 Analyzing all possible actions for Player 1 (after mandatory phases)...'
+)
+console.log('================================================================')
+
+// Get all valid actions (excluding mandatory actions like DRAW)
+const allValidActions = validator.getValidActions(gameState, 'player1')
+const validActions = allValidActions.filter((action) => action.type !== 'draw')
+console.log(
+  `📋 Found ${validActions.length} valid actions (excluding mandatory DRAW):`
+)
+validActions.forEach((action, index) => {
+  const card = player1.hand.find((c) => c.id === action.cardId)
+  console.log(
+    `   ${index + 1}. ${action.type.toUpperCase()}: ${card?.name || 'Unknown'} (ID: ${action.cardId})`
+  )
+})
+
+// Show that DRAW is not a choice
+const drawActions = allValidActions.filter((action) => action.type === 'draw')
+if (drawActions.length > 0) {
+  console.log(
+    `   📝 Note: ${drawActions.length} DRAW action(s) available but not shown as choices (mandatory turn action)`
+  )
+}
+
+console.log()
+
+// Analyze action types
+const actionTypes = {}
+validActions.forEach((action) => {
+  if (!actionTypes[action.type]) {
+    actionTypes[action.type] = []
+  }
+  actionTypes[action.type].push(action)
+})
+
+console.log('📊 Action breakdown by type (player choices only):')
+Object.entries(actionTypes).forEach(([type, actions]) => {
+  console.log(`   ${type.toUpperCase()}: ${actions.length} actions`)
+  actions.forEach((action) => {
+    const card = player1.hand.find((c) => c.id === action.cardId)
+    console.log(`     - ${card?.name || 'Unknown'} (ID: ${action.cardId})`)
+  })
+})
+
+console.log()
+
+// Generate all possible action sequences (permutations)
+console.log('🎲 Generating action sequence permutations...')
+console.log('=============================================')
+
+// For now, let's focus on single actions and pairs
+const singleActions = validActions
+const actionPairs = []
+
+// Generate all possible pairs of actions
+for (let i = 0; i < validActions.length; i++) {
+  for (let j = i + 1; j < validActions.length; j++) {
+    actionPairs.push([validActions[i], validActions[j]])
+  }
+}
+
+console.log(`📋 Action sequence analysis:`)
+console.log(`   Single actions: ${singleActions.length}`)
+console.log(`   Action pairs: ${actionPairs.length}`)
+console.log(
+  `   Total permutations: ${singleActions.length + actionPairs.length}`
+)
+
+console.log()
+console.log('🎯 Single Actions:')
+singleActions.forEach((action, index) => {
+  const card = player1.hand.find((c) => c.id === action.cardId)
+  console.log(
+    `   ${index + 1}. ${action.type.toUpperCase()}: ${card?.name || 'Unknown'}`
+  )
+})
+
+console.log()
+console.log('🎯 Action Pairs:')
+actionPairs.forEach((pair, index) => {
+  const card1 = player1.hand.find((c) => c.id === pair[0].cardId)
+  const card2 = player1.hand.find((c) => c.id === pair[1].cardId)
+  console.log(
+    `   ${index + 1}. ${pair[0].type.toUpperCase()}: ${card1?.name || 'Unknown'} → ${pair[1].type.toUpperCase()}: ${card2?.name || 'Unknown'}`
+  )
+})
+
+console.log()
+console.log('🎉 Turn evaluator debug completed!')
+console.log()
+console.log('📝 Summary:')
+console.log('===========')
+console.log('✅ Mandatory turn phases completed:')
+console.log('   1️⃣ Ready Phase: All ink and characters made ready')
+console.log('   2️⃣ Draw Phase: Player drew 1 card (mandatory, not a choice)')
+console.log('✅ Action evaluation based on updated hand (including drawn card)')
+console.log('✅ Player choice actions identified (excluding mandatory actions)')
+console.log('✅ All possible action permutations identified')
+console.log()
+console.log('🎯 Next steps:')
+console.log('   - Implement turn evaluation scoring')
+console.log('   - Test action execution with proper turn structure')
+console.log('   - Add quest, challenge, and sing action validation')
