@@ -3,8 +3,11 @@
 import { ICardAction } from './ICardAction.js'
 
 export class ChallengeAction extends ICardAction {
-  constructor(id = 'challenge', name = 'Challenge') {
-    super(id, name)
+  constructor(playerId, cardId, targetId) {
+    super('challenge', 'Challenge')
+    this.playerId = playerId
+    this.cardId = cardId
+    this.targetId = targetId
   }
 
   perform(actionState) {
@@ -12,13 +15,13 @@ export class ChallengeAction extends ICardAction {
     const playerState = gameState.getPlayerState(playerId)
 
     if (!playerState) {
-      return gameState
+      return false
     }
 
     // Find the attacking card
     const attacker = playerState.board.find((cs) => cs.card.id === cardId)
     if (!attacker) {
-      return gameState
+      return false
     }
 
     // Find the target card on opponent's board
@@ -27,22 +30,28 @@ export class ChallengeAction extends ICardAction {
     const target = opponentState.board.find((cs) => cs.card.id === targetId)
 
     if (!target) {
-      return gameState
+      return false
+    }
+
+    // Check if attacker is ready and dry and is a character
+    if (
+      !attacker.isReady() ||
+      !attacker.dry ||
+      attacker.card.type !== 'character'
+    ) {
+      return false
+    }
+
+    // Check if target is exerted and is a character
+    if (!target.exerted || target.card.type !== 'character') {
+      return false
     }
 
     // Exert the attacker
     attacker.exert()
 
-    // Calculate damage
-    const attackerStrength = attacker.card.strength || 0
-    const targetWillpower = target.card.willpower || 0
+    // TODO: Implement challenge resolution (damage calculation, etc.)
 
-    if (attackerStrength >= targetWillpower) {
-      // Target is defeated, remove from board
-      const targetIndex = opponentState.board.indexOf(target)
-      opponentState.board.splice(targetIndex, 1)
-    }
-
-    return gameState
+    return true
   }
 }

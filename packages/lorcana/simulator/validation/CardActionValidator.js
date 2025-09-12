@@ -94,7 +94,8 @@ export class CardActionValidator {
       attacker.isReady() &&
       attacker.dry &&
       attacker.card.type === 'character' &&
-      target.card.type === 'character'
+      target.card.type === 'character' &&
+      target.exerted
     )
   }
 

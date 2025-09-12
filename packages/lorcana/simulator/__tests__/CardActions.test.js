@@ -1,5 +1,6 @@
 // Card Actions tests for ink action validation
 
+import { ChallengeAction } from '../actions/ChallengeAction.js'
 import { InkAction } from '../actions/InkAction.js'
 import { PlayAction } from '../actions/PlayAction.js'
 import { QuestAction } from '../actions/QuestAction.js'
@@ -1750,6 +1751,725 @@ describe('Card Actions - Sing Action', () => {
       expect(result2).toBe(true)
       expect(highCostSingerState.exerted).toBe(true)
       expect(player1State.hand).toHaveLength(0) // Both songs removed
+    })
+  })
+})
+
+describe('Card Actions - Challenge Action', () => {
+  let gameState
+  let player1State
+  let player2State
+  let validator
+
+  beforeEach(() => {
+    // Create empty decks for testing
+    const emptyDeck1 = CardFactory.createDeck([])
+    const emptyDeck2 = CardFactory.createDeck([])
+
+    // Create a fresh game state for each test
+    gameState = GameStateFactory.createGameState(emptyDeck1, emptyDeck2)
+    gameState.initializeGame()
+    player1State = gameState.getPlayerState('player1')
+    player2State = gameState.getPlayerState('player2')
+    validator = new CardActionValidator()
+  })
+
+  describe('Challenge Action Validation', () => {
+    test('should validate challenge action as valid when both conditions are met', () => {
+      // Create challenger character (player1)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-1',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target character (player2)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-1',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challenger to player1's board (dry and ready)
+      const challengerState = new ICardState(challengerCard, true, false) // dry=true, exerted=false
+      player1State.board = [challengerState]
+
+      // Add target to player2's board (exerted)
+      const targetState = new ICardState(targetCard, true, true) // dry=true, exerted=true
+      player2State.board = [targetState]
+
+      // Create challenge action
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+
+      // Validate the action
+      const isValid = validator.validateChallengeAction(
+        gameState,
+        challengeAction
+      )
+
+      expect(isValid).toBe(true)
+    })
+
+    test('should validate challenge action as invalid when challenger is not ready', () => {
+      // Create challenger character (player1)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-2',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target character (player2)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-2',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challenger to player1's board (dry but exerted - not ready)
+      const challengerState = new ICardState(challengerCard, true, true) // dry=true, exerted=true
+      player1State.board = [challengerState]
+
+      // Add target to player2's board (exerted)
+      const targetState = new ICardState(targetCard, true, true) // dry=true, exerted=true
+      player2State.board = [targetState]
+
+      // Create challenge action
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+
+      // Validate the action
+      const isValid = validator.validateChallengeAction(
+        gameState,
+        challengeAction
+      )
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate challenge action as invalid when challenger is wet', () => {
+      // Create challenger character (player1)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-3',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target character (player2)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-3',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challenger to player1's board (wet)
+      const challengerState = new ICardState(challengerCard, false, false) // dry=false, exerted=false
+      player1State.board = [challengerState]
+
+      // Add target to player2's board (exerted)
+      const targetState = new ICardState(targetCard, true, true) // dry=true, exerted=true
+      player2State.board = [targetState]
+
+      // Create challenge action
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+
+      // Validate the action
+      const isValid = validator.validateChallengeAction(
+        gameState,
+        challengeAction
+      )
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate challenge action as invalid when target is not exerted', () => {
+      // Create challenger character (player1)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-4',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target character (player2)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-4',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challenger to player1's board (dry and ready)
+      const challengerState = new ICardState(challengerCard, true, false) // dry=true, exerted=false
+      player1State.board = [challengerState]
+
+      // Add target to player2's board (not exerted)
+      const targetState = new ICardState(targetCard, true, false) // dry=true, exerted=false
+      player2State.board = [targetState]
+
+      // Create challenge action
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+
+      // Validate the action
+      const isValid = validator.validateChallengeAction(
+        gameState,
+        challengeAction
+      )
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate challenge action as invalid when challenger is not on board', () => {
+      // Create challenger character but don't add it to board
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-5',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target character (player2)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-5',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Keep player1's board empty
+      player1State.board = []
+
+      // Add target to player2's board (exerted)
+      const targetState = new ICardState(targetCard, true, true) // dry=true, exerted=true
+      player2State.board = [targetState]
+
+      // Create challenge action
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+
+      // Validate the action
+      const isValid = validator.validateChallengeAction(
+        gameState,
+        challengeAction
+      )
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate challenge action as invalid when target is not on opponent board', () => {
+      // Create challenger character (player1)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-6',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target character but don't add it to any board
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-6',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challenger to player1's board (dry and ready)
+      const challengerState = new ICardState(challengerCard, true, false) // dry=true, exerted=false
+      player1State.board = [challengerState]
+
+      // Keep player2's board empty
+      player2State.board = []
+
+      // Create challenge action
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+
+      // Validate the action
+      const isValid = validator.validateChallengeAction(
+        gameState,
+        challengeAction
+      )
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate challenge action as invalid when challenger is not a character', () => {
+      // Create challenger action card (not a character)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-action-1',
+        name: 'Test Challenger Action',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+      })
+
+      // Create target character (player2)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-7',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challenger action to player1's board (dry and ready)
+      const challengerState = new ICardState(challengerCard, true, false) // dry=true, exerted=false
+      player1State.board = [challengerState]
+
+      // Add target to player2's board (exerted)
+      const targetState = new ICardState(targetCard, true, true) // dry=true, exerted=true
+      player2State.board = [targetState]
+
+      // Create challenge action
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+
+      // Validate the action
+      const isValid = validator.validateChallengeAction(
+        gameState,
+        challengeAction
+      )
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate challenge action as invalid when target is not a character', () => {
+      // Create challenger character (player1)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-7',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target action card (not a character)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-action-1',
+        name: 'Test Target Action',
+        type: 'action',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+      })
+
+      // Add challenger to player1's board (dry and ready)
+      const challengerState = new ICardState(challengerCard, true, false) // dry=true, exerted=false
+      player1State.board = [challengerState]
+
+      // Add target action to player2's board (exerted)
+      const targetState = new ICardState(targetCard, true, true) // dry=true, exerted=true
+      player2State.board = [targetState]
+
+      // Create challenge action
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+
+      // Validate the action
+      const isValid = validator.validateChallengeAction(
+        gameState,
+        challengeAction
+      )
+
+      expect(isValid).toBe(false)
+    })
+
+    test('should validate challenge action with mixed board states', () => {
+      // Create multiple characters for both players
+      const readyChallenger = CardFactory.createCard({
+        id: 'test-ready-challenger-1',
+        name: 'Ready Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      const exertedChallenger = CardFactory.createCard({
+        id: 'test-exerted-challenger-1',
+        name: 'Exerted Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      const wetChallenger = CardFactory.createCard({
+        id: 'test-wet-challenger-1',
+        name: 'Wet Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      const exertedTarget = CardFactory.createCard({
+        id: 'test-exerted-target-1',
+        name: 'Exerted Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      const readyTarget = CardFactory.createCard({
+        id: 'test-ready-target-1',
+        name: 'Ready Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challengers to player1's board with different states
+      player1State.board = [
+        new ICardState(readyChallenger, true, false), // dry=true, exerted=false
+        new ICardState(exertedChallenger, true, true), // dry=true, exerted=true
+        new ICardState(wetChallenger, false, false), // dry=false, exerted=false
+      ]
+
+      // Add targets to player2's board with different states
+      player2State.board = [
+        new ICardState(exertedTarget, true, true), // dry=true, exerted=true
+        new ICardState(readyTarget, true, false), // dry=true, exerted=false
+      ]
+
+      // Test: Ready challenger vs exerted target (should be valid)
+      const challengeAction1 = new ChallengeAction(
+        'player1',
+        readyChallenger.id,
+        exertedTarget.id
+      )
+      const isValid1 = validator.validateChallengeAction(
+        gameState,
+        challengeAction1
+      )
+      expect(isValid1).toBe(true)
+
+      // Test: Exerted challenger vs exerted target (should be invalid)
+      const challengeAction2 = new ChallengeAction(
+        'player1',
+        exertedChallenger.id,
+        exertedTarget.id
+      )
+      const isValid2 = validator.validateChallengeAction(
+        gameState,
+        challengeAction2
+      )
+      expect(isValid2).toBe(false)
+
+      // Test: Wet challenger vs exerted target (should be invalid)
+      const challengeAction3 = new ChallengeAction(
+        'player1',
+        wetChallenger.id,
+        exertedTarget.id
+      )
+      const isValid3 = validator.validateChallengeAction(
+        gameState,
+        challengeAction3
+      )
+      expect(isValid3).toBe(false)
+
+      // Test: Ready challenger vs ready target (should be invalid)
+      const challengeAction4 = new ChallengeAction(
+        'player1',
+        readyChallenger.id,
+        readyTarget.id
+      )
+      const isValid4 = validator.validateChallengeAction(
+        gameState,
+        challengeAction4
+      )
+      expect(isValid4).toBe(false)
+    })
+  })
+
+  describe('Challenge Action Execution', () => {
+    test('should execute challenge action successfully', () => {
+      // Create challenger character (player1)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-execute-1',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target character (player2)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-execute-1',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challenger to player1's board (dry and ready)
+      const challengerState = new ICardState(challengerCard, true, false) // dry=true, exerted=false
+      player1State.board = [challengerState]
+
+      // Add target to player2's board (exerted)
+      const targetState = new ICardState(targetCard, true, true) // dry=true, exerted=true
+      player2State.board = [targetState]
+
+      // Create and execute challenge action
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+      const result = challengeAction.perform({
+        gameState,
+        playerId: 'player1',
+        cardId: challengerCard.id,
+        targetId: targetCard.id,
+      })
+
+      // Check that challenger is now exerted
+      expect(challengerState.exerted).toBe(true)
+
+      // Check that target remains exerted (no change)
+      expect(targetState.exerted).toBe(true)
+
+      expect(result).toBe(true)
+    })
+
+    test('should not execute challenge action when validation fails', () => {
+      // Create challenger character (player1)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-fail-1',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target character (player2)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-fail-1',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challenger to player1's board (exerted - not ready)
+      const challengerState = new ICardState(challengerCard, true, true) // dry=true, exerted=true
+      player1State.board = [challengerState]
+
+      // Add target to player2's board (exerted)
+      const targetState = new ICardState(targetCard, true, true) // dry=true, exerted=true
+      player2State.board = [targetState]
+
+      // Create challenge action (should fail validation)
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+      const result = challengeAction.perform({
+        gameState,
+        playerId: 'player1',
+        cardId: challengerCard.id,
+        targetId: targetCard.id,
+      })
+
+      // Check that challenger is still exerted (no change)
+      expect(challengerState.exerted).toBe(true)
+
+      // Check that target is still exerted (no change)
+      expect(targetState.exerted).toBe(true)
+
+      expect(result).toBe(false)
+    })
+
+    test('should not execute challenge action when target is not exerted', () => {
+      // Create challenger character (player1)
+      const challengerCard = CardFactory.createCard({
+        id: 'test-challenger-target-not-exerted-1',
+        name: 'Test Challenger',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'amber',
+        strength: 3,
+        willpower: 2,
+        lore: 1,
+      })
+
+      // Create target character (player2)
+      const targetCard = CardFactory.createCard({
+        id: 'test-target-not-exerted-1',
+        name: 'Test Target',
+        type: 'character',
+        cost: 2,
+        inkable: true,
+        color: 'steel',
+        strength: 2,
+        willpower: 3,
+        lore: 1,
+      })
+
+      // Add challenger to player1's board (dry and ready)
+      const challengerState = new ICardState(challengerCard, true, false) // dry=true, exerted=false
+      player1State.board = [challengerState]
+
+      // Add target to player2's board (not exerted)
+      const targetState = new ICardState(targetCard, true, false) // dry=true, exerted=false
+      player2State.board = [targetState]
+
+      // Create challenge action (should fail validation)
+      const challengeAction = new ChallengeAction(
+        'player1',
+        challengerCard.id,
+        targetCard.id
+      )
+      const result = challengeAction.perform({
+        gameState,
+        playerId: 'player1',
+        cardId: challengerCard.id,
+        targetId: targetCard.id,
+      })
+
+      // Check that challenger is still not exerted (no change)
+      expect(challengerState.exerted).toBe(false)
+
+      // Check that target is still not exerted (no change)
+      expect(targetState.exerted).toBe(false)
+
+      expect(result).toBe(false)
     })
   })
 })
