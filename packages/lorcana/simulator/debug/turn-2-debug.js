@@ -38,7 +38,7 @@ console.log('🃏 Turn 1 End State:')
 console.log(`   Player 1 hand: ${turn1EndState.player1.hand.length} cards`)
 turn1EndState.player1.hand.forEach((card, index) => {
   console.log(
-    `     ${index + 1}. ${card.name} (Cost: ${card.cost}, Type: ${card.type}, Inkable: ${card.inkable})`
+    `     ${index + 1}. ${card.name} (Cost: ${card.cost}, Lore: ${card.lore}, Strength: ${card.strength}, Willpower: ${card.willpower}, Inkable: ${card.inkable})`
   )
 })
 console.log(
@@ -272,17 +272,39 @@ console.log('✅ Turn evaluator and validator initialized')
 console.log()
 console.log('🔍 Analyzing Turn 2 strategic options...')
 console.log('==========================================')
+
+// Get all valid actions for Turn 2 first
+const allValidActions = validator.getValidActions(gameState, 'player1')
+const validActions = allValidActions.filter((action) => action.type !== 'draw')
+
 console.log('📋 Turn 2 Analysis:')
 console.log(`   Turn: ${gameState.getTurn()}`)
 console.log(`   Available ink: ${player1State.getAvailableInk()}`)
 console.log(`   Hand size: ${player1State.hand.length} cards`)
 console.log(`   Board size: ${player1State.board.length} cards`)
 console.log(`   Lore: ${player1State.lore}`)
-console.log()
 
-// Get all valid actions for Turn 2
-const allValidActions = validator.getValidActions(gameState, 'player1')
-const validActions = allValidActions.filter((action) => action.type !== 'draw')
+// Show what's playable with current ink
+const currentPlayActions = validActions.filter(
+  (action) => action.type === 'play'
+)
+console.log(
+  `   Currently playable: ${currentPlayActions.length} cards (Cost ≤ ${player1State.getAvailableInk()})`
+)
+
+// Show what would be playable after inking
+const inkableCards = player1State.hand.filter((card) => card.inkable)
+if (inkableCards.length > 0) {
+  const maxInkAfterInking = player1State.getAvailableInk() + 1
+  const wouldBePlayable = player1State.hand.filter(
+    (card) => card.cost <= maxInkAfterInking
+  )
+  console.log(
+    `   After inking: ${wouldBePlayable.length} cards would be playable (Cost ≤ ${maxInkAfterInking})`
+  )
+  console.log(`   Strategic opportunity: INK + PLAY higher-cost cards`)
+}
+console.log()
 
 console.log(`📋 Found ${validActions.length} valid actions for Turn 2:`)
 validActions.forEach((action, index) => {
@@ -306,13 +328,17 @@ console.log('📊 Action breakdown by type:')
 console.log(`   INK: ${inkActions.length} actions`)
 inkActions.forEach((action) => {
   const card = player1State.hand.find((c) => c.id === action.cardId)
-  console.log(`     - ${card?.name} (Cost: ${card?.cost})`)
+  console.log(
+    `     - ${card?.name} (Cost: ${card?.cost}, Lore: ${card?.lore}, Strength: ${card?.strength}, Willpower: ${card?.willpower})`
+  )
 })
 
 console.log(`   PLAY: ${playActions.length} actions`)
 playActions.forEach((action) => {
   const card = player1State.hand.find((c) => c.id === action.cardId)
-  console.log(`     - ${card?.name} (Cost: ${card?.cost})`)
+  console.log(
+    `     - ${card?.name} (Cost: ${card?.cost}, Lore: ${card?.lore}, Strength: ${card?.strength}, Willpower: ${card?.willpower})`
+  )
 })
 
 if (questActions.length > 0) {
@@ -355,11 +381,13 @@ console.log('==============================')
 // Option 1: INK + PLAY (if possible)
 if (inkActions.length > 0) {
   console.log('📈 Option 1: INK + PLAY (Higher impact)')
-  console.log('   Strategy: High Lore Strategy within higher impact approach')
-  console.log('   - Ink highest-cost card (lowest lore if tied)')
-  console.log('   - Play highest-cost playable card (highest lore if tied)')
+  console.log('   Strategy: High Stats Strategy within higher impact approach')
+  console.log('   - Ink highest-cost card (lowest combined stats if tied)')
+  console.log(
+    '   - Play highest-cost playable card (highest combined stats if tied)'
+  )
 
-  // Find highest cost inkable card (with lore tiebreaker)
+  // Find highest cost inkable card (with stats tiebreaker)
   const highestInkAction = inkActions.reduce((best, current) => {
     const bestCard = player1State.hand.find((c) => c.id === best.cardId)
     const currentCard = player1State.hand.find((c) => c.id === current.cardId)
@@ -368,9 +396,17 @@ if (inkActions.length > 0) {
     if ((currentCard?.cost || 0) > (bestCard?.cost || 0)) return current
     if ((currentCard?.cost || 0) < (bestCard?.cost || 0)) return best
 
-    // Tiebreaker: lowest lore (keep high-lore cards for playing)
+    // Tiebreaker: lowest combined stats (keep high-stat cards for playing)
     if ((currentCard?.cost || 0) === (bestCard?.cost || 0)) {
-      return (currentCard?.lore || 0) < (bestCard?.lore || 0) ? current : best
+      const currentStats =
+        (currentCard?.lore || 0) +
+        (currentCard?.strength || 0) +
+        (currentCard?.willpower || 0)
+      const bestStats =
+        (bestCard?.lore || 0) +
+        (bestCard?.strength || 0) +
+        (bestCard?.willpower || 0)
+      return currentStats < bestStats ? current : best
     }
 
     return best
@@ -420,9 +456,14 @@ if (inkActions.length > 0) {
     )
   })
 
-  // Debug: Show all valid actions
-  console.log(`   - DEBUG: All valid actions (${postInkActions.length}):`)
-  postInkActions.forEach((action, index) => {
+  // Debug: Show all valid actions (excluding draw)
+  const postInkActionsFiltered = postInkActions.filter(
+    (action) => action.type !== 'draw'
+  )
+  console.log(
+    `   - DEBUG: All valid actions (${postInkActionsFiltered.length}):`
+  )
+  postInkActionsFiltered.forEach((action, index) => {
     const card = player1State.hand.find((c) => c.id === action.cardId)
     console.log(
       `     ${index + 1}. ${action.type.toUpperCase()}: ${card?.name || 'Unknown'} (ID: ${action.cardId})`
@@ -430,7 +471,7 @@ if (inkActions.length > 0) {
   })
 
   if (postInkPlayActions.length > 0) {
-    // Get all playable cards and sort by lore (highest first) for high lore strategy
+    // Get all playable cards and sort by combined stats (highest first) for high stats strategy
     const playableCards = postInkPlayActions
       .map((action) => {
         const card = player1State.hand.find((c) => c.id === action.cardId)
@@ -438,9 +479,13 @@ if (inkActions.length > 0) {
       })
       .filter((item) => item.card) // Only include cards that exist
 
-    const sortedPlayableCards = playableCards.sort(
-      (a, b) => (b.card.lore || 0) - (a.card.lore || 0)
-    )
+    const sortedPlayableCards = playableCards.sort((a, b) => {
+      const aStats =
+        (a.card.lore || 0) + (a.card.strength || 0) + (a.card.willpower || 0)
+      const bStats =
+        (b.card.lore || 0) + (b.card.strength || 0) + (b.card.willpower || 0)
+      return bStats - aStats
+    })
 
     sortedPlayableCards.forEach((item, index) => {
       const { card } = item
@@ -449,10 +494,14 @@ if (inkActions.length > 0) {
       )
     })
 
-    // Show the high lore strategy recommendation
+    // Show the high stats strategy recommendation
     const bestPlayableCard = sortedPlayableCards[0]
+    const bestStats =
+      (bestPlayableCard.card.lore || 0) +
+      (bestPlayableCard.card.strength || 0) +
+      (bestPlayableCard.card.willpower || 0)
     console.log(
-      `   - HIGH LORE STRATEGY: Play ${bestPlayableCard.card.name} (Lore: ${bestPlayableCard.card.lore || 0})`
+      `   - HIGH STATS STRATEGY: Play ${bestPlayableCard.card.name} (Total Stats: ${bestStats})`
     )
   } else {
     console.log(`     No playable cards available with current ink`)
@@ -509,11 +558,13 @@ console.log()
 console.log('🎯 Turn 2 Strategic Recommendation:')
 console.log('====================================')
 if (inkActions.length > 0) {
-  console.log('✅ RECOMMENDED: INK + PLAY strategy (High Lore)')
-  console.log('   - Ink highest-cost inkable card (lowest lore if tied)')
+  console.log('✅ RECOMMENDED: INK + PLAY strategy (High Stats)')
+  console.log(
+    '   - Ink highest-cost inkable card (lowest combined stats if tied)'
+  )
   console.log('   - After inking: 2 available ink')
-  console.log('   - Play highest-lore 2-cost card available')
-  console.log('   - Maximizes immediate impact + lore generation')
+  console.log('   - Play highest-combined-stats 2-cost card available')
+  console.log('   - Maximizes immediate impact + total card value')
 } else if (playActions.length > 0) {
   console.log('✅ RECOMMENDED: PLAY only strategy (High Lore)')
   console.log('   - Play highest-lore playable card')
@@ -522,6 +573,139 @@ if (inkActions.length > 0) {
   console.log('⚠️  No strategic options available')
 }
 
+console.log()
+console.log('🌳 Turn 2 Path Analysis - All Possible Turn 3 Entry Points:')
+console.log('============================================================')
+console.log(
+  '📋 Generating all possible Turn 2 end states for Turn 3 analysis...'
+)
+console.log()
+
+// Generate all possible Turn 2 paths
+const allTurn2Paths = []
+
+// Path 1: INK + PLAY Mr. Arrow (if we can ink)
+if (inkActions.length > 0) {
+  // Find highest cost inkable card for inking
+  const bestInkAction = inkActions.reduce((best, current) => {
+    const bestCard = player1State.hand.find((c) => c.id === best.cardId)
+    const currentCard = player1State.hand.find((c) => c.id === current.cardId)
+    if ((currentCard?.cost || 0) > (bestCard?.cost || 0)) return current
+    if ((currentCard?.cost || 0) < (bestCard?.cost || 0)) return best
+    // Tiebreaker: lowest combined stats
+    const currentStats =
+      (currentCard?.lore || 0) +
+      (currentCard?.strength || 0) +
+      (currentCard?.willpower || 0)
+    const bestStats =
+      (bestCard?.lore || 0) +
+      (bestCard?.strength || 0) +
+      (bestCard?.willpower || 0)
+    return currentStats < bestStats ? current : best
+  })
+
+  // After inking, find all playable 2-cost cards
+  // We know that after inking, we'll have 2 available ink
+  // So we can find all cards with cost <= 2
+  const playableAfterInking = player1State.hand.filter((card) => card.cost <= 2)
+
+  // Create play actions for each playable card
+  const postInkPlayActions = playableAfterInking.map((card) => ({
+    type: 'play',
+    playerId: 'player1',
+    cardId: card.id,
+  }))
+
+  // Create paths for each playable card
+  postInkPlayActions.forEach((playAction, index) => {
+    const card = player1State.hand.find((c) => c.id === playAction.cardId)
+    if (card) {
+      allTurn2Paths.push({
+        pathId: `INK+PLAY-${index + 1}`,
+        description: `INK ${player1State.hand.find((c) => c.id === bestInkAction.cardId)?.name} + PLAY ${card.name}`,
+        actions: [bestInkAction, playAction],
+        endState: {
+          ink: 2,
+          handSize: 6, // 7 - 1 (inked) - 1 (played)
+          boardSize: 2, // 1 (existing) + 1 (played)
+          lore: card.lore || 0,
+        },
+      })
+    }
+  })
+}
+
+// Path 2: PLAY only (current ink)
+const playOnlyActions = validActions.filter((action) => action.type === 'play')
+playOnlyActions.forEach((playAction, index) => {
+  const card = player1State.hand.find((c) => c.id === playAction.cardId)
+  if (card) {
+    allTurn2Paths.push({
+      pathId: `PLAY-ONLY-${index + 1}`,
+      description: `PLAY ${card.name} only`,
+      actions: [playAction],
+      endState: {
+        ink: 1,
+        handSize: 6, // 7 - 1 (played)
+        boardSize: 2, // 1 (existing) + 1 (played)
+        lore: card.lore || 0,
+      },
+    })
+  }
+})
+
+// Path 3: INK only (if no playable cards)
+if (inkActions.length > 0 && playActions.length === 0) {
+  const bestInkAction = inkActions.reduce((best, current) => {
+    const bestCard = player1State.hand.find((c) => c.id === best.cardId)
+    const currentCard = player1State.hand.find((c) => c.id === current.cardId)
+    return (currentCard?.cost || 0) > (bestCard?.cost || 0) ? current : best
+  })
+
+  allTurn2Paths.push({
+    pathId: 'INK-ONLY-1',
+    description: `INK ${player1State.hand.find((c) => c.id === bestInkAction.cardId)?.name} only`,
+    actions: [bestInkAction],
+    endState: {
+      ink: 2,
+      handSize: 6, // 7 - 1 (inked)
+      boardSize: 1, // 1 (existing)
+      lore: 0,
+    },
+  })
+}
+
+// Deduplicate paths based on card names (not IDs)
+const uniquePaths = []
+const seenPaths = new Set()
+
+allTurn2Paths.forEach((path) => {
+  // Create a unique key based on card names and end state
+  const pathKey = `${path.description}-${path.endState.ink}-${path.endState.lore}`
+
+  if (!seenPaths.has(pathKey)) {
+    seenPaths.add(pathKey)
+    uniquePaths.push(path)
+  }
+})
+
+// Display unique paths
+console.log(`📊 Found ${uniquePaths.length} unique Turn 2 paths:`)
+uniquePaths.forEach((path, index) => {
+  console.log(`   ${index + 1}. ${path.pathId}: ${path.description}`)
+  console.log(
+    `      End State: ${path.endState.ink} ink, ${path.endState.handSize} hand, ${path.endState.boardSize} board, ${path.endState.lore} lore`
+  )
+})
+
+console.log()
+console.log('🎯 Turn 3 Entry Points:')
+console.log('=======================')
+console.log('Each path above represents a different starting state for Turn 3:')
+console.log('- Different ink amounts (1 or 2)')
+console.log('- Different hand compositions')
+console.log('- Different board states')
+console.log('- Different lore totals')
 console.log()
 console.log('🎉 Turn 2 debug completed!')
 console.log()
