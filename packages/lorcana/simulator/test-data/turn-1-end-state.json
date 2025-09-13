@@ -1,0 +1,244 @@
+{
+    "description": "End of Turn 1 state - Vincenzo inked, Happy played, 1 ink available",
+    "turn": 1,
+    "activePlayerId": "player1",
+    "player1": {
+        "hand": [
+            {
+                "id": "Mr. Arrow - Legacy's First Mate-0",
+                "name": "Mr. Arrow - Legacy's First Mate",
+                "type": "character",
+                "cost": 2,
+                "inkable": false,
+                "lore": 1,
+                "strength": 2,
+                "willpower": 1,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Lilo - Best Explorer Ever-0",
+                "name": "Lilo - Best Explorer Ever",
+                "type": "character",
+                "cost": 3,
+                "inkable": true,
+                "lore": 1,
+                "strength": 2,
+                "willpower": 2,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Mr. Arrow - Legacy's First Mate-1",
+                "name": "Mr. Arrow - Legacy's First Mate",
+                "type": "character",
+                "cost": 2,
+                "inkable": false,
+                "lore": 1,
+                "strength": 2,
+                "willpower": 1,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Scar - Finally King-0",
+                "name": "Scar - Finally King",
+                "type": "character",
+                "cost": 5,
+                "inkable": false,
+                "lore": 2,
+                "strength": 4,
+                "willpower": 4,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Nala - Undaunted Lioness-0",
+                "name": "Nala - Undaunted Lioness",
+                "type": "character",
+                "cost": 2,
+                "inkable": false,
+                "lore": 1,
+                "strength": 2,
+                "willpower": 2,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Tinker Bell - Giant Fairy-0",
+                "name": "Tinker Bell - Giant Fairy",
+                "type": "character",
+                "cost": 6,
+                "inkable": true,
+                "lore": 2,
+                "strength": 3,
+                "willpower": 3,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Happy - Lively Knight-0",
+                "name": "Happy - Lively Knight",
+                "type": "character",
+                "cost": 1,
+                "inkable": true,
+                "lore": 1,
+                "strength": 2,
+                "willpower": 1,
+                "exerted": false,
+                "dry": true
+            }
+        ],
+        "inkwell": [
+            {
+                "id": "Vincenzo Santorini - The Explosives Expert-ink",
+                "name": "Vincenzo Santorini - The Explosives Expert",
+                "type": "character",
+                "cost": 7,
+                "inkable": true,
+                "lore": 2,
+                "strength": 0,
+                "willpower": 0,
+                "exerted": false
+            }
+        ],
+        "board": [
+            {
+                "id": "Happy - Lively Knight-board",
+                "name": "Happy - Lively Knight",
+                "type": "character",
+                "cost": 1,
+                "inkable": true,
+                "lore": 1,
+                "strength": 2,
+                "willpower": 1,
+                "exerted": false,
+                "dry": true
+            }
+        ],
+        "lore": 0,
+        "hasInkedThisTurn": false
+    },
+    "player2": {
+        "hand": [
+            {
+                "id": "Ursula - Voice Stealer-0",
+                "name": "Ursula - Voice Stealer",
+                "type": "character",
+                "cost": 5,
+                "inkable": true,
+                "lore": 2,
+                "strength": 3,
+                "willpower": 3,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Iago - Giant Spectral Parrot-0",
+                "name": "Iago - Giant Spectral Parrot",
+                "type": "character",
+                "cost": 4,
+                "inkable": true,
+                "lore": 1,
+                "strength": 3,
+                "willpower": 2,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "The Magic Feather-0",
+                "name": "The Magic Feather",
+                "type": "action",
+                "cost": 2,
+                "inkable": true,
+                "lore": 0,
+                "strength": 0,
+                "willpower": 0,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Develop Your Brain-0",
+                "name": "Develop Your Brain",
+                "type": "action",
+                "cost": 1,
+                "inkable": true,
+                "lore": 0,
+                "strength": 0,
+                "willpower": 0,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Hades - Infernal Schemer-0",
+                "name": "Hades - Infernal Schemer",
+                "type": "character",
+                "cost": 7,
+                "inkable": false,
+                "lore": 2,
+                "strength": 4,
+                "willpower": 4,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Tipo - Growing Son-0",
+                "name": "Tipo - Growing Son",
+                "type": "character",
+                "cost": 2,
+                "inkable": true,
+                "lore": 1,
+                "strength": 1,
+                "willpower": 2,
+                "exerted": false,
+                "dry": true
+            },
+            {
+                "id": "Ursula - Voice Stealer-1",
+                "name": "Ursula - Voice Stealer",
+                "type": "character",
+                "cost": 5,
+                "inkable": true,
+                "lore": 2,
+                "strength": 3,
+                "willpower": 3,
+                "exerted": false,
+                "dry": true
+            }
+        ],
+        "inkwell": [],
+        "board": [],
+        "lore": 0,
+        "hasInkedThisTurn": false
+    },
+    "deck1": {
+        "cards": [
+            {
+                "id": "Mr. Arrow - Legacy's First Mate-deck",
+                "name": "Mr. Arrow - Legacy's First Mate",
+                "type": "character",
+                "cost": 2,
+                "inkable": false,
+                "lore": 1,
+                "strength": 2,
+                "willpower": 1
+            }
+        ],
+        "remainingCount": 53
+    },
+    "deck2": {
+        "cards": [
+            {
+                "id": "Ursula - Voice Stealer-deck",
+                "name": "Ursula - Voice Stealer",
+                "type": "character",
+                "cost": 5,
+                "inkable": true,
+                "lore": 2,
+                "strength": 3,
+                "willpower": 3
+            }
+        ],
+        "remainingCount": 54
+    }
+}
