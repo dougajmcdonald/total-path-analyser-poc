@@ -689,13 +689,70 @@ allTurn2Paths.forEach((path) => {
   }
 })
 
-// Display unique paths
-console.log(`📊 Found ${uniquePaths.length} unique Turn 2 paths:`)
-uniquePaths.forEach((path, index) => {
+// Score each path using the TurnEvaluator scoring system
+
+// Helper function to score a path
+function scorePath(path) {
+  let score = 0
+
+  // 1. Lore gained (highest priority)
+  score += path.endState.lore * 20
+
+  // 2. Ink efficiency (more ink = better)
+  score += path.endState.ink * 5
+
+  // 3. Board state (more cards = better)
+  score += path.endState.boardSize * 8
+
+  // 4. Hand size (more cards = better)
+  score += path.endState.handSize * 3
+
+  // 5. Card value bonus (based on what was played)
+  if (path.actions.length > 1) {
+    // INK + PLAY path
+    const playAction = path.actions.find((action) => action.type === 'play')
+    if (playAction) {
+      const card = player1State.hand.find((c) => c.id === playAction.cardId)
+      if (card) {
+        // Bonus for higher cost cards
+        score += card.cost * 3
+        // Bonus for higher combined stats
+        const totalStats =
+          (card.lore || 0) + (card.strength || 0) + (card.willpower || 0)
+        score += totalStats * 2
+      }
+    }
+  } else if (path.actions.length === 1 && path.actions[0].type === 'play') {
+    // PLAY only path
+    const card = player1State.hand.find((c) => c.id === path.actions[0].cardId)
+    if (card) {
+      score += card.cost * 2
+      const totalStats =
+        (card.lore || 0) + (card.strength || 0) + (card.willpower || 0)
+      score += totalStats * 1.5
+    }
+  }
+
+  return Math.round(score)
+}
+
+// Score all paths
+const scoredPaths = uniquePaths.map((path) => ({
+  ...path,
+  score: scorePath(path),
+}))
+
+// Sort by score (highest first)
+scoredPaths.sort((a, b) => b.score - a.score)
+
+// Display scored paths
+console.log(`📊 Found ${scoredPaths.length} unique Turn 2 paths (scored):`)
+scoredPaths.forEach((path, index) => {
   console.log(`   ${index + 1}. ${path.pathId}: ${path.description}`)
   console.log(
     `      End State: ${path.endState.ink} ink, ${path.endState.handSize} hand, ${path.endState.boardSize} board, ${path.endState.lore} lore`
   )
+  console.log(`      Score: ${path.score} points`)
 })
 
 console.log()
