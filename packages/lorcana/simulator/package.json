@@ -1,0 +1,26 @@
+{
+    "name": "@total-path/lorcana-simulator",
+    "version": "1.0.0",
+    "description": "Lorcana game simulation engine for turn-by-turn analysis",
+    "type": "module",
+    "main": "index.js",
+    "exports": {
+        ".": "./index.js",
+        "./game-state": "./game-state.js",
+        "./actions": "./actions.js",
+        "./simulation": "./simulation.js"
+    },
+    "dependencies": {
+        "@total-path/lorcana-rules": "workspace:*",
+        "@total-path/lorcana-types": "workspace:*"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "@jest/globals": "^29.7.0"
+    },
+    "scripts": {
+        "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+        "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
+        "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+    }
+}
