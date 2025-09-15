@@ -10,6 +10,9 @@ export * from './validation/CardActionValidator.js'
 // Simulation components
 export * from './simulation/index.js'
 
+// Strategies
+export * from './strategies/index.js'
+
 // Utilities
 export { CardFactory } from './utils/CardFactory.js'
 export { GameStateFactory } from './utils/GameStateFactory.js'

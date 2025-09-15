@@ -17,8 +17,10 @@ const SimulatorPage = () => {
   const [player1Deck, setPlayer1Deck] = useState("")
   const [player2Deck, setPlayer2Deck] = useState("")
   const [firstPlayer, setFirstPlayer] = useState("random")
-  const [strategy, setStrategy] = useState("high-stats")
+  const [strategy, setStrategy] = useState("Default Strategy")
   const [maxTurns, setMaxTurns] = useState(4)
+  const [analysisMode, setAnalysisMode] = useState("optimal")
+  const [maxPathsPerTurn, setMaxPathsPerTurn] = useState(5)
   const [isSimulating, setIsSimulating] = useState(false)
   const [showSimulation, setShowSimulation] = useState(false)
   const [simulationData, setSimulationData] = useState(null)
@@ -39,8 +41,7 @@ const SimulatorPage = () => {
         setUserDecks([])
         
         setIsLoading(false)
-      } catch (error) {
-        console.error("Error loading decks:", error)
+      } catch {
         setIsLoading(false)
       }
     }
@@ -48,7 +49,6 @@ const SimulatorPage = () => {
     loadDecks()
   }, [])
 
-  const allDecks = [...testDecks, ...userDecks]
 
   const handleStartSimulation = async () => {
     if (!player1Deck || !player2Deck) {
@@ -69,7 +69,11 @@ const SimulatorPage = () => {
           player2Deck,
           firstPlayer,
           strategy,
-          maxTurns
+          maxTurns: maxTurns * 2, // Double the turns to get turns per player
+          analysisMode,
+          maxPathsPerTurn,
+          maxDepth: 3,
+          showAllPaths: false
         })
       })
 
@@ -78,17 +82,14 @@ const SimulatorPage = () => {
       }
 
       const result = await response.json()
-      console.log("API Response:", result)
       
       if (result.success) {
-        console.log("Setting simulation data:", result.simulation)
         setSimulationData(result.simulation)
         setShowSimulation(true)
       } else {
         throw new Error(result.error || "Simulation failed")
       }
     } catch (error) {
-      console.error("Simulation error:", error)
       alert("Simulation failed: " + error.message)
     } finally {
       setIsSimulating(false)
@@ -226,7 +227,7 @@ const SimulatorPage = () => {
             </RadioGroup>
           </div>
 
-          {/* Strategy and Turns */}
+          {/* Strategy and Analysis Settings */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Strategy Selection */}
             <div className="space-y-2">
@@ -238,18 +239,34 @@ const SimulatorPage = () => {
                   <SelectValue placeholder="Select strategy" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="high-stats">High Stats Strategy</SelectItem>
-                  <SelectItem value="lore-focused">Lore Focused</SelectItem>
-                  <SelectItem value="aggressive">Aggressive</SelectItem>
-                  <SelectItem value="defensive">Defensive</SelectItem>
+                  <SelectItem value="Default Strategy">Default Strategy</SelectItem>
                 </SelectContent>
               </Select>
             </div>
 
-            {/* Max Turns */}
+            {/* Analysis Mode */}
+            <div className="space-y-2">
+              <Label htmlFor="analysis-mode" className="text-sm font-medium">
+                Analysis Mode
+              </Label>
+              <Select value={analysisMode} onValueChange={setAnalysisMode}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select analysis mode" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="optimal">Optimal Paths</SelectItem>
+                  <SelectItem value="full">Full Permutations</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+
+          {/* Turns and Paths Settings */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Max Turns per Player */}
             <div className="space-y-2">
               <Label htmlFor="max-turns" className="text-sm font-medium">
-                Max Turns
+                Max Turns per Player
               </Label>
               <Input
                 id="max-turns"
@@ -258,6 +275,22 @@ const SimulatorPage = () => {
                 max="10"
                 value={maxTurns}
                 onChange={(e) => setMaxTurns(parseInt(e.target.value) || 4)}
+                className="w-full"
+              />
+            </div>
+
+            {/* Max Paths per Turn */}
+            <div className="space-y-2">
+              <Label htmlFor="max-paths" className="text-sm font-medium">
+                Max Paths per Turn
+              </Label>
+              <Input
+                id="max-paths"
+                type="number"
+                min="1"
+                max="20"
+                value={maxPathsPerTurn}
+                onChange={(e) => setMaxPathsPerTurn(parseInt(e.target.value) || 5)}
                 className="w-full"
               />
             </div>

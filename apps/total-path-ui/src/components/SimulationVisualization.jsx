@@ -1,6 +1,6 @@
 import { BarChart3, RotateCcw } from "lucide-react"
 import React, { useCallback, useEffect, useMemo, useState } from "react"
-import GameStatePanel from "./GameStatePanel"
+import PlayerGameState from "./PlayerGameState"
 import TimelineGrid from "./TimelineGrid"
 import { Badge } from "./ui/badge"
 import { Button } from "./ui/button"
@@ -100,6 +100,31 @@ const SimulationVisualization = ({ simulationData: propSimulationData }) => {
     )
   }
 
+  // Group turns by player
+  const playerTurns = useMemo(() => {
+    if (!simulationData || !simulationData.turns) return { player1: [], player2: [] }
+    
+    return {
+      player1: simulationData.turns.filter(turn => turn.activePlayer === "player1"),
+      player2: simulationData.turns.filter(turn => turn.activePlayer === "player2")
+    }
+  }, [simulationData])
+
+  // Get the game state for a specific player from the selected path
+  const getPlayerGameState = (playerId) => {
+    if (!selectedPath || !simulationData || !simulationData.turns) return null
+    
+    // Find the turn and path that matches the selected path
+    for (const turn of simulationData.turns) {
+      const path = turn.paths.find(p => p.pathId === selectedPath)
+      if (path && path.gameState) {
+        return path.gameState[playerId]
+      }
+    }
+    
+    return null
+  }
+
   return (
     <div className="w-full space-y-6">
       {/* Simulation Results Header */}
@@ -140,18 +165,41 @@ const SimulationVisualization = ({ simulationData: propSimulationData }) => {
         </CardContent>
       </Card>
 
-      {/* Timeline Grid */}
-      <TimelineGrid
-        simulationData={simulationData}
-        selectedPath={selectedPath}
-        onPathSelect={handlePathSelect}
-      />
+      {/* Player 1 Section */}
+      {playerTurns.player1.length > 0 && (
+        <div className="space-y-4">
+          <PlayerGameState
+            key={`player1-${selectedPath}`}
+            player={getPlayerGameState("player1")}
+            playerName="Player 1"
+            gameState={getPlayerGameState("player1")}
+            selectedPath={selectedPath}
+          />
+          <TimelineGrid
+            simulationData={{ ...simulationData, turns: playerTurns.player1 }}
+            selectedPath={selectedPath}
+            onPathSelect={handlePathSelect}
+          />
+        </div>
+      )}
 
-      {/* Game State Panel */}
-      <GameStatePanel
-        gameState={memoizedGameState}
-        selectedPath={selectedPath}
-      />
+      {/* Player 2 Section */}
+      {playerTurns.player2.length > 0 && (
+        <div className="space-y-4">
+          <PlayerGameState
+            key={`player2-${selectedPath}`}
+            player={getPlayerGameState("player2")}
+            playerName="Player 2"
+            gameState={getPlayerGameState("player2")}
+            selectedPath={selectedPath}
+          />
+          <TimelineGrid
+            simulationData={{ ...simulationData, turns: playerTurns.player2 }}
+            selectedPath={selectedPath}
+            onPathSelect={handlePathSelect}
+          />
+        </div>
+      )}
     </div>
   )
 }
