@@ -28,6 +28,15 @@ export class IGameState {
     return this.activePlayer
   }
 
+  // Set active player by ID
+  setActivePlayer(playerId) {
+    const player = this.players.find((p) => p.id === playerId)
+    if (player) {
+      this.activePlayer = player
+    }
+    return this
+  }
+
   // Get active player state
   getActivePlayerState() {
     return this.activePlayer?.getState()

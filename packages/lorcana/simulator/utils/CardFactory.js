@@ -15,6 +15,7 @@ export class CardFactory {
       inkable: cardData.inkable,
       ink: cardData.color ? { color: cardData.color } : null,
       cost: cardData.cost || 0,
+      image: cardData.image || null,
     }
 
     switch (cardData.type?.toLowerCase()) {
@@ -27,7 +28,8 @@ export class CardFactory {
           baseCard.cost,
           cardData.strength || 0,
           cardData.willpower || 0,
-          cardData.lore || 0
+          cardData.lore || 0,
+          baseCard.image
         )
 
       case 'action':
@@ -40,7 +42,8 @@ export class CardFactory {
             baseCard.name,
             baseCard.inkable,
             baseCard.ink,
-            baseCard.cost
+            baseCard.cost,
+            baseCard.image
           )
         }
         return new IAction(
@@ -48,7 +51,8 @@ export class CardFactory {
           baseCard.name,
           baseCard.inkable,
           baseCard.ink,
-          baseCard.cost
+          baseCard.cost,
+          baseCard.image
         )
 
       case 'location':
@@ -58,7 +62,8 @@ export class CardFactory {
           baseCard.inkable,
           baseCard.ink,
           baseCard.cost,
-          cardData.willpower || 0
+          cardData.willpower || 0,
+          baseCard.image
         )
 
       default:
@@ -68,7 +73,8 @@ export class CardFactory {
           baseCard.name,
           baseCard.inkable,
           baseCard.ink,
-          baseCard.cost
+          baseCard.cost,
+          baseCard.image
         )
     }
   }
@@ -118,6 +124,7 @@ export class CardFactory {
           rarity: cardData.Rarity,
           set: cardData.Set_Name,
           franchise: cardData.Franchise,
+          image: cardData.Image || null,
           uniqueId: `${cardData.Name}-${i}`, // Add unique ID for testing
         }
 

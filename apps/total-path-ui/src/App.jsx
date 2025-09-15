@@ -5,15 +5,16 @@ import { Button } from "./components/ui/button"
 import { Card, CardContent } from "./components/ui/card"
 import { Label } from "./components/ui/label"
 import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
 } from "./components/ui/select"
 import CardsPage from "./pages/CardsPage.jsx"
 import DashboardPage from "./pages/DashboardPage.jsx"
 import DecksPage from "./pages/DecksPage.jsx"
+import SimulatorPage from "./pages/SimulatorPage.jsx"
 
 import "./index.css"
 
@@ -82,6 +83,9 @@ function App () {
                   </Button>
                   <Button asChild variant="outline">
                     <Link to="/decks">Deck Builder</Link>
+                  </Button>
+                  <Button asChild variant="outline">
+                    <Link to="/simulator">Simulator</Link>
                   </Button>
                 </div>
               </div>
@@ -185,6 +189,10 @@ function App () {
                     availableConfigs={availableConfigs}
                   />
                 }
+              />
+              <Route
+                path="/simulator"
+                element={<SimulatorPage />}
               />
             </Routes>
           </div>
