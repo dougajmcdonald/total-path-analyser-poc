@@ -1,16 +1,9 @@
+import { Settings } from "lucide-react"
 import { useEffect, useState } from "react"
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom"
+import SettingsPanel from "./components/SettingsPanel"
 import { ThemeProvider } from "./components/ThemeProvider"
 import { Button } from "./components/ui/button"
-import { Card, CardContent } from "./components/ui/card"
-import { Label } from "./components/ui/label"
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-} from "./components/ui/select"
 import CardsPage from "./pages/CardsPage.jsx"
 import DashboardPage from "./pages/DashboardPage.jsx"
 import DecksPage from "./pages/DecksPage.jsx"
@@ -23,6 +16,7 @@ function App () {
   const [availableConfigs, setAvailableConfigs] = useState({})
   const [configLoading, setConfigLoading] = useState(true)
   const [selectedColors, setSelectedColors] = useState(["all"])
+  const [showSettings, setShowSettings] = useState(false)
   
   const availableColors = ["all", "Amber", "Amethyst", "Emerald", "Ruby", "Sapphire", "Steel"]
 
@@ -50,8 +44,7 @@ function App () {
         const configs = await response.json()
         setAvailableConfigs(configs)
         setConfigLoading(false)
-      } catch (err) {
-        console.error("Error loading rule configs:", err)
+      } catch {
         setConfigLoading(false)
       }
     }
@@ -87,76 +80,30 @@ function App () {
                   <Button asChild variant="outline">
                     <Link to="/simulator">Simulator</Link>
                   </Button>
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    onClick={() => setShowSettings(!showSettings)}
+                    className="ml-2"
+                  >
+                    <Settings className="w-4 h-4" />
+                  </Button>
                 </div>
               </div>
 
-              {/* Rule Config Selector */}
-              <Card className="max-w-2xl mx-auto mt-6">
-                <CardContent className="pt-6">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/* Game Format */}
-                    <div>
-                      <Label htmlFor="rule-config" className="block text-sm font-medium mb-2">
-                        Game Format
-                      </Label>
-                      <Select
-                        value={ruleConfig}
-                        onValueChange={setRuleConfig}
-                        disabled={configLoading}
-                      >
-                        <SelectTrigger>
-                          <SelectValue placeholder={configLoading ? "Loading formats..." : "Select format"} />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {configLoading ? (
-                            <SelectItem value="loading" disabled>
-                              Loading formats...
-                            </SelectItem>
-                          ) : (
-                            Object.entries(availableConfigs).map(([key, config]) => (
-                              <SelectItem key={key} value={key}>
-                                {config.name}
-                              </SelectItem>
-                            ))
-                          )}
-                        </SelectContent>
-                      </Select>
-                      {!configLoading && availableConfigs[ruleConfig] && (
-                        <p className="mt-2 text-sm text-muted-foreground">
-                          Valid sets: {availableConfigs[ruleConfig].validSetNums.join(", ")}
-                        </p>
-                      )}
-                    </div>
-
-                    {/* Color Filter */}
-                    <div>
-                      <Label className="block text-sm font-medium mb-2">
-                        Color Filter
-                      </Label>
-                      <div className="flex flex-wrap gap-2">
-                        {availableColors.map((color) => (
-                          <Button
-                            key={color}
-                            variant={selectedColors.includes(color) ? "default" : "outline"}
-                            size="sm"
-                            onClick={() => handleColorToggle(color)}
-                          >
-                            {color === "all" ? "All Colors" : color}
-                          </Button>
-                        ))}
-                      </div>
-                      <p className="text-sm text-muted-foreground mt-2">
-                        Showing data for {selectedColors.includes("all") 
-                          ? "all colors" 
-                          : selectedColors.length === 1 
-                            ? selectedColors[0] 
-                            : `${selectedColors.length} colors (${selectedColors.join(", ")})`
-                        } cards
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              {/* Settings Panel */}
+              <SettingsPanel
+                isOpen={showSettings}
+                onClose={() => setShowSettings(false)}
+                ruleConfig={ruleConfig}
+                setRuleConfig={setRuleConfig}
+                availableConfigs={availableConfigs}
+                configLoading={configLoading}
+                selectedColors={selectedColors}
+                setSelectedColors={setSelectedColors}
+                availableColors={availableColors}
+                handleColorToggle={handleColorToggle}
+              />
             </nav>
 
             {/* Routes */}

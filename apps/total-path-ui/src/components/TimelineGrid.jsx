@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight, Target, Zap } from 'lucide-react'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 import React, { useState } from 'react'
 import { Badge } from './ui/badge'
 import { Button } from './ui/button'
@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 
 const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
   const [scrollPosition, setScrollPosition] = useState(0)
-  const cardWidth = 200 // Width of each turn column
+  const cardWidth = 280 // Width of each turn column - increased for better text display
   const scrollAmount = cardWidth
 
 
@@ -17,25 +17,25 @@ const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
     setScrollPosition(newPosition)
   }
 
-  const getActionIcon = (actionType) => {
+  const getActionText = (actionType) => {
     switch (actionType) {
-      case 'ink': return <Zap className="w-3 h-3 text-blue-500" />
-      case 'play': return <Target className="w-3 h-3 text-green-500" />
-      case 'quest': return <Target className="w-3 h-3 text-yellow-500" />
-      case 'challenge': return <Target className="w-3 h-3 text-red-500" />
-      case 'sing': return <Target className="w-3 h-3 text-purple-500" />
-      default: return <Target className="w-3 h-3 text-gray-500" />
+      case 'ink': return 'Ink'
+      case 'play': return 'Play'
+      case 'quest': return 'Quest'
+      case 'challenge': return 'Challenge'
+      case 'sing': return 'Sing'
+      default: return 'Action'
     }
   }
 
   const getActionColor = (actionType) => {
     switch (actionType) {
-      case 'ink': return 'bg-blue-100 text-blue-800 border-blue-200'
-      case 'play': return 'bg-green-100 text-green-800 border-green-200'
-      case 'quest': return 'bg-yellow-100 text-yellow-800 border-yellow-200'
-      case 'challenge': return 'bg-red-100 text-red-800 border-red-200'
-      case 'sing': return 'bg-purple-100 text-purple-800 border-purple-200'
-      default: return 'bg-gray-100 text-gray-800 border-gray-200'
+      case 'ink': return 'bg-blue-50 text-blue-800 border-blue-300'
+      case 'play': return 'bg-green-50 text-green-800 border-green-300'
+      case 'quest': return 'bg-yellow-50 text-yellow-800 border-yellow-300'
+      case 'challenge': return 'bg-red-50 text-red-800 border-red-300'
+      case 'sing': return 'bg-purple-50 text-purple-800 border-purple-300'
+      default: return 'bg-gray-50 text-gray-800 border-gray-300'
     }
   }
 
@@ -98,10 +98,10 @@ const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
                         >
                           <div className="flex flex-col items-start w-full">
                             <div className="flex items-center justify-between w-full">
-                              <span className="text-xs font-medium truncate">
+                              <span className="text-xs font-medium break-words flex-1">
                                 {path.description}
                               </span>
-                              <Badge variant="outline" className="text-xs ml-2">
+                              <Badge variant="outline" className="text-xs ml-2 flex-shrink-0">
                                 {path.score}
                               </Badge>
                             </div>
@@ -113,10 +113,10 @@ const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
                           {path.actions.map((action, actionIndex) => (
                             <div
                               key={`${path.pathId}-action-${actionIndex}`}
-                              className={`flex items-center space-x-2 p-1 rounded text-xs border ${getActionColor(action.type)}`}
+                              className={`flex items-center space-x-2 p-2 rounded text-xs border-2 ${getActionColor(action.type)}`}
                             >
-                              {getActionIcon(action.type)}
-                              <span className="truncate flex-1">{action.cardName}</span>
+                              <span className="font-medium">{getActionText(action.type)}</span>
+                              <span className="flex-1 break-words">{action.cardName}</span>
                             </div>
                           ))}
                         </div>

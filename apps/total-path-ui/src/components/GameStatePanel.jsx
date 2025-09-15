@@ -54,51 +54,60 @@ const GameStatePanel = memo(({ gameState, selectedPath }) => {
             </div>
           </div>
 
-          {/* Hand */}
-          <div>
-            <h5 className="text-xs font-medium text-muted-foreground mb-2">Hand ({player1.hand.length})</h5>
-            <div className="flex gap-1 overflow-x-auto pb-2">
-              {player1.hand.map((card, index) => (
-                <CardImage key={`p1-hand-${card.id}-${index}`} card={card} className="flex-shrink-0" />
-              ))}
+          {/* Cards in horizontal layout with dividers */}
+          <div className="flex items-start space-x-4 overflow-x-auto pb-2">
+            {/* Hand */}
+            <div className="flex-shrink-0">
+              <h5 className="text-xs font-medium text-muted-foreground mb-2">Hand ({player1.hand.length})</h5>
+              <div className="flex gap-1">
+                {player1.hand.map((card, index) => (
+                  <CardImage key={`p1-hand-${card.id}-${index}`} card={card} className="flex-shrink-0" />
+                ))}
+              </div>
             </div>
-          </div>
 
-          {/* Board */}
-          <div>
-            <h5 className="text-xs font-medium text-muted-foreground mb-2">Board ({player1.board.length})</h5>
-            <div className="flex gap-1 overflow-x-auto pb-2">
-              {player1.board.map((card, index) => (
-                <CardImage 
-                  key={`p1-board-${card.id}-${index}`} 
-                  card={card} 
-                  isExerted={card.exerted}
-                  className="flex-shrink-0"
-                />
-              ))}
-            </div>
-          </div>
+            {/* Vertical Divider */}
+            <div className="w-px h-24 bg-gray-300 flex-shrink-0 mt-6"></div>
 
-          {/* Inkwell */}
-          <div>
-            <h5 className="text-xs font-medium text-muted-foreground mb-2">Inkwell ({player1.inkwell.length})</h5>
-            <div className="flex gap-1 overflow-x-auto pb-2">
-              {player1.inkwell.map((card, index) => (
-                <div 
-                  key={`p1-inkwell-${card.id}-${index}`} 
-                  className="relative flex-shrink-0"
-                  style={{ 
-                    transform: `translateX(${index * 8}px)`,
-                    zIndex: player1.inkwell.length - index
-                  }}
-                >
+            {/* Board */}
+            <div className="flex-shrink-0">
+              <h5 className="text-xs font-medium text-muted-foreground mb-2">Board ({player1.board.length})</h5>
+              <div className="flex gap-1">
+                {player1.board.map((card, index) => (
                   <CardImage 
+                    key={`p1-board-${card.id}-${index}`} 
                     card={card} 
-                    isInkwell={true}
-                    className="relative"
+                    isExerted={card.exerted}
+                    className="flex-shrink-0"
                   />
-                </div>
-              ))}
+                ))}
+              </div>
+            </div>
+
+            {/* Vertical Divider */}
+            <div className="w-px h-24 bg-gray-300 flex-shrink-0 mt-6"></div>
+
+            {/* Inkwell */}
+            <div className="flex-shrink-0">
+              <h5 className="text-xs font-medium text-muted-foreground mb-2">Inkwell ({player1.inkwell.length})</h5>
+              <div className="flex gap-1">
+                {player1.inkwell.map((card, index) => (
+                  <div 
+                    key={`p1-inkwell-${card.id}-${index}`} 
+                    className="relative flex-shrink-0"
+                    style={{ 
+                      transform: `translateX(${index * 8}px)`,
+                      zIndex: player1.inkwell.length - index
+                    }}
+                  >
+                    <CardImage 
+                      card={card} 
+                      isInkwell={true}
+                      className="relative"
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -123,51 +132,60 @@ const GameStatePanel = memo(({ gameState, selectedPath }) => {
             </div>
           </div>
 
-          {/* Hand */}
-          <div>
-            <h5 className="text-xs font-medium text-muted-foreground mb-2">Hand ({player2.hand.length})</h5>
-            <div className="flex gap-1 overflow-x-auto pb-2">
-              {player2.hand.map((card, index) => (
-                <CardImage key={`p2-hand-${card.id}-${index}`} card={card} className="flex-shrink-0" />
-              ))}
+          {/* Cards in horizontal layout with dividers */}
+          <div className="flex items-start space-x-4 overflow-x-auto pb-2">
+            {/* Hand */}
+            <div className="flex-shrink-0">
+              <h5 className="text-xs font-medium text-muted-foreground mb-2">Hand ({player2.hand.length})</h5>
+              <div className="flex gap-1">
+                {player2.hand.map((card, index) => (
+                  <CardImage key={`p2-hand-${card.id}-${index}`} card={card} className="flex-shrink-0" />
+                ))}
+              </div>
             </div>
-          </div>
 
-          {/* Board */}
-          <div>
-            <h5 className="text-xs font-medium text-muted-foreground mb-2">Board ({player2.board.length})</h5>
-            <div className="flex gap-1 overflow-x-auto pb-2">
-              {player2.board.map((card, index) => (
-                <CardImage 
-                  key={`p2-board-${card.id}-${index}`} 
-                  card={card} 
-                  isExerted={card.exerted}
-                  className="flex-shrink-0"
-                />
-              ))}
-            </div>
-          </div>
+            {/* Vertical Divider */}
+            <div className="w-px h-24 bg-gray-300 flex-shrink-0 mt-6"></div>
 
-          {/* Inkwell */}
-          <div>
-            <h5 className="text-xs font-medium text-muted-foreground mb-2">Inkwell ({player2.inkwell.length})</h5>
-            <div className="flex gap-1 overflow-x-auto pb-2">
-              {player2.inkwell.map((card, index) => (
-                <div 
-                  key={`p2-inkwell-${card.id}-${index}`} 
-                  className="relative flex-shrink-0"
-                  style={{ 
-                    transform: `translateX(${index * 8}px)`,
-                    zIndex: player2.inkwell.length - index
-                  }}
-                >
+            {/* Board */}
+            <div className="flex-shrink-0">
+              <h5 className="text-xs font-medium text-muted-foreground mb-2">Board ({player2.board.length})</h5>
+              <div className="flex gap-1">
+                {player2.board.map((card, index) => (
                   <CardImage 
+                    key={`p2-board-${card.id}-${index}`} 
                     card={card} 
-                    isInkwell={true}
-                    className="relative"
+                    isExerted={card.exerted}
+                    className="flex-shrink-0"
                   />
-                </div>
-              ))}
+                ))}
+              </div>
+            </div>
+
+            {/* Vertical Divider */}
+            <div className="w-px h-24 bg-gray-300 flex-shrink-0 mt-6"></div>
+
+            {/* Inkwell */}
+            <div className="flex-shrink-0">
+              <h5 className="text-xs font-medium text-muted-foreground mb-2">Inkwell ({player2.inkwell.length})</h5>
+              <div className="flex gap-1">
+                {player2.inkwell.map((card, index) => (
+                  <div 
+                    key={`p2-inkwell-${card.id}-${index}`} 
+                    className="relative flex-shrink-0"
+                    style={{ 
+                      transform: `translateX(${index * 8}px)`,
+                      zIndex: player2.inkwell.length - index
+                    }}
+                  >
+                    <CardImage 
+                      card={card} 
+                      isInkwell={true}
+                      className="relative"
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
