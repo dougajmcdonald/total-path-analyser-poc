@@ -28,6 +28,15 @@ export class IGameState {
     return this.activePlayer
   }
 
+  // Set active player by ID
+  setActivePlayer(playerId) {
+    const player = this.players.find((p) => p.id === playerId)
+    if (player) {
+      this.activePlayer = player
+    }
+    return this
+  }
+
   // Get active player state
   getActivePlayerState() {
     return this.activePlayer?.getState()
@@ -46,6 +55,50 @@ export class IGameState {
     }
 
     this.phase = 'ready'
+
+    // Ready the new current player for their turn
+    this.readyPlayer(this.activePlayer.id)
+  }
+
+  // Ready a player for their turn
+  readyPlayer(playerId) {
+    const playerState = this.getPlayerState(playerId)
+    if (!playerState) return
+
+    // Ready all exerted ink
+    playerState.inkwell.forEach((ink) => {
+      ink.exerted = false
+    })
+
+    // Ready exerted board cards and transition drying cards to dry
+    playerState.board.forEach((card) => {
+      if (card.exerted) {
+        // Check if it's an ICardState object or plain object
+        if (typeof card.ready === 'function') {
+          card.ready()
+        } else {
+          card.exerted = false
+        }
+      }
+      // Check if it's an ICardState object or plain object
+      if (typeof card.isReady === 'function') {
+        if (!card.isReady()) {
+          if (typeof card.dry === 'function') {
+            card.dry()
+          } else {
+            card.dry = true
+          }
+        }
+      } else {
+        // For plain objects, just ensure dry is true
+        if (!card.dry) {
+          card.dry = true
+        }
+      }
+    })
+
+    // Reset inking flag for new turn
+    playerState.hasInkedThisTurn = false
   }
 
   // Check if game is over

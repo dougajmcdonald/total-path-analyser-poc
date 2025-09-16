@@ -1,12 +1,13 @@
 // Base card interface for Lorcana simulation
 
 export class ICard {
-  constructor(id, name, inkable, ink, cost) {
+  constructor(id, name, inkable, ink, cost, image = null) {
     this.id = id
     this.name = name
     this.inkable = inkable
     this.ink = ink
     this.cost = cost
+    this.image = image
     this.type = 'card'
   }
 

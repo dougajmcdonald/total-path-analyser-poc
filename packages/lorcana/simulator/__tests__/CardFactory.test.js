@@ -20,6 +20,7 @@ describe('CardFactory', () => {
       cost: 2,
       strength: 2,
       willpower: 2,
+      image: 'https://example.com/mickey.jpg',
     },
     action: {
       id: 'heal-1',
@@ -28,6 +29,7 @@ describe('CardFactory', () => {
       inkable: true,
       color: 'sapphire',
       cost: 1,
+      image: 'https://example.com/heal.jpg',
     },
     song: {
       id: 'friends-on-the-other-side-1',
@@ -37,6 +39,7 @@ describe('CardFactory', () => {
       color: 'amethyst',
       cost: 3,
       classifications: ['song'],
+      image: 'https://example.com/friends-song.jpg',
     },
     songByName: {
       id: 'be-prepared-1',
@@ -45,6 +48,7 @@ describe('CardFactory', () => {
       inkable: true,
       color: 'emerald',
       cost: 4,
+      image: 'https://example.com/be-prepared.jpg',
     },
     location: {
       id: 'mickey-mouse-house-1',
@@ -54,6 +58,7 @@ describe('CardFactory', () => {
       color: 'amber',
       cost: 3,
       willpower: 3,
+      image: 'https://example.com/mickey-house.jpg',
     },
     unknownType: {
       id: 'mystery-1',
@@ -61,6 +66,7 @@ describe('CardFactory', () => {
       type: 'unknown',
       inkable: false,
       cost: 5,
+      image: 'https://example.com/mystery.jpg',
     },
     minimalData: {
       id: 'minimal-1',
@@ -82,6 +88,7 @@ describe('CardFactory', () => {
         expect(card.type).toBe('character')
         expect(card.strength).toBe(2)
         expect(card.willpower).toBe(2)
+        expect(card.image).toBe('https://example.com/mickey.jpg')
       })
 
       test('should handle missing strength and willpower', () => {
@@ -94,6 +101,16 @@ describe('CardFactory', () => {
         expect(card).toBeInstanceOf(ICharacter)
         expect(card.strength).toBe(0)
         expect(card.willpower).toBe(0)
+      })
+
+      test('should handle missing image', () => {
+        const data = { ...testData.character }
+        delete data.image
+
+        const card = CardFactory.createCard(data)
+
+        expect(card).toBeInstanceOf(ICharacter)
+        expect(card.image).toBeNull()
       })
 
       test('should handle different case for type', () => {
