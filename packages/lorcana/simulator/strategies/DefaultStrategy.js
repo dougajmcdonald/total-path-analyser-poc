@@ -9,16 +9,18 @@ export class DefaultStrategy extends IStrategy {
     super('Default Strategy', {
       // Scoring weights
       loreWeight: 100,
-      inkGainWeight: 25,
-      inkUseWeight: 20,
-      boardPresenceWeight: 30,
-      actionEfficiencyWeight: 15,
+      inkGainWeight: 50, // Increased: Ink building is very important
+      inkUseWeight: 15, // Decreased: Using ink is less important than gaining it
+      boardPresenceWeight: 40, // Increased: Board presence is crucial
+      actionEfficiencyWeight: 20, // Increased: More actions per turn is better
       handSizeWeight: -2,
       turnProgressionWeight: 3,
-      multiActionBonus: 20,
-      inkUtilizationBonus: 30,
-      earlyGameInkBonus: 25,
+      multiActionBonus: 30, // Increased: Multi-action paths are very valuable
+      inkUtilizationBonus: 40, // Increased: Using all ink is very good
+      earlyGameInkBonus: 35, // Increased: Early ink building is crucial
       lateGameLoreBonus: 20,
+      highCostCardBonus: 25, // New: Bonus for playing high-cost cards
+      inkRetentionBonus: 20, // New: Bonus for ending with more ink
 
       // Turn thresholds
       earlyGameThreshold: 3,
@@ -45,6 +47,8 @@ export class DefaultStrategy extends IStrategy {
       inkUtilizationBonus: this.config.inkUtilizationBonus,
       earlyGameInkBonus: this.config.earlyGameInkBonus,
       lateGameLoreBonus: this.config.lateGameLoreBonus,
+      highCostCardBonus: this.config.highCostCardBonus,
+      inkRetentionBonus: this.config.inkRetentionBonus,
     }
   }
 
@@ -103,6 +107,28 @@ export class DefaultStrategy extends IStrategy {
       score += loreGained * weights.lateGameLoreBonus // Extra lore bonus in late game
     }
 
+    // High-cost card bonus - reward playing expensive cards
+    const playActions = path.actions.filter((action) => action.type === 'play')
+    if (playActions.length > 0) {
+      const highestCostPlayed = Math.max(
+        ...playActions.map((action) => action.cost || 0)
+      )
+      score += highestCostPlayed * weights.highCostCardBonus
+    }
+
+    // Ink retention bonus - reward ending with more ink
+    if (path.endState.ink > currentInk) {
+      score += (path.endState.ink - currentInk) * weights.inkRetentionBonus
+    }
+
+    // Quest efficiency bonus - reward questing with multiple characters
+    const questActions = path.actions.filter(
+      (action) => action.type === 'quest'
+    )
+    if (questActions.length > 1) {
+      score += questActions.length * 15 // Bonus for questing multiple characters
+    }
+
     return Math.round(score)
   }
 
@@ -120,12 +146,25 @@ export class DefaultStrategy extends IStrategy {
     // Calculate efficiency (lore per cost)
     const efficiency = (card.lore || 0) / Math.max(card.cost, 1)
 
-    // Early game: prefer cheaper cards
+    // Base score from efficiency
+    let score = efficiency
+
+    // High-cost card bonus - prioritize expensive cards
+    score += (card.cost || 0) * 0.5
+
+    // Lore value bonus - prioritize high-lore cards
+    score += (card.lore || 0) * 0.3
+
+    // Early game: still prefer some efficiency but favor higher cost
     if (turn <= this.config.earlyGameThreshold) {
-      return efficiency + (10 - card.cost) * this.config.cardCostWeight
+      score += (card.cost || 0) * 0.2 // Still reward higher cost even early
     }
 
-    // Late game: prefer high-value cards
-    return efficiency + (card.lore || 0) * this.config.cardEfficiencyWeight
+    // Late game: heavily favor high-value cards
+    if (turn > this.config.earlyGameThreshold) {
+      score += (card.cost || 0) * 0.8 // Much higher bonus for expensive cards late game
+    }
+
+    return score
   }
 }

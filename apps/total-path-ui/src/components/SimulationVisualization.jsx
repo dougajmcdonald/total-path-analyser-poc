@@ -114,12 +114,30 @@ const SimulationVisualization = ({ simulationData: propSimulationData }) => {
   const getPlayerGameState = (playerId) => {
     if (!selectedPath || !simulationData || !simulationData.turns) return null
     
-    // Find the turn and path that matches the selected path
-    for (const turn of simulationData.turns) {
-      const path = turn.paths.find(p => p.pathId === selectedPath)
-      if (path && path.gameState) {
-        return path.gameState[playerId]
-      }
+    // Find the turn that contains the selected path
+    const selectedTurn = simulationData.turns.find(turn => 
+      turn.paths.some(p => p.pathId === selectedPath)
+    )
+    
+    if (!selectedTurn) return null
+    
+    // Get the cumulative game state for this player up to this point
+    // We need to find the most recent turn where this player was active and had their optimal path executed
+    const playerTurns = simulationData.turns.filter(turn => turn.activePlayer === playerId)
+    const turnsUpToSelected = playerTurns.filter(turn => turn.turnNumber <= selectedTurn.turnNumber)
+    
+    // Get the game state from the most recent turn where this player was active
+    const mostRecentPlayerTurn = turnsUpToSelected[turnsUpToSelected.length - 1]
+    
+    if (mostRecentPlayerTurn && mostRecentPlayerTurn.optimalPathExecuted && mostRecentPlayerTurn.optimalPathExecuted.actualGameStateAfterExecution) {
+      // The actualGameStateAfterExecution is already the player's game state, not nested by player ID
+      return mostRecentPlayerTurn.optimalPathExecuted.actualGameStateAfterExecution
+    }
+    
+    // Fallback to the selected path's simulation
+    const path = selectedTurn.paths.find(p => p.pathId === selectedPath)
+    if (path && path.gameState) {
+      return path.gameState[playerId]
     }
     
     return null

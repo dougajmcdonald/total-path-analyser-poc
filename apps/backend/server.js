@@ -130,6 +130,7 @@ async function runOptimalAnalysis(gameState, config, StrategyFactory) {
     console.log(`Turn ${turn}: Analyzing optimal paths for ${currentPlayer.id}`)
 
     // Draw a card at the start of the turn (second player draws on turn 1, both players draw on turn 2+)
+    let drawnCardThisTurn = null
     if (
       currentPlayer.activeDeck &&
       typeof currentPlayer.activeDeck.drawRandomCard === 'function'
@@ -137,16 +138,32 @@ async function runOptimalAnalysis(gameState, config, StrategyFactory) {
       // First player doesn't draw on turn 1, second player does
       const shouldDraw = turn > 1 || currentPlayer.id === 'player2'
       if (shouldDraw) {
-        const drawnCard = currentPlayer.activeDeck.drawRandomCard()
-        if (drawnCard) {
-          playerState.addToHand(drawnCard)
-          console.log(`  Drew card: ${drawnCard.name}`)
+        drawnCardThisTurn = currentPlayer.activeDeck.drawRandomCard()
+        if (drawnCardThisTurn) {
+          playerState.addToHand(drawnCardThisTurn)
+          console.log(`  Drew card: ${drawnCardThisTurn.name}`)
         }
       }
     }
 
     // Generate all possible paths for this turn
     const paths = generateTurnPaths(gameState, currentPlayer.id, turn, strategy)
+
+    // Debug: Log all generated paths
+    console.log(`\nGenerated ${paths.length} paths for turn ${turn}:`)
+    paths.forEach((path, index) => {
+      console.log(
+        `  ${index + 1}. ${path.pathId}: ${path.description} (${path.actions.length} actions)`
+      )
+      if (path.actions.some((action) => action.type === 'quest')) {
+        console.log(
+          `     Quest actions: ${path.actions
+            .filter((action) => action.type === 'quest')
+            .map((action) => action.cardName)
+            .join(', ')}`
+        )
+      }
+    })
 
     // Score and sort paths using strategy
     const scoredPaths = paths
@@ -155,6 +172,14 @@ async function runOptimalAnalysis(gameState, config, StrategyFactory) {
         score: strategy.scorePath(path, playerState, gameState, turn),
       }))
       .sort((a, b) => b.score - a.score)
+
+    // Debug: Log top 3 scored paths
+    console.log(`\nTop 3 scored paths:`)
+    scoredPaths.slice(0, 3).forEach((path, index) => {
+      console.log(
+        `  ${index + 1}. ${path.pathId}: ${path.description} (score: ${path.score})`
+      )
+    })
 
     // Limit paths based on configuration
     const limitedPaths = config.showAllPaths
@@ -187,6 +212,8 @@ async function runOptimalAnalysis(gameState, config, StrategyFactory) {
         cost: card.cost,
         lore: card.lore || 0,
         inkable: card.inkable,
+        image: card.image,
+        drawnThisTurn: drawnCardThisTurn && card.id === drawnCardThisTurn.id,
       })),
       inkwell: finalPlayerState.inkwell.map((cardState) => ({
         id: cardState.card.id,
@@ -195,6 +222,7 @@ async function runOptimalAnalysis(gameState, config, StrategyFactory) {
         lore: cardState.card.lore || 0,
         exerted: cardState.exerted,
         dry: cardState.dry,
+        image: cardState.card.image,
       })),
       board: finalPlayerState.board.map((cardState) => ({
         id: cardState.card.id,
@@ -203,6 +231,7 @@ async function runOptimalAnalysis(gameState, config, StrategyFactory) {
         lore: cardState.card.lore || 0,
         exerted: cardState.exerted,
         dry: cardState.dry,
+        image: cardState.card.image,
       })),
       lore: finalPlayerState.lore,
       availableInk: finalPlayerState.getAvailableInk
@@ -245,6 +274,7 @@ async function runFullAnalysis(gameState, config, StrategyFactory) {
     )
 
     // Draw a card at the start of the turn (second player draws on turn 1, both players draw on turn 2+)
+    let drawnCardThisTurn = null
     if (
       currentPlayer.activeDeck &&
       typeof currentPlayer.activeDeck.drawRandomCard === 'function'
@@ -252,10 +282,10 @@ async function runFullAnalysis(gameState, config, StrategyFactory) {
       // First player doesn't draw on turn 1, second player does
       const shouldDraw = turn > 1 || currentPlayer.id === 'player2'
       if (shouldDraw) {
-        const drawnCard = currentPlayer.activeDeck.drawRandomCard()
-        if (drawnCard) {
-          playerState.addToHand(drawnCard)
-          console.log(`  Drew card: ${drawnCard.name}`)
+        drawnCardThisTurn = currentPlayer.activeDeck.drawRandomCard()
+        if (drawnCardThisTurn) {
+          playerState.addToHand(drawnCardThisTurn)
+          console.log(`  Drew card: ${drawnCardThisTurn.name}`)
         }
       }
     }
@@ -324,7 +354,7 @@ function generateTurnPaths(gameState, playerId, turn, strategy = null) {
         description: `Turn ${turn} - Pass (no cards in hand)`,
         actions: [],
         endState: {
-          ink: availableInk,
+          ink: playerState.inkwell?.length || 0,
           handSize: 0,
           boardSize: playerState.board?.length || 0,
           lore: playerState.lore || 0,
@@ -359,15 +389,49 @@ function generateTurnPaths(gameState, playerId, turn, strategy = null) {
     })
   }
 
+  // Distance-based inking strategy: prioritize cards furthest from being playable
+  const sortInkableCardsByDistance = (cards) => {
+    const currentInk = availableInk
+    const inkAfterInking = currentInk + 1
+
+    return cards.sort((a, b) => {
+      // Calculate distance: how far is the card from being playable after inking?
+      const distanceA = (a.cost || 0) - inkAfterInking
+      const distanceB = (b.cost || 0) - inkAfterInking
+
+      // Cards that are already playable after inking get negative distance
+      // We want to prioritize cards that are furthest from being playable
+      // So we sort by distance descending (highest distance first)
+
+      if (distanceA !== distanceB) {
+        return distanceB - distanceA
+      }
+
+      // If distances are equal, prefer higher cost cards (more valuable to ink)
+      return (b.cost || 0) - (a.cost || 0)
+    })
+  }
+
   // Generate all possible action combinations
   const generateCombinations = () => {
     const combinations = []
 
-    // 1. Ink only paths (prioritize using strategy)
-    const sortedInkableCards = sortByStrategy(
-      [...inkableCards],
-      strategy?.getInkPriority.bind(strategy)
-    )
+    // 1. Ink only paths (use distance-based strategy for better inking decisions)
+    const sortedInkableCards = sortInkableCardsByDistance([...inkableCards])
+
+    // Debug: Log inking decisions
+    if (sortedInkableCards.length > 0) {
+      console.log(
+        `\nInking strategy for turn ${turn} (current ink: ${availableInk}):`
+      )
+      sortedInkableCards.forEach((card, index) => {
+        const distance = (card.cost || 0) - (availableInk + 1)
+        const playableAfterInk = availableInk + 1 >= (card.cost || 0)
+        console.log(
+          `  ${index + 1}. ${card.name} (cost: ${card.cost}) - distance: ${distance} ${playableAfterInk ? '(playable after inking)' : '(not playable after inking)'}`
+        )
+      })
+    }
     sortedInkableCards.forEach((inkCard, index) => {
       combinations.push({
         pathId: `T${turn}-INK-ONLY-${index + 1}`,
@@ -383,7 +447,7 @@ function generateTurnPaths(gameState, playerId, turn, strategy = null) {
           },
         ],
         endState: {
-          ink: availableInk + 1,
+          ink: (playerState.inkwell?.length || 0) + 1,
           handSize: hand.length - 1,
           boardSize: playerState.board?.length || 0,
           lore: playerState.lore || 0,
@@ -411,10 +475,10 @@ function generateTurnPaths(gameState, playerId, turn, strategy = null) {
           },
         ],
         endState: {
-          ink: availableInk - playCard.cost,
+          ink: playerState.inkwell?.length || 0,
           handSize: hand.length - 1,
           boardSize: (playerState.board?.length || 0) + 1,
-          lore: (playerState.lore || 0) + (playCard.lore || 0),
+          lore: playerState.lore || 0,
         },
       })
     })
@@ -453,10 +517,10 @@ function generateTurnPaths(gameState, playerId, turn, strategy = null) {
             },
           ],
           endState: {
-            ink: newInk - playCard.cost,
+            ink: (playerState.inkwell?.length || 0) + 1,
             handSize: hand.length - 2,
             boardSize: (playerState.board?.length || 0) + 1,
-            lore: (playerState.lore || 0) + (playCard.lore || 0),
+            lore: playerState.lore || 0,
           },
         })
       })
@@ -468,9 +532,14 @@ function generateTurnPaths(gameState, playerId, turn, strategy = null) {
         [...playerState.board],
         strategy?.getPlayPriority.bind(strategy)
       )
+
+      // Individual quest paths for each character
       questingCharacters.forEach((character, index) => {
         // Handle both ICardState objects and plain card objects
         const card = character.card || character
+        console.log(
+          `    Generating quest action for card: ${card.name} with ID: ${card.id}`
+        )
         combinations.push({
           pathId: `T${turn}-QUEST-${index + 1}`,
           description: `Turn ${turn} - Quest with ${card.name}`,
@@ -485,7 +554,7 @@ function generateTurnPaths(gameState, playerId, turn, strategy = null) {
             },
           ],
           endState: {
-            ink: availableInk,
+            ink: playerState.inkwell?.length || 0,
             handSize: hand.length,
             boardSize: playerState.board.length,
             lore: (playerState.lore || 0) + (card.lore || 0),
@@ -550,13 +619,79 @@ function generateTurnPaths(gameState, playerId, turn, strategy = null) {
             },
           ],
           endState: {
-            ink: newInk - bestPlayCard.cost,
+            ink: (playerState.inkwell?.length || 0) + 1,
             handSize: hand.length - 2,
             boardSize: (playerState.board?.length || 0) + 1,
-            lore:
-              (playerState.lore || 0) +
-              (bestPlayCard.lore || 0) +
-              (questCard.lore || 0),
+            lore: (playerState.lore || 0) + (questCard.lore || 0),
+          },
+        })
+      }
+    }
+
+    // 6. Ink + Play + Quest ALL characters (if multiple characters on board)
+    if (
+      inkableCards.length > 0 &&
+      playableCards.length > 0 &&
+      playerState.board &&
+      playerState.board.length > 1
+    ) {
+      const bestInkCard = sortedInkableCards[0]
+      const newInk = availableInk + 1
+      const playableAfterInk = hand.filter(
+        (card) => card.id !== bestInkCard.id && newInk >= card.cost
+      )
+
+      if (playableAfterInk.length > 0) {
+        const bestPlayCard = sortByStrategy(
+          playableAfterInk,
+          strategy?.getPlayPriority.bind(strategy)
+        )[0]
+
+        // Create quest actions for ALL characters on board
+        const allQuestActions = playerState.board.map((character) => {
+          const card = character.card || character
+          return {
+            type: 'quest',
+            cardId: card.id,
+            cardName: card.name,
+            cardImage: card.image,
+            cost: card.cost,
+            lore: card.lore || 0,
+          }
+        })
+
+        const totalLore = playerState.board.reduce((sum, character) => {
+          const card = character.card || character
+          return sum + (card.lore || 0)
+        }, 0)
+
+        combinations.push({
+          pathId: `T${turn}-INK+PLAY+QUEST-ALL-1`,
+          description: `Turn ${turn} - Ink ${bestInkCard.name} + Play ${bestPlayCard.name} + Quest all characters`,
+          actions: [
+            {
+              type: 'ink',
+              cardId: bestInkCard.id,
+              cardName: bestInkCard.name,
+              cardImage: bestInkCard.image,
+              cost: bestInkCard.cost,
+              lore: bestInkCard.lore || 0,
+            },
+            {
+              type: 'play',
+              cardId: bestPlayCard.id,
+              cardName: bestPlayCard.name,
+              cardImage: bestPlayCard.image,
+              cost: bestPlayCard.cost,
+              lore: bestPlayCard.lore || 0,
+            },
+            ...allQuestActions,
+          ],
+          endState: {
+            ink: (playerState.inkwell?.length || 0) + 1,
+            handSize: hand.length - 2,
+            boardSize: (playerState.board?.length || 0) + 1,
+            lore: (playerState.lore || 0) + totalLore,
           },
         })
       }
@@ -626,7 +761,6 @@ function simulatePathActions(gameState, path, playerId) {
           dry: true,
         })
         simulatedState.ink -= action.cost || 0
-        simulatedState.lore += action.lore || 0
       }
     } else if (action.type === 'quest') {
       const characterIndex = simulatedState.board.findIndex(
@@ -700,9 +834,8 @@ function executePathActions(gameState, path, playerId) {
     return
   }
 
-  console.log(`Executing ${path.actions.length} actions for ${playerId}:`)
-
   // Execute each action in the path on the real game state
+  console.log(`\nExecuting ${path.actions.length} actions for ${playerId}:`)
   path.actions.forEach((action, index) => {
     console.log(`  Action ${index + 1}: ${action.type} ${action.cardName}`)
 
@@ -749,6 +882,17 @@ function executePathActions(gameState, path, playerId) {
         )
         if (playCardIndex !== -1) {
           const playCard = playerState.hand.splice(playCardIndex, 1)[0]
+
+          // Exert ink equal to card cost
+          let inkToExert = playCard.cost
+          for (const ink of playerState.inkwell) {
+            if (!ink.exerted && inkToExert > 0) {
+              ink.exerted = true
+              inkToExert--
+              console.log(`    Exerted ink: ${ink.card.name}`)
+            }
+          }
+
           // Create proper ICardState for board
           const playCardState = {
             card: playCard,
@@ -779,14 +923,43 @@ function executePathActions(gameState, path, playerId) {
 
       case 'quest':
         // Exert a character on the board and gain lore
-        const questCardIndex = playerState.board.findIndex(
-          (card) => card.id === action.cardId
+        console.log(
+          `    QUEST ACTION: Starting quest for ${action.cardName} (ID: ${action.cardId})`
         )
+        console.log(`    Looking for quest card with ID: ${action.cardId}`)
+        console.log(
+          `    Current board cards:`,
+          playerState.board.map((c) => ({
+            id: c.card ? c.card.id : c.id,
+            name: c.card ? c.card.name : c.name,
+          }))
+        )
+
+        const questCardIndex = playerState.board.findIndex((card) => {
+          // Handle both ICardState objects and plain card objects
+          const cardId = card.card ? card.card.id : card.id
+          console.log(
+            `    Comparing: "${cardId}" === "${action.cardId}" = ${cardId === action.cardId}`
+          )
+          return cardId === action.cardId
+        })
+
         if (questCardIndex !== -1) {
           playerState.board[questCardIndex].exerted = true
           playerState.lore += action.lore || 0
           console.log(
-            `    Quested with ${action.cardName} (+${action.lore || 0} lore)`
+            `    Quested with ${action.cardName} (+${action.lore || 0} lore) - exerted: ${playerState.board[questCardIndex].exerted}`
+          )
+          console.log(
+            `    Board state after quest:`,
+            playerState.board.map((c) => ({
+              name: c.card.name,
+              exerted: c.exerted,
+            }))
+          )
+        } else {
+          console.log(
+            `    ERROR: Quest card ${action.cardName} (ID: ${action.cardId}) not found on board!`
           )
         }
         break
@@ -812,6 +985,7 @@ function formatCard(card) {
     lore: card.lore || 0,
     exerted: card.exerted || false,
     dry: card.dry !== false,
+    drawnThisTurn: card.drawnThisTurn || false,
   }
 }
 

@@ -1,8 +1,8 @@
-import { Heart, Users, Zap } from 'lucide-react'
-import React, { memo } from 'react'
-import CardImage from './CardImage'
-import { Badge } from './ui/badge'
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
+import { Heart, Users, Zap } from "lucide-react"
+import React, { memo } from "react"
+import CardImage from "./CardImage"
+import { Badge } from "./ui/badge"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 
 const PlayerGameState = memo(({ player, playerName, gameState, selectedPath }) => {
   if (!gameState || !player) {
@@ -54,22 +54,33 @@ const PlayerGameState = memo(({ player, playerName, gameState, selectedPath }) =
             <h4 className="font-medium text-sm">Hand ({player.hand?.length || 0})</h4>
             <div className="flex flex-wrap gap-1">
               {player.hand && player.hand.length > 0 ? (
-                player.hand.slice(0, 8).map((card, index) => (
-                  <div key={`hand-${index}`} className="relative">
-                    <CardImage
-                      card={card}
-                      className="w-12 h-16 rounded border"
-                    />
-                    <div className="absolute -top-1 -right-1 bg-primary text-primary-foreground text-xs rounded-full w-4 h-4 flex items-center justify-center">
-                      {card.cost}
+                player.hand.slice(0, 8).map((card, index) => {
+                  if (!card || !card.name || card.name === "undefined") {
+                    console.log("Invalid card in hand:", card, "at index:", index)
+                    return null
+                  }
+                  return (
+                    <div key={`hand-${index}`} className="relative">
+                      <CardImage
+                        card={card}
+                        className="w-24 h-32 rounded border"
+                      />
+                      <div className="absolute -top-1 -right-1 bg-primary text-primary-foreground text-xs rounded-full w-4 h-4 flex items-center justify-center">
+                        {card.cost}
+                      </div>
+                      {card.drawnThisTurn && (
+                        <div className="absolute -top-1 -left-1 bg-green-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center font-bold">
+                          D
+                        </div>
+                      )}
                     </div>
-                  </div>
-                ))
+                  )
+                })
               ) : (
                 <div className="text-xs text-muted-foreground">No cards</div>
               )}
               {player.hand && player.hand.length > 8 && (
-                <div className="w-12 h-16 rounded border border-dashed border-muted-foreground flex items-center justify-center text-xs text-muted-foreground">
+                <div className="w-24 h-32 rounded border border-dashed border-muted-foreground flex items-center justify-center text-xs text-muted-foreground">
                   +{player.hand.length - 8}
                 </div>
               )}
@@ -83,22 +94,20 @@ const PlayerGameState = memo(({ player, playerName, gameState, selectedPath }) =
               {player.inkwell && player.inkwell.length > 0 ? (
                 player.inkwell.map((cardState, index) => {
                   const card = cardState.card || cardState
+                  if (!card || !card.name || card.name === "undefined") {
+                    console.log("Invalid card in inkwell:", cardState, "at index:", index)
+                    return null
+                  }
                   return (
                     <div key={`inkwell-${index}`} className="relative">
                       <CardImage
                         card={card}
-                        className={`w-12 h-16 rounded border ${
-                          cardState.exerted ? 'opacity-50' : ''
-                        }`}
+                        isExerted={cardState.exerted}
+                        className="w-24 h-32 rounded border"
                       />
-                      <div className="absolute -top-1 -right-1 bg-blue-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
+                      <div className="absolute -top-1 -right-1 bg-blue-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center z-5">
                         {card.cost}
                       </div>
-                      {cardState.exerted && (
-                        <div className="absolute inset-0 bg-red-500 bg-opacity-50 rounded flex items-center justify-center">
-                          <span className="text-xs text-white font-bold">✕</span>
-                        </div>
-                      )}
                     </div>
                   )
                 })
@@ -115,23 +124,21 @@ const PlayerGameState = memo(({ player, playerName, gameState, selectedPath }) =
               {player.board && player.board.length > 0 ? (
                 player.board.map((cardState, index) => {
                   const card = cardState.card || cardState
+                  if (!card || !card.name || card.name === "undefined") {
+                    console.log("Invalid card in board:", cardState, "at index:", index)
+                    return null
+                  }
                   return (
                     <div key={`board-${index}`} className="relative">
                       <CardImage
                         card={card}
-                        className={`w-12 h-16 rounded border ${
-                          cardState.exerted ? 'opacity-50' : ''
-                        }`}
+                        isExerted={cardState.exerted}
+                        className="w-24 h-32 rounded border"
                       />
-                      <div className="absolute -top-1 -right-1 bg-green-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
+                      <div className="absolute -top-1 -right-1 bg-green-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center z-5">
                         {card.cost}
                       </div>
-                      {cardState.exerted && (
-                        <div className="absolute inset-0 bg-red-500 bg-opacity-50 rounded flex items-center justify-center">
-                          <span className="text-xs text-white font-bold">✕</span>
-                        </div>
-                      )}
-                      <div className="absolute -bottom-1 -left-1 bg-yellow-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
+                      <div className="absolute -bottom-1 -left-1 bg-yellow-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center z-5">
                         {card.lore || 0}
                       </div>
                     </div>
@@ -148,6 +155,6 @@ const PlayerGameState = memo(({ player, playerName, gameState, selectedPath }) =
   )
 })
 
-PlayerGameState.displayName = 'PlayerGameState'
+PlayerGameState.displayName = "PlayerGameState"
 
 export default PlayerGameState
