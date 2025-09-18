@@ -61,10 +61,10 @@ function App () {
               <div className="flex justify-between items-center">
                 <div className="text-left">
                   <h1 className="text-2xl font-bold mb-1">
-                    Total Path Analyser
+                    Lorcana Paths
                   </h1>
                   <p className="text-sm text-muted-foreground">
-                    Disney Lorcana Card Analysis
+                    Disney Lorcana Deck Analysis & Simulation
                   </p>
                 </div>
                 <div className="flex space-x-4">

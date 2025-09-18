@@ -1,6 +1,6 @@
-# Total Path Analyser
+# Lorcana Paths
 
-A monorepo for analyzing trading card game data, starting with Disney Lorcana. Built with modern JavaScript, Zod validation, and a robust data pipeline.
+A comprehensive platform for analyzing Disney Lorcana decks and simulating games. Built with modern JavaScript, Zod validation, and a robust data pipeline. Visit us at [lorcanapaths.com](https://lorcanapaths.com).
 
 ## 🎯 Overview
 
@@ -10,7 +10,7 @@ This project provides tools for importing, validating, and analyzing trading car
 
 ### Apps
 
-- **`total-path-ui`** - Vite React app with Tailwind CSS for the user interface
+- **`lorcana-paths-ui`** - Vite React app with Tailwind CSS for the user interface
 
 ### Packages
 
@@ -44,7 +44,7 @@ pnpm run dev-setup
 pnpm run dev
 
 # Start specific app
-pnpm run dev --filter=total-path-ui
+pnpm run dev --filter=lorcana-paths-ui
 ```
 
 ## 📊 Data Pipeline
@@ -130,7 +130,7 @@ The project includes VS Code workspace settings for:
 
 ```
 ├── apps/
-│   └── total-path-ui/           # Vite React app
+│   └── lorcana-paths-ui/        # Vite React app
 ├── packages/
 │   ├── lorcana/
 │   │   ├── rules/               # Game rules and constants

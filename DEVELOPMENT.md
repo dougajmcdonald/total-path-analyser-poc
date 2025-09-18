@@ -1,6 +1,6 @@
 # Development Setup
 
-This document explains how to set up the development environment for the Total Path Analyser monorepo.
+This document explains how to set up the development environment for the Lorcana Paths monorepo.
 
 ## Prerequisites
 
