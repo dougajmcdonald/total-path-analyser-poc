@@ -1091,12 +1091,16 @@ export function createApp() {
       console.log('Simulation config:', config)
 
       // Import simulator modules
-      const { GameStateFactory, TestDataLoader, StrategyFactory } =
-        await import('../../../packages/lorcana/simulator/index.js')
+      const { GameStateFactory, StrategyFactory } = await import(
+        '../../../packages/lorcana/simulator/index.js'
+      )
+
+      // Import local data loader
+      const { LocalDataLoader } = await import('./dataLoader.js')
 
       // Load card database and test decks
-      const cardDatabase = TestDataLoader.loadCardDatabase()
-      const deckFormats = TestDataLoader.getDeckFormats()
+      const cardDatabase = LocalDataLoader.loadCardDatabase()
+      const deckFormats = LocalDataLoader.getDeckFormats()
 
       // Handle deck selection - if string IDs, use test decks; otherwise use provided formats
       let deck1Format, deck2Format
