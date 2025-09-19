@@ -7,11 +7,11 @@ const getApiBaseUrl = () => {
 
     // Always use www.lorcanapaths.com for API calls to avoid redirect issues
     if (
-      hostname === 'lorcanapaths.com' ||
-      hostname === 'www.lorcanapaths.com'
+      hostname === 'https://total-path-analyser-poc-backend-tau.vercel.app' ||
+      hostname === 'http://total-path-analyser-poc-backend-tau.vercel.app'
     ) {
-      const apiUrl = `${protocol}//www.lorcanapaths.com/api`
-      console.log('🔧 Using www.lorcanapaths.com for API:', apiUrl)
+      const apiUrl = `${protocol}total-path-analyser-poc-backend-tau.vercel.app//api`
+      console.log('🔧 Using url for API:', apiUrl)
       return apiUrl
     }
 
