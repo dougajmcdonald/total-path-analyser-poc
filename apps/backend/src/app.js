@@ -55,12 +55,9 @@ export function createApp() {
     next()
   })
 
-  // Path to data files
-  const DATA_DIR = join(__dirname, '../../../packages/lorcana/data-import/data')
-  const TEST_DATA_DIR = join(
-    __dirname,
-    '../../../packages/lorcana/simulator/test-data'
-  )
+  // Path to data files - use local data directory for Vercel deployment
+  const DATA_DIR = join(__dirname, '../data')
+  const TEST_DATA_DIR = join(__dirname, '../test-data')
 
   console.log('Backend data paths:')
   console.log('__dirname:', __dirname)
