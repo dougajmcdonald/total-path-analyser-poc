@@ -3,6 +3,6 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "env": {
-    "VITE_API_URL": "https://lorcanapaths.com/api"
+    "VITE_API_URL": "https://www.lorcanapaths.com/api"
   }
 }
