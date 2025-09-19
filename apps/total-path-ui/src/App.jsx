@@ -4,6 +4,7 @@ import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom"
 import SettingsPanel from "./components/SettingsPanel"
 import { ThemeProvider } from "./components/ThemeProvider"
 import { Button } from "./components/ui/button"
+import { getApiUrl } from "./config/api.js"
 import CardsPage from "./pages/CardsPage.jsx"
 import DashboardPage from "./pages/DashboardPage.jsx"
 import DecksPage from "./pages/DecksPage.jsx"
@@ -40,7 +41,7 @@ function App () {
   useEffect(() => {
     async function loadConfigs () {
       try {
-        const response = await fetch("http://localhost:3001/api/lorcana/rule-configs")
+        const response = await fetch(getApiUrl("/rule-configs"))
         const configs = await response.json()
         setAvailableConfigs(configs)
         setConfigLoading(false)

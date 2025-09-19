@@ -7,6 +7,7 @@ import { Input } from "../components/ui/input"
 import { Label } from "../components/ui/label"
 import { RadioGroup, RadioGroupItem } from "../components/ui/radio-group"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select"
+import { getApiUrl } from "../config/api.js"
 
 const SimulatorPage = () => {
   const [testDecks, setTestDecks] = useState([])
@@ -30,7 +31,7 @@ const SimulatorPage = () => {
     const loadDecks = async () => {
       try {
         // Load test decks
-        const testResponse = await fetch("http://localhost:3001/api/lorcana/test-decks")
+        const testResponse = await fetch(getApiUrl("/test-decks"))
         if (testResponse.ok) {
           const testDecksData = await testResponse.json()
           setTestDecks(testDecksData)
@@ -59,7 +60,7 @@ const SimulatorPage = () => {
     setIsSimulating(true)
     
     try {
-      const response = await fetch("http://localhost:3001/api/lorcana/simulate", {
+      const response = await fetch(getApiUrl("/simulate"), {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
