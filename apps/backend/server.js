@@ -10,9 +10,43 @@ const __dirname = dirname(__filename)
 const app = express()
 const PORT = process.env.PORT || 3001
 
+// CORS configuration
+const corsOptions = {
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true)
+
+    const allowedOrigins = [
+      'http://localhost:3000',
+      'http://localhost:5173',
+      'https://lorcanapaths.com',
+      'https://www.lorcanapaths.com',
+    ]
+
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true)
+    } else {
+      console.log('CORS blocked origin:', origin)
+      callback(new Error('Not allowed by CORS'))
+    }
+  },
+  credentials: true,
+  optionsSuccessStatus: 200,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}
+
 // Middleware
-app.use(cors())
+app.use(cors(corsOptions))
 app.use(express.json())
+
+// Debug middleware to log requests
+app.use((req, res, next) => {
+  console.log(
+    `${req.method} ${req.path} - Origin: ${req.get('Origin') || 'No Origin'}`
+  )
+  next()
+})
 
 // Path to data files
 const DATA_DIR = join(__dirname, '../../packages/lorcana/data-import/data')

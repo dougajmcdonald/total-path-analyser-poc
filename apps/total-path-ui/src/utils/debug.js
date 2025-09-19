@@ -5,6 +5,8 @@ export const debugApiConfig = () => {
   console.log('🔧 API Configuration Debug:')
   console.log('Environment:', import.meta.env.MODE)
   console.log('Production:', import.meta.env.PROD)
+  console.log('Current Origin:', window.location.origin)
+  console.log('Current Hostname:', window.location.hostname)
   console.log('API_BASE:', API_BASE)
   console.log('LORCANA_API_BASE:', LORCANA_API_BASE)
   console.log('VITE_API_URL:', import.meta.env.VITE_API_URL)
@@ -13,6 +15,8 @@ export const debugApiConfig = () => {
   return {
     environment: import.meta.env.MODE,
     isProduction: import.meta.env.PROD,
+    currentOrigin: window.location.origin,
+    currentHostname: window.location.hostname,
     apiBase: API_BASE,
     lorcanaApiBase: LORCANA_API_BASE,
     viteApiUrl: import.meta.env.VITE_API_URL,

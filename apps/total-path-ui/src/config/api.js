@@ -1,13 +1,18 @@
 // API configuration for different environments
 const getApiBaseUrl = () => {
-  // In production (Vercel), use the production API URL
+  // If VITE_API_URL is explicitly set, use it
+  if (import.meta.env.VITE_API_URL) {
+    return import.meta.env.VITE_API_URL
+  }
+
+  // In production (Vercel), use the same domain as the frontend
   if (import.meta.env.PROD) {
-    // You'll need to set this environment variable in Vercel
-    return import.meta.env.VITE_API_URL || 'https://lorcanapaths.com/api'
+    // Use the same origin as the frontend to avoid CORS issues
+    return `${window.location.origin}/api`
   }
 
   // In development, use localhost
-  return import.meta.env.VITE_API_URL || 'http://localhost:3001/api'
+  return 'http://localhost:3001/api'
 }
 
 export const API_BASE = getApiBaseUrl()
