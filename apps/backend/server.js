@@ -23,7 +23,13 @@ const corsOptions = {
       'https://www.lorcanapaths.com',
     ]
 
-    if (allowedOrigins.includes(origin)) {
+    // Also allow any subdomain of lorcanapaths.com
+    const isLorcanapathsDomain =
+      origin &&
+      (origin.includes('lorcanapaths.com') || origin.endsWith('.vercel.app')) // Allow Vercel preview deployments
+
+    if (allowedOrigins.includes(origin) || isLorcanapathsDomain) {
+      console.log('CORS allowed origin:', origin)
       callback(null, true)
     } else {
       console.log('CORS blocked origin:', origin)

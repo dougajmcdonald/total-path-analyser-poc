@@ -1,14 +1,30 @@
 // API configuration for different environments
 const getApiBaseUrl = () => {
-  // If VITE_API_URL is explicitly set, use it
+  // If VITE_API_URL is explicitly set, use it (for custom API deployments)
   if (import.meta.env.VITE_API_URL) {
+    console.log('🔧 Using VITE_API_URL:', import.meta.env.VITE_API_URL)
     return import.meta.env.VITE_API_URL
   }
 
-  // In production (Vercel), use the same domain as the frontend
+  // In production (Vercel), handle www redirect issue
   if (import.meta.env.PROD) {
-    // Use the same origin as the frontend to avoid CORS issues
-    return `${window.location.origin}/api`
+    const hostname = window.location.hostname
+    const protocol = window.location.protocol
+
+    // Always use www.lorcanapaths.com for API calls to avoid redirect issues
+    if (
+      hostname === 'lorcanapaths.com' ||
+      hostname === 'www.lorcanapaths.com'
+    ) {
+      const apiUrl = `${protocol}//www.lorcanapaths.com/api`
+      console.log('🔧 Using www.lorcanapaths.com for API:', apiUrl)
+      return apiUrl
+    }
+
+    // Fallback to same origin for other domains
+    const origin = window.location.origin
+    console.log('🔧 Using same origin for API:', origin)
+    return `${origin}/api`
   }
 
   // In development, use localhost
