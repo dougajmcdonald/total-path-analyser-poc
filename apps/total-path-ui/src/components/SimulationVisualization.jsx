@@ -26,9 +26,13 @@ const SimulationVisualization = ({ simulationData: propSimulationData }) => {
     // Each path now has its own gameState embedded
     const gameStateMap = {}
     simulationData.turns.forEach(turn => {
-      turn.paths.forEach(path => {
-        gameStateMap[path.pathId] = path.gameState
-      })
+      if (turn.paths && Array.isArray(turn.paths)) {
+        turn.paths.forEach(path => {
+          if (path && path.pathId) {
+            gameStateMap[path.pathId] = path.gameState
+          }
+        })
+      }
     })
     return gameStateMap
   }, [simulationData])
@@ -37,11 +41,13 @@ const SimulationVisualization = ({ simulationData: propSimulationData }) => {
   useEffect(() => {
     if (simulationData && simulationData.turns && simulationData.turns.length > 0) {
       const turn1 = simulationData.turns[0]
-      const highestScoringPath = turn1.paths.reduce((best, current) => 
-        current.score > best.score ? current : best
-      )
-      setSelectedPath(highestScoringPath.pathId)
-      setCurrentGameState(highestScoringPath.gameState)
+      if (turn1.paths && turn1.paths.length > 0) {
+        const highestScoringPath = turn1.paths.reduce((best, current) => 
+          current.score > best.score ? current : best
+        )
+        setSelectedPath(highestScoringPath.pathId)
+        setCurrentGameState(highestScoringPath.gameState)
+      }
     }
   }, [simulationData])
 
@@ -63,12 +69,14 @@ const SimulationVisualization = ({ simulationData: propSimulationData }) => {
     if (!selectedPath || !simulationData || !simulationData.turns) return null
     
     for (const turn of simulationData.turns) {
-      const path = turn.paths.find(p => p.pathId === selectedPath)
-      if (path) {
-        return {
-          ...path,
-          turnNumber: turn.turnNumber,
-          activePlayer: turn.activePlayer
+      if (turn.paths && Array.isArray(turn.paths)) {
+        const path = turn.paths.find(p => p && p.pathId === selectedPath)
+        if (path) {
+          return {
+            ...path,
+            turnNumber: turn.turnNumber,
+            activePlayer: turn.activePlayer
+          }
         }
       }
     }
@@ -102,11 +110,13 @@ const SimulationVisualization = ({ simulationData: propSimulationData }) => {
 
   // Group turns by player
   const playerTurns = useMemo(() => {
-    if (!simulationData || !simulationData.turns) return { player1: [], player2: [] }
+    if (!simulationData || !simulationData.turns || !Array.isArray(simulationData.turns)) {
+      return { player1: [], player2: [] }
+    }
     
     return {
-      player1: simulationData.turns.filter(turn => turn.activePlayer === "player1"),
-      player2: simulationData.turns.filter(turn => turn.activePlayer === "player2")
+      player1: simulationData.turns.filter(turn => turn && turn.activePlayer === "player1"),
+      player2: simulationData.turns.filter(turn => turn && turn.activePlayer === "player2")
     }
   }, [simulationData])
 
