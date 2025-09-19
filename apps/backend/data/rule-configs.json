@@ -1,0 +1,26 @@
+{
+    "infinity": {
+        "name": "Infinity",
+        "validSetNums": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    },
+    "core-constructed": {
+        "name": "Core Constructed",
+        "validSetNums": [
+            5,
+            6,
+            7,
+            8,
+            9
+        ]
+    }
+}
