@@ -6,6 +6,7 @@ import "./globals.css"
 // Import debug utilities in development
 if (import.meta.env.DEV) {
   import("./utils/debug.js")
+  import("./utils/apiTest.js")
 }
 
 createRoot(document.getElementById("root")).render(
