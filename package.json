@@ -15,7 +15,9 @@
     "test": "node scripts/run-tests.js",
     "test:simulator": "cd packages/lorcana/simulator && pnpm test",
     "test:simulator:watch": "cd packages/lorcana/simulator && pnpm test:watch",
-    "test:simulator:coverage": "cd packages/lorcana/simulator && pnpm test:coverage"
+    "test:simulator:coverage": "cd packages/lorcana/simulator && pnpm test:coverage",
+    "build:web": "turbo run build --filter=lorcana-paths-ui",
+    "build:api": "turbo run build --filter=backend"
   },
   "devDependencies": {
     "@eslint/js": "^9.35.0",
