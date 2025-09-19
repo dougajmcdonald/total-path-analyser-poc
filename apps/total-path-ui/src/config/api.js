@@ -2,8 +2,9 @@
 const getApiBaseUrl = () => {
   // If VITE_API_URL is set, use it (for production deployments)
   if (import.meta.env.VITE_API_URL) {
-    console.log('🔧 Using VITE_API_URL:', import.meta.env.VITE_API_URL)
-    return import.meta.env.VITE_API_URL
+    const apiUrl = import.meta.env.VITE_API_URL.replace(/\/$/, '') // Remove trailing slash
+    console.log('🔧 Using VITE_API_URL:', apiUrl)
+    return apiUrl
   }
 
   // In production (Vercel), use the Vercel backend URL
