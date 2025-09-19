@@ -28,9 +28,13 @@ export class LocalDataLoader {
     return this._testDecks
   }
 
-  // Get deck formats
+  // Get deck formats - return object with deck1 and deck2 arrays
   static getDeckFormats() {
-    return this.loadTestDecks()
+    const testDecks = this.loadTestDecks()
+    return {
+      deck1: testDecks.deck1.cards, // Return the cards array
+      deck2: testDecks.deck2.cards, // Return the cards array
+    }
   }
 
   // Get deck1 format
