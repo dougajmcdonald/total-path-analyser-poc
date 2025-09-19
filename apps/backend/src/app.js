@@ -23,6 +23,7 @@ export function createApp() {
         'https://lorcanapaths.com',
         'https://www.lorcanapaths.com',
         'https://total-path-analyser-poc-backend-tau.vercel.app',
+        'https://total-path-analyser-poc-frontend.vercel.app', // Frontend Vercel URL
       ]
 
       // Also allow any subdomain of lorcanapaths.com
