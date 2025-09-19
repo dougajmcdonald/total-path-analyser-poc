@@ -22,6 +22,7 @@ export function createApp() {
         'http://localhost:5173',
         'https://lorcanapaths.com',
         'https://www.lorcanapaths.com',
+        'https://total-path-analyser-poc-backend-tau.vercel.app',
       ]
 
       // Also allow any subdomain of lorcanapaths.com
