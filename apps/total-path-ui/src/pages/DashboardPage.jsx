@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react"
 
+import ErrorDisplay from "../components/ErrorDisplay"
+import LoadingSpinner from "../components/LoadingSpinner"
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
 import {
-  analyzeLorcanaData,
-  getCardStatistics,
+    analyzeLorcanaData,
+    getCardStatistics,
 } from "../utils/dataLoader.js"
 
 function DashboardPage ({ ruleConfig, availableConfigs, selectedColors, setSelectedColors }) {
@@ -38,48 +40,23 @@ function DashboardPage ({ ruleConfig, availableConfigs, selectedColors, setSelec
   }, [ruleConfig, selectedColors])
 
   if (loading) {
-    return (
-      <div className="flex items-center justify-center py-12">
-        <Card className="w-96">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary mx-auto"></div>
-              <p className="mt-4 text-lg text-muted-foreground">Loading data...</p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-    )
+    return <LoadingSpinner message="Loading data..." />
   }
 
   if (error) {
     return (
-      <div className="flex items-center justify-center py-12">
-        <Card className="w-96">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <div className="text-destructive text-6xl mb-4">⚠️</div>
-              <h2 className="text-2xl font-bold mb-2">
-                Error Loading Data
-              </h2>
-              <p className="text-muted-foreground mb-4">{error}</p>
-              <button
-                onClick={() => window.location.reload()}
-                className="px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90"
-              >
-                Retry
-              </button>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+      <ErrorDisplay
+        title="Error Loading Data"
+        message={error}
+        onRetry={() => window.location.reload()}
+      />
     )
   }
 
   return (
     <div>
       {analysis && stats && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
           {/* Total Cards */}
           <Card>
             <CardHeader>

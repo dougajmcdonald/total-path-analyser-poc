@@ -3,7 +3,7 @@ import { Card, CardContent } from "./ui/card"
 function CardComponent ({ card }) {
 
   return (
-    <Card className="overflow-hidden w-64 max-w-64 flex-shrink-0 hover:shadow-lg transition-shadow duration-200">
+    <Card className="overflow-hidden w-full max-w-64 flex-shrink-0 hover:shadow-lg transition-shadow duration-200">
       {/* Card Image */}
       <div className="w-full aspect-[3/4] bg-muted flex items-center justify-center">
         {card.image ? (

@@ -1,12 +1,12 @@
-import { Play, Settings, Shuffle, Target } from "lucide-react"
+import { Settings, Target } from "lucide-react"
 import React, { useEffect, useState } from "react"
+import DeckSelector from "../components/DeckSelector"
+import FirstPlayerSelector from "../components/FirstPlayerSelector"
+import LoadingSpinner from "../components/LoadingSpinner"
+import SimulationControls from "../components/SimulationControls"
+import SimulationSettings from "../components/SimulationSettings"
 import SimulationVisualization from "../components/SimulationVisualization"
-import { Button } from "../components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
-import { Input } from "../components/ui/input"
-import { Label } from "../components/ui/label"
-import { RadioGroup, RadioGroupItem } from "../components/ui/radio-group"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../components/ui/select"
 import { getApiUrl } from "../config/api.js"
 
 const SimulatorPage = () => {
@@ -100,12 +100,7 @@ const SimulatorPage = () => {
   if (isLoading) {
     return (
       <div className="container mx-auto px-4 py-8">
-        <div className="flex items-center justify-center h-64">
-          <div className="text-center">
-            <Settings className="w-12 h-12 text-blue-500 animate-pulse mx-auto mb-4" />
-            <h2 className="text-xl font-semibold text-gray-700">Loading Decks...</h2>
-          </div>
-        </div>
+        <LoadingSpinner message="Loading Decks..." />
       </div>
     )
   }
@@ -123,200 +118,48 @@ const SimulatorPage = () => {
         <CardContent className="space-y-6">
           {/* Deck Selection */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Player 1 Deck */}
-            <div className="space-y-2">
-              <Label htmlFor="player1-deck" className="text-sm font-medium">
-                Player 1 Deck
-              </Label>
-              <Select value={player1Deck} onValueChange={setPlayer1Deck}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select deck for Player 1" />
-                </SelectTrigger>
-                <SelectContent>
-                  {testDecks.map((deck) => (
-                    <SelectItem key={deck.id} value={deck.id}>
-                      <div className="flex items-center space-x-2">
-                        <Target className="w-4 h-4 text-blue-500" />
-                        <div>
-                          <div className="font-medium">{deck.name}</div>
-                          <div className="text-xs text-gray-500">{deck.description}</div>
-                        </div>
-                      </div>
-                    </SelectItem>
-                  ))}
-                  {userDecks.length > 0 && (
-                    <>
-                      <div className="px-2 py-1 text-xs font-semibold text-gray-500">User Decks</div>
-                      {userDecks.map((deck) => (
-                        <SelectItem key={deck.id} value={deck.id}>
-                          <div className="flex items-center space-x-2">
-                            <Target className="w-4 h-4 text-green-500" />
-                            <div>
-                              <div className="font-medium">{deck.name}</div>
-                              <div className="text-xs text-gray-500">{deck.description}</div>
-                            </div>
-                          </div>
-                        </SelectItem>
-                      ))}
-                    </>
-                  )}
-                </SelectContent>
-              </Select>
-            </div>
-
-            {/* Player 2 Deck */}
-            <div className="space-y-2">
-              <Label htmlFor="player2-deck" className="text-sm font-medium">
-                Player 2 Deck
-              </Label>
-              <Select value={player2Deck} onValueChange={setPlayer2Deck}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select deck for Player 2" />
-                </SelectTrigger>
-                <SelectContent>
-                  {testDecks.map((deck) => (
-                    <SelectItem key={deck.id} value={deck.id}>
-                      <div className="flex items-center space-x-2">
-                        <Target className="w-4 h-4 text-blue-500" />
-                        <div>
-                          <div className="font-medium">{deck.name}</div>
-                          <div className="text-xs text-gray-500">{deck.description}</div>
-                        </div>
-                      </div>
-                    </SelectItem>
-                  ))}
-                  {userDecks.length > 0 && (
-                    <>
-                      <div className="px-2 py-1 text-xs font-semibold text-gray-500">User Decks</div>
-                      {userDecks.map((deck) => (
-                        <SelectItem key={deck.id} value={deck.id}>
-                          <div className="flex items-center space-x-2">
-                            <Target className="w-4 h-4 text-green-500" />
-                            <div>
-                              <div className="font-medium">{deck.name}</div>
-                              <div className="text-xs text-gray-500">{deck.description}</div>
-                            </div>
-                          </div>
-                        </SelectItem>
-                      ))}
-                    </>
-                  )}
-                </SelectContent>
-              </Select>
-            </div>
+            <DeckSelector
+              label="Player 1 Deck"
+              value={player1Deck}
+              onValueChange={setPlayer1Deck}
+              testDecks={testDecks}
+              userDecks={userDecks}
+              placeholder="Select deck for Player 1"
+            />
+            <DeckSelector
+              label="Player 2 Deck"
+              value={player2Deck}
+              onValueChange={setPlayer2Deck}
+              testDecks={testDecks}
+              userDecks={userDecks}
+              placeholder="Select deck for Player 2"
+            />
           </div>
 
           {/* First Player Selection */}
-          <div className="space-y-3">
-            <Label className="text-sm font-medium">First Player</Label>
-            <RadioGroup value={firstPlayer} onValueChange={setFirstPlayer} className="flex space-x-6">
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem value="player1" id="player1" />
-                <Label htmlFor="player1" className="text-sm">Player 1</Label>
-              </div>
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem value="player2" id="player2" />
-                <Label htmlFor="player2" className="text-sm">Player 2</Label>
-              </div>
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem value="random" id="random" />
-                <Label htmlFor="random" className="text-sm flex items-center space-x-1">
-                  <Shuffle className="w-4 h-4" />
-                  <span>Random</span>
-                </Label>
-              </div>
-            </RadioGroup>
-          </div>
+          <FirstPlayerSelector
+            value={firstPlayer}
+            onValueChange={setFirstPlayer}
+          />
 
           {/* Strategy and Analysis Settings */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Strategy Selection */}
-            <div className="space-y-2">
-              <Label htmlFor="strategy" className="text-sm font-medium">
-                Strategy
-              </Label>
-              <Select value={strategy} onValueChange={setStrategy}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select strategy" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="Default Strategy">Default Strategy</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
+          <SimulationSettings
+            strategy={strategy}
+            setStrategy={setStrategy}
+            analysisMode={analysisMode}
+            setAnalysisMode={setAnalysisMode}
+          />
 
-            {/* Analysis Mode */}
-            <div className="space-y-2">
-              <Label htmlFor="analysis-mode" className="text-sm font-medium">
-                Analysis Mode
-              </Label>
-              <Select value={analysisMode} onValueChange={setAnalysisMode}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select analysis mode" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="optimal">Optimal Paths</SelectItem>
-                  <SelectItem value="full">Full Permutations</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-          </div>
-
-          {/* Turns and Paths Settings */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Max Turns per Player */}
-            <div className="space-y-2">
-              <Label htmlFor="max-turns" className="text-sm font-medium">
-                Max Turns per Player
-              </Label>
-              <Input
-                id="max-turns"
-                type="number"
-                min="1"
-                max="10"
-                value={maxTurns}
-                onChange={(e) => setMaxTurns(parseInt(e.target.value) || 4)}
-                className="w-full"
-              />
-            </div>
-
-            {/* Max Paths per Turn */}
-            <div className="space-y-2">
-              <Label htmlFor="max-paths" className="text-sm font-medium">
-                Max Paths per Turn
-              </Label>
-              <Input
-                id="max-paths"
-                type="number"
-                min="1"
-                max="20"
-                value={maxPathsPerTurn}
-                onChange={(e) => setMaxPathsPerTurn(parseInt(e.target.value) || 5)}
-                className="w-full"
-              />
-            </div>
-          </div>
-
-          {/* Start Simulation Button */}
-          <div className="flex justify-center pt-4">
-            <Button
-              onClick={handleStartSimulation}
-              disabled={isSimulating || !player1Deck || !player2Deck}
-              className="px-8 py-2"
-            >
-              {isSimulating ? (
-                <>
-                  <Settings className="w-4 h-4 mr-2 animate-spin" />
-                  Simulating...
-                </>
-              ) : (
-                <>
-                  <Play className="w-4 h-4 mr-2" />
-                  Start Simulation
-                </>
-              )}
-            </Button>
-          </div>
+          {/* Simulation Controls */}
+          <SimulationControls
+            maxTurns={maxTurns}
+            setMaxTurns={setMaxTurns}
+            maxPathsPerTurn={maxPathsPerTurn}
+            setMaxPathsPerTurn={setMaxPathsPerTurn}
+            isSimulating={isSimulating}
+            onStartSimulation={handleStartSimulation}
+            canStart={player1Deck && player2Deck}
+          />
         </CardContent>
       </Card>
 

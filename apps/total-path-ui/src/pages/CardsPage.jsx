@@ -2,6 +2,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { useEffect, useState } from "react"
 import CardComponent from "../components/CardComponent.jsx"
+import ErrorDisplay from "../components/ErrorDisplay"
+import LoadingSpinner from "../components/LoadingSpinner"
+import ResponsiveCardGrid from "../components/ResponsiveCardGrid"
 import { loadLorcanaCards } from "../utils/dataLoader.js"
 
 const CARDS_PER_PAGE = 100
@@ -41,38 +44,16 @@ function CardsPage ({ ruleConfig, availableConfigs }) {
   const currentCards = cards.slice(startIndex, endIndex)
 
   if (loading) {
-    return (
-      <div className="flex items-center justify-center py-12">
-        <Card className="w-96">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary mx-auto"></div>
-              <p className="mt-4 text-lg text-muted-foreground">Loading cards...</p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-    )
+    return <LoadingSpinner message="Loading cards..." />
   }
 
   if (error) {
     return (
-      <div className="flex items-center justify-center py-12">
-        <Card className="w-96">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <div className="text-destructive text-6xl mb-4">⚠️</div>
-              <h2 className="text-2xl font-bold mb-2">
-                Error Loading Cards
-              </h2>
-              <p className="text-muted-foreground mb-4">{error}</p>
-              <Button onClick={() => window.location.reload()}>
-                Retry
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+      <ErrorDisplay
+        title="Error Loading Cards"
+        message={error}
+        onRetry={() => window.location.reload()}
+      />
     )
   }
 
@@ -90,17 +71,11 @@ function CardsPage ({ ruleConfig, availableConfigs }) {
       </Card>
 
       {/* Cards Grid */}
-      <div
-        className="grid gap-4 mb-8 justify-items-center"
-        style={{
-          gridTemplateColumns: "repeat(auto-fit, minmax(256px, 256px))",
-          justifyContent: "center",
-        }}
-      >
+      <ResponsiveCardGrid className="mb-8">
         {currentCards.map((card) => (
           <CardComponent key={card.uniqueId} card={card} />
         ))}
-      </div>
+      </ResponsiveCardGrid>
 
       {/* Pagination */}
       {totalPages > 1 && (

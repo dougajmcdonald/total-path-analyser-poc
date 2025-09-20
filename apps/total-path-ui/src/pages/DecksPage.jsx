@@ -1,16 +1,18 @@
 import { Button } from "@/components/ui/button"
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
+    Card,
+    CardContent,
+    CardDescription,
+    CardHeader,
+    CardTitle,
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { useEffect, useState } from "react"
 import CardComponent from "../components/CardComponent.jsx"
+import LoadingSpinner from "../components/LoadingSpinner"
+import ResponsiveCardGrid from "../components/ResponsiveCardGrid"
 import { loadLorcanaCards } from "../utils/dataLoader.js"
 
 function DecksPage ({ ruleConfig }) {
@@ -221,18 +223,7 @@ function DecksPage ({ ruleConfig }) {
   }
 
   if (loading) {
-    return (
-      <div className="flex items-center justify-center py-12">
-        <Card className="w-96">
-          <CardContent className="pt-6">
-            <div className="text-center">
-              <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary mx-auto"></div>
-              <p className="mt-4 text-lg text-muted-foreground">Loading cards...</p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-    )
+    return <LoadingSpinner message="Loading cards..." />
   }
 
   return (
@@ -366,7 +357,7 @@ function DecksPage ({ ruleConfig }) {
               </CardHeader>
               <CardContent>
                 {/* Deck Cards Grid - Full Width */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                <ResponsiveCardGrid>
                   {parsedDeck
                     .sort((a, b) => (a.cost || 0) - (b.cost || 0))
                     .map((card, index) => (
@@ -377,7 +368,7 @@ function DecksPage ({ ruleConfig }) {
                         </div>
                       </div>
                     ))}
-                </div>
+                </ResponsiveCardGrid>
               </CardContent>
             </Card>
           </div>

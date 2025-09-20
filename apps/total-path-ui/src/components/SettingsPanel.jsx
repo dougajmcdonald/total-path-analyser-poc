@@ -34,7 +34,7 @@ const SettingsPanel = ({
       />
       
       {/* Settings Panel */}
-      <div className="fixed top-20 right-4 z-50 w-96 max-w-[calc(100vw-2rem)]">
+      <div className="fixed top-20 right-4 z-50 w-96 max-w-[calc(100vw-2rem)] md:top-20 md:right-4 sm:top-16 sm:right-2 sm:w-[calc(100vw-1rem)]">
         <Card className="shadow-lg border-2">
           <CardContent className="pt-6">
             <div className="flex items-center justify-between mb-4">
