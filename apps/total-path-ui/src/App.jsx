@@ -1,9 +1,7 @@
-import { Settings } from "lucide-react"
 import { useEffect, useState } from "react"
-import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom"
-import SettingsPanel from "./components/SettingsPanel"
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
+import Navigation from "./components/Navigation"
 import { ThemeProvider } from "./components/ThemeProvider"
-import { Button } from "./components/ui/button"
 import { getApiUrl } from "./config/api.js"
 import CardsPage from "./pages/CardsPage.jsx"
 import DashboardPage from "./pages/DashboardPage.jsx"
@@ -17,7 +15,6 @@ function App () {
   const [availableConfigs, setAvailableConfigs] = useState({})
   const [configLoading, setConfigLoading] = useState(true)
   const [selectedColors, setSelectedColors] = useState(["all"])
-  const [showSettings, setShowSettings] = useState(false)
   
   const availableColors = ["all", "Amber", "Amethyst", "Emerald", "Ruby", "Sapphire", "Steel"]
 
@@ -58,54 +55,16 @@ function App () {
         <div className="min-h-screen">
           <div className="container mx-auto px-4 py-8">
             {/* Navigation */}
-            <nav className="mb-8">
-              <div className="flex justify-between items-center">
-                <div className="text-left">
-                  <h1 className="text-2xl font-bold mb-1">
-                    Lorcana Paths
-                  </h1>
-                  <p className="text-sm text-muted-foreground">
-                    Disney Lorcana Deck Analysis & Simulation
-                  </p>
-                </div>
-                <div className="flex space-x-4">
-                  <Button asChild variant="outline">
-                    <Link to="/">Dashboard</Link>
-                  </Button>
-                  <Button asChild variant="outline">
-                    <Link to="/cards">Browse Cards</Link>
-                  </Button>
-                  <Button asChild variant="outline">
-                    <Link to="/decks">Deck Builder</Link>
-                  </Button>
-                  <Button asChild variant="outline">
-                    <Link to="/simulator">Simulator</Link>
-                  </Button>
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={() => setShowSettings(!showSettings)}
-                    className="ml-2"
-                  >
-                    <Settings className="w-4 h-4" />
-                  </Button>
-                </div>
-              </div>
-
-              {/* Settings Panel */}
-              <SettingsPanel
-                isOpen={showSettings}
-                onClose={() => setShowSettings(false)}
-                ruleConfig={ruleConfig}
-                setRuleConfig={setRuleConfig}
-                availableConfigs={availableConfigs}
-                configLoading={configLoading}
-                selectedColors={selectedColors}
-                setSelectedColors={setSelectedColors}
-                availableColors={availableColors}
-                handleColorToggle={handleColorToggle}
-              />
-            </nav>
+            <Navigation
+              ruleConfig={ruleConfig}
+              setRuleConfig={setRuleConfig}
+              availableConfigs={availableConfigs}
+              configLoading={configLoading}
+              selectedColors={selectedColors}
+              setSelectedColors={setSelectedColors}
+              availableColors={availableColors}
+              handleColorToggle={handleColorToggle}
+            />
 
             {/* Routes */}
             <Routes>
