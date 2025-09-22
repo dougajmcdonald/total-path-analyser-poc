@@ -1,9 +1,7 @@
-import { BarChart3, RotateCcw } from "lucide-react"
+import { BarChart3 } from "lucide-react"
 import React, { useCallback, useEffect, useMemo, useState } from "react"
 import PlayerGameState from "./PlayerGameState"
 import TimelineGrid from "./TimelineGrid"
-import { Badge } from "./ui/badge"
-import { Button } from "./ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 
 const SimulationVisualization = ({ simulationData: propSimulationData }) => {
@@ -155,43 +153,7 @@ const SimulationVisualization = ({ simulationData: propSimulationData }) => {
 
   return (
     <div className="w-full space-y-6">
-      {/* Simulation Results Header */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-lg flex items-center space-x-2">
-            <BarChart3 className="w-5 h-5" />
-            <span>Simulation Results</span>
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <Button
-                variant="outline"
-                onClick={handleResetSimulation}
-                className="flex items-center space-x-2"
-              >
-                <RotateCcw className="w-4 h-4" />
-                <span>Reset</span>
-              </Button>
-            </div>
 
-            {selectedPathInfo && (
-              <div className="flex items-center space-x-4 text-sm">
-                <Badge variant="outline">
-                  Turn {selectedPathInfo.turnNumber}
-                </Badge>
-                <Badge variant="secondary">
-                  {selectedPathInfo.activePlayer === "player1" ? "Player 1" : "Player 2"}
-                </Badge>
-                <Badge variant="default">
-                  Score: {selectedPathInfo.score}
-                </Badge>
-              </div>
-            )}
-          </div>
-        </CardContent>
-      </Card>
 
       {/* Player 1 Section */}
       {playerTurns.player1.length > 0 && (

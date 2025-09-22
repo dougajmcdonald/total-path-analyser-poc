@@ -1,7 +1,6 @@
 import { Heart, Users, Zap } from "lucide-react"
 import React, { memo } from "react"
 import CardImage from "./CardImage"
-import { Badge } from "./ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 
 const PlayerGameState = memo(({ player, playerName, gameState, selectedPath }) => {
@@ -23,11 +22,6 @@ const PlayerGameState = memo(({ player, playerName, gameState, selectedPath }) =
       <CardHeader>
         <CardTitle className="text-sm flex items-center justify-between">
           {playerName}
-          {selectedPath && (
-            <Badge variant="outline" className="text-xs">
-              {selectedPath}
-            </Badge>
-          )}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">
