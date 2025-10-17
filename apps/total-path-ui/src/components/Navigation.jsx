@@ -12,7 +12,11 @@ const Navigation = ({
   selectedColors,
   setSelectedColors,
   availableColors,
-  handleColorToggle
+  handleColorToggle,
+  selectedSets,
+  setSelectedSets,
+  availableSets,
+  handleSetToggle
 }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [showSettings, setShowSettings] = useState(false)
@@ -142,6 +146,10 @@ const Navigation = ({
         setSelectedColors={setSelectedColors}
         availableColors={availableColors}
         handleColorToggle={handleColorToggle}
+        selectedSets={selectedSets}
+        setSelectedSets={setSelectedSets}
+        availableSets={availableSets}
+        handleSetToggle={handleSetToggle}
       />
     </>
   )

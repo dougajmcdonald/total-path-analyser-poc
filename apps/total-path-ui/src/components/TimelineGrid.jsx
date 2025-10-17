@@ -1,13 +1,23 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import React, { useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import { Badge } from "./ui/badge"
 import { Button } from "./ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 
 const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
-  const [scrollPosition, setScrollPosition] = useState(0)
-  const cardWidth = 280 // Width of each turn column - increased for better text display
-  const scrollAmount = cardWidth
+  const scrollContainerRef = useRef(null)
+  const [cardWidth, setCardWidth] = useState(280)
+  
+  // Responsive card width - smaller on mobile for better fit
+  useEffect(() => {
+    const updateCardWidth = () => {
+      setCardWidth(window.innerWidth < 640 ? 240 : 280)
+    }
+    
+    updateCardWidth()
+    window.addEventListener('resize', updateCardWidth)
+    return () => window.removeEventListener('resize', updateCardWidth)
+  }, [])
 
   // Group turns by player
   const playerTurns = {
@@ -16,10 +26,27 @@ const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
   }
 
   const handleScroll = (direction) => {
-    const newPosition = direction === "left" 
-      ? Math.max(0, scrollPosition - scrollAmount)
-      : scrollPosition + scrollAmount
-    setScrollPosition(newPosition)
+    if (!scrollContainerRef.current) return
+    
+    const container = scrollContainerRef.current
+    const scrollAmount = cardWidth
+    
+    if (direction === "left") {
+      container.scrollBy({ left: -scrollAmount, behavior: "smooth" })
+    } else {
+      container.scrollBy({ left: scrollAmount, behavior: "smooth" })
+    }
+  }
+
+  const canScrollLeft = () => {
+    if (!scrollContainerRef.current) return false
+    return scrollContainerRef.current.scrollLeft > 0
+  }
+
+  const canScrollRight = () => {
+    if (!scrollContainerRef.current) return false
+    const container = scrollContainerRef.current
+    return container.scrollLeft < (container.scrollWidth - container.clientWidth)
   }
 
   const getActionText = (actionType) => {
@@ -51,7 +78,14 @@ const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
 
   // Helper function to render a single turn card
   const renderTurnCard = (turn) => (
-    <div key={turn.turnNumber} className="flex-shrink-0 mr-4" style={{ width: cardWidth }}>
+    <div 
+      key={turn.turnNumber} 
+      className="flex-shrink-0" 
+      style={{ 
+        width: cardWidth,
+        scrollSnapAlign: "start"
+      }}
+    >
       <Card className="h-full">
         <CardHeader className="pb-2">
           <CardTitle className="text-sm flex items-center justify-between">
@@ -122,13 +156,14 @@ const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
 
   return (
     <div className="w-full">
-      {/* Scroll Controls */}
+      {/* Header with Scroll Controls */}
       <div className="flex justify-between items-center mb-4">
         <Button
           variant="outline"
           size="sm"
           onClick={() => handleScroll("left")}
-          disabled={scrollPosition === 0}
+          disabled={!canScrollLeft()}
+          className="hidden sm:flex"
         >
           <ChevronLeft className="w-4 h-4" />
         </Button>
@@ -137,13 +172,14 @@ const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
           variant="outline"
           size="sm"
           onClick={() => handleScroll("right")}
+          disabled={!canScrollRight()}
+          className="hidden sm:flex"
         >
           <ChevronRight className="w-4 h-4" />
         </Button>
       </div>
 
-      {/* Timeline Grid - Two Rows for Players */}
-      
+      {/* Timeline Grid - Horizontal Scroll Container */}
       <div className="space-y-6">
         {/* Player 1 Row */}
         {playerTurns.player1.length > 0 && (
@@ -153,13 +189,19 @@ const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
               <div className="ml-4 h-px bg-blue-200 flex-1"></div>
             </div>
             <div 
-              className="flex transition-transform duration-300 ease-in-out"
-              style={{ transform: `translateX(-${scrollPosition}px)` }}
+              ref={scrollContainerRef}
+              className="flex overflow-x-auto scrollbar-hide gap-4 pb-4"
+              style={{ 
+                scrollSnapType: "x mandatory",
+                scrollbarWidth: "none",
+                msOverflowStyle: "none"
+              }}
             >
               {playerTurns.player1.map(renderTurnCard)}
             </div>
           </div>
         )}
+        
         {/* Player 2 Row */}
         {playerTurns.player2.length > 0 && (        
           <div className="relative">
@@ -168,15 +210,18 @@ const TimelineGrid = ({ simulationData, selectedPath, onPathSelect }) => {
               <div className="ml-4 h-px bg-red-200 flex-1"></div>
             </div>
             <div 
-              className="flex transition-transform duration-300 ease-in-out"
-              style={{ transform: `translateX(-${scrollPosition}px)` }}
+              className="flex overflow-x-auto scrollbar-hide gap-4 pb-4"
+              style={{ 
+                scrollSnapType: "x mandatory",
+                scrollbarWidth: "none",
+                msOverflowStyle: "none"
+              }}
             >
               {playerTurns.player2.map(renderTurnCard)}
             </div>
           </div>
         )}
       </div>
-    
     </div>
   )
 }

@@ -15,7 +15,7 @@ import LoadingSpinner from "../components/LoadingSpinner"
 import ResponsiveCardGrid from "../components/ResponsiveCardGrid"
 import { loadLorcanaCards } from "../utils/dataLoader.js"
 
-function DecksPage ({ ruleConfig }) {
+function DecksPage ({ ruleConfig, selectedSets }) {
   const [deckName, setDeckName] = useState("")
   const [deckExport, setDeckExport] = useState("")
   const [parsedDeck, setParsedDeck] = useState(null)
@@ -23,6 +23,7 @@ function DecksPage ({ ruleConfig }) {
   const [savedDecks, setSavedDecks] = useState([])
   const [selectedDeck, setSelectedDeck] = useState(null)
   const [allCards, setAllCards] = useState([])
+  const [filteredCards, setFilteredCards] = useState([])
   const [loading, setLoading] = useState(true)
 
   // Load all cards for lookup
@@ -38,6 +39,17 @@ function DecksPage ({ ruleConfig }) {
     }
     loadCards()
   }, [ruleConfig])
+
+  // Filter cards based on selected sets
+  useEffect(() => {
+    if (!allCards.length) return
+
+    const filtered = selectedSets.includes('all')
+      ? allCards
+      : allCards.filter((card) => selectedSets.includes(card.setNum.toString()))
+
+    setFilteredCards(filtered)
+  }, [allCards, selectedSets])
 
   // Load saved decks from localStorage
   useEffect(() => {
@@ -98,14 +110,14 @@ function DecksPage ({ ruleConfig }) {
 
     for (const parsedCard of parsedCards) {
       // Try exact name match first
-      let matches = allCards.filter(
+      let matches = filteredCards.filter(
         (card) =>
           card.name.toLowerCase() === parsedCard.fullCardName.toLowerCase(),
       )
 
       // If no exact match, try partial match
       if (matches.length === 0) {
-        matches = allCards.filter((card) =>
+        matches = filteredCards.filter((card) =>
           card.name
             .toLowerCase()
             .includes(parsedCard.fullCardName.toLowerCase()),
@@ -234,6 +246,13 @@ function DecksPage ({ ruleConfig }) {
           <h2 className="text-3xl font-bold mb-2">Deck Builder</h2>
           <p className="text-muted-foreground">
             Import and manage your Disney Lorcana decks
+            {!selectedSets.includes('all') && (
+              <span className="ml-2">
+                (showing cards from {selectedSets.length === 1 
+                  ? `Set ${selectedSets[0]}` 
+                  : `${selectedSets.length} sets`})
+              </span>
+            )}
           </p>
         </CardContent>
       </Card>

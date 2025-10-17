@@ -1,0 +1,61 @@
+{
+  "cardStats": {
+    "total": 1021,
+    "byType": {
+      "character": 787,
+      "action - song": 27,
+      "action": 102,
+      "item": 75,
+      "location": 30
+    },
+    "byColor": {
+      "Amber, Steel": 8,
+      "Amber, Sapphire": 8,
+      "Amber": 150,
+      "Amber, Emerald": 8,
+      "Amber, Ruby": 8,
+      "Amber, Amethyst": 8,
+      "Amethyst": 151,
+      "Amethyst, Steel": 8,
+      "Amethyst, Ruby": 8,
+      "Amethyst, Emerald": 8,
+      "Amethyst, Sapphire": 8,
+      "Emerald": 150,
+      "Emerald, Ruby": 8,
+      "Emerald, Sapphire": 8,
+      "Emerald, Steel": 8,
+      "Ruby": 150,
+      "Ruby, Steel": 8,
+      "Ruby, Sapphire": 8,
+      "Sapphire": 150,
+      "Sapphire, Steel": 8,
+      "Steel": 150
+    },
+    "byRarity": {
+      "rare": 234,
+      "common": 373,
+      "super rare": 90,
+      "uncommon": 265,
+      "legendary": 59
+    },
+    "bySet": {
+      "5": 204,
+      "6": 204,
+      "7": 204,
+      "8": 204,
+      "9": 205
+    }
+  },
+  "ruleConfig": {
+    "name": "Core Constructed",
+    "description": "Sets 5-9 only",
+    "validSetNums": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "lastUpdated": "2025-10-17T20:15:05.321Z"
+}

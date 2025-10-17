@@ -15,8 +15,33 @@ function App () {
   const [availableConfigs, setAvailableConfigs] = useState({})
   const [configLoading, setConfigLoading] = useState(true)
   const [selectedColors, setSelectedColors] = useState(["all"])
+  const [selectedSets, setSelectedSets] = useState(["all"])
   
   const availableColors = ["all", "Amber", "Amethyst", "Emerald", "Ruby", "Sapphire", "Steel"]
+  const availableSets = [
+    { value: "all", label: "All Sets" },
+    { value: "1", label: "The First Chapter" },
+    { value: "2", label: "Rise of the Floodborn" },
+    { value: "3", label: "Into the Inklands" },
+    { value: "4", label: "Ursula's Return" },
+    { value: "5", label: "Shimmering Skies" },
+    { value: "6", label: "Fabled" },
+    { value: "7", label: "Archazia's Island" },
+    { value: "8", label: "Reign of Jafar" },
+    { value: "9", label: "Azurite Sea" }
+  ]
+
+  // Get available sets based on current rule config
+  const getAvailableSetsForConfig = () => {
+    if (!availableConfigs[ruleConfig]?.validSetNums) {
+      return availableSets
+    }
+    
+    const validSetNums = availableConfigs[ruleConfig].validSetNums
+    return availableSets.filter(set => 
+      set.value === "all" || validSetNums.includes(parseInt(set.value))
+    )
+  }
 
   // Handle color selection with multiple values
   const handleColorToggle = (color) => {
@@ -30,6 +55,22 @@ function App () {
         
         // If no colors selected, default to "all"
         return newColors.length === 0 ? ["all"] : newColors
+      })
+    }
+  }
+
+  // Handle set selection with multiple values
+  const handleSetToggle = (setValue) => {
+    if (setValue === "all") {
+      setSelectedSets(["all"])
+    } else {
+      setSelectedSets(prev => {
+        const newSets = prev.includes(setValue) 
+          ? prev.filter(s => s !== setValue) // Remove if already selected
+          : [...prev.filter(s => s !== "all"), setValue] // Add and remove "all"
+        
+        // If no sets selected, default to "all"
+        return newSets.length === 0 ? ["all"] : newSets
       })
     }
   }
@@ -49,6 +90,23 @@ function App () {
     loadConfigs()
   }, [])
 
+  // Reset selected sets when rule config changes
+  useEffect(() => {
+    if (availableConfigs[ruleConfig]?.validSetNums) {
+      const validSetNums = availableConfigs[ruleConfig].validSetNums
+      const currentSelectedSets = selectedSets.filter(set => 
+        set === "all" || validSetNums.includes(parseInt(set))
+      )
+      
+      // If no valid sets are selected, reset to "all"
+      if (currentSelectedSets.length === 0) {
+        setSelectedSets(["all"])
+      } else if (currentSelectedSets.length !== selectedSets.length) {
+        setSelectedSets(currentSelectedSets)
+      }
+    }
+  }, [ruleConfig, availableConfigs])
+
   return (
     <Router>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
@@ -64,6 +122,10 @@ function App () {
               setSelectedColors={setSelectedColors}
               availableColors={availableColors}
               handleColorToggle={handleColorToggle}
+              selectedSets={selectedSets}
+              setSelectedSets={setSelectedSets}
+              availableSets={getAvailableSetsForConfig()}
+              handleSetToggle={handleSetToggle}
             />
 
             {/* Routes */}
@@ -85,6 +147,8 @@ function App () {
                   <CardsPage
                     ruleConfig={ruleConfig}
                     availableConfigs={availableConfigs}
+                    selectedColors={selectedColors}
+                    selectedSets={selectedSets}
                   />
                 }
               />
@@ -94,6 +158,7 @@ function App () {
                   <DecksPage
                     ruleConfig={ruleConfig}
                     availableConfigs={availableConfigs}
+                    selectedSets={selectedSets}
                   />
                 }
               />

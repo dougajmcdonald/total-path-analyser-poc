@@ -21,7 +21,11 @@ const SettingsPanel = ({
   selectedColors,
   setSelectedColors,
   availableColors,
-  handleColorToggle
+  handleColorToggle,
+  selectedSets,
+  setSelectedSets,
+  availableSets,
+  handleSetToggle
 }) => {
   if (!isOpen) return null
 
@@ -116,6 +120,33 @@ const SettingsPanel = ({
                       ? selectedColors[0] 
                       : `${selectedColors.length} colors (${selectedColors.join(", ")})`
                   } cards
+                </p>
+              </div>
+
+              {/* Set Filter */}
+              <div>
+                <Label className="block text-sm font-medium mb-2">
+                  Set Filter
+                </Label>
+                <div className="flex flex-wrap gap-2">
+                  {availableSets.map((set) => (
+                    <Button
+                      key={set.value}
+                      variant={selectedSets.includes(set.value) ? "default" : "outline"}
+                      size="sm"
+                      onClick={() => handleSetToggle(set.value)}
+                    >
+                      {set.label}
+                    </Button>
+                  ))}
+                </div>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Card browser and deck builder will show cards from {selectedSets.includes("all") 
+                    ? "all sets" 
+                    : selectedSets.length === 1 
+                      ? availableSets.find(s => s.value === selectedSets[0])?.label
+                      : `${selectedSets.length} sets`
+                  }
                 </p>
               </div>
             </div>
