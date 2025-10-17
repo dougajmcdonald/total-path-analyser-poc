@@ -14,6 +14,11 @@ import CardComponent from "../components/CardComponent.jsx"
 import LoadingSpinner from "../components/LoadingSpinner"
 import ResponsiveCardGrid from "../components/ResponsiveCardGrid"
 import { loadLorcanaCards } from "../utils/dataLoader.js"
+import {
+    addDeck,
+    deleteDeck,
+    loadSavedDecks
+} from "../utils/deckStorage.js"
 
 function DecksPage ({ ruleConfig, selectedSets }) {
   const [deckName, setDeckName] = useState("")
@@ -51,23 +56,11 @@ function DecksPage ({ ruleConfig, selectedSets }) {
     setFilteredCards(filtered)
   }, [allCards, selectedSets])
 
-  // Load saved decks from localStorage
+  // Load saved decks from shared storage
   useEffect(() => {
-    const saved = localStorage.getItem("savedDecks")
-    if (saved) {
-      try {
-        setSavedDecks(JSON.parse(saved))
-      } catch {
-        // Error loading saved decks
-      }
-    }
+    const saved = loadSavedDecks()
+    setSavedDecks(saved)
   }, [])
-
-  // Save decks to localStorage
-  const saveDecksToStorage = (decks) => {
-    localStorage.setItem("savedDecks", JSON.stringify(decks))
-    setSavedDecks(decks)
-  }
 
   // Parse deck export text
   const parseDeckExport = (exportText) => {
@@ -211,7 +204,7 @@ function DecksPage ({ ruleConfig, selectedSets }) {
     }
   }
 
-  // Save deck
+  // Save deck using shared storage
   const handleSaveDeck = () => {
     if (!parsedDeck) return
 
@@ -223,12 +216,15 @@ function DecksPage ({ ruleConfig, selectedSets }) {
       createdAt: new Date().toISOString(),
     }
 
-    const updatedDecks = [...savedDecks, deck]
-    saveDecksToStorage(updatedDecks)
+    const updatedDecks = addDeck(deck)
+    setSavedDecks(updatedDecks)
     setDeckName("")
     setDeckExport("")
     setParsedDeck(null)
     setValidationErrors([])
+    
+    // Notify other components that decks have been updated
+    window.dispatchEvent(new CustomEvent('decksUpdated'))
   }
 
   // Load saved deck
@@ -237,14 +233,17 @@ function DecksPage ({ ruleConfig, selectedSets }) {
     setParsedDeck(deck.cards)
   }
 
-  // Delete saved deck
+  // Delete saved deck using shared storage
   const handleDeleteDeck = (deckId) => {
-    const updatedDecks = savedDecks.filter((deck) => deck.id !== deckId)
-    saveDecksToStorage(updatedDecks)
+    const updatedDecks = deleteDeck(deckId)
+    setSavedDecks(updatedDecks)
     if (selectedDeck?.id === deckId) {
       setSelectedDeck(null)
       setParsedDeck(null)
     }
+    
+    // Notify other components that decks have been updated
+    window.dispatchEvent(new CustomEvent('decksUpdated'))
   }
 
   if (loading) {

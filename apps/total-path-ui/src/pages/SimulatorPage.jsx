@@ -8,6 +8,7 @@ import SimulationSettings from "../components/SimulationSettings"
 import SimulationVisualization from "../components/SimulationVisualization"
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
 import { getApiUrl } from "../config/api.js"
+import { getUserDecksForSimulator } from "../utils/deckStorage.js"
 
 const SimulatorPage = () => {
   const [testDecks, setTestDecks] = useState([])
@@ -37,9 +38,9 @@ const SimulatorPage = () => {
           setTestDecks(testDecksData)
         }
 
-        // TODO: Load user decks from DecksPage
-        // For now, we'll use empty array
-        setUserDecks([])
+        // Load user decks from shared storage
+        const userDecksData = getUserDecksForSimulator()
+        setUserDecks(userDecksData)
         
         setIsLoading(false)
       } catch {
@@ -48,6 +49,22 @@ const SimulatorPage = () => {
     }
 
     loadDecks()
+
+    // Listen for storage changes to refresh user decks
+    const handleStorageChange = () => {
+      const userDecksData = getUserDecksForSimulator()
+      setUserDecks(userDecksData)
+    }
+
+    window.addEventListener('storage', handleStorageChange)
+    
+    // Also listen for custom events from DecksPage
+    window.addEventListener('decksUpdated', handleStorageChange)
+
+    return () => {
+      window.removeEventListener('storage', handleStorageChange)
+      window.removeEventListener('decksUpdated', handleStorageChange)
+    }
   }, [])
 
 
