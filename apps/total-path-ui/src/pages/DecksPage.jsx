@@ -103,16 +103,29 @@ function DecksPage ({ ruleConfig, selectedSets }) {
     return { parsedCards, errors }
   }
 
+  // Card name aliases to handle data inconsistencies
+  const cardNameAliases = {
+    "lady kluck - protective confidant": "lady click - protective confidant",
+    // Add more aliases as needed
+  }
+
   // Find matching cards in our collection
   const findMatchingCards = (parsedCards) => {
     const matchedCards = []
     const errors = []
 
     for (const parsedCard of parsedCards) {
+      let searchName = parsedCard.fullCardName.toLowerCase()
+      
+      // Check for known aliases
+      if (cardNameAliases[searchName]) {
+        searchName = cardNameAliases[searchName]
+      }
+
       // Try exact name match first
       let matches = filteredCards.filter(
         (card) =>
-          card.name.toLowerCase() === parsedCard.fullCardName.toLowerCase(),
+          card.name.toLowerCase() === searchName,
       )
 
       // If no exact match, try partial match
@@ -120,7 +133,7 @@ function DecksPage ({ ruleConfig, selectedSets }) {
         matches = filteredCards.filter((card) =>
           card.name
             .toLowerCase()
-            .includes(parsedCard.fullCardName.toLowerCase()),
+            .includes(searchName),
         )
       }
 
