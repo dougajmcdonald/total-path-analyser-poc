@@ -138,6 +138,7 @@ function App () {
                     availableConfigs={availableConfigs}
                     selectedColors={selectedColors}
                     setSelectedColors={setSelectedColors}
+                    selectedSets={selectedSets}
                   />
                 }
               />

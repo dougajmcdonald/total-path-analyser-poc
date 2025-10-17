@@ -8,13 +8,13 @@ import {
     getCardStatistics,
 } from "../utils/dataLoader.js"
 
-function DashboardPage ({ ruleConfig, availableConfigs, selectedColors, setSelectedColors }) {
+function DashboardPage ({ ruleConfig, availableConfigs, selectedColors, setSelectedColors, selectedSets }) {
   const [analysis, setAnalysis] = useState(null)
   const [stats, setStats] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  // Load data when rule config or color filter changes
+  // Load data when rule config, color filter, or set filter changes
   useEffect(() => {
     async function loadData () {
       setLoading(true)
@@ -22,8 +22,8 @@ function DashboardPage ({ ruleConfig, availableConfigs, selectedColors, setSelec
 
       try {
         const [analysisData, statsData] = await Promise.all([
-          analyzeLorcanaData(ruleConfig, selectedColors),
-          getCardStatistics(ruleConfig, selectedColors),
+          analyzeLorcanaData(ruleConfig, selectedColors, selectedSets),
+          getCardStatistics(ruleConfig, selectedColors, selectedSets),
         ])
 
         setAnalysis(analysisData)
@@ -37,7 +37,7 @@ function DashboardPage ({ ruleConfig, availableConfigs, selectedColors, setSelec
     }
 
     loadData()
-  }, [ruleConfig, selectedColors])
+  }, [ruleConfig, selectedColors, selectedSets])
 
   if (loading) {
     return <LoadingSpinner message="Loading data..." />
