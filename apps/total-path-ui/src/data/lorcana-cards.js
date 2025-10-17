@@ -1,8 +1,9 @@
 // Auto-generated Lorcana card data
-// Generated at: 2025-09-07T12:41:32.406Z
-// Total cards: 1837
+// Generated at: 2025-10-17T20:15:33.3NZ
+// Total cards: 43801
 
-export const lorcanaCards = [
+export const lorcanaCards = 
+[
   {
     "artist": "Stefano Zanchi",
     "setName": "Archazia's Island",
@@ -24,8 +25,7 @@ export const lorcanaCards = [
     "cardNum": 1,
     "bodyText": "Destiny Calling: Your other characters get +2 {w}.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-03-09 00:50:35.0",
+    "dateModified": "2025-09-07 21:37:45.0",
     "strength": 4,
     "setId": "ARI"
   },
@@ -49,8 +49,7 @@ export const lorcanaCards = [
     "cardNum": 2,
     "bodyText": "Who's Next?: Whenever this character quests, you pay 2{i} less for the next Puppy character you play this turn.\nDon't Be Afraid: Your Puppy characters gain Ward. (Opponents can't choose them except to challenge.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-09 00:50:35.0",
+    "dateModified": "2025-09-07 21:37:45.0",
     "strength": 1,
     "setId": "ARI"
   },
@@ -74,8 +73,7 @@ export const lorcanaCards = [
     "uniqueId": "ARI-003",
     "cardNum": 3,
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-03-09 00:50:35.0",
+    "dateModified": "2025-09-07 21:37:45.0",
     "strength": 4,
     "setId": "ARI"
   },
@@ -99,8 +97,7 @@ export const lorcanaCards = [
     "cardNum": 4,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Bolt.) Mark Of Power: Whenever you ready this character, gain 1 lore for each other undamaged character you have in play. \nBolt Stare: {e} - Banish chosen Illusion character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-09 00:50:35.0",
+    "dateModified": "2025-09-07 21:37:45.0",
     "strength": 3,
     "setId": "ARI",
     "abilities": "Shift 5"
@@ -126,8 +123,7 @@ export const lorcanaCards = [
     "cardNum": 5,
     "bodyText": "There You Go: Whenever this character quests, you may remove up to 1 damage from each of your Puppy characters.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-09 00:50:35.0",
+    "dateModified": "2025-09-07 21:37:45.0",
     "strength": 1,
     "setId": "ARI"
   },
@@ -152,8 +148,7 @@ export const lorcanaCards = [
     "cardNum": 6,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-09 00:50:35.0",
+    "dateModified": "2025-09-07 21:37:45.0",
     "strength": 2,
     "setId": "ARI",
     "abilities": "Support"
@@ -178,8 +173,7 @@ export const lorcanaCards = [
     "cardNum": 7,
     "bodyText": "Captive Audience: {e} - If you have 3 or more other characters in play, draw a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-09 00:50:35.0",
+    "dateModified": "2025-09-07 21:37:45.0",
     "strength": 2,
     "setId": "ARI"
   },
@@ -203,8 +197,7 @@ export const lorcanaCards = [
     "uniqueId": "ARI-008",
     "cardNum": 8,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-09 00:50:35.0",
+    "dateModified": "2025-09-07 21:37:45.0",
     "strength": 3,
     "setId": "ARI"
   },
@@ -814,7 +807,7 @@ export const lorcanaCards = [
     "setNum": 7,
     "color": "Amber",
     "gamemode": "Lorcana",
-    "franchise": "Snow White",
+    "franchise": "Snow White and the Seven Dwarfs",
     "image": "https://lorcana-api.com/images/snow_white/fairest_in_the_land/snow_white-fairest_in_the_land-large.png",
     "cost": 4,
     "inkable": true,
@@ -827,7 +820,7 @@ export const lorcanaCards = [
     "cardNum": 33,
     "bodyText": "HIDDEN AWAY: This character can't be challenged.",
     "willpower": 2,
-    "dateModified": "2025-03-09 00:50:35.0",
+    "dateModified": "2025-09-07 21:32:32.0",
     "strength": 2,
     "setId": "ARI"
   },
@@ -1803,7 +1796,7 @@ export const lorcanaCards = [
     "setNum": 7,
     "color": "Amethyst",
     "gamemode": "Lorcana",
-    "franchise": "Snow White",
+    "franchise": "Snow White and the Seven Dwarfs",
     "image": "https://lorcana-api.com/images/the_queen/jealous_beauty/the_queen-jealous_beauty-large.png",
     "cost": 4,
     "inkable": true,
@@ -1815,7 +1808,7 @@ export const lorcanaCards = [
     "cardNum": 74,
     "bodyText": "NO ORDINARY APPLE: {e} - Choose 3 cards from chosen opponent's discard and put them on the bottom of their deck to gain 3 lore. If any Princess cards were moved this way, gain 4 lore instead.",
     "willpower": 3,
-    "dateModified": "2025-03-10 02:34:30.0",
+    "dateModified": "2025-09-07 21:32:32.0",
     "strength": 4,
     "setId": "ARI"
   },
@@ -1993,7 +1986,7 @@ export const lorcanaCards = [
     "setNum": 7,
     "color": "Amethyst",
     "gamemode": "Lorcana",
-    "franchise": "Snow White",
+    "franchise": "Snow White and the Seven Dwarfs",
     "image": "https://lorcana-api.com/images/show_me_more!/show_me_more!-large.png",
     "cost": 2,
     "inkable": false,
@@ -2004,7 +1997,7 @@ export const lorcanaCards = [
     "uniqueId": "ARI-082",
     "cardNum": 82,
     "bodyText": "Each player draws 3 cards.",
-    "dateModified": "2025-03-10 02:34:31.0",
+    "dateModified": "2025-09-07 21:32:32.0",
     "setId": "ARI"
   },
   {
@@ -2069,8 +2062,7 @@ export const lorcanaCards = [
     "uniqueId": "ARI-085",
     "cardNum": 85,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-10 02:34:31.0",
+    "dateModified": "2025-09-07 21:37:45.0",
     "strength": 4,
     "setId": "ARI"
   },
@@ -4825,7 +4817,7 @@ export const lorcanaCards = [
     "setNum": 7,
     "color": "Steel",
     "gamemode": "Lorcana",
-    "franchise": "Lilo and Stitch",
+    "franchise": "Lilo & Stitch",
     "image": "https://lorcana-api.com/images/gantu/experienced_enforcer/gantu-experienced_enforcer-large.png",
     "cost": 4,
     "inkable": false,
@@ -4837,7 +4829,7 @@ export const lorcanaCards = [
     "cardNum": 199,
     "bodyText": "CLOSE ALL CHANNELS: When you play this character, characters can't exert to sing songs until the start of your next turn.\nDON'T GET ANY IDEAS: Each player pays 2 {i} more to play actions or items. This doesn't  apply to singing songs.)",
     "willpower": 4,
-    "dateModified": "2025-03-10 02:34:36.0",
+    "dateModified": "2025-09-07 21:27:02.0",
     "strength": 2,
     "setId": "ARI"
   },
@@ -5869,7 +5861,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:11",
     "setNum": 6,
     "color": "Amethyst",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/the_white_rose/jewel_of_the_garden/the_white_rose-jewel_of_the_garden-large.png",
     "cost": 3,
     "inkable": true,
@@ -5882,7 +5874,7 @@ export const lorcanaCards = [
     "cardNum": 40,
     "bodyText": "A WEALTH OF HAPPINESS - When you play this character, gain 1 lore.",
     "willpower": 3,
-    "dateModified": "2025-05-30 17:23:26.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 3,
     "setId": "AZS"
   },
@@ -5965,7 +5957,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:11",
     "setNum": 6,
     "color": "Amethyst",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/the_carpenter/dinner_companion/the_carpenter-dinner_companion-large.png",
     "cost": 2,
     "inkable": false,
@@ -5978,7 +5970,7 @@ export const lorcanaCards = [
     "cardNum": 44,
     "bodyText": "I'LL GET YOU! - When this character is banished, you may exert chosen character.",
     "willpower": 1,
-    "dateModified": "2024-12-03 04:11:08.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 1,
     "setId": "AZS"
   },
@@ -6013,7 +6005,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:11",
     "setNum": 6,
     "color": "Amethyst",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/the_walrus/greedy_gourmand/the_walrus-greedy_gourmand-large.png",
     "cost": 4,
     "inkable": false,
@@ -6025,7 +6017,7 @@ export const lorcanaCards = [
     "uniqueId": "AZS-046",
     "cardNum": 46,
     "willpower": 6,
-    "dateModified": "2024-12-03 04:11:08.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 3,
     "setId": "AZS"
   },
@@ -6108,7 +6100,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:11",
     "setNum": 6,
     "color": "Amethyst",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/march_hare/absurd_host/march_hare-absurd_host-large.png",
     "cost": 4,
     "inkable": false,
@@ -6121,7 +6113,7 @@ export const lorcanaCards = [
     "cardNum": 50,
     "bodyText": "Rush (This character can challenge the turn they're played.)",
     "willpower": 3,
-    "dateModified": "2025-01-09 04:07:28.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 2,
     "setId": "AZS",
     "abilities": "Rush"
@@ -6322,7 +6314,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:12",
     "setNum": 6,
     "color": "Amethyst",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/mad_hatter/eccentric_host/mad_hatter-eccentric_host-large.png",
     "cost": 1,
     "inkable": false,
@@ -6334,7 +6326,7 @@ export const lorcanaCards = [
     "cardNum": 59,
     "bodyText": "WE'LL HAVE TO LOOK INTO THIS - Whenever this character quests, you may look at the top card of chosen player's deck. Put it on top of their deck or into their discard.",
     "willpower": 1,
-    "dateModified": "2024-12-03 04:11:08.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 1,
     "setId": "AZS"
   },
@@ -6345,7 +6337,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:12",
     "setNum": 6,
     "color": "Amethyst",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/a_very_merry_unbirthday/a_very_merry_unbirthday-large.png",
     "cost": 1,
     "inkable": false,
@@ -6358,7 +6350,7 @@ export const lorcanaCards = [
     "cardNum": 60,
     "bodyText": "- A character with cost 1 or more can {e} to sing this song for free.",
     "willpower": 0,
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 0,
     "setId": "AZS"
   },
@@ -6415,7 +6407,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:12",
     "setNum": 6,
     "color": "Amethyst",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/lose_the_way/lose_the_way-large.png",
     "cost": 2,
     "inkable": false,
@@ -6428,7 +6420,7 @@ export const lorcanaCards = [
     "cardNum": 63,
     "bodyText": "Exert chosen character. Then, you may choose and discard a card. If you do, the exerted character can’t ready at the start of their next turn.",
     "willpower": 0,
-    "dateModified": "2025-01-09 04:12:58.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 0,
     "setId": "AZS"
   },
@@ -6483,7 +6475,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:12",
     "setNum": 6,
     "color": "Amethyst",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/mad_hatter's_teapot/mad_hatter's_teapot-large.png",
     "cost": 2,
     "inkable": false,
@@ -6496,7 +6488,7 @@ export const lorcanaCards = [
     "cardNum": 66,
     "bodyText": "NO ROOM, NO ROOM - Each opponent puts the top card of their deck into their discard.",
     "willpower": 0,
-    "dateModified": "2024-12-03 04:11:08.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 0,
     "setId": "AZS"
   },
@@ -8077,7 +8069,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:15",
     "setNum": 6,
     "color": "Ruby",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/card_soldier's_spear/card_soldier's_spear-large.png",
     "cost": 1,
     "inkable": false,
@@ -8089,7 +8081,7 @@ export const lorcanaCards = [
     "cardNum": 134,
     "bodyText": "A SUITABLE WEAPON - Your damaged characters get +1 {s}.",
     "willpower": 0,
-    "dateModified": "2024-12-03 04:11:08.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 0,
     "setId": "AZS"
   },
@@ -8708,7 +8700,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-12-03T02:41:16",
     "setNum": 6,
     "color": "Sapphire",
-    "franchise": "Alice In Wonderland",
+    "franchise": "Alice in Wonderland",
     "image": "https://lorcana-api.com/images/alice/savvy_sailor/alice-savvy_sailor-large.png",
     "cost": 3,
     "inkable": false,
@@ -8720,7 +8712,7 @@ export const lorcanaCards = [
     "cardNum": 161,
     "bodyText": "Ward (Opponents can’t choose this character except to challenge.) \nAhoy!: Whenever this character quests, another chosen character of yours gets +1 {l} and gains Ward until the start of your next turn.",
     "willpower": 4,
-    "dateModified": "2025-01-09 04:42:10.0",
+    "dateModified": "2025-09-07 21:16:27.0",
     "strength": 1,
     "setId": "AZS",
     "abilities": "Ward"
@@ -9744,8 +9736,7 @@ export const lorcanaCards = [
     "cardNum": 0,
     "bodyText": "Evasive (Only characters with Evasive can challenge\nthis character.)\nYOU JUST HAVE TO SEE IT {e} - Name a card, then\nreveal the top card of your deck. If it's the named\ncard, put it into your hand and gain 3 lore. Otherwise,\nput it on the top of your deck.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:07:30.0",
+    "dateModified": "2025-10-04 17:49:50.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -9758,7 +9749,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set9/1_d58ab2c3b088b56c38d51210cd624de41cbbdbe0.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/1_07c90c996a1bc7e5f16f1d92c1cff54b3a00bc65.jpg",
     "cost": 3,
     "inkable": true,
     "name": "The Queen - Conceited Ruler",
@@ -9770,8 +9761,7 @@ export const lorcanaCards = [
     "cardNum": 1,
     "bodyText": "Support (Whenever this character quests, you may add\ntheir {s} to another chosen character's {s} this turn.)\nROYAL SUMMONS At the start of your turn, you may\nchoose and discard a Princess or Queen character\ncard to return a character card from your discard to\nyour hand.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:11:30.0",
+    "dateModified": "2025-10-04 17:49:59.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -9784,7 +9774,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set9/2_0b0970a05e4343a6d1f2aedf1458dc45add07a0c.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/2_8426eb8a38d43058e2169ec64b6bd9c896ec9046.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Pongo - Determined Father",
@@ -9796,8 +9786,7 @@ export const lorcanaCards = [
     "cardNum": 2,
     "bodyText": "TWILIGHT BARK: Once during your turn, you may\npay 2 {i} to reveal the top card of your deck. If it's\na character card, put it into your hand. Otherwise,\nput it on the bottom of your deck.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:59.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -9810,7 +9799,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set9/3_1a59fb09ab0705ddd95238319db43a4dbbb3e141.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/3_9300e2c889060ccd3f06b47a8bb7b7e5ae88a30c.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Stitch - Rock Star",
@@ -9822,8 +9811,7 @@ export const lorcanaCards = [
     "cardNum": 3,
     "bodyText": "Shift 4 {i} (You may pay 4 {i} to play this on top of one of\nyour characters named Stitch.)\nADORING FANS Whenever you play a character with\ncost 2 or less, you may exert them to draw a card.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:59.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -9836,7 +9824,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set9/4_ba9aa6fc55449cefeb4afcc19c1a9e0e80b6fbc1.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/4_542111924cad6679fd1527d01b7c321e33d09ba4.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Beast - Gracious Prince",
@@ -9848,8 +9836,7 @@ export const lorcanaCards = [
     "cardNum": 4,
     "bodyText": "FULL DANCE CARD: Your Princess characters get\n+1 {s} and +1 {w}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:59.0",
     "strength": 5,
     "setId": "FAB"
   },
@@ -9862,7 +9849,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set9/5_ec67c18527d4a2e80bf8eb4240c7539b955d18b3.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/5_96d45ae02b12c203a1d1c9ed87aedc74128b690f.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Minnie Mouse - Sweetheart Princess",
@@ -9874,8 +9861,7 @@ export const lorcanaCards = [
     "cardNum": 5,
     "bodyText": "ROYAL FAVOR: Your characters named Mickey Mouse\ngain Support. (Whenever they quest, you may add their\n{s} to another chosen character's {s} this turn.)\nBYE BYE, NOW Whenever this character quests,\nyou may banish chosen exerted character with 5 {s}\nor more.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:59.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -9900,8 +9886,7 @@ export const lorcanaCards = [
     "cardNum": 6,
     "bodyText": "ROYAL WELCOME: Whenever this character quests,\nyou pay 1 {i} less for the next Princess or Queen\ncharacter you play this turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -9914,7 +9899,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set9/7_2f7acd9d7bd3a385e8b2584406daa1c2028331fd.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/7_7766ce1df8f13189b4e02e8d248eeb01008c7982.jpg",
     "cost": 1,
     "inkable": true,
     "name": "The Queen - Regal Monarch",
@@ -9926,8 +9911,7 @@ export const lorcanaCards = [
     "cardNum": 7,
     "bodyText": "",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:59.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -9940,7 +9924,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set9/8_5d47671785585ca0a9ff970bd90c18680fb5b767.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/8_09f60d7a5b67bafe819b285c6399baf482d23284.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Rapunzel - Sunshine",
@@ -9952,8 +9936,7 @@ export const lorcanaCards = [
     "cardNum": 8,
     "bodyText": "MAGIC HAIR: {e} - Remove up to 2 damage from\nchosen character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:59.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -9966,7 +9949,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set9/9_9faccbb7b37ca8119678c222949f22d5225e0e98.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/9_67051e2c8e31467f0f24a5940dde1f66066d7403.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Stitch - Alien Dancer",
@@ -9978,8 +9961,7 @@ export const lorcanaCards = [
     "cardNum": 9,
     "bodyText": "",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:50:00.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -10004,8 +9986,7 @@ export const lorcanaCards = [
     "cardNum": 10,
     "bodyText": "Support (Whenever this character quests, you\nmay add their {s} to another chosen character's\n{s} this turn.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -10030,8 +10011,7 @@ export const lorcanaCards = [
     "cardNum": 11,
     "bodyText": "INFILTRATION: When you play this character, each\nopponent chooses and discards a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -10056,8 +10036,7 @@ export const lorcanaCards = [
     "cardNum": 12,
     "bodyText": "MAKE A NEW FRIEND: When you play this character,\nlook at the top 4 cards of your deck. You may reveal\na character card and put it into your hand. Put the\nrest on the bottom of your deck in any order.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -10082,8 +10061,7 @@ export const lorcanaCards = [
     "cardNum": 13,
     "bodyText": "",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10108,8 +10086,7 @@ export const lorcanaCards = [
     "cardNum": 14,
     "bodyText": "Shift 5 {i} (You may pay 5 {i} to play this on top of one of\nyour characters named Pluto.)\nBodyguard (This character may enter play exerted. An\nopposing character who challenges one of your characters\nmust choose one with Bodyguard if able.)\nGUARD DOG At the start of your turn, remove up to 3\ndamage from this character.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10134,8 +10111,7 @@ export const lorcanaCards = [
     "cardNum": 15,
     "bodyText": "Singer 7 (This character counts as cost 7 to sing\nsongs.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10160,8 +10136,7 @@ export const lorcanaCards = [
     "cardNum": 16,
     "bodyText": "TO THE RESCUE: When you play this character,\nyou may remove up to 3 damage from chosen\ncharacter of yours.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -10186,8 +10161,7 @@ export const lorcanaCards = [
     "cardNum": 17,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of\nyour characters must choose one with Bodyguard\nif able.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10212,8 +10186,7 @@ export const lorcanaCards = [
     "cardNum": 18,
     "bodyText": "SIGNATURE RECIPE: When you play this character,\nyou may remove up to 2 damage from chosen\ncharacter. If you removed damage this way, you\nmay draw a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -10238,8 +10211,7 @@ export const lorcanaCards = [
     "cardNum": 19,
     "bodyText": "Singer 5 (This character counts as cost 5 to\nsing songs.)\nA WONDERFUL DREAM {e} - Remove up to 3\ndamage from chosen Princess character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -10264,8 +10236,7 @@ export const lorcanaCards = [
     "cardNum": 20,
     "bodyText": "WE CAN FIX IT: Whenever this character quests, you\nmay ready your other exerted Princess characters.\nIf you do, they can't quest for the rest of this turn.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -10290,8 +10261,7 @@ export const lorcanaCards = [
     "cardNum": 21,
     "bodyText": "GOOD DOG: {e} - You pay 1 {i} less for the next\ncharacter you play this turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 0,
     "setId": "FAB"
   },
@@ -10316,8 +10286,7 @@ export const lorcanaCards = [
     "cardNum": 22,
     "bodyText": "Singer 4 (This character counts as cost 4 to sing songs.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -10342,8 +10311,7 @@ export const lorcanaCards = [
     "cardNum": 23,
     "bodyText": "ALL WAYS HERE ARE MY WAYS: Whenever this\ncharacter quests, your other Villain characters get\n+1 {l} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10368,8 +10336,7 @@ export const lorcanaCards = [
     "cardNum": 24,
     "bodyText": "OHANA: When you play this character, if you have 2 or\nmore other characters in play, you may draw 2 cards.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -10392,8 +10359,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-025",
     "cardNum": 25,
     "bodyText": "Sing Together 7 (Any number of your or your teammates'\ncharacters with total cost 7 or more may {e} to sing this\nsong for free.)\nLook at the top 5 cards of your deck. You may reveal up\nto 2 character cards and put them into your hand. Put the\nrest on the bottom of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "setId": "FAB"
   },
   {
@@ -10415,8 +10381,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-026",
     "cardNum": 26,
     "bodyText": "Sing Together 8 (Any number of your or your\nteammates' characters with total cost 8 or more may\n{e} to sing this song for free.)\nPlay a character from your discard for free.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "setId": "FAB"
   },
   {
@@ -10438,8 +10403,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-027",
     "cardNum": 27,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\nRemove up to 3 damage from chosen character. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "setId": "FAB"
   },
   {
@@ -10461,8 +10425,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-028",
     "cardNum": 28,
     "bodyText": "(A character with cost 4 or more can {e} to sing this\nsong for free.)\nAll opposing characters get -2 {s} until the start of\nyour next turn.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "setId": "FAB"
   },
   {
@@ -10484,8 +10447,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-029",
     "cardNum": 29,
     "bodyText": "Return a character card from your discard to your\nhand. You may remove up to 2 damage from chosen\ncharacter.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:51.0",
     "setId": "FAB"
   },
   {
@@ -10507,8 +10469,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-030",
     "cardNum": 30,
     "bodyText": "(A character with cost 3 or more can {e} to sing this\nsong for free.)\nBanish chosen character with 5 {s} or more.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "setId": "FAB"
   },
   {
@@ -10530,8 +10491,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-031",
     "cardNum": 31,
     "bodyText": "(A character with cost 2 or more can {e} to sing this\nsong for free.)\nLook at the top 4 cards of your deck. You may reveal a\ncharacter card and put it into your hand. Put the rest\non the bottom of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "setId": "FAB"
   },
   {
@@ -10553,8 +10513,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-032",
     "cardNum": 32,
     "bodyText": "BIRTHDAY LIGHTS: {e} - You pay 1 {i} less for the next\ncharacter you play this turn.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "setId": "FAB"
   },
   {
@@ -10576,8 +10535,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-033",
     "cardNum": 33,
     "bodyText": "NOW, SING!: Whenever you play a song, you may pay\n1 {i} to draw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "setId": "FAB"
   },
   {
@@ -10601,8 +10559,7 @@ export const lorcanaCards = [
     "cardNum": 34,
     "bodyText": "UNDERWATER ACOUSTICS: Characters count as having +2 cost to sing\nsongs while here.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "setId": "FAB"
   },
   {
@@ -10626,8 +10583,7 @@ export const lorcanaCards = [
     "cardNum": 35,
     "bodyText": "I SUMMON THEE {e} - Draw a card.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -10652,8 +10608,7 @@ export const lorcanaCards = [
     "cardNum": 36,
     "bodyText": "Challenger +3 (While challenging, this character gets\n+3 {s}.)\nANCIENT SKILLS Whenever he challenges a Hyena\ncharacter, this character takes no damage from the\nchallenge.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 0,
     "setId": "FAB"
   },
@@ -10678,8 +10633,7 @@ export const lorcanaCards = [
     "cardNum": 37,
     "bodyText": "YOU'RE TOO LATE: Whenever this character\nquests, chosen opposing character can't ready at\nthe start of their next turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10704,8 +10658,7 @@ export const lorcanaCards = [
     "cardNum": 38,
     "bodyText": "HIDDEN WONDERS: This character gets +1 {s}\nfor each card in your hand.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 0,
     "setId": "FAB"
   },
@@ -10730,8 +10683,7 @@ export const lorcanaCards = [
     "cardNum": 39,
     "bodyText": "HERE NOW, DON'T DO THAT: When you play this\ncharacter, move up to 1 damage counter from\nchosen character to chosen opposing character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10756,8 +10708,7 @@ export const lorcanaCards = [
     "cardNum": 40,
     "bodyText": "Shift 3 {i} (You may pay 3 {i} to play this on top of one of\nyour characters named Belle.)\nENHANCED HEALING When you play this character,\nmove up to 3 damage counters from chosen character\nto chosen opposing character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -10782,8 +10733,7 @@ export const lorcanaCards = [
     "cardNum": 41,
     "bodyText": "",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 5,
     "setId": "FAB"
   },
@@ -10808,8 +10758,7 @@ export const lorcanaCards = [
     "cardNum": 42,
     "bodyText": "Rush (This character can challenge the turn\nthey're played.)\nEvasive (Only characters with Evasive can challenge\nthis character.)\nTIPTOE Your other characters with Rush gain Evasive.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -10834,8 +10783,7 @@ export const lorcanaCards = [
     "cardNum": 43,
     "bodyText": "Shift 6 {i} (You may pay 6 {i} to play this on top of one of\nyour characters named Elsa.)\nDEEP FREEZE When you play this character, exert up\nto 2 chosen characters. They can't ready at the start of\ntheir next turn.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -10860,8 +10808,7 @@ export const lorcanaCards = [
     "cardNum": 44,
     "bodyText": "SING FOR ME: When you play this character, exert\nchosen opposing ready character. Then, you may\nplay a song with cost equal to or less than the\nexerted character's cost for free.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10886,8 +10833,7 @@ export const lorcanaCards = [
     "cardNum": 45,
     "bodyText": "Evasive (Only characters with Evasive can challenge this\ncharacter.)\nBREAKING RECORDS {e}, 1 {i} - Draw a card and gain 1 lore.\nMAKING HISTORY Your other characters with Evasive gain\n\"{e}, 1 {i} - Draw a card and gain 1 lore.\"",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10912,8 +10858,7 @@ export const lorcanaCards = [
     "cardNum": 46,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nAERIAL DUO When you play this character,\nchosen character gains Evasive until the start of\nyour next turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -10938,8 +10883,7 @@ export const lorcanaCards = [
     "cardNum": 47,
     "bodyText": "LET'S SHOW 'EM, DUMBO!: While you have a\ncharacter with Evasive in play, this character\ngets +1 {l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -10964,8 +10908,7 @@ export const lorcanaCards = [
     "cardNum": 48,
     "bodyText": "Challenger +3 (While challenging, this character\ngets +3 {s}.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -10990,8 +10933,7 @@ export const lorcanaCards = [
     "cardNum": 49,
     "bodyText": "OK, WHERE AM I?: When this character is\nbanished, you may draw a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -11016,8 +10958,7 @@ export const lorcanaCards = [
     "cardNum": 50,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -11042,8 +10983,7 @@ export const lorcanaCards = [
     "cardNum": 51,
     "bodyText": "MAGICAL INFORMANT: When you play this\ncharacter, if an opponent has an exerted\ncharacter in play, you may draw a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -11068,8 +11008,7 @@ export const lorcanaCards = [
     "cardNum": 52,
     "bodyText": "MANY FORMS: At the start of your turn, you may\nchoose one:\n- This character gets +1 {l} this turn.\n- This character gains Challenger +2 this turn.\n(While challenging, this character gets +2 {s}.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11094,8 +11033,7 @@ export const lorcanaCards = [
     "cardNum": 53,
     "bodyText": "FREEZE: {e} - Exert chosen opposing character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11120,8 +11058,7 @@ export const lorcanaCards = [
     "cardNum": 54,
     "bodyText": "THREE WISHES: Whenever this character quests,\nyou may shuffle this card into your deck to draw\n3 cards.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -11146,8 +11083,7 @@ export const lorcanaCards = [
     "cardNum": 55,
     "bodyText": "",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -11172,8 +11108,7 @@ export const lorcanaCards = [
     "cardNum": 56,
     "bodyText": "",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:52.0",
     "strength": 5,
     "setId": "FAB"
   },
@@ -11198,8 +11133,7 @@ export const lorcanaCards = [
     "cardNum": 57,
     "bodyText": "LISTEN TO YOUR MAMA NOW: Whenever this\ncharacter quests, you may move up to 2 damage\ncounters from chosen character to chosen\nopposing character.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -11224,8 +11158,7 @@ export const lorcanaCards = [
     "cardNum": 58,
     "bodyText": "Rush (This character can challenge the turn\nthey're played.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -11250,8 +11183,7 @@ export const lorcanaCards = [
     "cardNum": 59,
     "bodyText": "I AM YOUR MASTER NOW When you play this\ncharacter, look at the top 2 cards of your deck.\nPut one on the top of your deck and the other on\nthe bottom.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11274,8 +11206,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-060",
     "cardNum": 60,
     "bodyText": "Sing Together 10 (Any number of your or your\nteammates' characters with total cost 10 or more may\n{e} to sing this song for free.)\nChosen player draws 5 cards.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "setId": "FAB"
   },
   {
@@ -11297,8 +11228,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-061",
     "cardNum": 61,
     "bodyText": "(A character with cost 2 or more can {e} to sing this\nsong for free.)\nReturn chosen character, item, or location with cost 2\nor less to their player's hand.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "setId": "FAB"
   },
   {
@@ -11320,8 +11250,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-062",
     "cardNum": 62,
     "bodyText": "Exert chosen opposing character. Chosen character of\nyours gains Challenger +2 this turn. (They get +2 {s}\nwhile challenging.)",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "setId": "FAB"
   },
   {
@@ -11343,8 +11272,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-063",
     "cardNum": 63,
     "bodyText": "Chosen exerted character can't ready at the start of\ntheir next turn.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "setId": "FAB"
   },
   {
@@ -11366,8 +11294,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-064",
     "cardNum": 64,
     "bodyText": "NOW YOU CAN FLY!: When you play this item, choose\na character of yours. While this item is in play, that\ncharacter gains Evasive. (Only characters with Evasive\ncan challenge them.)\nGROUNDED 3 {i} - Return this item to your hand.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "setId": "FAB"
   },
   {
@@ -11389,8 +11316,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-065",
     "cardNum": 65,
     "bodyText": "SPEAK!: {e}, 4 {i} - Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "setId": "FAB"
   },
   {
@@ -11412,8 +11338,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-066",
     "cardNum": 66,
     "bodyText": "I'M LATE! {e}, 1 {i} - Chosen character gains Rush\nthis turn. (They can challenge the turn they're played.)",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "setId": "FAB"
   },
   {
@@ -11435,8 +11360,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-067",
     "cardNum": 67,
     "bodyText": "MYSTICAL PETALS: {e}, 2 {i} - Move 1 damage counter\nfrom chosen character to chosen opposing character.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "setId": "FAB"
   },
   {
@@ -11460,8 +11384,7 @@ export const lorcanaCards = [
     "cardNum": 68,
     "bodyText": "OUR HOME: At the start of your turn, if you have a character here, gain 1 lore.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "setId": "FAB"
   },
   {
@@ -11485,8 +11408,7 @@ export const lorcanaCards = [
     "cardNum": 69,
     "bodyText": "Ward (Opponents can't choose this character except to\nchallenge.)\nNO TOUCHY! When this character is challenged and\nbanished, you may banish the challenging character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11511,8 +11433,7 @@ export const lorcanaCards = [
     "cardNum": 70,
     "bodyText": "",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -11537,8 +11458,7 @@ export const lorcanaCards = [
     "cardNum": 71,
     "bodyText": "POOR SOULS: Whenever this character is challenged,\neach opponent chooses and discards a card.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 0,
     "setId": "FAB"
   },
@@ -11563,8 +11483,7 @@ export const lorcanaCards = [
     "cardNum": 72,
     "bodyText": "SHINING BEACON: Your other Hero characters\ngain Ward. (Opponents can't choose them except\nto challenge.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -11589,8 +11508,7 @@ export const lorcanaCards = [
     "cardNum": 73,
     "bodyText": "Shift 6 {i} (You may pay 6 {i} to play this on top of one of\nyour characters named Prince Phillip.)\nEvasive (Only characters with Evasive can challenge this\ncharacter.)\nSWIFT AND SURE When you play this character, banish all\nopposing damaged characters.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 6,
     "setId": "FAB"
   },
@@ -11615,8 +11533,7 @@ export const lorcanaCards = [
     "cardNum": 74,
     "bodyText": "FAMILY VACATION: Once during your turn,\nwhenever this character moves to a location,\nyou may move one of your other characters to\nthat location for free. If you do, draw a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11641,8 +11558,7 @@ export const lorcanaCards = [
     "cardNum": 75,
     "bodyText": "PERSONAL SOUNDTRACK: When you play this\ncharacter, you may pay 1 {i} to return a song card\nwith cost 3 or less from your discard to your hand.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11667,8 +11583,7 @@ export const lorcanaCards = [
     "cardNum": 76,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nLET'S MAKE SOME MAGIC While this character is\nexerted, your other characters get +2 {s}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11693,8 +11608,7 @@ export const lorcanaCards = [
     "cardNum": 77,
     "bodyText": "Shift 4 {i} (You may pay 4 {i} to play this on top of one\nof your characters named Max Goof.)\nNUMBER ONE HIT Whenever this character quests,\nyou may play a song card with cost 4 or less from your\ndiscard for free, then put it on the bottom of your deck\ninstead of into your discard.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -11719,8 +11633,7 @@ export const lorcanaCards = [
     "cardNum": 78,
     "bodyText": "SO CHEESY: When you play this character, you\nmay draw a card, then choose and discard a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -11745,8 +11658,7 @@ export const lorcanaCards = [
     "cardNum": 79,
     "bodyText": "WONDER BOY: When you play this character,\nchosen character gets +2 {s} this turn.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11771,8 +11683,7 @@ export const lorcanaCards = [
     "cardNum": 80,
     "bodyText": "",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -11797,8 +11708,7 @@ export const lorcanaCards = [
     "cardNum": 81,
     "bodyText": "TRUE FORM: While being challenged, this\ncharacter gets +2 {s}.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -11823,8 +11733,7 @@ export const lorcanaCards = [
     "cardNum": 82,
     "bodyText": "",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 5,
     "setId": "FAB"
   },
@@ -11849,8 +11758,7 @@ export const lorcanaCards = [
     "cardNum": 83,
     "bodyText": "STARTLED AWAKE: Whenever you play an action,\nthis character gets +2 {s} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 0,
     "setId": "FAB"
   },
@@ -11875,8 +11783,7 @@ export const lorcanaCards = [
     "cardNum": 84,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:53.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -11901,8 +11808,7 @@ export const lorcanaCards = [
     "cardNum": 85,
     "bodyText": "Shift 3 {i} (You may pay 3 {i} to play this on top of\none of your characters named Donald Duck.)\nALLOW ME At the start of your turn, each player\nmay draw a card.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11927,8 +11833,7 @@ export const lorcanaCards = [
     "cardNum": 86,
     "bodyText": "FATTEN YOU UP: When you play this character, if\nan opponent has more cards in their inkwell than\nyou, you may put the top card of your deck into\nyour inkwell facedown and exerted.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -11953,8 +11858,7 @@ export const lorcanaCards = [
     "cardNum": 87,
     "bodyText": "I'LL HANDLE THIS While this character is at a location,\nshe gets +3 {s}.\nWHAT'S THE HURRY? While this character is at a location,\nwhenever she challenges another character, you may\ndraw a card.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 0,
     "setId": "FAB"
   },
@@ -11979,8 +11883,7 @@ export const lorcanaCards = [
     "cardNum": 88,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nPIXIE DUST When you play this character,\nchosen character gains Evasive this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12005,8 +11908,7 @@ export const lorcanaCards = [
     "cardNum": 89,
     "bodyText": "PICK YOUR FIGHTS: When you play this character\nand whenever he quests, chosen opposing character\ngains Reckless during their next turn. (They can't\nquest and must challenge if able.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 5,
     "setId": "FAB"
   },
@@ -12031,8 +11933,7 @@ export const lorcanaCards = [
     "cardNum": 90,
     "bodyText": "YOU'LL NEVER EVEN MISS IT: When you play this\ncharacter, chosen opponent reveals their hand\nand discards a song card of your choice.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -12057,8 +11958,7 @@ export const lorcanaCards = [
     "cardNum": 91,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nDISASSEMBLE {e} - Banish chosen item.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12083,8 +11983,7 @@ export const lorcanaCards = [
     "cardNum": 92,
     "bodyText": "Ward (Opponents can't choose this character\nexcept to challenge.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12109,8 +12008,7 @@ export const lorcanaCards = [
     "cardNum": 93,
     "bodyText": "THWART: Whenever this character quests, each\nopponent chooses and discards a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12133,8 +12031,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-094",
     "cardNum": 94,
     "bodyText": "(A character with cost 3 or more can {e} to sing this\nsong for free.)\nChosen character gets +3 {s} and gains Evasive until\nthe start of your next turn. (Only characters with\nEvasive can challenge them.)",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "setId": "FAB"
   },
   {
@@ -12156,8 +12053,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-095",
     "cardNum": 95,
     "bodyText": "(A character with cost 2 or more can {e} to sing this\nsong for free.)\nEach opponent chooses and discards a card.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "setId": "FAB"
   },
   {
@@ -12179,8 +12075,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-096",
     "cardNum": 96,
     "bodyText": "Chosen character gets +1 {s} this turn. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "setId": "FAB"
   },
   {
@@ -12202,8 +12097,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-097",
     "cardNum": 97,
     "bodyText": "Sing Together 8 (Any number of your or your teammates'\ncharacters with total cost 8 or more may {e} to sing this song\nfor free.)\nPut all opposing characters with 2 {s} or less on the bottom of\ntheir players' decks in any order.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "setId": "FAB"
   },
   {
@@ -12225,8 +12119,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-098",
     "cardNum": 98,
     "bodyText": "Choose one:\n- Banish chosen item.\n- Deal 2 damage to chosen damaged character.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "setId": "FAB"
   },
   {
@@ -12248,8 +12141,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-099",
     "cardNum": 99,
     "bodyText": "(A character with cost 3 or more can {e} to sing this\nsong for free.)\nReturn chosen character to their player's hand.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "setId": "FAB"
   },
   {
@@ -12271,8 +12163,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-100",
     "cardNum": 100,
     "bodyText": "WATCH CLOSELY: This item enters play exerted.\nTHE PERFECT CAST {e}, 1 {i}, Banish this item -\nReturn chosen exerted character of yours to your\nhand to gain 2 lore.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "setId": "FAB"
   },
   {
@@ -12294,8 +12185,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-101",
     "cardNum": 101,
     "bodyText": "FINE PRINT: Whenever an opponent plays a song, you\nmay draw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "setId": "FAB"
   },
   {
@@ -12319,8 +12209,7 @@ export const lorcanaCards = [
     "cardNum": 102,
     "bodyText": "REVITALIZING WATERS: Characters get +1 {s} and +1 {w} while here.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "setId": "FAB"
   },
   {
@@ -12344,8 +12233,7 @@ export const lorcanaCards = [
     "cardNum": 103,
     "bodyText": "FAN THE FLAMES: When you play this character,\nready chosen character. They can't quest for the\nrest of this turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12370,8 +12258,7 @@ export const lorcanaCards = [
     "cardNum": 104,
     "bodyText": "DON'T INSULT MY INTELLIGENCE: Whenever one\nof your characters challenges another character,\ngain 1 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -12396,8 +12283,7 @@ export const lorcanaCards = [
     "cardNum": 105,
     "bodyText": "",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -12422,8 +12308,7 @@ export const lorcanaCards = [
     "cardNum": 106,
     "bodyText": "THIS MISSION IS CURSED: This character can't\nready at the start of your turn.\nI GOT YOUR BACK 2 {i} - Ready this character.\nHe can't quest for the rest of this turn.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 8,
     "setId": "FAB"
   },
@@ -12448,8 +12333,7 @@ export const lorcanaCards = [
     "cardNum": 107,
     "bodyText": "Evasive (Only characters with Evasive can challenge this\ncharacter.)\nINSPIRING VOICE Whenever you play a song, chosen\ncharacter of yours gains Evasive until the start of your\nnext turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12474,8 +12358,7 @@ export const lorcanaCards = [
     "cardNum": 108,
     "bodyText": "DRAGON FIRE: When you play this character,\nyou may banish chosen character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 7,
     "setId": "FAB"
   },
@@ -12500,8 +12383,7 @@ export const lorcanaCards = [
     "cardNum": 109,
     "bodyText": "Singer 4 (This character counts as cost 4 to sing songs.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -12526,8 +12408,7 @@ export const lorcanaCards = [
     "cardNum": 110,
     "bodyText": "Shift 4 {i} (You may pay 4 {i} to play this on top of one of\nyour characters named Powerline.)\nSinger 9\nMASH-UP Once during your turn, whenever this character\nsings a song, look at the top 4 cards of your deck. You may\nreveal a song card with cost 9 or less and play it for free.\nPut the rest on the bottom of your deck in any order.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 6,
     "setId": "FAB"
   },
@@ -12552,8 +12433,7 @@ export const lorcanaCards = [
     "cardNum": 111,
     "bodyText": "Shift 5 {i} (You may pay 5 {i} to play this on top of one of\nyour characters named Mickey Mouse.)\nEvasive (Only characters with Evasive can challenge this\ncharacter.)\nCROWNING ACHIEVEMENT While this character has a card\nunder him, he gets +3 {s}, +3 {w}, and +3 {l}.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12578,8 +12458,7 @@ export const lorcanaCards = [
     "cardNum": 112,
     "bodyText": "Singer 5 (This character counts as cost 5 to\nsing songs.)\nI JUST WANNA STAY HOME This character can't\nmove to locations.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:54.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -12604,8 +12483,7 @@ export const lorcanaCards = [
     "cardNum": 113,
     "bodyText": "CONCERT LOVER: While you have a character with\nSinger in play, this character gets +1 {s} and +1 {l}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12630,8 +12508,7 @@ export const lorcanaCards = [
     "cardNum": 114,
     "bodyText": "SHOUT OUT LOUD!: Whenever you play a song, this\ncharacter gets +2 {s} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -12656,8 +12533,7 @@ export const lorcanaCards = [
     "cardNum": 115,
     "bodyText": "Reckless (This character can't quest and must\nchallenge each turn if able.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -12682,8 +12558,7 @@ export const lorcanaCards = [
     "cardNum": 116,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -12708,8 +12583,7 @@ export const lorcanaCards = [
     "cardNum": 117,
     "bodyText": "ELECTRIC MOVE: If you've played a song this turn,\nthis character gains Rush this turn. (They can\nchallenge the turn they're played.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -12734,8 +12608,7 @@ export const lorcanaCards = [
     "cardNum": 118,
     "bodyText": "SURGE OF POWER: This character gets +1 {s} for\neach card in opponents' hands.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -12760,8 +12633,7 @@ export const lorcanaCards = [
     "cardNum": 119,
     "bodyText": "Evasive (Only characters with Evasive can challenge\nthis character.)\nBRING ON THE HEAT! When you play this character,\nbanish chosen opposing character with 1 {s} or less.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -12786,8 +12658,7 @@ export const lorcanaCards = [
     "cardNum": 120,
     "bodyText": "Shift 2 {i} (You may pay 2 {i} to play this on top of\none of your characters named Queen of Hearts.)\nLET THE GAME BEGIN Whenever one of your\ncharacters challenges another character, you may\ndraw a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -12812,8 +12683,7 @@ export const lorcanaCards = [
     "cardNum": 121,
     "bodyText": "FERVENT ADDRESS: Your other characters get +1 {s}.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12838,8 +12708,7 @@ export const lorcanaCards = [
     "cardNum": 122,
     "bodyText": "",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 5,
     "setId": "FAB"
   },
@@ -12864,8 +12733,7 @@ export const lorcanaCards = [
     "cardNum": 123,
     "bodyText": "Rush (This character can challenge the turn\nthey're played.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12890,8 +12758,7 @@ export const lorcanaCards = [
     "cardNum": 124,
     "bodyText": "TANGLE: When you play this character, each\nopponent loses 1 lore.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 5,
     "setId": "FAB"
   },
@@ -12916,8 +12783,7 @@ export const lorcanaCards = [
     "cardNum": 125,
     "bodyText": "BATTLE WOUND: This character enters play with\n2 damage.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12942,8 +12808,7 @@ export const lorcanaCards = [
     "cardNum": 126,
     "bodyText": "Shift 5 {i} (You may pay 5 {i} to play this on top of one of your\ncharacters named Mulan.)\nSTRAIGHT SHOOTER When you play this character, if you\nused Shift to play her, she gets +3 {s} this turn.\nTRIPLE SHOT During your turn, whenever this character\ndeals damage to another character in a challenge, deal the\nsame amount of damage to up to 2 other chosen characters.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12968,8 +12833,7 @@ export const lorcanaCards = [
     "cardNum": 127,
     "bodyText": "NOTE TO SELF, DON'T DIE: During your turn, whenever\nthis character banishes another character in a\nchallenge, you may ready this character. If you do,\nshe can't quest for the rest of this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -12994,8 +12858,7 @@ export const lorcanaCards = [
     "cardNum": 128,
     "bodyText": "",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13020,8 +12883,7 @@ export const lorcanaCards = [
     "cardNum": 129,
     "bodyText": "Evasive (Only characters with Evasive can challenge this\ncharacter.)\nON A ROLL When you play this character, you may\nmove him and one of your other characters to the\nsame location for free. If you do, the other character\ngets +2 {s} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13044,8 +12906,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-130",
     "cardNum": 130,
     "bodyText": "Sing Together 9 (Any number of your or your teammates'\ncharacters with total cost 9 or more may {e} to sing this song\nfor free.)\nEach player draws 2 cards and gains 2 lore. If 2 or more\ncharacters sang this song, ready them. They can't quest for\nthe rest of this turn.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "setId": "FAB"
   },
   {
@@ -13067,8 +12928,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-131",
     "cardNum": 131,
     "bodyText": "(A character with cost 2 or more can {e} to sing this\nsong for free.)\nChosen character gains Evasive until the start of\nyour next turn. (Only characters with Evasive can\nchallenge them.)",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "setId": "FAB"
   },
   {
@@ -13090,8 +12950,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-132",
     "cardNum": 132,
     "bodyText": "Sing Together 6 (Any number of your or your teammates'\ncharacters with total cost 6 or more may {e} to sing this song\nfor free.)\nEach opponent loses 2 lore. You gain 2 lore.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "setId": "FAB"
   },
   {
@@ -13113,8 +12972,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-133",
     "cardNum": 133,
     "bodyText": "(A character with cost 4 or more can {e} to sing this\nsong for free.)\nEach opponent chooses and banishes one of their\ncharacters.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "setId": "FAB"
   },
   {
@@ -13136,8 +12994,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-134",
     "cardNum": 134,
     "bodyText": "DISCIPLINE AND STRENGTH: {e}, 2 {i} - Chosen\ncharacter gets +2 {s} this turn. Whenever they\nchallenge another character this turn, you may\ndraw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "setId": "FAB"
   },
   {
@@ -13159,8 +13016,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-135",
     "cardNum": 135,
     "bodyText": "YOU KNOW WHAT HAPPENS: {e}, 2 {i} - Draw cards\nequal to the damage on chosen character of yours,\nthen banish them.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "setId": "FAB"
   },
   {
@@ -13184,8 +13040,7 @@ export const lorcanaCards = [
     "cardNum": 136,
     "bodyText": "",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "setId": "FAB"
   },
   {
@@ -13209,8 +13064,7 @@ export const lorcanaCards = [
     "cardNum": 137,
     "bodyText": "LET ME HELP YOU: Whenever this character\nquests, your other Hero characters get +1 {l}\nthis turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13235,8 +13089,7 @@ export const lorcanaCards = [
     "cardNum": 138,
     "bodyText": "Support (Whenever this character quests, you may add\ntheir {s} to another chosen character's {s} this turn.)\nTHREE NEPHEWS Whenever this character quests, if you\nhave characters named Dewey and Louie in play, you\nmay draw 3 cards.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13261,8 +13114,7 @@ export const lorcanaCards = [
     "cardNum": 139,
     "bodyText": "Support (Whenever this character quests, you\nmay add their {s} to another chosen character's\n{s} this turn.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:55.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13287,8 +13139,7 @@ export const lorcanaCards = [
     "cardNum": 140,
     "bodyText": "Support (Whenever this character quests, you\nmay add their {s} to another chosen character's\n{s} this turn.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -13313,8 +13164,7 @@ export const lorcanaCards = [
     "cardNum": 141,
     "bodyText": "WASHED AWAY: When you play this character,\nyou may put chosen item into its player's inkwell\nfacedown and exerted.\nMAKING WAVES Whenever this character quests,\nchosen opposing character gets -2 {s} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13339,8 +13189,7 @@ export const lorcanaCards = [
     "cardNum": 142,
     "bodyText": "IMPERIAL INVITATION: Whenever this character\nquests, look at the top 4 cards of your deck. You\nmay reveal a Princess character card and put it\ninto your hand. Put the rest on the bottom of your\ndeck in any order.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -13365,8 +13214,7 @@ export const lorcanaCards = [
     "cardNum": 143,
     "bodyText": "OUT OF SEASON: Once during your turn, whenever\na character with cost 2 or less is banished, put the\ntop card of your deck into your inkwell facedown\nand exerted.\nINSULTING REMARK During your turn, each opposing\ncharacter with cost 2 or less gets -1 {s}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13391,8 +13239,7 @@ export const lorcanaCards = [
     "cardNum": 144,
     "bodyText": "",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -13417,8 +13264,7 @@ export const lorcanaCards = [
     "cardNum": 145,
     "bodyText": "NOW GET GOING: During your turn, this character\ngains Evasive. (They can challenge characters\nwith Evasive.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -13443,8 +13289,7 @@ export const lorcanaCards = [
     "cardNum": 146,
     "bodyText": "I WAS BORN READY While you have another Hero\ncharacter in play, this character gets +1 {l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -13469,8 +13314,7 @@ export const lorcanaCards = [
     "cardNum": 147,
     "bodyText": "",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13495,8 +13339,7 @@ export const lorcanaCards = [
     "cardNum": 148,
     "bodyText": "ROYAL SCHEMES: When you play this character, if a\nPrincess or Queen character is in play, gain 1 lore.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -13521,8 +13364,7 @@ export const lorcanaCards = [
     "cardNum": 149,
     "bodyText": "CALCULATING AND VAIN: Whenever this character\nquests, you may look at the top 3 cards of your\ndeck and put them back in any order.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13547,8 +13389,7 @@ export const lorcanaCards = [
     "cardNum": 150,
     "bodyText": "ANCIENT INSIGHT: Whenever you remove 1 or\nmore damage from one of your characters,\ngain 2 lore.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -13573,8 +13414,7 @@ export const lorcanaCards = [
     "cardNum": 151,
     "bodyText": "IS THERE A DOWNSIDE TO THIS?: When you play\nthis character, you may put chosen opposing\ncharacter into their player's inkwell facedown.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -13599,8 +13439,7 @@ export const lorcanaCards = [
     "cardNum": 152,
     "bodyText": "THIS GOING TO BE GOOD: Whenever you play a song,\nyou may put the top card of your deck into your inkwell\nfacedown and exerted.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -13625,8 +13464,7 @@ export const lorcanaCards = [
     "cardNum": 153,
     "bodyText": "Shift 3 {i} (You may pay 3 {i} to play this on top of one of\nyour characters named Aurora.)\nPROTECTIVE EMBRACE Your other characters gain Ward.\n(Opponents can't choose them except to challenge.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -13651,8 +13489,7 @@ export const lorcanaCards = [
     "cardNum": 154,
     "bodyText": "Ward (Opponents can't choose this character\nexcept to challenge.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -13677,8 +13514,7 @@ export const lorcanaCards = [
     "cardNum": 155,
     "bodyText": "I'M A FAST LEARNER When you play this character,\nremove up to 1 damage from chosen character\nof yours.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -13703,8 +13539,7 @@ export const lorcanaCards = [
     "cardNum": 156,
     "bodyText": "TINKER: Whenever this character quests, you pay\n1 {i} less for the next item you play this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13729,8 +13564,7 @@ export const lorcanaCards = [
     "cardNum": 157,
     "bodyText": "DON'T CALL ME CUTE: When you play this\ncharacter, you may banish chosen item. If you do,\nits player draws a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13755,8 +13589,7 @@ export const lorcanaCards = [
     "cardNum": 158,
     "bodyText": "HIGHBORN LADY: When you play this character,\nchosen character gets -2 {s} this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -13781,8 +13614,7 @@ export const lorcanaCards = [
     "cardNum": 159,
     "bodyText": "HUNNY POT: Whenever this character quests,\nyou may put a card from your hand into your\ninkwell facedown.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13807,8 +13639,7 @@ export const lorcanaCards = [
     "cardNum": 160,
     "bodyText": "GOOD ADVICE: Your other characters gain\nSupport. (Whenever they quest, you may add their\n{s} to another chosen character's {s} this turn.)\nWHAT DID I DO? While this character has 10 {s}\nor more, she gets +4 {l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -13833,8 +13664,7 @@ export const lorcanaCards = [
     "cardNum": 161,
     "bodyText": "",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -13859,8 +13689,7 @@ export const lorcanaCards = [
     "cardNum": 162,
     "bodyText": "FEED THE POOR: When you play this character, if an\nopponent has more cards in their hand than you, you may\ndraw a card.\nGOOD SHOT During your turn, this character gains Evasive.\n(They can challenge characters with Evasive.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -13883,8 +13712,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-163",
     "cardNum": 163,
     "bodyText": "Look at the top 2 cards of your deck. Put one into your\nhand and the other on the bottom of your deck.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "setId": "FAB"
   },
   {
@@ -13906,8 +13734,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-164",
     "cardNum": 164,
     "bodyText": "(A character with cost 4 or more can {e} to sing this\nsong for free.)\nYour characters gain Resist +2 until the start of your\nnext turn. (Damage dealt to them is reduced by 2.)",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "setId": "FAB"
   },
   {
@@ -13929,8 +13756,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-165",
     "cardNum": 165,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song\nfor free.)\nPut the top card of your deck into your inkwell facedown\nand exerted.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "setId": "FAB"
   },
   {
@@ -13952,8 +13778,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-166",
     "cardNum": 166,
     "bodyText": "Sing Together 8 (Any number of your or your teammates'\ncharacters with total cost 8 or more may {e} to sing this\nsong for free.)\nLook at the top 7 cards of your deck. Put 2 into your hand\nand the rest on the bottom of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:56.0",
     "setId": "FAB"
   },
   {
@@ -13975,8 +13800,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-167",
     "cardNum": 167,
     "bodyText": "SEEKING KNOWLEDGE: Whenever one of your characters\nquests, you may look at the top card of your deck. Put it\non either the top or the bottom of your deck.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "setId": "FAB"
   },
   {
@@ -13998,8 +13822,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-168",
     "cardNum": 168,
     "bodyText": "CREATE LIFE: {e}, 2 {i} - Put the top card of your deck\ninto your inkwell facedown and exerted.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "setId": "FAB"
   },
   {
@@ -14021,8 +13844,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-169",
     "cardNum": 169,
     "bodyText": "CONSIDER THE COCONUT: Whenever you play a character, you\nmay remove up to 2 damage from chosen character.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "setId": "FAB"
   },
   {
@@ -14046,8 +13868,7 @@ export const lorcanaCards = [
     "cardNum": 170,
     "bodyText": "REINCARNATION: Whenever a character is banished while here, you may\nput that card into your inkwell facedown and exerted.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "setId": "FAB"
   },
   {
@@ -14071,8 +13892,7 @@ export const lorcanaCards = [
     "cardNum": 171,
     "bodyText": "YOU GOTTA STAY FOCUSED: Your Hero characters\ngain Challenger +1. (They get +1 {s} while\nchallenging.)\nSHAMELESS PROMOTER Whenever you play a\nHero character, gain 1 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -14097,8 +13917,7 @@ export const lorcanaCards = [
     "cardNum": 172,
     "bodyText": "SOUND THE CALL: {e}, 2 {i} - Play a character for free.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 0,
     "setId": "FAB"
   },
@@ -14123,8 +13942,7 @@ export const lorcanaCards = [
     "cardNum": 173,
     "bodyText": "DETERMINED DIVERSION: While this character has\nno damage, she gets +1 {l} and gains Resist +1.\n(Damage dealt to them is reduced by 1.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 0,
     "setId": "FAB"
   },
@@ -14149,8 +13967,7 @@ export const lorcanaCards = [
     "cardNum": 174,
     "bodyText": "COME ON, PEOPLE, LET'S MOVE: When you play this\ncharacter, your other characters gain Challenger +2 this\nturn. (They get +2 {s} while challenging.)\nGO GET 'EM Whenever this character quests, chosen\nAlien character gains Challenger +2 and \"This character\ncan challenge ready characters\" this turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -14175,8 +13992,7 @@ export const lorcanaCards = [
     "cardNum": 175,
     "bodyText": "BE GRATEFUL: Your Ally characters get +1 {s}.\nSTICK WITH ME At the end of your turn, if this character\nis exerted, you may draw cards equal to the {s} of\nchosen Ally character of yours. If you do, choose and\ndiscard 2 cards and banish that character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 5,
     "setId": "FAB"
   },
@@ -14201,8 +14017,7 @@ export const lorcanaCards = [
     "cardNum": 176,
     "bodyText": "WHAT A BEAUTIFUL BRAWL!: When you play this\ncharacter, choose one:\n- Chosen Hero character gains Resist +2 this turn.\n(Damage dealt to them is reduced by 2.)\n- Deal 2 damage to chosen Villain character.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -14227,8 +14042,7 @@ export const lorcanaCards = [
     "cardNum": 177,
     "bodyText": "Shift 3 {i} (You may pay 3 {i} to play this on top of one of your\ncharacters named Robin Hood.)\nSKILLED COMBATANT During your turn, whenever this\ncharacter banishes another character in a challenge, gain 2 lore.\nTHE GOOD OF OTHERS When this character is banished in a\nchallenge, you may draw a card.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -14253,8 +14067,7 @@ export const lorcanaCards = [
     "cardNum": 178,
     "bodyText": "TAKE THE LEAP: During your turn, this character gains\nEvasive. (They can challenge characters with Evasive.)\nNOW'S MY CHANCE Choose and discard a card - This\ncharacter gains Challenger +3 this turn. (They get +3 {s}\nwhile challenging.)",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -14279,8 +14092,7 @@ export const lorcanaCards = [
     "cardNum": 179,
     "bodyText": "",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -14305,8 +14117,7 @@ export const lorcanaCards = [
     "cardNum": 180,
     "bodyText": "WE HAVE A CHOICE: When you play this character,\nyou may banish chosen item.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -14331,8 +14142,7 @@ export const lorcanaCards = [
     "cardNum": 181,
     "bodyText": "I DON'T TRUST HIM, SIRE During your turn, this\ncharacter gains Evasive. (They can challenge\ncharacters with Evasive.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -14357,8 +14167,7 @@ export const lorcanaCards = [
     "cardNum": 182,
     "bodyText": "",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -14383,8 +14192,7 @@ export const lorcanaCards = [
     "cardNum": 183,
     "bodyText": "Resist +1 (Damage dealt to this character is\nreduced by 1.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -14409,8 +14217,7 @@ export const lorcanaCards = [
     "cardNum": 184,
     "bodyText": "SKIRMISH: {e} - Deal 1 damage to chosen\ncharacter.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -14435,8 +14242,7 @@ export const lorcanaCards = [
     "cardNum": 185,
     "bodyText": "STAND STRONG: When you play this character,\nchosen character gains Challenger +2 this turn.\n(They get +2 {s} while challenging.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -14461,8 +14267,7 @@ export const lorcanaCards = [
     "cardNum": 186,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of your\ncharacters must choose one with Bodyguard if able.)\nResist +1 (Damage dealt to this character is\nreduced by 1.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 6,
     "setId": "FAB"
   },
@@ -14487,8 +14292,7 @@ export const lorcanaCards = [
     "cardNum": 187,
     "bodyText": "PAYBACK: While this character has no damage,\nhe gets +4 {s}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 0,
     "setId": "FAB"
   },
@@ -14513,8 +14317,7 @@ export const lorcanaCards = [
     "cardNum": 188,
     "bodyText": "Shift 4 {i} (You may pay 4 {i} to play this on top of one of\nyour characters named Tinker Bell.)\nROCK THE BOAT When you play this character, deal 1\ndamage to each opposing character.\nPUNY PIRATE! During your turn, whenever this character\nbanishes another character in a challenge, you may deal 2\ndamage to chosen opposing character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 4,
     "setId": "FAB"
   },
@@ -14539,8 +14342,7 @@ export const lorcanaCards = [
     "cardNum": 189,
     "bodyText": "BATTLE PLANS: {e} - Draw a card, then choose and\ndiscard a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -14565,8 +14367,7 @@ export const lorcanaCards = [
     "cardNum": 190,
     "bodyText": "DOUBLE THE POWDER!: When you play this\ncharacter, you may return an action card named\nFire the Cannons! from your discard to your hand.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -14591,8 +14392,7 @@ export const lorcanaCards = [
     "cardNum": 191,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of\nyour characters must choose one with Bodyguard\nif able.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -14617,8 +14417,7 @@ export const lorcanaCards = [
     "cardNum": 192,
     "bodyText": "CHART YOUR OWN COURSE: For each location you have\nin play, this character gains Resist +1 and gets +1 {l}.\n(Damage dealt to them is reduced by 1.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -14643,8 +14442,7 @@ export const lorcanaCards = [
     "cardNum": 193,
     "bodyText": "",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 5,
     "setId": "FAB"
   },
@@ -14669,8 +14467,7 @@ export const lorcanaCards = [
     "cardNum": 194,
     "bodyText": "Challenger +2 (While challenging, this character\ngets +2 {s}.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:57.0",
     "strength": 1,
     "setId": "FAB"
   },
@@ -14695,8 +14492,7 @@ export const lorcanaCards = [
     "cardNum": 195,
     "bodyText": "Shift 4 {i} (You may pay 4 {i} to play this on top of\none of your characters named Ariel.)\nAMPLIFIED VOICE Whenever you play a song,\nyou may pay 2 {i} to deal 3 damage to chosen\ncharacter.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "strength": 3,
     "setId": "FAB"
   },
@@ -14721,8 +14517,7 @@ export const lorcanaCards = [
     "cardNum": 196,
     "bodyText": "I WANT MORE Whenever you play a song, you\nmay draw a card, then choose and discard a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "strength": 2,
     "setId": "FAB"
   },
@@ -14745,8 +14540,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-197",
     "cardNum": 197,
     "bodyText": "(A character with cost 3 or more can {e} to sing this\nsong for free.)\nChosen character gains Resist +2 until the start of your\nnext turn. If a Hero character is chosen, they can also\nchallenge ready characters this turn. (Damage dealt to\nthem is reduced by 2.)",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "setId": "FAB"
   },
   {
@@ -14768,8 +14562,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-198",
     "cardNum": 198,
     "bodyText": "Deal 3 damage to chosen character.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "setId": "FAB"
   },
   {
@@ -14791,8 +14584,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-199",
     "cardNum": 199,
     "bodyText": "(A character with cost 4 or more can {e} to sing this\nsong for free.)\nBanish all items.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "setId": "FAB"
   },
   {
@@ -14814,8 +14606,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-200",
     "cardNum": 200,
     "bodyText": "Deal 2 damage to chosen character.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "setId": "FAB"
   },
   {
@@ -14837,8 +14628,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-201",
     "cardNum": 201,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song\nfor free.)\nDeal damage to chosen character equal to the number of\ncharacters you have in play.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "setId": "FAB"
   },
   {
@@ -14860,8 +14650,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-202",
     "cardNum": 202,
     "bodyText": "Sing Together 10 (Any number of your or your\nteammates' characters with total cost 10 or more may\n{e} to sing this song for free.)\nDeal 3 damage to up to 3 chosen characters and/or\nlocations.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "setId": "FAB"
   },
   {
@@ -14883,8 +14672,7 @@ export const lorcanaCards = [
     "uniqueId": "FAB-203",
     "cardNum": 203,
     "bodyText": "SHOW ME: {e}, 3 {i} - If you have no cards in your hand,\ndraw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "setId": "FAB"
   },
   {
@@ -14908,8 +14696,7 @@ export const lorcanaCards = [
     "cardNum": 204,
     "bodyText": "ISOLATED: Characters gain Resist +1 while here. (Damage dealt to them\nis reduced by 1.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-09-02 03:12:56.0",
+    "dateModified": "2025-10-04 17:49:58.0",
     "setId": "FAB"
   },
   {
@@ -14932,8 +14719,7 @@ export const lorcanaCards = [
     "cardNum": 1,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\n\nLet's Make Like A Tree - When this character is banished, gain 2 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "INK",
     "abilities": "Bodyguard"
@@ -14959,8 +14745,7 @@ export const lorcanaCards = [
     "cardNum": 2,
     "bodyText": "I'll Check It Out - At the end of your turn, if this character is exerted, you may ready another chosen character of yours.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -15037,8 +14822,7 @@ export const lorcanaCards = [
     "cardNum": 5,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK",
     "abilities": "Bodyguard"
@@ -15063,8 +14847,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-006",
     "cardNum": 6,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -15115,8 +14898,7 @@ export const lorcanaCards = [
     "cardNum": 8,
     "bodyText": "Good As New - {e}: Reveal the top 3 cards of your deck. You may put each character card with cost 2 or less into your hand. Put the rest on the bottom of your deck in any order.\n\nPuppy Love - Whenever this character quests, if you have 4 or more other characters in play, your other characters get +1{l} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -15141,8 +14923,7 @@ export const lorcanaCards = [
     "cardNum": 9,
     "bodyText": "Singer 3 (This character counts as cost 3 to sing songs.)\n\nEntourage - Whenever you play a character with Bodyguard, you may remove up to 2 damage from chosen character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK",
     "abilities": "Singer 3, Bodyguard"
@@ -15168,8 +14949,7 @@ export const lorcanaCards = [
     "cardNum": 10,
     "bodyText": "Singer 4 (This character counts as cost 4 to sing songs.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Singer 4"
@@ -15194,8 +14974,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-011",
     "cardNum": 11,
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK"
   },
@@ -15220,8 +14999,7 @@ export const lorcanaCards = [
     "cardNum": 12,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Bodyguard"
@@ -15246,8 +15024,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-013",
     "cardNum": 13,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -15272,8 +15049,7 @@ export const lorcanaCards = [
     "cardNum": 14,
     "bodyText": "Bark - {e}: Chosen character gets -2{s} until the start of your next turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -15298,8 +15074,7 @@ export const lorcanaCards = [
     "cardNum": 15,
     "bodyText": "Come Along, Children - When you play this character and whenever she quests, you may play a character with cost 2 or less from your discard for free.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -15324,8 +15099,7 @@ export const lorcanaCards = [
     "cardNum": 16,
     "bodyText": "And I'm The Captain! - While you have 2 or more other characters in play, this character gets +2{l}.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -15349,8 +15123,7 @@ export const lorcanaCards = [
     "cardNum": 17,
     "bodyText": "Shift 5 (You may pay 5{i} to play this on top of one of your characters named Pluto.)\n\nBodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\n\nGuard Dog - At the start of your turn, remove up to 3 damage from this character.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Shift 5, Bodyguard"
@@ -15376,8 +15149,7 @@ export const lorcanaCards = [
     "cardNum": 18,
     "bodyText": "Good Dog - {e}: You pay 1{i} less for the next character you play this turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "INK"
   },
@@ -15402,8 +15174,7 @@ export const lorcanaCards = [
     "cardNum": 19,
     "bodyText": "Twilight Bark - Once per turn, you may pay 2{i} to reveal the top card of your deck. If it's a character card, put it into your hand. Otherwise, Put it on the bottom of your deck.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -15428,8 +15199,7 @@ export const lorcanaCards = [
     "cardNum": 20,
     "bodyText": "All Ways Here Are My Ways - Whenever this character quests, your other Villain characters get +1{l} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -15454,8 +15224,7 @@ export const lorcanaCards = [
     "cardNum": 21,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Support"
@@ -15481,8 +15250,7 @@ export const lorcanaCards = [
     "cardNum": 22,
     "bodyText": "Make A New Friend - When you play this character, look at the top 4 cards of your deck. You may reveal a character card and put it into your hand. Put the rest on the bottom of our deck in any order.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -15506,8 +15274,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-023",
     "cardNum": 23,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -15529,8 +15296,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-024",
     "cardNum": 24,
     "bodyText": "Whenever one of your characters quests this turn, gain 1 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -15551,8 +15317,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-025",
     "cardNum": 25,
     "bodyText": "Chosen character gains Support this turn. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "abilities": "Support"
   },
@@ -15574,8 +15339,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-026",
     "cardNum": 26,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\n\nRemove up to 3 damage from chosen character. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -15596,8 +15360,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-027",
     "cardNum": 27,
     "bodyText": "Remove up to 3 damage from chosen location",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -15618,8 +15381,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-028",
     "cardNum": 28,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\n\nChosen opponent reveals their hand and discards a non-character card of your choice.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -15640,8 +15402,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-029",
     "cardNum": 29,
     "bodyText": "Ancient Power - Banish this item: Remove up to 2 damage from each of your characters.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -15662,8 +15423,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-030",
     "cardNum": 30,
     "bodyText": "Life Giver - {e}: You pay 2{i} less for the next character you play this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -15684,8 +15444,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-031",
     "cardNum": 31,
     "bodyText": "Rebuild - {e}: Remove up to 2 damage from chosen location.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -15707,8 +15466,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-032",
     "cardNum": 32,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1
   },
@@ -15731,8 +15489,7 @@ export const lorcanaCards = [
     "cardNum": 33,
     "bodyText": "We Are All Connected - Characters get +2{w} while here.\n\nLion Home - If you have a Prince or King character here, you pay 1{i} less to play characters.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 2
   },
@@ -15756,8 +15513,7 @@ export const lorcanaCards = [
     "cardNum": 34,
     "bodyText": "Night Out - Characters can't be challenged while here.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 2
   },
@@ -15782,8 +15538,7 @@ export const lorcanaCards = [
     "cardNum": 35,
     "bodyText": "Curiouser And Curiouser - {e}: Exert chosen opposing character and all other opposing characters with the same name.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK"
   },
@@ -15808,8 +15563,7 @@ export const lorcanaCards = [
     "cardNum": 36,
     "bodyText": "Restless Souls - Whenever this character quests, you may banish them to draw a card.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -15834,8 +15588,7 @@ export const lorcanaCards = [
     "cardNum": 37,
     "bodyText": "Looking For Aurora - Whenever you play a character named Maleficent, you may look at the top card of your deck. Put it on the top or the bottom of your deck.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -15860,8 +15613,7 @@ export const lorcanaCards = [
     "cardNum": 38,
     "bodyText": "Three Wishes - Whenever this character quests, you may shuffle this card into your deck to draw 3 cards.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -15886,8 +15638,7 @@ export const lorcanaCards = [
     "cardNum": 39,
     "bodyText": "Blizzard - {e}: Exert chosen character.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -15912,8 +15663,7 @@ export const lorcanaCards = [
     "cardNum": 40,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Evasive"
@@ -15939,8 +15689,7 @@ export const lorcanaCards = [
     "cardNum": 41,
     "bodyText": "I Am Your Master Now - When you play this character, look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -15991,8 +15740,7 @@ export const lorcanaCards = [
     "cardNum": 43,
     "bodyText": "Rush (This character can challenge the turn they're played.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK",
     "abilities": "Rush"
@@ -16018,8 +15766,7 @@ export const lorcanaCards = [
     "cardNum": 44,
     "bodyText": "Power Clean - When you play this character, if you have a Sorcerer character in play, you may exert chosen opposing character. They can't ready at the start of their next turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -16044,8 +15791,7 @@ export const lorcanaCards = [
     "cardNum": 45,
     "bodyText": "Rush (This character can challenge the turn they're played.)\n\nClean This, Clean That - When you play this character, you may shuffle all Broom cards from your discard into your deck.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Rush"
@@ -16071,8 +15817,7 @@ export const lorcanaCards = [
     "cardNum": 46,
     "bodyText": "Clean Sweep - While this character is at a location, it gets +2{s}.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -16097,8 +15842,7 @@ export const lorcanaCards = [
     "cardNum": 47,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\n\nFind The Way - {e}: Move a character of yours to a location for free.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Evasive"
@@ -16123,8 +15867,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-048",
     "cardNum": 48,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -16148,8 +15891,7 @@ export const lorcanaCards = [
     "cardNum": 49,
     "bodyText": "Shift 5 (You may pay 5{i} to play this on top of one of your characters named Magica De Spell.)\n\nAll Mine - Whenever this character quests, gain lore equal to the cost of one of your items in play.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Shift 5"
@@ -16175,8 +15917,7 @@ export const lorcanaCards = [
     "cardNum": 50,
     "bodyText": "Telekinesis - {e}: Return chosen item with cost equal to or less than this character's {s} to its player's hand.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -16226,8 +15967,7 @@ export const lorcanaCards = [
     "cardNum": 52,
     "bodyText": "Listen To Your Mama Now - Whenever this character quests, you may move up to 2 damage counters from chosen character to chosen opposing character.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -16252,8 +15992,7 @@ export const lorcanaCards = [
     "cardNum": 53,
     "bodyText": "Always There - When this character is banished, you may shuffle this card into your deck.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -16278,8 +16017,7 @@ export const lorcanaCards = [
     "cardNum": 54,
     "bodyText": "Challenger +3 (While challenging, this character gets +3{s}.)\r \r Ancient Skills - Whenever he challenges a Hyena character, this character takes no damage from the challenge.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "INK",
     "abilities": "Challenger +3"
@@ -16304,8 +16042,7 @@ export const lorcanaCards = [
     "cardNum": 55,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\n\nCyclone - {e}: Gain lore equal to the number of Titan characters you have in play.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Evasive"
@@ -16330,8 +16067,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-056",
     "cardNum": 56,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "INK"
   },
@@ -16355,8 +16091,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-057",
     "cardNum": 57,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK"
   },
@@ -16381,8 +16116,7 @@ export const lorcanaCards = [
     "cardNum": 58,
     "bodyText": "Who Disturbs MY Slumber? - This character can't challenge or quest unless it is at a location.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "INK"
   },
@@ -16407,8 +16141,7 @@ export const lorcanaCards = [
     "cardNum": 59,
     "bodyText": "You're Too Late - Whenever this character quests, chosen opposing character can't ready at the start of their next turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -16430,8 +16163,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-060",
     "cardNum": 60,
     "bodyText": "Move 1 damage counter from chosen character to chosen opposing character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -16452,8 +16184,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-061",
     "cardNum": 61,
     "bodyText": "(A character with cost 1 or more can {e} to sing this song for free.)\n\nDraw a card. Then, choose up to 3 cards from chosen opponent's discard and shuffle them into their deck.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -16474,8 +16205,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-062",
     "cardNum": 62,
     "bodyText": "Exert chosen opposing character. Then chosen character of yours gains Challenger +2 this turn. (They get +2{s} when challenging.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "abilities": "Challenger +2"
   },
@@ -16497,8 +16227,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-063",
     "cardNum": 63,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\n\nLook at the top 5 cards of your deck. Put any number of them on the top of the bottom of your deck in any order. Gain 1 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -16518,8 +16247,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-064",
     "cardNum": 64,
     "bodyText": "Good Or Evil - Banish this item: If you have a character named Jafar in play, draw 2 cards. If you have a character named Genie in play, return chosen character with cost 4 or less to their players hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -16540,8 +16268,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-065",
     "cardNum": 65,
     "bodyText": "Incredible Energy - {e}, 1{i}: Name a card, then reveal the top card of your deck. If it's the named card, put that card into your hand. Otherwise, put it on the top of your deck.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -16563,8 +16290,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-066",
     "cardNum": 66,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1
   },
@@ -16588,8 +16314,7 @@ export const lorcanaCards = [
     "cardNum": 67,
     "bodyText": "Using The Mirror - At the start of your turn, for each character you have here, you may draw a card.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1
   },
@@ -16612,8 +16337,7 @@ export const lorcanaCards = [
     "cardNum": 68,
     "bodyText": "Broom Closet - Your characters named Magic Broom may move here for free.\n\nMagical Power - Characters get +1{l} while here.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 2
   },
@@ -16638,8 +16362,7 @@ export const lorcanaCards = [
     "cardNum": 69,
     "bodyText": "The Bear - Whenever this character moves to a location, he gets +3{s} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -16664,8 +16387,7 @@ export const lorcanaCards = [
     "cardNum": 70,
     "bodyText": "Poor Souls - Whenever this character is challenged, each opponent chooses and discards a card.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "INK"
   },
@@ -16690,8 +16412,7 @@ export const lorcanaCards = [
     "cardNum": 71,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Evasive"
@@ -16717,8 +16438,7 @@ export const lorcanaCards = [
     "cardNum": 72,
     "bodyText": "Eerie Pair - Your characters named Jetsam get +3{s}.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "INK"
   },
@@ -16743,8 +16463,7 @@ export const lorcanaCards = [
     "cardNum": 73,
     "bodyText": "You Thieving Scoundrel - When you play this character, the player or players with the most cards in their hand chooses and discards a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -16768,8 +16487,7 @@ export const lorcanaCards = [
     "cardNum": 74,
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of one of your characters named Helga Sinclair.)\n\nThis Changes Everything - Whenever this character quests, you may deal 3 damage to chosen damaged character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Shift 3"
@@ -16795,8 +16513,7 @@ export const lorcanaCards = [
     "cardNum": 75,
     "bodyText": "Nothing Personal - When this character is challenged and banished, banish the challenging character.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -16821,8 +16538,7 @@ export const lorcanaCards = [
     "cardNum": 76,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\n\nEerie Pair - Your characters named Flotsam gain Ward.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Ward"
@@ -16848,8 +16564,7 @@ export const lorcanaCards = [
     "cardNum": 77,
     "bodyText": "Skysurfing - When you play this character, you may return chosen opposing character with 2{s} or less to their player's hand.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -16873,8 +16588,7 @@ export const lorcanaCards = [
     "cardNum": 78,
     "bodyText": "Well, Now You Know - When you play this character, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)\n\nThanks For Volunteering - Whenever one of your other characters is banished, each opponent loses 1 lore.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Reckless"
@@ -16899,8 +16613,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-079",
     "cardNum": 79,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -16925,8 +16638,7 @@ export const lorcanaCards = [
     "cardNum": 80,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of one of your characters named Milo Thatch.)\n\nTake Them By Surprise - When this character is banished, return all opposing characters to their player's hands.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Shift 4"
@@ -16979,8 +16691,7 @@ export const lorcanaCards = [
     "cardNum": 82,
     "bodyText": "I Came To Listen To The Stories - Once per turn, when this character moves to a location, gain lore equal to that location's {l}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -17005,8 +16716,7 @@ export const lorcanaCards = [
     "cardNum": 83,
     "bodyText": "Collect Taxes - Whenever this character quests, each opponent with more lore than you loses 2 lore.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -17030,8 +16740,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-084",
     "cardNum": 84,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK"
   },
@@ -17056,8 +16765,7 @@ export const lorcanaCards = [
     "cardNum": 85,
     "bodyText": "I'll Handle This - While this character is at a location, she gets +3{s}.\r \rWhat's The Hurry? - While this character is at a location, whenever she challenges another character, you may draw a card.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "INK"
   },
@@ -17082,8 +16790,7 @@ export const lorcanaCards = [
     "cardNum": 86,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Evasive"
@@ -17109,8 +16816,7 @@ export const lorcanaCards = [
     "cardNum": 87,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Ward"
@@ -17135,8 +16841,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-088",
     "cardNum": 88,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "INK"
   },
@@ -17161,8 +16866,7 @@ export const lorcanaCards = [
     "cardNum": 89,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\n\nHide - While this character is at a location, he gains Ward. (Opponents can't choose them except to challenge.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Evasive, Ward"
@@ -17187,8 +16891,7 @@ export const lorcanaCards = [
     "cardNum": 90,
     "bodyText": "You'll Never Even Miss It - When you play this character, chosen opponent reveals their hand and discards a song card of your choice.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -17239,8 +16942,7 @@ export const lorcanaCards = [
     "cardNum": 92,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\n\nDisassemble - {e}: Banish chosen item.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Evasive"
@@ -17266,8 +16968,7 @@ export const lorcanaCards = [
     "cardNum": 93,
     "bodyText": "It's Time To Go! - While this character is at a location, he gets +1{l}.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -17289,8 +16990,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-094",
     "cardNum": 94,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\n\nBanish chosen item.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -17311,8 +17011,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-095",
     "cardNum": 95,
     "bodyText": "(A character with cost X or more can {e} to sing this song for free.)\r \r Chosen character of yours gets +2{s} this turn. They may move to a location for free.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -17333,8 +17032,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-096",
     "cardNum": 96,
     "bodyText": "(A character with cost X or more can {e} to sing this song for free.)\n\nDraw 2 cards, then choose and discard a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -17355,8 +17053,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-097",
     "cardNum": 97,
     "bodyText": "I Got To Be Going - {e}: If you've played 2 or more actions this turn, draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -17377,8 +17074,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-098",
     "cardNum": 98,
     "bodyText": "Forest's Gift - {e}: Deal 1 damage to chosen damaged character or location.\n\nA Bit Of A Lark - Whenever a character of yours named Robin Hood quests, you may ready this item.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -17399,8 +17095,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-099",
     "cardNum": 99,
     "bodyText": "Efficient Energy - {e}: You pay 2{i} less for the next action you play this turn.\n\nTrap - 2{i}, Banish this item: Draw 2 cards, then choose and discard a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -17422,8 +17117,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-100",
     "cardNum": 100,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1
   },
@@ -17447,8 +17141,7 @@ export const lorcanaCards = [
     "cardNum": 101,
     "bodyText": "Surrounded By Water - Characters gain Ward and Evasive while here. (Opponents can't choose them except to challenge. Only characters with Evasive can challenge them.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 2,
     "abilities": "Ward, Evasive"
@@ -17473,8 +17166,7 @@ export const lorcanaCards = [
     "cardNum": 102,
     "bodyText": "City Walls - Whenever a character is challenged and banished while here, banish the challenging character.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 3
   },
@@ -17499,8 +17191,7 @@ export const lorcanaCards = [
     "cardNum": 103,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\n\nInspiring Voice - Whenever you play a song, chosen character of yours gains Evasive until the start of your next turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Evasive"
@@ -17525,8 +17216,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-104",
     "cardNum": 104,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "INK"
   },
@@ -17576,8 +17266,7 @@ export const lorcanaCards = [
     "cardNum": 106,
     "bodyText": "Reckless (This character can't quest and must challenge each turn if able.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Reckless"
@@ -17603,8 +17292,7 @@ export const lorcanaCards = [
     "cardNum": 107,
     "bodyText": "Mindless Wandering - Once per turn, when this character moves to a location, each opponent loses 1 lore.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -17629,8 +17317,7 @@ export const lorcanaCards = [
     "cardNum": 108,
     "bodyText": "Watch The Teeth - Whenever this character is dealt damage, deal that much damage to chosen opposing character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "INK"
   },
@@ -17655,8 +17342,7 @@ export const lorcanaCards = [
     "cardNum": 109,
     "bodyText": "This Is It! - When you play this character, you may play a location with cost 4 or less for free.\n\nTake The Helm - Whenever you play a location, this character may move there for free.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK"
   },
@@ -17680,8 +17366,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-110",
     "cardNum": 110,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -17706,8 +17391,7 @@ export const lorcanaCards = [
     "cardNum": 111,
     "bodyText": "Plunder - When you play this character, each opponent loses 1 lore.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -17732,8 +17416,7 @@ export const lorcanaCards = [
     "cardNum": 112,
     "bodyText": "That Terrible Woman - When you play this character, banish chosen opposing character with 3{s} or less.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK"
   },
@@ -17757,8 +17440,7 @@ export const lorcanaCards = [
     "cardNum": 113,
     "bodyText": "Reckless (This character can't quest and must challenge each turn if able.)\n\nIn Ma Belly - Whenever a character of yours named HeiHei quests, this character gets +1{l} and loses Reckless this turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "INK",
     "abilities": "Reckless"
@@ -17784,8 +17466,7 @@ export const lorcanaCards = [
     "cardNum": 114,
     "bodyText": "This Mission Is Cursed - This character can't ready at the start of your turn.\n\nI Got Your Back - 2{i}: Ready this character. He can't quest for the rest of the turn.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 8,
     "setId": "INK"
   },
@@ -17810,8 +17491,7 @@ export const lorcanaCards = [
     "cardNum": 115,
     "bodyText": "I'm Your Man! - While this character is at a location, he gets +2{s}.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -17835,8 +17515,7 @@ export const lorcanaCards = [
     "cardNum": 116,
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of one of your characters named Moana.)\n\nWelcome To My Boat - Whenever this character quests while at a location, ready all other characters here, they can't quest for the rest of this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Shift 3"
@@ -17862,8 +17541,7 @@ export const lorcanaCards = [
     "cardNum": 117,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Evasive"
@@ -17888,8 +17566,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-118",
     "cardNum": 118,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -17914,8 +17591,7 @@ export const lorcanaCards = [
     "cardNum": 119,
     "bodyText": "Rush (This character can challenge the turn they're played.)\r \r Over Here, Tink - While you have a character named Tinker Bell in play, this character gets +2{s}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK",
     "abilities": "Rush"
@@ -17940,8 +17616,7 @@ export const lorcanaCards = [
     "cardNum": 120,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of one of your characters named Peter Pan.)\n\nEvasive (Only characters with Evasive can challenge this character.)\n\nYou're Next! - Whenever he challenges a Pirate character, this character takes no damage from the challenge.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Shift 4, Evasive"
@@ -17967,8 +17642,7 @@ export const lorcanaCards = [
     "cardNum": 121,
     "bodyText": "Surprise Maneuver - When this character is banished, you may banish chosen character.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -17993,8 +17667,7 @@ export const lorcanaCards = [
     "cardNum": 122,
     "bodyText": "Brute - While this character has damage, he gets +3{s}.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -18018,8 +17691,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-123",
     "cardNum": 123,
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -18044,8 +17716,7 @@ export const lorcanaCards = [
     "cardNum": 124,
     "bodyText": "The Fox - If you have a character named Peter Pan in play, you pay 1{i} less to play this character.\n\nEvasive (Only characters with Evasive can challenge this character.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Evasive"
@@ -18071,8 +17742,7 @@ export const lorcanaCards = [
     "cardNum": 125,
     "bodyText": "Rush (This character can challenge the turn they're played.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Rush"
@@ -18098,8 +17768,7 @@ export const lorcanaCards = [
     "cardNum": 126,
     "bodyText": "Old Betsy - Your characters named Nutsy get +1{l}.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -18123,8 +17792,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-127",
     "cardNum": 127,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -18145,8 +17813,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-128",
     "cardNum": 128,
     "bodyText": "Banish one of your characters with Reckless to banish chosen character with less {s} than that character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "abilities": "Reckless"
   },
@@ -18168,8 +17835,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-129",
     "cardNum": 129,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\n\nReady chosen character of yours at a location. They can't quest for the rest of this turn. Gain lore equal to that location's {l}.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -18190,8 +17856,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-130",
     "cardNum": 130,
     "bodyText": "Ready all your characters and deal 1 damage to each of them. They can't quest for the rest of this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -18212,8 +17877,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-131",
     "cardNum": 131,
     "bodyText": "Move up to 2 characters of yours to the same location for free.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -18233,8 +17897,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-132",
     "cardNum": 132,
     "bodyText": "It's Maui Time! - If you have a character named Maui in play, you may use this item's Shapeshift ability for free.\r \r Shapeshift - {e}, 2{i}: Choose one:\r - Chosen character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)\r - Chosen character gets +3{s} this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "abilities": "Evasive"
   },
@@ -18256,8 +17919,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-133",
     "cardNum": 133,
     "bodyText": "Source Of Magic - During your turn, whenever one of your characters is banished in a challenge, you may draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -18279,8 +17941,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-134",
     "cardNum": 134,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1
   },
@@ -18302,8 +17963,7 @@ export const lorcanaCards = [
     "cardNum": 135,
     "bodyText": "Look Alive, You Swabs! - Characters gain Rush while here. (They can challenge the turn they're played.)\n\nAll Hands On Deck! - Your Pirate characters may move here for free.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 2,
     "abilities": "Rush"
@@ -18327,8 +17987,7 @@ export const lorcanaCards = [
     "cardNum": 136,
     "bodyText": "This Is Our Ship - Characters gain Evasive while here. (Only characters with Evasive can challenge them.)\n\nHeave Together Now - If you have a character here, you pay 2{i} less to move a character of yours here.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 3,
     "abilities": "Evasive"
@@ -18354,8 +18013,7 @@ export const lorcanaCards = [
     "cardNum": 137,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\n\nSpare Parts - Whenever this character quests, ready one of your items.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Ward"
@@ -18381,8 +18039,7 @@ export const lorcanaCards = [
     "cardNum": 138,
     "bodyText": "Discipline - During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK",
     "abilities": "Evasive"
@@ -18408,8 +18065,7 @@ export const lorcanaCards = [
     "cardNum": 139,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Support"
@@ -18435,8 +18091,7 @@ export const lorcanaCards = [
     "cardNum": 140,
     "bodyText": "They'll Never See It Coming! - During your turn, this character gains Evasive. (They can challenge characters with Evasive.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Evasive"
@@ -18461,8 +18116,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-141",
     "cardNum": 141,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -18487,8 +18141,7 @@ export const lorcanaCards = [
     "cardNum": 142,
     "bodyText": "There Was Only Ocean - When you play this character, look at the top 2 cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -18540,8 +18193,7 @@ export const lorcanaCards = [
     "cardNum": 144,
     "bodyText": "Now Try To Keep Up - {e}: Put an item card from your discard on the top of your deck.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -18566,8 +18218,7 @@ export const lorcanaCards = [
     "cardNum": 145,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)\n\nThree Nephews - Whenever this character quests, if you have characters named Dewey and Louie in play, you may draw 3 cards.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Support"
@@ -18592,8 +18243,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-146",
     "cardNum": 146,
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 7,
     "setId": "INK"
   },
@@ -18617,8 +18267,7 @@ export const lorcanaCards = [
     "cardNum": 147,
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of one of your characters named Kit Cloudkicker.)\n\nWard (Opponents can't choose this character except to challenge.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Shift 3, Ward"
@@ -18644,8 +18293,7 @@ export const lorcanaCards = [
     "cardNum": 148,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "INK",
     "abilities": "Ward"
@@ -18671,8 +18319,7 @@ export const lorcanaCards = [
     "cardNum": 149,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Support"
@@ -18698,8 +18345,7 @@ export const lorcanaCards = [
     "cardNum": 150,
     "bodyText": "Highborn Lady - When you play this character, chosen character gets -2{s} this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK"
   },
@@ -18724,8 +18370,7 @@ export const lorcanaCards = [
     "cardNum": 151,
     "bodyText": "This Going To Be Good - Whenever you play a song, you may put the top card of your deck into your inkwell facedown and exerted.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -18749,8 +18394,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-152",
     "cardNum": 152,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -18775,8 +18419,7 @@ export const lorcanaCards = [
     "cardNum": 153,
     "bodyText": "Too Old To Be Chasing Mice - When this character is banished, you may put this card into your inkwell facedown and exerted.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK"
   },
@@ -18828,8 +18471,7 @@ export const lorcanaCards = [
     "cardNum": 155,
     "bodyText": "Treasure Rigger - Whenever this character quests, you pay 1{i} less for the next item you play this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -18854,8 +18496,7 @@ export const lorcanaCards = [
     "cardNum": 156,
     "bodyText": "Calculating And Vain - Whenever this character quests, you may look at the top 3 cards of your deck and put them back in any order.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -18880,8 +18521,7 @@ export const lorcanaCards = [
     "cardNum": 157,
     "bodyText": "I Can Use That - Whenever one of your items is banished, you may put that card into your inkwell facedown and exerted.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -18905,8 +18545,7 @@ export const lorcanaCards = [
     "cardNum": 158,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\n\nSupport (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Ward, Support"
@@ -18928,8 +18567,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-159",
     "cardNum": 159,
     "bodyText": "Chosen character gets -2{s} this turn. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -18950,8 +18588,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-160",
     "cardNum": 160,
     "bodyText": "(A character with cost 5 or more can {e} to sing this song for free.)\n\nEach player puts the top 3 cards of their deck into their inkwell facedown and exerted.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -18971,8 +18608,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-161",
     "cardNum": 161,
     "bodyText": "(A character with cost 4 or more can {e} to sing this song for free.)\n\nLook at the top 2 cards of your deck. Put one into your hand and the other into your inkwell facedown and exerted.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -18993,8 +18629,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-162",
     "cardNum": 162,
     "bodyText": "Remove up to 3 damage from one of your locations or characters.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -19015,8 +18650,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-163",
     "cardNum": 163,
     "bodyText": "Seeking Knowledge - Whenever one of your characters quests, you may look at the top card of your deck. Put it on either the top or the bottom of your deck.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -19037,8 +18671,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-164",
     "cardNum": 164,
     "bodyText": "Create Life - {e}, 2{i}: Put the top card of your deck into your inkwell facedown and exerted.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -19059,8 +18692,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-165",
     "cardNum": 165,
     "bodyText": "Number One - {e}, 2{i}: Choose a character of yours and gain lore equal to their {l}.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -19081,8 +18713,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-166",
     "cardNum": 166,
     "bodyText": "Business Expertise - {e}: You pay 1{i} less for the next item you play this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -19103,8 +18734,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-167",
     "cardNum": 167,
     "bodyText": "Sealed Away - Your locations and characters at locations gain Resist +1. (Damage dealt to them is reduced by 1.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "abilities": "Resist +1"
   },
@@ -19127,8 +18757,7 @@ export const lorcanaCards = [
     "cardNum": 168,
     "bodyText": "Laboratory - If you have a character here, you pay 1{i} less to play items.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 2
   },
@@ -19151,8 +18780,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-169",
     "cardNum": 169,
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1
   },
@@ -19175,8 +18803,7 @@ export const lorcanaCards = [
     "cardNum": 170,
     "bodyText": "Reincarnation - Whenever a character is banished while here, you may put that card into your inkwell facedown and exerted.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1
   },
@@ -19200,8 +18827,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-171",
     "cardNum": 171,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -19226,8 +18852,7 @@ export const lorcanaCards = [
     "cardNum": 172,
     "bodyText": "Resist +1 (Damage dealt to this character is reduced by 1.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Resist +1"
@@ -19252,8 +18877,7 @@ export const lorcanaCards = [
     "cardNum": 173,
     "bodyText": "All Tied Up - This character enters play exerted and can't ready at the start of your turn.\n\nBreak Free - During your turn, whenever one of your other characters banished another character in a challenge, you may ready this character.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "INK"
   },
@@ -19278,8 +18902,7 @@ export const lorcanaCards = [
     "cardNum": 174,
     "bodyText": "Call The Titans - {e}: Ready your Titan characters.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "INK"
   },
@@ -19304,8 +18927,7 @@ export const lorcanaCards = [
     "cardNum": 175,
     "bodyText": "Challenger +2 (While challenging, this character gets +2{s}.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Challenger +2"
@@ -19331,8 +18953,7 @@ export const lorcanaCards = [
     "cardNum": 176,
     "bodyText": "Chart Your Own Course - For each location you have in play, this character gains Resist +1 and gets +1{l}. (Damage dealt to them is reduced by 1.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK",
     "abilities": "Resist +1"
@@ -19358,8 +18979,7 @@ export const lorcanaCards = [
     "cardNum": 177,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Bodyguard"
@@ -19384,8 +19004,7 @@ export const lorcanaCards = [
     "cardNum": 178,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of one of your characters named Little John.)\n\nOkay, Big Shot - While this character is exerted, your characters with Bodyguard gain Resist +1 and get +1{l}.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Shift 4, Bodyguard, Resist +1"
@@ -19410,8 +19029,7 @@ export const lorcanaCards = [
     "cardNum": 179,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\n\nDisguised - During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK",
     "abilities": "Bodyguard, Evasive"
@@ -19437,8 +19055,7 @@ export const lorcanaCards = [
     "cardNum": 180,
     "bodyText": "Resist +2 (Damage dealt to this character is reduced by 2.)\n\nStone Skin - {e}: Chosen character gains Resist +2 this turn.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK",
     "abilities": "Resist +2"
@@ -19464,8 +19081,7 @@ export const lorcanaCards = [
     "cardNum": 181,
     "bodyText": "Let's Take A Look - This character gets +1{s} for each location you have in play.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -19515,8 +19131,7 @@ export const lorcanaCards = [
     "cardNum": 183,
     "bodyText": "Journey - While this character is at a location, she gets +2{s}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "INK"
   },
@@ -19541,8 +19156,7 @@ export const lorcanaCards = [
     "cardNum": 184,
     "bodyText": "Oh Dear, Dear, Dear - At the end of your turn, if this character is exerted and you don't have a Captain character in play, deal 1 damage to this character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -19566,8 +19180,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-185",
     "cardNum": 185,
     "willpower": 10,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -19591,8 +19204,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-186",
     "cardNum": 186,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -19617,8 +19229,7 @@ export const lorcanaCards = [
     "cardNum": 187,
     "bodyText": "Eruption - During your turn, whenever this character banishes another character in a challenge, you may ready chosen character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "INK"
   },
@@ -19643,8 +19254,7 @@ export const lorcanaCards = [
     "cardNum": 188,
     "bodyText": "Looky Here - While this character has no damage, he gets +2{s}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "INK"
   },
@@ -19668,8 +19278,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-189",
     "cardNum": 189,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -19720,8 +19329,7 @@ export const lorcanaCards = [
     "cardNum": 191,
     "bodyText": "Taxes Should Hurt - Whenever you discard a card, you may deal 1 damage to chosen opposing character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "INK"
   },
@@ -19746,8 +19354,7 @@ export const lorcanaCards = [
     "cardNum": 192,
     "bodyText": "Step Down Or Fight - When you play this character and whenever he banishes another character in a challenge during your turn, you may choose one:\r - Draw 2 cards, then choose and discard 2 cards.\r - Deal 2 damage to chosen character.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "INK"
   },
@@ -19772,8 +19379,7 @@ export const lorcanaCards = [
     "cardNum": 193,
     "bodyText": "Triumphant Stance - During your turn, whenever this character banishes another character in a challenge, chosen opposing character can't challenge during their next turn.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "INK"
   },
@@ -19798,8 +19404,7 @@ export const lorcanaCards = [
     "cardNum": 194,
     "bodyText": "My Teeth Are Sharper - Whenever this character quests while at a location, you may deal 1 damage to chosen character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "INK"
   },
@@ -19843,8 +19448,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-196",
     "cardNum": 196,
     "bodyText": "Deal 2 damage to chosen character or location",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -19865,8 +19469,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-197",
     "cardNum": 197,
     "bodyText": "Your characters get +3{s} while challenging a location this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -19887,8 +19490,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-198",
     "cardNum": 198,
     "bodyText": "Banish chosen location or item.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -19908,8 +19510,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-199",
     "cardNum": 199,
     "bodyText": "Get Those Scurvy Brats! - During your turn, whenever one of your characters banishes another character in a challenge, you may pay 1{i} to draw a  card.\r \r Let's Have At It! - Your characters named Captain Hook gain Challenger +1. (They get +1{s} while challenging.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "abilities": "Challenger +1"
   },
@@ -19931,8 +19532,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-200",
     "cardNum": 200,
     "bodyText": "Cybernetic Armor - Banish this item: Chosen character gains Resist +2 until the start of your next turn. (Damage dealt to them is reduced by 2.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "abilities": "Resist +2"
   },
@@ -19954,8 +19554,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-201",
     "cardNum": 201,
     "bodyText": "Key To The Portal - {e}: You pay 1{i} less for the next location you play this turn.\n\nShow The Way - You pay 1{i} less to move your characters to a location.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK"
   },
   {
@@ -19977,8 +19576,7 @@ export const lorcanaCards = [
     "cardNum": 202,
     "bodyText": "Isolated - Characters gain Resist +1 while here. (Damage dealt to them is reduced by 1.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1,
     "abilities": "Resist +1"
@@ -20002,8 +19600,7 @@ export const lorcanaCards = [
     "uniqueId": "INK-203",
     "cardNum": 203,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1
   },
@@ -20027,8 +19624,7 @@ export const lorcanaCards = [
     "cardNum": 204,
     "bodyText": "Show Me The Way - Whenever a character quests while here, you may draw a card, then choose and discard a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "INK",
     "moveCost": 1
   },
@@ -20053,8 +19649,7 @@ export const lorcanaCards = [
     "cardNum": 1,
     "bodyText": "Oh, Gosh! - This character can't quest unless you have another Seven Dwarfs character in play.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:23:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20079,8 +19674,7 @@ export const lorcanaCards = [
     "cardNum": 2,
     "bodyText": "We'll Always Be Together: Whenever you ready this character, if you have 2 or more other characters in play, gain 2 lore.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20105,8 +19699,7 @@ export const lorcanaCards = [
     "cardNum": 3,
     "bodyText": "Singer 3 (This character counts as cost 3 to sing songs.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Singer 3"
@@ -20131,8 +19724,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-004",
     "cardNum": 4,
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF"
   },
@@ -20157,8 +19749,7 @@ export const lorcanaCards = [
     "cardNum": 5,
     "bodyText": "Share and Share Alike: Whenever this character quests, you pay 1 {i} less for the next character you play this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20183,8 +19774,7 @@ export const lorcanaCards = [
     "cardNum": 6,
     "bodyText": "Odd One Out: When this character is banished, your other Seven Dwarfs characters get +2 {s} until the start of your next turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20208,8 +19798,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-007",
     "cardNum": 7,
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -20234,8 +19823,7 @@ export const lorcanaCards = [
     "cardNum": 8,
     "bodyText": "Singer 5 ( This character counts as cost 5 to sing songs.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Singer 5"
@@ -20261,8 +19849,7 @@ export const lorcanaCards = [
     "cardNum": 9,
     "bodyText": "Yes, Your Majesty - Your Prince, Princess, King, and Queen characters get +1 {s}.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20287,8 +19874,7 @@ export const lorcanaCards = [
     "cardNum": 10,
     "bodyText": "There's Trouble A-Brewin' - Your other Seven Dwarfs characters get +1 {s}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -20313,8 +19899,7 @@ export const lorcanaCards = [
     "cardNum": 11,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Support"
@@ -20340,8 +19925,7 @@ export const lorcanaCards = [
     "cardNum": 12,
     "bodyText": "Lay It On The Line - Whenever another character is banished, you may remove up to 2 damage from this character.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -20366,8 +19950,7 @@ export const lorcanaCards = [
     "cardNum": 13,
     "bodyText": "Glad You're Here! - Whenever this character quests, you pay 3 {i} less for the next character you play this turn.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -20391,8 +19974,7 @@ export const lorcanaCards = [
     "cardNum": 14,
     "bodyText": "The Sun Will Set - When this character is banished, you may reveal the top card of your deck. If it's a character card, you may play that character for free and they enter play exerted. Otherwise, put it on the top of your deck.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -20417,8 +19999,7 @@ export const lorcanaCards = [
     "cardNum": 15,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Support"
@@ -20443,8 +20024,7 @@ export const lorcanaCards = [
     "cardNum": 16,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Mulan.)\n\nHonor To The Ancestors - Whenever this character quests, you may reveal the top card of your deck. If it's a song card, you may play it for free. Otherwise, put it on the top of your deck.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Shift 2"
@@ -20470,8 +20050,7 @@ export const lorcanaCards = [
     "cardNum": 17,
     "bodyText": "Nursemaid - Whenever you play a Floodborn character, you may remove all damage from chosen character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -20495,8 +20074,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-018",
     "cardNum": 18,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20520,8 +20098,7 @@ export const lorcanaCards = [
     "cardNum": 19,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Rapunzel.)\n\nLet Your Power Shine - Whenever you remove 1 or more damage from one of your characters, you may draw a card.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "ROF",
     "abilities": "Shift 3"
@@ -20547,8 +20124,7 @@ export const lorcanaCards = [
     "cardNum": 20,
     "bodyText": "Magic Hair - {e}: Remove up to 2 damage from chosen character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -20573,8 +20149,7 @@ export const lorcanaCards = [
     "cardNum": 21,
     "bodyText": "Yawn! - This character enters play exerted.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20599,8 +20174,7 @@ export const lorcanaCards = [
     "cardNum": 22,
     "bodyText": "Ah-Choo! Whenever you play this character or another Seven Dwarfs character, you may give chosen character -1 {s} this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -20625,8 +20199,7 @@ export const lorcanaCards = [
     "cardNum": 23,
     "bodyText": "I Won't Hurt You - When you play this character, you may remove up to 2 damage from chosen character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20651,8 +20224,7 @@ export const lorcanaCards = [
     "cardNum": 24,
     "bodyText": "How Do You Do? - You pay 1 {i} less to play Seven Dwarfs Characters.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -20676,8 +20248,7 @@ export const lorcanaCards = [
     "cardNum": 25,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Snow White.)\n\nWishes Come True - Whenever this character quests, you may return a character card from your discard to your hand.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Shift 4"
@@ -20702,8 +20273,7 @@ export const lorcanaCards = [
     "cardNum": 26,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of one of your characters named The Queen.)\n\nWho is the Fairest? - Whenever this character quests, chosen opposing character gets -4 {s} this turn and chosen character gets +4 {s} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Shift 2"
@@ -20728,8 +20298,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-027",
     "cardNum": 27,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20751,8 +20320,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-028",
     "cardNum": 28,
     "bodyText": "Remove up to 4 damage from chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -20773,8 +20341,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-029",
     "cardNum": 29,
     "bodyText": "Banish chosen character who was challenged this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -20794,8 +20361,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-030",
     "cardNum": 30,
     "bodyText": "{A character with cost X or more can {e} to sing this song for free.)\n\nUp to 2 chosen characters get -1 {s} this turn. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -20815,8 +20381,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-031",
     "cardNum": 31,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\r \r Banish chosen character with 5 {s} or more.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -20836,8 +20401,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-032",
     "cardNum": 32,
     "bodyText": "{A character with cost X or more can {e} to sing this song for free.)\n\nCount the number of characters you have in play. You pay that amount of {i} less for the next character you play this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -20858,8 +20422,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-033",
     "cardNum": 33,
     "bodyText": "Bring Back To Life: {e}, 3 {i} - Return a character card with Support from your discard to your hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Support"
   },
@@ -20880,8 +20443,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-034",
     "cardNum": 34,
     "bodyText": "A Silly Song - {e}: If you played a song this turn, gain 1 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -20905,8 +20467,7 @@ export const lorcanaCards = [
     "cardNum": 35,
     "bodyText": "Student: Whenever this character quests, you may return another chosen character of yours to your hand to gain 2 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -20931,8 +20492,7 @@ export const lorcanaCards = [
     "cardNum": 36,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\nEthereal Glow: Whenever you play a Floodborn character, you may draw a card.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -20957,8 +20517,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-037",
     "cardNum": 37,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -20982,8 +20541,7 @@ export const lorcanaCards = [
     "cardNum": 38,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -21009,8 +20567,7 @@ export const lorcanaCards = [
     "cardNum": 39,
     "bodyText": "Challenger +3 (While challenging, this character gets +3 {s}.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Challenger +3"
@@ -21035,8 +20592,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-040",
     "cardNum": 40,
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -21060,8 +20616,7 @@ export const lorcanaCards = [
     "cardNum": 41,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Fairy Godmother.)\nForget The Coach, Here's A Sword: Whenever this character quests, your characters gain Challenger +3 and \"When this character is banished in a challenge, return this card to your hand\" this turn. (They get +3 {s} while challenging.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Shift 2, Challenger +3"
@@ -21087,8 +20642,7 @@ export const lorcanaCards = [
     "cardNum": 42,
     "bodyText": "Just Leave It To Me: Whenever you play a character named Cinderella, you may exert chosen character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -21113,8 +20667,7 @@ export const lorcanaCards = [
     "cardNum": 43,
     "bodyText": "He's Back: When this character is banished in a challenge, return this card to your hand.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -21139,8 +20692,7 @@ export const lorcanaCards = [
     "cardNum": 44,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\nThat Still, Small Voice: When you play this character, if you have a character named Pinocchio in play, you may draw a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -21166,8 +20718,7 @@ export const lorcanaCards = [
     "cardNum": 45,
     "bodyText": "Ok, Where am I?: When this character is banished, you may draw a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -21191,8 +20742,7 @@ export const lorcanaCards = [
     "cardNum": 46,
     "bodyText": "Chasing The Rabbit: When you play this character, banish her or return another chosen character of yours to your hand.\nRush (This character can challenge the turn they're played.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Rush"
@@ -21218,8 +20768,7 @@ export const lorcanaCards = [
     "cardNum": 47,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\r\\nI Win, I Win!: When you play this character, banish her or return another 2 chosen characters of yours to your hand.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -21244,8 +20793,7 @@ export const lorcanaCards = [
     "cardNum": 48,
     "bodyText": "Shift 3 (You may play 3 {i} to play this on top of one of your characters named Madam Mim.)\nGruesome And Grim: {e} - Play a character with cost 4 or less for free. They gain Rush. At the end of the turn, banish them. (They can challenge the turn they're played)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Shift 3, Rush"
@@ -21271,8 +20819,7 @@ export const lorcanaCards = [
     "cardNum": 49,
     "bodyText": "Just You Wait: When you play this character, banish her or return another chosen character of yours to your hand.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -21297,8 +20844,7 @@ export const lorcanaCards = [
     "cardNum": 50,
     "bodyText": "Ready Or Not!: When you play this character and when he leaves play, chosen characters gain Challenger +3 this turn. (They get +3 {s} while challenging.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Challenger +3"
@@ -21324,8 +20870,7 @@ export const lorcanaCards = [
     "cardNum": 51,
     "bodyText": "Here I Come!: When you play this character and when he leaves play, gain 1 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF"
   },
@@ -21350,8 +20895,7 @@ export const lorcanaCards = [
     "cardNum": 52,
     "bodyText": "Hoppity Hip!: When you play this character and when he leaves play, you may draw a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -21376,8 +20920,7 @@ export const lorcanaCards = [
     "cardNum": 53,
     "bodyText": "Battle Of Wits: Whenever one of your other characters is returned to your hand from play, this characters get +1 {l} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -21402,8 +20945,7 @@ export const lorcanaCards = [
     "cardNum": 54,
     "bodyText": "Look Before You Leap: When you play this character and when he leaves play, look at the top card of your deck. Put it on either the top or the bottom of your deck.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -21427,8 +20969,7 @@ export const lorcanaCards = [
     "cardNum": 55,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\nRush (This character can challenge the turn they're played.)\nTiptoe: Your other characters with Rush gain Evasive.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Evasive, Rush"
@@ -21453,8 +20994,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-056",
     "cardNum": 56,
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -21479,8 +21019,7 @@ export const lorcanaCards = [
     "cardNum": 57,
     "bodyText": "Shift 3 (You pay 3 {i} to play this on top of one of your characters named Pinocchio.)\nListen To Your Conscience: When you play this character, you may return chosen character or item with cost 3 or less to their player's hand.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Shift 3"
@@ -21506,8 +21045,7 @@ export const lorcanaCards = [
     "cardNum": 58,
     "bodyText": "Telling Lies: When you play this character, you may exert chosen opposing character.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -21531,8 +21069,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-059",
     "cardNum": 59,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF"
   },
@@ -21556,8 +21093,7 @@ export const lorcanaCards = [
     "cardNum": 60,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Yzma)\nCruel Irony: When you play this character, shuffle another chosen character card into their player's deck. That player draws 2 cards.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Shift 4"
@@ -21582,8 +21118,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-061",
     "cardNum": 61,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -21604,8 +21139,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-062",
     "cardNum": 62,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\nPlay a character with cost 4 or less for free. They gain Rush. At the end of the turn, banish them. (They can challenge the turn they're played)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Rush"
   },
@@ -21627,8 +21161,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-063",
     "cardNum": 63,
     "bodyText": "Chosen exerted character can't ready at the start of their next turn",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -21649,8 +21182,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-064",
     "cardNum": 64,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\nChosen character gains Challenger +3 this turn. (They get +3 {s} while challenging.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Challenger +3"
   },
@@ -21672,8 +21204,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-065",
     "cardNum": 65,
     "bodyText": "For All Eternity: {e}, {e} one of you character - Exert chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -21693,8 +21224,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-066",
     "cardNum": 66,
     "bodyText": "Hurtling Hedgehog: Banish this item - Chosen character gains Rush this turn. (They can challenge the turn they're played.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Rush"
   },
@@ -21716,8 +21246,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-067",
     "cardNum": 67,
     "bodyText": "To Wonderland: Banish this item - Return chosen character of yours to your hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -21738,8 +21267,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-068",
     "cardNum": 68,
     "bodyText": "Knowledge: {e}, 1 {i} - Gain 1 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -21762,8 +21290,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-069",
     "cardNum": 69,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF"
   },
@@ -21787,8 +21314,7 @@ export const lorcanaCards = [
     "cardNum": 70,
     "bodyText": "Second Wind: Whenever an opposing character is damaged, you may ready this character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF"
   },
@@ -21813,8 +21339,7 @@ export const lorcanaCards = [
     "cardNum": 71,
     "bodyText": "Use Your Imagination: While an opponent has no cards in their hand, this character gets +2 {l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -21839,8 +21364,7 @@ export const lorcanaCards = [
     "cardNum": 72,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Belle.)\nThorny Arrows: Whenever this character is challenged, the challenging character's player discards all cards in their hand.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Shift 3"
@@ -21866,8 +21390,7 @@ export const lorcanaCards = [
     "cardNum": 73,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\nSqueak: Whenever you play a Floodborn character, each opponent chooses and discards a card.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Ward"
@@ -21892,8 +21415,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-074",
     "cardNum": 74,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -21917,8 +21439,7 @@ export const lorcanaCards = [
     "cardNum": 75,
     "bodyText": "Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Cheshire Cat.)\nEvasive (Only characters with Evasive can challenge this character.)\nWicked Smile: {e} - Banish chosen damaged character.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF",
     "abilities": "Shift 5, Evasive"
@@ -21943,8 +21464,7 @@ export const lorcanaCards = [
     "cardNum": 76,
     "bodyText": "Thwart: Whenever this character quests, each opponent chooses and discards a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -21968,8 +21488,7 @@ export const lorcanaCards = [
     "cardNum": 77,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Donald Duck.)\nAllow Me: At the start of your turn, each player may draw a card.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Shift 3"
@@ -21995,8 +21514,7 @@ export const lorcanaCards = [
     "cardNum": 78,
     "bodyText": "Startled Awake: Whenever you play an action, this character gets +2 {s} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "ROF"
   },
@@ -22020,8 +21538,7 @@ export const lorcanaCards = [
     "cardNum": 79,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\nYou're In My World: Whenever this character quests, chosen opposing character can't quest during their next turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -22047,8 +21564,7 @@ export const lorcanaCards = [
     "cardNum": 80,
     "bodyText": "True Form: While being challenged, this character gets +2 {s}.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -22072,8 +21588,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-081",
     "cardNum": 81,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -22097,8 +21612,7 @@ export const lorcanaCards = [
     "cardNum": 82,
     "bodyText": "Shift 2 (You may 2 {i} to play this on top of one of your characters named Flynn Rider.)\nEvasive (Only characters with Evasive can challenge this character.)\nOne Last, Big Score: This character gets -1 {l} for each card in your opponents' hands.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Shift 2, Evasive"
@@ -22124,8 +21638,7 @@ export const lorcanaCards = [
     "cardNum": 83,
     "bodyText": "Yes, I'm Intimidating: While one or more opponents have no cards in their hands, this character gets +3 {s}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -22149,8 +21662,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-084",
     "cardNum": 84,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "ROF"
   },
@@ -22175,8 +21687,7 @@ export const lorcanaCards = [
     "cardNum": 85,
     "bodyText": "Mouse Catcher: When you play this character, each opponent chooses and discards either 2 cards or 1 action card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -22201,8 +21712,7 @@ export const lorcanaCards = [
     "cardNum": 86,
     "bodyText": "Coming, Your Most Lugubriousness: While this character has 5 {s} or more, he gets +2 {l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -22227,8 +21737,7 @@ export const lorcanaCards = [
     "cardNum": 87,
     "bodyText": "I Can Handle It: When you play this character, chosen character gets +2 {s} this turn. If the chosen character is named Pain, he gets +4 {s} instead.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -22252,8 +21761,7 @@ export const lorcanaCards = [
     "cardNum": 88,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\nTake That!: Whenever you play an action, this character gets +2 {s} this turn.\nWho's Next?: While this character has 7 {s} or more, he gets +2 {l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Ward"
@@ -22279,8 +21787,7 @@ export const lorcanaCards = [
     "cardNum": 89,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\nI Sentence You: Whenever your opponents discards 1 or more cards, you may draw a card for each card discarded.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Ward"
@@ -22306,8 +21813,7 @@ export const lorcanaCards = [
     "cardNum": 90,
     "bodyText": "Royal Rage: When you play this character, deal 1 damage to chosen damaged opposing character.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -22332,8 +21838,7 @@ export const lorcanaCards = [
     "cardNum": 91,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -22359,8 +21864,7 @@ export const lorcanaCards = [
     "cardNum": 92,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -22386,8 +21890,7 @@ export const lorcanaCards = [
     "cardNum": 93,
     "bodyText": "A Perfect Disguise: {e}, Choose and discard a character card - Gain lore equal to the discarded character's {l}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -22411,8 +21914,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-094",
     "cardNum": 94,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF"
   },
@@ -22436,8 +21938,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-095",
     "cardNum": 95,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF"
   },
@@ -22459,8 +21960,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-096",
     "cardNum": 96,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\nReturn chosen character of your to your hand to play another character with the same cost or less for free.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -22481,8 +21981,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-097",
     "cardNum": 97,
     "bodyText": "Return chosen character of yours to your hand to return another chosen character to their player's hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -22503,8 +22002,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-098",
     "cardNum": 98,
     "bodyText": "Each Opponent chooses and discards a card. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -22525,8 +22023,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-099",
     "cardNum": 99,
     "bodyText": "Chosen Character gets +1 {s} this turn. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -22547,8 +22044,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-100",
     "cardNum": 100,
     "bodyText": "Gain 1 lore for each damaged character opponents have in play.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -22569,8 +22065,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-101",
     "cardNum": 101,
     "bodyText": "Banish chosen damaged character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -22591,8 +22086,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-102",
     "cardNum": 102,
     "bodyText": "Snap! Boom! Twang!: Banish this item - Each opponent loses 2 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -22615,8 +22109,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-103",
     "cardNum": 103,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF"
   },
@@ -22640,8 +22133,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-104",
     "cardNum": 104,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -22665,8 +22157,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-105",
     "cardNum": 105,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF"
   },
@@ -22690,8 +22181,7 @@ export const lorcanaCards = [
     "cardNum": 106,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\r \r Phooey!: This character gets +1 {l} for each 1 damage on him.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -22717,8 +22207,7 @@ export const lorcanaCards = [
     "cardNum": 107,
     "bodyText": "Reckless (This character can't quest and must challenge each turn if able.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Reckless"
@@ -22744,8 +22233,7 @@ export const lorcanaCards = [
     "cardNum": 108,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\n",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -22771,8 +22259,7 @@ export const lorcanaCards = [
     "cardNum": 109,
     "bodyText": "Easy Street - Whenever you play a Floodborn character, each opponent loses 1 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -22797,8 +22284,7 @@ export const lorcanaCards = [
     "cardNum": 110,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Lady Tremaine.)\n\nPower To Rule At Last - When you play this character, each opponent chooses and banishes one of their characters.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Shift 4"
@@ -22824,8 +22310,7 @@ export const lorcanaCards = [
     "cardNum": 111,
     "bodyText": "Not For You - When you play this character, each opponent with more lore than you loses 1 lore.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -22849,8 +22334,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-112",
     "cardNum": 112,
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 7,
     "setId": "ROF"
   },
@@ -22875,8 +22359,7 @@ export const lorcanaCards = [
     "cardNum": 113,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -22901,8 +22384,7 @@ export const lorcanaCards = [
     "cardNum": 114,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Minnie Mouse.)\nEvasive (Only Characters with Evasive can challenge this character.)\nUndersea Adventure: Whenever you play a second action in a turn, this character gets +2 {l} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Shift 2, Evasive"
@@ -22927,8 +22409,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-115",
     "cardNum": 115,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -22953,8 +22434,7 @@ export const lorcanaCards = [
     "cardNum": 116,
     "bodyText": "What Have You Done?!: This character enters play with 3 damage.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -22979,8 +22459,7 @@ export const lorcanaCards = [
     "cardNum": 117,
     "bodyText": "Rush (This character can challenge the turn they're played.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Rush"
@@ -23006,8 +22485,7 @@ export const lorcanaCards = [
     "cardNum": 118,
     "bodyText": "This Shouldn't Take Long: {e}, Banish this character - Banish chosen character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -23032,8 +22510,7 @@ export const lorcanaCards = [
     "cardNum": 119,
     "bodyText": "Rush (This character can challenge the turn they're played.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Rush"
@@ -23058,8 +22535,7 @@ export const lorcanaCards = [
     "cardNum": 120,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Queen of Hearts.)\nLet The Game Being: Whenever one of your characters challenges another character, you may draw a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Shift 2"
@@ -23085,8 +22561,7 @@ export const lorcanaCards = [
     "cardNum": 121,
     "bodyText": "This Is My Kingdom: When you play this character, exert chosen opposing character with 3 {s} or less. Choose one of your characters and read them. They can't quest for the rest of this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -23111,8 +22586,7 @@ export const lorcanaCards = [
     "cardNum": 122,
     "bodyText": "Note To Self, Don't Die: During your turn, whenever this character banishes another character in a challenge, you may ready this character. She can't quest for the rest of this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -23136,8 +22610,7 @@ export const lorcanaCards = [
     "cardNum": 123,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Raya.)\nChampion Of Kumandra: Whenever this character challenges a damaged character, she takes no damage from the challenge.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF",
     "abilities": "Shift 4"
@@ -23162,8 +22635,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-124",
     "cardNum": 124,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF"
   },
@@ -23186,8 +22658,7 @@ export const lorcanaCards = [
     "cardNum": 125,
     "bodyText": "Rush (This character can challenge the turn they're played.)\nDaddy Isn't Here To Save You: During your turn, whenever this character banishes another character in a challenge, you may ready this character. He can't quest for the rest of this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "ROF",
     "abilities": "Rush"
@@ -23213,8 +22684,7 @@ export const lorcanaCards = [
     "cardNum": 126,
     "bodyText": "Don't Insult My Intelligence: Whenever one of your characters challenges another character, gain 1 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -23239,8 +22709,7 @@ export const lorcanaCards = [
     "cardNum": 127,
     "bodyText": "Energetic: Whenever you play an action, this character gets +2 {s} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -23265,8 +22734,7 @@ export const lorcanaCards = [
     "cardNum": 128,
     "bodyText": "Reckless (This character can't quest and must challenge each turn if able.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Reckless"
@@ -23288,8 +22756,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-129",
     "cardNum": 129,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\nReady chosen damaged character of yours. They can't quest for the rest of this turn. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -23310,8 +22777,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-130",
     "cardNum": 130,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\nDeal 2 damage to chosen character of yours to deal 2 damaged to another chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -23332,8 +22798,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-131",
     "cardNum": 131,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\nBanish chosen Villain of your to banish chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -23354,8 +22819,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-132",
     "cardNum": 132,
     "bodyText": "Chosen damaged character gets +3 {s} this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -23375,8 +22839,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-133",
     "cardNum": 133,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\nChosen character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Evasive"
   },
@@ -23398,8 +22861,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-134",
     "cardNum": 134,
     "bodyText": "You Know What Happens: {e}, 2 {i} - Draw cards equal to the damage on chosen character of yours, then banish them.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -23420,8 +22882,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-135",
     "cardNum": 135,
     "bodyText": "You characters with Evasive get +1 {s}.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Evasive"
   },
@@ -23443,8 +22904,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-136",
     "cardNum": 136,
     "bodyText": "{e}, 2 {i} - Chosen character gets +1 {s} this turn for each 1 damage on them.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -23467,8 +22927,7 @@ export const lorcanaCards = [
     "cardNum": 137,
     "bodyText": "Good Advice - Your other characters gain Support. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)\r What Did I Do? - While this character has 10 {s} or more, she gets +4 {l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Support"
@@ -23494,8 +22953,7 @@ export const lorcanaCards = [
     "cardNum": 138,
     "bodyText": "Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Basil.)\nThere's Always A Chance: If you used Shift to play this character, you may draw 2 cards when he enters play.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Shift 5"
@@ -23521,8 +22979,7 @@ export const lorcanaCards = [
     "cardNum": 139,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Support"
@@ -23547,8 +23004,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-140",
     "cardNum": 140,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -23572,8 +23028,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-141",
     "cardNum": 141,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -23597,8 +23052,7 @@ export const lorcanaCards = [
     "cardNum": 142,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Cogsworth.)\nWard (Opponents can't choose this character except to challenge.)\nUnwind: Your other characters gain Resist +1 (Damage dealt to them is reduced by 1)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Shift 3, Ward, Resist +1"
@@ -23624,8 +23078,7 @@ export const lorcanaCards = [
     "cardNum": 143,
     "bodyText": "Wait A Minute: Your characters with Reckless gain \"{e} - Gain 1 lore.\"",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Reckless"
@@ -23651,8 +23104,7 @@ export const lorcanaCards = [
     "cardNum": 144,
     "bodyText": "Now Get Going: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -23678,8 +23130,7 @@ export const lorcanaCards = [
     "cardNum": 145,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Cruella De Vil.)\nOh, No You Don't: Whenever this character quests, chosen opposing character gets -2 {s} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Shift 3"
@@ -23705,8 +23156,7 @@ export const lorcanaCards = [
     "cardNum": 146,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Ward"
@@ -23731,8 +23181,7 @@ export const lorcanaCards = [
     "cardNum": 147,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Gaston.)\nDeveloped Brain: When you play this character, look at the top 3 cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Shift 4"
@@ -23758,8 +23207,7 @@ export const lorcanaCards = [
     "cardNum": 148,
     "bodyText": "Ancient Insight: Whenever you remove 1 or more damage from one of your characters, gain 2 lore.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -23784,8 +23232,7 @@ export const lorcanaCards = [
     "cardNum": 149,
     "bodyText": "Artificer: When you play this character and whenever he quests, you may banish one of your items to draw 2 cards.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -23809,8 +23256,7 @@ export const lorcanaCards = [
     "cardNum": 150,
     "bodyText": "Never, Ever Lose Sight: When this character is banished, you may put this card into your inkwell facedown and exerted.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -23835,8 +23281,7 @@ export const lorcanaCards = [
     "cardNum": 151,
     "bodyText": "I'm A Fast Learner: When you play this character, remove up to 1 damage from chosen character of yours.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -23861,8 +23306,7 @@ export const lorcanaCards = [
     "cardNum": 152,
     "bodyText": "Don't Call Me Cute: When you play this character, you may banish chosen item. Its player draws a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -23887,8 +23331,7 @@ export const lorcanaCards = [
     "cardNum": 153,
     "bodyText": "Tidy Up: Whenever you play a Floodborn character, you may put the top card of your deck into your inkwell facedown and exerted.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -23913,8 +23356,7 @@ export const lorcanaCards = [
     "cardNum": 154,
     "bodyText": "It's Called A Hustle: When play this character, you may return an item card name Pawpsicle from your discard to your hand.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -23938,8 +23380,7 @@ export const lorcanaCards = [
     "cardNum": 155,
     "bodyText": "Hide And Seek: While you have an item in play, this character gains Resist +1 and Ward. (Damage dealt to this character is reduced by 1. Opponents can't choose this character except to challenge.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Resist +1, Ward"
@@ -23964,8 +23405,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-156",
     "cardNum": 156,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -23989,8 +23429,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-157",
     "cardNum": 157,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -24014,8 +23453,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-158",
     "cardNum": 158,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF"
   },
@@ -24040,8 +23478,7 @@ export const lorcanaCards = [
     "cardNum": 159,
     "bodyText": "I Trust You: Whenever this character quests, look at the top 2 cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -24066,8 +23503,7 @@ export const lorcanaCards = [
     "cardNum": 160,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Ward"
@@ -24093,8 +23529,7 @@ export const lorcanaCards = [
     "cardNum": 161,
     "bodyText": "Hunny Pot: Whenever this character quests, you may put a card from your hand into your inkwell facedown.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -24116,8 +23551,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-162",
     "cardNum": 162,
     "bodyText": "Each player chooses one of their characters and puts them into their inkwell facedown and excreted.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -24137,8 +23571,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-163",
     "cardNum": 163,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free)\nYour characters gain Resist +2 until the start of your next turn. (Damage dealt to them is reduced by 2.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Resist +2"
   },
@@ -24160,8 +23593,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-164",
     "cardNum": 164,
     "bodyText": "Banish chosen item of yours to deal 5 damage to chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -24182,8 +23614,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-165",
     "cardNum": 165,
     "bodyText": "Each Opponent reveals their hand. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -24203,8 +23634,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-166",
     "cardNum": 166,
     "bodyText": "Careful Aim: {e}, 2 {i} - Chosen character get -2 {s} this turn.\nStay Back!: {e}, Banish this item - Banish chosen Dragon character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -24225,8 +23655,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-167",
     "cardNum": 167,
     "bodyText": "The Best I've Ever Tasted: {e} - Remove 1 damage each from up to 2 chosen characters.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -24247,8 +23676,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-168",
     "cardNum": 168,
     "bodyText": "Looking For This: Whenever you play another item, you may pay 1 {i} to draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -24268,8 +23696,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-169",
     "cardNum": 169,
     "bodyText": "Jumbo Pop: When you play this item, you may draw a card.\nThat's Redwood: Banish this item - Remove up to 2 damage from chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -24290,8 +23717,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-170",
     "cardNum": 170,
     "bodyText": "Flight Cabin: Your exerted characters gain Ward. (Opponents can't choose them except to challenge.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Ward"
   },
@@ -24316,8 +23742,7 @@ export const lorcanaCards = [
     "cardNum": 171,
     "bodyText": "You're Not Welcome Here: When you play this character, you may deal 1 damage to chosen character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF"
   },
@@ -24342,8 +23767,7 @@ export const lorcanaCards = [
     "cardNum": 172,
     "bodyText": "Shield Another: Whenever one of your other character would be dealt damage, put that many damage counters on this character instead.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -24368,8 +23792,7 @@ export const lorcanaCards = [
     "cardNum": 173,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Beast.)\nIt's Better This Way: At the start of your turn, if this character has no damage, draw a card. Otherwise, he gets +4 {s} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Shift 3"
@@ -24395,8 +23818,7 @@ export const lorcanaCards = [
     "cardNum": 174,
     "bodyText": "We Have A Choice: When you play this character, you may banish chosen item.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -24421,8 +23843,7 @@ export const lorcanaCards = [
     "cardNum": 175,
     "bodyText": "Insubordination!: Whenever you play a Floodborn character, deal 1 damage to each opposing character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -24447,8 +23868,7 @@ export const lorcanaCards = [
     "cardNum": 176,
     "bodyText": "Have Courage: When you play this character, you may draw a card, then choose and discard a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -24472,8 +23892,7 @@ export const lorcanaCards = [
     "cardNum": 177,
     "bodyText": "Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Cinderella.)\r Resist +2 (Damage dealt to this character is reduced by 2.)\r The Singing Sword: Whenever you play a song, this character may challenge ready characters this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF",
     "abilities": "Shift 5, Resist +2"
@@ -24498,8 +23917,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-178",
     "cardNum": 178,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "ROF"
   },
@@ -24523,8 +23941,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-179",
     "cardNum": 179,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -24548,8 +23965,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-180",
     "cardNum": 180,
     "willpower": 10,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 10,
     "setId": "ROF"
   },
@@ -24574,8 +23990,7 @@ export const lorcanaCards = [
     "cardNum": 181,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Hercules.)\\nResist +2 (Damage dealth to this character is reduced by 2.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "ROF",
     "abilities": "Shift 4, Resist +2"
@@ -24600,8 +24015,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-182",
     "cardNum": 182,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF"
   },
@@ -24625,8 +24039,7 @@ export const lorcanaCards = [
     "cardNum": 183,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Jafar.)\\nNow Where Were We?: During your turn, whenever this character banishes another character in a challenge, you may draw a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Shift 2"
@@ -24652,8 +24065,7 @@ export const lorcanaCards = [
     "cardNum": 184,
     "bodyText": "I Don't Trust Him, Sire: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -24678,8 +24090,7 @@ export const lorcanaCards = [
     "cardNum": 185,
     "bodyText": "Resist +1 (Damage dealt to this character is reduced by 1.)\\nScout Leader: During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF",
     "abilities": "Resist +1"
@@ -24705,8 +24116,7 @@ export const lorcanaCards = [
     "cardNum": 186,
     "bodyText": "Payback: While this character has no damage, he gets +4 {s}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "ROF"
   },
@@ -24731,8 +24141,7 @@ export const lorcanaCards = [
     "cardNum": 187,
     "bodyText": "Archery Lesson: Whenever this character quests, your characters gain Evasive this turn. (They can challenge characters with Evasive.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "ROF",
     "abilities": "Evasive"
@@ -24758,8 +24167,7 @@ export const lorcanaCards = [
     "cardNum": 188,
     "bodyText": "Make It Shine: When you play this character, chosen character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Resist +1"
@@ -24784,8 +24192,7 @@ export const lorcanaCards = [
     "cardNum": 189,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\\nBlades: This character can challenge ready characters.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "ROF",
     "abilities": "Bodyguard"
@@ -24810,8 +24217,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-190",
     "cardNum": 190,
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF"
   },
@@ -24835,8 +24241,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-191",
     "cardNum": 191,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "ROF"
   },
@@ -24861,8 +24266,7 @@ export const lorcanaCards = [
     "cardNum": 192,
     "bodyText": "Off With Their Heads!: Whenever an opposing character is banished, you may ready this character.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "ROF"
   },
@@ -24887,8 +24291,7 @@ export const lorcanaCards = [
     "cardNum": 193,
     "bodyText": "Skirmish {e} - Deal 1 damage to chosen character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -24913,8 +24316,7 @@ export const lorcanaCards = [
     "cardNum": 194,
     "bodyText": "Change Of Heart: Whenever this character quests, you may draw a card, then choose and discard a card.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -24938,8 +24340,7 @@ export const lorcanaCards = [
     "cardNum": 195,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\\nResist +1 (Damage dealt to this character is reduced by 1.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Bodyguard, Resist +1"
@@ -24964,8 +24365,7 @@ export const lorcanaCards = [
     "cardNum": 196,
     "bodyText": "Resist +2 (Damage dealt to this character is reduced by 2.)\\nWhat You Give Is What You Get: While this character is exerted and you have no cards in your hand, opponents can't play actions.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF",
     "abilities": "Resist +2"
@@ -24990,8 +24390,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-197",
     "cardNum": 197,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "ROF"
   },
@@ -25013,8 +24412,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-198",
     "cardNum": 198,
     "bodyText": "Chosen character gains Challenger +2 and Resist +2 this turn. (They get +2 {s} while challenging. Damage dealt to them is reduced by 2.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Challenger +2, Resist +2"
   },
@@ -25036,8 +24434,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-199",
     "cardNum": 199,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\\nDeal 2 damaged to chosen character. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -25058,8 +24455,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-200",
     "cardNum": 200,
     "bodyText": "Chosen character can challenge ready characters this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -25080,8 +24476,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-201",
     "cardNum": 201,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.) Deal damage to chosen character equal to the number of characters you have in play.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -25102,8 +24497,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-202",
     "cardNum": 202,
     "bodyText": "Arm Yourself: 1 {i}, Banish this item - Chosen character gains Challenger +3 this turn. (They get +3 {s} while challenging.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Challenger +3"
   },
@@ -25125,8 +24519,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-203",
     "cardNum": 203,
     "bodyText": "Protection - {e}: Chosen character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF",
     "abilities": "Resist +1"
   },
@@ -25148,8 +24541,7 @@ export const lorcanaCards = [
     "uniqueId": "ROF-204",
     "cardNum": 204,
     "bodyText": "Training - Whenever you play a character with 4 {s} or more, you may pay 1 {i} to draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "ROF"
   },
   {
@@ -25161,7 +24553,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/1_cc9920a269e2ac64924de1c0aee9d1a0814969d1.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/1_cc9920a269e2ac64924de1c0aee9d1a0814969d1.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Louie - One Cool Duck",
@@ -25173,7 +24565,7 @@ export const lorcanaCards = [
     "cardNum": 1,
     "bodyText": "SPRING THE TRAP: While this character is being\nchallenged, the challenging character gets -1 {s}.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -25186,7 +24578,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/2_aad08999a87d6db777ecba6bcc93d791c3ea7f25.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/2_aad08999a87d6db777ecba6bcc93d791c3ea7f25.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Dewey - Lovable Showoff",
@@ -25197,7 +24589,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-002",
     "cardNum": 2,
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -25210,7 +24602,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/3_cb4079cae954402ddf091e9b7bdb288eb42db158.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/3_cb4079cae954402ddf091e9b7bdb288eb42db158.jpg",
     "cost": 2,
     "inkable": false,
     "name": "Huey - Reliable Leader",
@@ -25222,7 +24614,7 @@ export const lorcanaCards = [
     "cardNum": 3,
     "bodyText": "I KNOW THE WAY Whenever this character quests,\nyou pay 1 {i} less for the next character you play\nthis turn.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -25235,7 +24627,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/4_3a2a40edffea199450bd3c375de67eece9048463.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/4_3a2a40edffea199450bd3c375de67eece9048463.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Goofy - Groundbreaking Chef",
@@ -25247,7 +24639,7 @@ export const lorcanaCards = [
     "cardNum": 4,
     "bodyText": "PLENTY TO GO AROUND: At the end of your turn,\nyou may remove up to 1 damage from each of\nyour other characters. Ready each character you\nremoved damage from this way.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -25260,7 +24652,7 @@ export const lorcanaCards = [
     "color": "Amber, Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/5_bf271ecbae8a6b98fd824225615c8bbc26aedda6.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/5_bf271ecbae8a6b98fd824225615c8bbc26aedda6.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Antonio Madrigal - Friend to All",
@@ -25271,7 +24663,7 @@ export const lorcanaCards = [
     "cardNum": 5,
     "bodyText": "OF COURSE THEY CAN COME: Once during your\nturn, whenever one of your characters sings a\nsong, you may search your deck for a character\ncard with cost 3 or less and reveal that card to all\nplayers. Put that card into your hand and shuffle\nyour deck.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -25284,7 +24676,7 @@ export const lorcanaCards = [
     "color": "Amber, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/6_d10ecdbd72163040d492f32be6a55a080c887f13.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/6_d10ecdbd72163040d492f32be6a55a080c887f13.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Minnie Mouse - Daring Defender",
@@ -25295,7 +24687,7 @@ export const lorcanaCards = [
     "cardNum": 6,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of your\ncharacters must choose one with Bodyguard if able.)\nTRUE VALOR This character gets +1 {s} for each 1\ndamage on her.",
     "willpower": 8,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -25308,7 +24700,7 @@ export const lorcanaCards = [
     "color": "Amber, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/7_146aa30159bd0b2674af16ebc9a8e40ef175ddf7.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/7_146aa30159bd0b2674af16ebc9a8e40ef175ddf7.jpg",
     "cost": 2,
     "inkable": false,
     "name": "Ludwig Von Drake - All-Around Expert",
@@ -25319,7 +24711,7 @@ export const lorcanaCards = [
     "cardNum": 7,
     "bodyText": "SUPERIOR MIND: When you play this character,\nchosen opponent reveals their hand and discards\na non-character card of your choice.\nLASTING LEGACY When this character is\nbanished, you may put this card into your inkwell\nfacedown and exerted.",
     "willpower": 1,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -25332,7 +24724,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/8_c30b13e3678be0a6459a7d9bac3ef911b9673910.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/d23/8_4480c6738df12918c25fccbbedad4215fc19cbf2.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Charlotte La Bouff - Mardi Gras Princess",
@@ -25343,7 +24735,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-008",
     "cardNum": 8,
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:46.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -25356,7 +24748,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/9_a6ee69067eeb48524ffc9e5fa83e6feeabd756e6.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/9_a6ee69067eeb48524ffc9e5fa83e6feeabd756e6.jpg",
     "cost": 4,
     "inkable": false,
     "name": "Tiana - Natural Talent",
@@ -25367,7 +24759,7 @@ export const lorcanaCards = [
     "cardNum": 9,
     "bodyText": "Singer 6 (This character counts as cost 6 to sing songs.)\nCAPTIVATING MELODY Whenever you play a song,\neach opposing character gets -1 {s} until the start of\nyour next turn.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -25380,7 +24772,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/10_8904112535cbbf463890309a17e7203e576604d3.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/10_8904112535cbbf463890309a17e7203e576604d3.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Mirabel Madrigal - Curious Child",
@@ -25392,7 +24784,7 @@ export const lorcanaCards = [
     "cardNum": 10,
     "bodyText": "YOU ARE A WONDER: When you play this character,\nyou may reveal a song card in your hand to gain 1 lore.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -25405,7 +24797,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/11_d6998b53bfecbfea381324fc620ea3a04340f202.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/11_d6998b53bfecbfea381324fc620ea3a04340f202.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Lady - Family Dog",
@@ -25417,7 +24809,7 @@ export const lorcanaCards = [
     "cardNum": 11,
     "bodyText": "SOMEONE TO CARE FOR: When you play this\ncharacter, you may play a character with cost 2 or\nless for free.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -25430,7 +24822,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/12_57074a2f026742ac52146c1a4a9392ae034c852b.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/12_57074a2f026742ac52146c1a4a9392ae034c852b.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Jim Dear - Beloved Husband",
@@ -25442,7 +24834,7 @@ export const lorcanaCards = [
     "cardNum": 12,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of your\ncharacters must choose one with Bodyguard if able.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -25455,7 +24847,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/13_84b5941d1f232c4df9c192e2b3f47d0dda08600a.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/13_84b5941d1f232c4df9c192e2b3f47d0dda08600a.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Gene - Niceland Resident",
@@ -25467,7 +24859,7 @@ export const lorcanaCards = [
     "cardNum": 13,
     "bodyText": "I GUESS YOU EARNED THIS Whenever this character\nquests, you may remove up to 2 damage from\nchosen character.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -25480,7 +24872,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/14_fc822242c47db25e960a7e575523bbf85b675cb5.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/14_fc822242c47db25e960a7e575523bbf85b675cb5.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Perdita - On the Lookout",
@@ -25492,7 +24884,7 @@ export const lorcanaCards = [
     "cardNum": 14,
     "bodyText": "KEEPING WATCH: While you have a Puppy\ncharacter in play, this character gets +1 {w}.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:37.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -25505,7 +24897,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/15_8f7a8fcc8d6fb2352e4ece795f0d89a5c86caf90.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/15_8f7a8fcc8d6fb2352e4ece795f0d89a5c86caf90.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Rhino - One-Sixteenth Wolf",
@@ -25517,7 +24909,7 @@ export const lorcanaCards = [
     "cardNum": 15,
     "bodyText": "TINY HOWL: When you play this character, chosen\nopposing character gets -1 {s} until the start of\nyour next turn.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:13.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -25530,7 +24922,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/16_cc7bf63e658769c81e79835f0fa6708f8888f0b4.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/16_cc7bf63e658769c81e79835f0fa6708f8888f0b4.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Darling Dear - Beloved Wife",
@@ -25542,7 +24934,7 @@ export const lorcanaCards = [
     "cardNum": 16,
     "bodyText": "HOW SWEET: When you play this character,\nchosen character gets +2 {l} this turn.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -25555,7 +24947,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/17_4a884ae223bed84b0614bb26a2b8e6c2247f6b01.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/17_4a884ae223bed84b0614bb26a2b8e6c2247f6b01.jpg",
     "cost": 5,
     "inkable": true,
     "name": "The Colonel - Old Sheepdog",
@@ -25567,7 +24959,7 @@ export const lorcanaCards = [
     "cardNum": 17,
     "bodyText": "WE'VE GOT 'EM OUTNUMBERED: While you have 3\nor more Puppy characters in play, this character\ngets +2 {s} and +2 {l}.",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -25580,7 +24972,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/18_6d52cd45d57b94826f8d8a01b7cf5e7b92878cde.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/18_6d52cd45d57b94826f8d8a01b7cf5e7b92878cde.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Chief Bogo - Commanding Officer",
@@ -25591,7 +24983,7 @@ export const lorcanaCards = [
     "cardNum": 18,
     "bodyText": "SENDING BACKUP: During an opponent's turn,\nwhenever one of your characters with Bodyguard\nis banished, you may reveal the top card of your\ndeck. If it's a character card with cost 5 or less,\nyou may play that character for free. Otherwise,\nput it on the top of your deck.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 5,
     "setId": "ROJ"
   },
@@ -25604,7 +24996,7 @@ export const lorcanaCards = [
     "color": "Amber, Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/19_d8cf0a8082db1eea7ecfeb8283edf09b6f4af176.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/19_d8cf0a8082db1eea7ecfeb8283edf09b6f4af176.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Pua - Protective Pig",
@@ -25615,7 +25007,7 @@ export const lorcanaCards = [
     "cardNum": 19,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of your\ncharacters must choose one with Bodyguard if able.)\nFREE FRUIT When this character is banished, you\nmay draw a card.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -25628,7 +25020,7 @@ export const lorcanaCards = [
     "color": "Amber, Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/20_a4f7d1bbdbae3cbde752d4f05917a1abee3c156d.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/20_a4f7d1bbdbae3cbde752d4f05917a1abee3c156d.jpg",
     "cost": 7,
     "inkable": false,
     "name": "Bruno Madrigal - Singing Seer",
@@ -25639,7 +25031,7 @@ export const lorcanaCards = [
     "cardNum": 20,
     "bodyText": "Shift 5 (You may pay 5 {i} to play this on top of\none of your characters named Bruno Madrigal.)\nBRIGHT FUTURE Whenever this character sings a\nsong, you may draw a card for each character you\nhave in play.",
     "willpower": 7,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -25652,7 +25044,7 @@ export const lorcanaCards = [
     "color": "Amber, Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/21_c0d51f05ad2c3b9b3be3c3b1c6027e08e0d5d2cd.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/21_c0d51f05ad2c3b9b3be3c3b1c6027e08e0d5d2cd.jpg",
     "cost": 4,
     "inkable": false,
     "name": "Kaa - Hypnotizing Python",
@@ -25664,7 +25056,7 @@ export const lorcanaCards = [
     "cardNum": 21,
     "bodyText": "LOOK ME IN THE EYE: Whenever this character quests,\nchosen opposing character gets -2 {s} and gains\nReckless until the start of your next turn. (They can't\nquest and must challenge if able.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -25677,7 +25069,7 @@ export const lorcanaCards = [
     "color": "Amber, Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/22_95c1b5f4ef58855b3682dd8230416006c16da474.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/22_95c1b5f4ef58855b3682dd8230416006c16da474.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Tramp - Dapper Rascal",
@@ -25688,7 +25080,7 @@ export const lorcanaCards = [
     "cardNum": 22,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of\none of your characters named Tramp.)\nPLAY IT COOL During an opponent's turn,\nwhenever one of your characters is banished, you\nmay draw a card.",
     "willpower": 8,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -25701,7 +25093,7 @@ export const lorcanaCards = [
     "color": "Amber, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/23_f506399c694872f96d1b8c3882ba8a9cf41281d4.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/23_f506399c694872f96d1b8c3882ba8a9cf41281d4.jpg",
     "cost": 3,
     "inkable": true,
     "name": "King Candy - Sugar Rush Nightmare",
@@ -25712,7 +25104,7 @@ export const lorcanaCards = [
     "cardNum": 23,
     "bodyText": "A NEW ROSTER When this character is banished,\nyou may return another Racer character card\nfrom your discard to your hand.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -25725,7 +25117,7 @@ export const lorcanaCards = [
     "color": "Amber, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/24_a540249f7ebc405087edfb18ccb1cff3bf438508.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/24_a540249f7ebc405087edfb18ccb1cff3bf438508.jpg",
     "cost": 7,
     "inkable": false,
     "name": "Wreck-It Ralph - Big Lug",
@@ -25736,7 +25128,7 @@ export const lorcanaCards = [
     "cardNum": 24,
     "bodyText": "Shift 5 (You may pay 5 {i} to play this on top of\none of your characters named Wreck-It Ralph.)\nBACK ON TRACK When you play this character\nand whenever he quests, you may return a Racer\ncharacter card with cost 6 or less from your\ndiscard to your hand. If you do, gain 1 lore.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 7,
     "setId": "ROJ"
   },
@@ -25749,7 +25141,7 @@ export const lorcanaCards = [
     "color": "Amber, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/25_302070fdd52b38e22511df29cf99fc9c38c34521.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/25_302070fdd52b38e22511df29cf99fc9c38c34521.jpg",
     "cost": 1,
     "inkable": false,
     "name": "Patch - Playful Pup",
@@ -25761,7 +25153,7 @@ export const lorcanaCards = [
     "cardNum": 25,
     "bodyText": "Ward (Opponents can't choose this character\nexcept to challenge.)\nPUPPY BARKING While you have another Puppy\ncharacter in play, this character gets +1 {l}.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -25774,7 +25166,7 @@ export const lorcanaCards = [
     "color": "Amber, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/26_464934dd83d225abfdee16451b71ecbde6031852.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/26_464934dd83d225abfdee16451b71ecbde6031852.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Rolly - Chubby Puppy",
@@ -25785,7 +25177,7 @@ export const lorcanaCards = [
     "cardNum": 26,
     "bodyText": "Support (Whenever this character quests, you\nmay add their {s} to another chosen character's\n{s} this turn.)\nADORABLE ANTICS When you play this character,\nyou may put a character card from your discard\ninto your inkwell facedown and exerted.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -25798,7 +25190,7 @@ export const lorcanaCards = [
     "color": "Amber, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/27_bc3bad4b597adb23e4d4ddd659dfac2011e65b61.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/27_355c91c18144fea361d8885ac2ceaf0393ca9daf.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Perdita - Determined Mother",
@@ -25809,7 +25201,7 @@ export const lorcanaCards = [
     "cardNum": 27,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of\none of your characters named Perdita.)\nQUICK, EVERYONE HIDE When you play this\ncharacter, you may put all Puppy character cards\nfrom your discard into your inkwell facedown and\nexerted.",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -25822,7 +25214,7 @@ export const lorcanaCards = [
     "color": "Amber, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/28_5ce64b28bceee0406ee9d2045038fcb718676003.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/28_9c0c593a80eb3042b590d75d0d56f8226068168c.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Pluto - Tried and True",
@@ -25833,7 +25225,7 @@ export const lorcanaCards = [
     "cardNum": 28,
     "bodyText": "HAPPY HELPER: While this character has no\ndamage, he gets +2 {s} and gains Support.\n(Whenever they quest, you may add their {s} to\nanother chosen character's {s} this turn.)",
     "willpower": 7,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -25846,7 +25238,7 @@ export const lorcanaCards = [
     "color": "Amber, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/29_097df379f5dddd039f672e02060690a0c3102627.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/29_4a1d3215fb7f26f648e0d3261c0524471cbbb808.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Bolt - Down but Not Out",
@@ -25858,7 +25250,7 @@ export const lorcanaCards = [
     "cardNum": 29,
     "bodyText": "NONE OF YOUR POWERS ARE WORKING: This character\nenters play exerted.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -25871,7 +25263,7 @@ export const lorcanaCards = [
     "color": "Amber, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/30_3762ba7b0954eb087f207116661f83a37f3a5e50.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/30_83296ddc56e3c1a15012bc20c5e7686b115bc188.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Rhino - Power Hamster",
@@ -25882,7 +25274,7 @@ export const lorcanaCards = [
     "cardNum": 30,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of\none of your characters named Rhino.)\nEPIC BALL OF AWESOME While this character has\nno damage, he gains Resist +2. (Damage dealt to\nthem is reduced by 2.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -25895,7 +25287,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/31_2212f4811076b4f8ea17f6741ac3326f6be9e7f3.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/31_493db3c34655332ae534c0ca5c91227126d49746.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Antonio's Jaguar - Faithful Companion",
@@ -25907,7 +25299,7 @@ export const lorcanaCards = [
     "cardNum": 31,
     "bodyText": "YOU WANT TO GO WHERE?: When you play this\ncharacter, if you have a character named Antonio\nMadrigal in play, gain 1 lore.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -25920,7 +25312,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/32_08d91f499432be9fcd15cc50fbfa13e806a757cb.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/32_d374689486074f49f4c88544e37a7256dc978ddc.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Calhoun - Hard-Nosed Leader",
@@ -25931,7 +25323,7 @@ export const lorcanaCards = [
     "cardNum": 32,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of your\ncharacters must choose one with Bodyguard if able.)\nLOOT DROP When this character is banished, gain 1 lore.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:46.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -25944,7 +25336,7 @@ export const lorcanaCards = [
     "color": "Amber, Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/33_eaa6939bc4d6f87e78f358fa15d458aefedc27cf.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/33_80408dcb4df9ebd6472a4d048375ee8dd46a9344.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Lady - Decisive Dog",
@@ -25955,7 +25347,7 @@ export const lorcanaCards = [
     "cardNum": 33,
     "bodyText": "PACK OF HER OWN: Whenever you play a\ncharacter, this character gets +1 {s} this turn.\nTAKE THE LEAD While this character has 3 {s} or\nmore, she gets +2 {l}.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:46.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -25968,7 +25360,7 @@ export const lorcanaCards = [
     "color": "Amber, Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/34_12e0cf5eb52d8517d49ad8b2b884bea6808686f0.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/34_61799a037409d40d95427cc2ceae042c0db62698.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Alma Madrigal - Accepting Grandmother",
@@ -25980,7 +25372,7 @@ export const lorcanaCards = [
     "cardNum": 34,
     "bodyText": "THE MIRACLE IS YOU: Once during your turn,\nwhenever one or more of your characters sings a\nsong, you may ready those characters.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:46.0",
     "strength": 5,
     "setId": "ROJ"
   },
@@ -25993,7 +25385,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/35_de6ee0e0a6cc943e7eb7c5d386cfbf711e6bf592.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/35_7e69521401e6e7658fdabc2c9ccd92cb1d08f669.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Clawhauser - Front Desk Officer",
@@ -26004,7 +25396,7 @@ export const lorcanaCards = [
     "cardNum": 35,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of\nyour characters must choose one with Bodyguard\nif able.)\nSinger 4 (This character counts as cost 4 to sing\nsongs.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:46.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -26017,7 +25409,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/36_a9c9153420c4c5efe9a16e15f3d4d6cf8cd14173.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/36_a9c9153420c4c5efe9a16e15f3d4d6cf8cd14173.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Joey - Blue Pigeon",
@@ -26029,7 +25421,7 @@ export const lorcanaCards = [
     "cardNum": 36,
     "bodyText": "I'VE GOT JUST THE THING Whenever this character\nquests, you may remove up to 1 damage from\neach of your characters with Bodyguard.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26042,7 +25434,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/37_f5ff3d0990d1484b4463afe29cdcd6b3db510fbf.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/37_f5ff3d0990d1484b4463afe29cdcd6b3db510fbf.jpg",
     "cost": 8,
     "inkable": true,
     "name": "Donald Duck - Coin Collector",
@@ -26053,7 +25445,7 @@ export const lorcanaCards = [
     "cardNum": 37,
     "bodyText": "HERE, PIGGY, PIGGY: For each item named The Nephews'\nPiggy Bank you have in play, you pay 2 {i} less to play\nthis character.\nMONEY EVERYWHERE When you play this character,\nyour other characters gain \"{e} - Draw a card\" this turn.",
     "willpower": 8,
-    "dateModified": "2025-06-02 03:22:14.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -26066,7 +25458,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/38_c1ed379c94979766fee74cf422f799e216644803.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/38_c1ed379c94979766fee74cf422f799e216644803.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Dalmatian Puppy - Tail Wagger",
@@ -26078,7 +25470,7 @@ export const lorcanaCards = [
     "cardNum": 38,
     "bodyText": "WHERE DID THEY ALL COME FROM?: You may have\nup to 99 copies of Dalmatian Puppy - Tail Wagger\nin your deck.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -26090,7 +25482,7 @@ export const lorcanaCards = [
     "color": "Amber, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/39_5bddc69de1a5257439e3f3a6d1fe5289fb04204e.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/39_5bddc69de1a5257439e3f3a6d1fe5289fb04204e.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Candy Drift",
@@ -26100,7 +25492,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-039",
     "cardNum": 39,
     "bodyText": "Draw a card. Chosen character of yours gets +5 {s} this\nturn. At the end of your turn, banish them.",
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "setId": "ROJ"
   },
   {
@@ -26111,7 +25503,7 @@ export const lorcanaCards = [
     "color": "Amber, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/40_a5f99850936e8e0bbde2db0c1d09d5e6c86139a3.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/40_a5f99850936e8e0bbde2db0c1d09d5e6c86139a3.jpg",
     "cost": 1,
     "inkable": true,
     "name": "She's Your Person",
@@ -26120,7 +25512,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-040",
     "cardNum": 40,
     "bodyText": "Choose one:\n- Remove up to 3 damage from chosen character.\n- Remove up to 3 damage from each of your characters\nwith Bodyguard.",
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:38.0",
     "setId": "ROJ"
   },
   {
@@ -26131,7 +25523,7 @@ export const lorcanaCards = [
     "color": "Amber, Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/41_004db87f51a8fcaa39fadf4653178ba08934f74d.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/41_004db87f51a8fcaa39fadf4653178ba08934f74d.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Only So Much Room",
@@ -26141,7 +25533,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-041",
     "cardNum": 41,
     "bodyText": "Return chosen character with 2 {s} or less to their\nplayer's hand. Return a character card from your\ndiscard to your hand.",
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "setId": "ROJ"
   },
   {
@@ -26153,7 +25545,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/42_d3b8c9c2bcf02f2ae1912235b4d83a1c0793ece4.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/42_d3b8c9c2bcf02f2ae1912235b4d83a1c0793ece4.jpg",
     "cost": 9,
     "inkable": false,
     "name": "It Means No Worries",
@@ -26162,7 +25554,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-042",
     "cardNum": 42,
     "bodyText": "Sing Together 9 (Any number of your or your\nteammates' characters with total cost 9 or more may\n{e} to sing this song for free.)\nReturn up to 3 character cards from your discard to\nyour hand. You pay 2 {i} less for the next character you\nplay this turn.",
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "setId": "ROJ"
   },
   {
@@ -26174,7 +25566,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/43_4b745bc1bf50cd2488058cfda44e4cb20879941c.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/43_4b745bc1bf50cd2488058cfda44e4cb20879941c.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Trials and Tribulations",
@@ -26183,7 +25575,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-043",
     "cardNum": 43,
     "bodyText": "(A character with cost 2 or more can {e} to sing this\nsong for free.)\nChosen character gets -4 {s} until the start of your\nnext turn.",
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "setId": "ROJ"
   },
   {
@@ -26194,7 +25586,7 @@ export const lorcanaCards = [
     "color": "Amber",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/44_6f3c2ad1837f2a60a79c4e919fac98342d29d859.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/44_6f3c2ad1837f2a60a79c4e919fac98342d29d859.jpg",
     "cost": 2,
     "inkable": false,
     "name": "The Nephews' Piggy Bank",
@@ -26203,7 +25595,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-044",
     "cardNum": 44,
     "bodyText": "INSIDE JOB: If you have a character named Donald\nDuck in play, you pay 1 {i} less to play this item.\nPAYOFF {e} - Chosen character gets -1 {s} until the\nstart of your next turn.",
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "setId": "ROJ"
   },
   {
@@ -26215,7 +25607,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/45_53c6068ec4c0ecfc6f3f9116983a8bf5f9245e53.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/45_53c6068ec4c0ecfc6f3f9116983a8bf5f9245e53.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Palace Guard - Spectral Sentry",
@@ -26227,7 +25619,7 @@ export const lorcanaCards = [
     "cardNum": 45,
     "bodyText": "Vanish (When an opponent chooses this character\nfor an action, banish them.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -26240,7 +25632,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/46_2dfdf98a63156050abb7c3b355a1f06a9b92e354.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/46_2dfdf98a63156050abb7c3b355a1f06a9b92e354.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Druun - Ravenous Plague",
@@ -26252,7 +25644,7 @@ export const lorcanaCards = [
     "cardNum": 46,
     "bodyText": "Challenger +4 (While challenging, this character\ngets +4 {s}.)",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -26265,7 +25657,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/47_d04add8b4ca34be87236dfec5a4fab6e870b66bd.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/47_d04add8b4ca34be87236dfec5a4fab6e870b66bd.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Madame Medusa - Deceiving Partner",
@@ -26276,7 +25668,7 @@ export const lorcanaCards = [
     "cardNum": 47,
     "bodyText": "DOUBLE-CROSS: When you play this character,\nyou may deal 2 damage to another chosen\ncharacter of yours to return chosen character\nwith cost 2 or less to their player's hand.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26289,7 +25681,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/48_1af6e9e7363bde226e8afb1eeb23872d5574b8ac.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/48_1af6e9e7363bde226e8afb1eeb23872d5574b8ac.jpg",
     "cost": 7,
     "inkable": false,
     "name": "Hades - Ruthless Tyrant",
@@ -26301,7 +25693,7 @@ export const lorcanaCards = [
     "cardNum": 48,
     "bodyText": "SHORT ON PATIENCE: When you play this\ncharacter and whenever he quests, you may deal\n2 damage to another chosen character of yours to\ndraw 2 cards.",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26314,7 +25706,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/49_8027d01768bfb6ee3cc87cb2fcdd0d1b2403aad5.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/49_8027d01768bfb6ee3cc87cb2fcdd0d1b2403aad5.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Lena Sabrewing - Pure Energy",
@@ -26325,7 +25717,7 @@ export const lorcanaCards = [
     "cardNum": 49,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nSUPERNATURAL VENGEANCE {e} - Deal 1 damage\nto chosen character.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -26338,7 +25730,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/50_10f1b3e9830d286bb1d8bfd37436fa5f5b3a8cc1.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/50_10f1b3e9830d286bb1d8bfd37436fa5f5b3a8cc1.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Abu - Illusory Pachyderm",
@@ -26349,7 +25741,7 @@ export const lorcanaCards = [
     "cardNum": 50,
     "bodyText": "Vanish (When an opponent chooses this character\nfor an action, banish them.)\nGRASPING TRUNK Whenever this character\nquests, gain lore equal to the {l} of chosen\nopposing character.",
     "willpower": 7,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26362,7 +25754,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/51_580932d7ccbb709b55a56eefb4190a5041bb2083.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/51_580932d7ccbb709b55a56eefb4190a5041bb2083.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Bruno Madrigal - Single-Minded",
@@ -26374,7 +25766,7 @@ export const lorcanaCards = [
     "cardNum": 51,
     "bodyText": "STANDING TALL: When you play this character,\nchosen opposing character can't ready at the\nstart of their next turn.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26387,7 +25779,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/52_46b887641c602e48a5aa4365ea90f24c67e2b131.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/52_46b887641c602e48a5aa4365ea90f24c67e2b131.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Royal Guard - Octopus Soldier",
@@ -26398,7 +25790,7 @@ export const lorcanaCards = [
     "cardNum": 52,
     "bodyText": "HEAVILY ARMED: Whenever you draw a card, this\ncharacter gains Challenger +1 this turn. (They get\n+1 {s} while challenging.)",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -26411,7 +25803,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/53_a5a6adb98d2d543bda1b489255eae2fda8b264ee.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/53_a5a6adb98d2d543bda1b489255eae2fda8b264ee.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Kuzco - Bored Royal",
@@ -26423,7 +25815,7 @@ export const lorcanaCards = [
     "cardNum": 53,
     "bodyText": "LLAMA BREATH: When you play this character, you\nmay return chosen character, item, or location\nwith cost 2 or less to their player's hand.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -26436,7 +25828,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/54_9e02019d197fc71f58fb9ba0faa8ea8a5df021ab.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/54_9e02019d197fc71f58fb9ba0faa8ea8a5df021ab.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Megara - Part of the Plan",
@@ -26448,7 +25840,7 @@ export const lorcanaCards = [
     "cardNum": 54,
     "bodyText": "CONTENTIOUS ALLIANCE: While you have a character\nnamed Hades in play, this character gains Challenger +2.\n(They get +2 {s} while challenging.)",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -26461,7 +25853,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/55_60d3201bb1ffe69925bf6412311357a1f8df2e17.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/55_60d3201bb1ffe69925bf6412311357a1f8df2e17.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Yelana - Northuldra Leader",
@@ -26472,7 +25864,7 @@ export const lorcanaCards = [
     "cardNum": 55,
     "bodyText": "WE ONLY TRUST NATURE: When you play this\ncharacter, chosen character gains Challenger +2\nthis turn. (They get +2 {s} while challenging.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -26485,7 +25877,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/56_0a3edc86209f673d727a8e6d9ab33fc13e5824ac.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/56_0a3edc86209f673d727a8e6d9ab33fc13e5824ac.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Ryder - Fleet-Footed Infiltrator",
@@ -26497,7 +25889,7 @@ export const lorcanaCards = [
     "cardNum": 56,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26510,7 +25902,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/57_4bdbf4d15c02b5d2497c50d9b84a0ec6fbf556b4.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/57_4bdbf4d15c02b5d2497c50d9b84a0ec6fbf556b4.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Bambi - Prince of the Forest",
@@ -26521,7 +25913,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-057",
     "cardNum": 57,
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26534,7 +25926,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/58_07056688954432acb51b30be595eb7c7b5b38f65.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/58_07056688954432acb51b30be595eb7c7b5b38f65.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Poe De Spell - Magica's Brother",
@@ -26545,7 +25937,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-058",
     "cardNum": 58,
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26558,7 +25950,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/59_73b501ab955c626a000c3ef4290d90c7efa49484.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/59_73b501ab955c626a000c3ef4290d90c7efa49484.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Madam Mim - Up to No Good",
@@ -26569,7 +25961,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-059",
     "cardNum": 59,
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -26582,7 +25974,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/60_7b15000c8441a16a5078f04ec514d1d304b3aad6.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/60_7b15000c8441a16a5078f04ec514d1d304b3aad6.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Elsa - Fierce Protector",
@@ -26594,7 +25986,7 @@ export const lorcanaCards = [
     "cardNum": 60,
     "bodyText": "ICE OVER 1: {i}, Choose and discard a card - Exert\nchosen opposing character.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:15.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26607,7 +25999,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/61_4a05eb9450e04f1a844bfa1df1e153b08f0a82c4.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/61_4a05eb9450e04f1a844bfa1df1e153b08f0a82c4.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Pinocchio - Strings Attached",
@@ -26618,7 +26010,7 @@ export const lorcanaCards = [
     "cardNum": 61,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nGOT TO KEEP REAL QUIET Once during your turn,\nwhenever you ready this character, you may draw\na card.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -26631,7 +26023,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/62_e662995e14c5b3332380f657cd6226c886381c8e.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/62_e662995e14c5b3332380f657cd6226c886381c8e.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Jiminy Cricket - Level-Headed and Wise",
@@ -26642,7 +26034,7 @@ export const lorcanaCards = [
     "cardNum": 62,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nENOUGH'S ENOUGH While this character is\nexerted, opposing characters with Rush enter\nplay exerted.",
     "willpower": 1,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -26655,7 +26047,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/63_4bc96b78fb2ba12dff226ea9d12415dc98846835.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/63_4bc96b78fb2ba12dff226ea9d12415dc98846835.jpg",
     "cost": 3,
     "inkable": false,
     "name": "Bambi - Little Prince",
@@ -26666,7 +26058,7 @@ export const lorcanaCards = [
     "cardNum": 63,
     "bodyText": "SAY HELLO: When you play this character, gain 1 lore.\nKIND OF BASHFUL When an opponent plays a\ncharacter, return this character to your hand.",
     "willpower": 1,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -26679,7 +26071,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/64_a235aab75c9722ec3a8b0ec018c736603fc33f86.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/64_a235aab75c9722ec3a8b0ec018c736603fc33f86.jpg",
     "cost": 8,
     "inkable": true,
     "name": "Monstro - Infamous Whale",
@@ -26690,7 +26082,7 @@ export const lorcanaCards = [
     "cardNum": 64,
     "bodyText": "Rush (This character can challenge the turn they're\nplayed.)\nFULL BREACH Choose and discard a card - Ready this\ncharacter. He can't quest for the rest of this turn.",
     "willpower": 8,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 6,
     "setId": "ROJ"
   },
@@ -26703,7 +26095,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/65_6aaca27591fbdab8b5ad7911a309a8dc5a7bc748.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/65_6aaca27591fbdab8b5ad7911a309a8dc5a7bc748.jpg",
     "cost": 2,
     "inkable": false,
     "name": "Nero - Fearsome Crocodile",
@@ -26715,7 +26107,7 @@ export const lorcanaCards = [
     "cardNum": 65,
     "bodyText": "AND MEAN: {e} - Move 1 damage counter from\nthis character to chosen opposing character.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -26728,7 +26120,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/66_5590ad928d7e71c6e8136f630a34b6cf5f0c957f.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/66_5590ad928d7e71c6e8136f630a34b6cf5f0c957f.jpg",
     "cost": 5,
     "inkable": false,
     "name": "Magica De Spell - Shadow Form",
@@ -26739,7 +26131,7 @@ export const lorcanaCards = [
     "cardNum": 66,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nDANCE OF DARKNESS When you play this\ncharacter, you may return another chosen\ncharacter of yours to your hand to draw a card.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26752,7 +26144,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/67_c48d584577b7e6e10f7b42e4667ff335e8284955.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/67_c48d584577b7e6e10f7b42e4667ff335e8284955.jpg",
     "cost": 7,
     "inkable": true,
     "name": "Kuzco - Impulsive Llama",
@@ -26763,7 +26155,7 @@ export const lorcanaCards = [
     "cardNum": 67,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your\ncharacters named Kuzco.)\nWHAT DOES THIS DO? When you play this character, each\nopponent chooses one of their characters and puts that\ncard on the bottom of their deck. Then, each opponent may\ndraw a card.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 5,
     "setId": "ROJ"
   },
@@ -26776,7 +26168,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/68_53c741362dad2c7bca84909b6d174c380484d327.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/68_53c741362dad2c7bca84909b6d174c380484d327.jpg",
     "cost": 6,
     "inkable": false,
     "name": "Yzma - On Edge",
@@ -26787,7 +26179,7 @@ export const lorcanaCards = [
     "cardNum": 68,
     "bodyText": "WHY DO WE EVEN HAVE THAT LEVER?: When you\nplay this character, if you have a card named Pull\nthe Lever! in your discard, you may search your\ndeck for a card named Wrong Lever! and reveal\nthat card to all players. Put that card into your\nhand and shuffle your deck.",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:39.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26800,7 +26192,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/69_07c456151be28771ba9ab2298722d8403f11573a.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/69_07c456151be28771ba9ab2298722d8403f11573a.jpg",
     "cost": 6,
     "inkable": false,
     "name": "Madam Mim - Rhino",
@@ -26811,7 +26203,7 @@ export const lorcanaCards = [
     "cardNum": 69,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of\none of your characters named Madam Mim.)\nMAKE WAY, COMING THROUGH! When you play\nthis character, banish her or return another\nchosen character of yours to your hand.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 6,
     "setId": "ROJ"
   },
@@ -26824,7 +26216,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/70_ae9ff9045f3946841e4db90edd5c65558967d647.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/70_ae9ff9045f3946841e4db90edd5c65558967d647.jpg",
     "cost": 2,
     "inkable": false,
     "name": "Mother Gothel - Knows What's Best",
@@ -26835,7 +26227,7 @@ export const lorcanaCards = [
     "cardNum": 70,
     "bodyText": "LOOK WHAT YOU'VE DONE: When you play this character,\nyou may deal 2 damage to another chosen character of\nyours to give that character Challenger +1 and \"When this\ncharacter is banished in a challenge, return this card to\nyour hand\" this turn. (They get +1 {s} while challenging.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -26848,7 +26240,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/71_54bb7279891728e7a17c952cbd7aec9746e0e684.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/71_54bb7279891728e7a17c952cbd7aec9746e0e684.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Blue Fairy - Guiding Light",
@@ -26859,7 +26251,7 @@ export const lorcanaCards = [
     "cardNum": 71,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nSupport (Whenever this character quests, you\nmay add their {s} to another chosen character's\n{s} this turn.)",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -26872,7 +26264,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/72_9ee84ec10a2d5ae8462eefdf386b37fb99e3cf59.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/72_9ee84ec10a2d5ae8462eefdf386b37fb99e3cf59.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Anna - Magical Mission",
@@ -26883,7 +26275,7 @@ export const lorcanaCards = [
     "cardNum": 72,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your\ncharacters named Anna.)\nSupport (Whenever this character quests, you may add their\n{s} to another chosen character's {s} this turn.)\nCOORDINATED PLAN Whenever this character quests, if you\nhave a character named Elsa in play, you may draw a card.",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26896,7 +26288,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/73_83b3589488f2a62af73e94fb219fdff0ef73a1f6.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/73_83b3589488f2a62af73e94fb219fdff0ef73a1f6.jpg",
     "cost": 5,
     "inkable": false,
     "name": "The Sultan - Royal Apparition",
@@ -26907,7 +26299,7 @@ export const lorcanaCards = [
     "cardNum": 73,
     "bodyText": "Vanish (When an opponent chooses this character\nfor an action, banish them.)\nCOMMANDING PRESENCE Whenever one of your\nIllusion characters quests, exert chosen opposing\ncharacter.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 5,
     "setId": "ROJ"
   },
@@ -26920,7 +26312,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/74_195b797e7636b8d60ff061cbb3352d557fc17b2d.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/74_195b797e7636b8d60ff061cbb3352d557fc17b2d.jpg",
     "cost": 5,
     "inkable": false,
     "name": "Jafar - High Sultan of Lorcana",
@@ -26931,7 +26323,7 @@ export const lorcanaCards = [
     "cardNum": 74,
     "bodyText": "DARK POWER: Whenever this character quests,\nyou may draw a card, then choose and discard a\ncard. If an Illusion character card is discarded this\nway, you may play that character for free.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -26944,7 +26336,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/75_4f8966284c051ea657db6ffde4072e219105c532.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/75_4f8966284c051ea657db6ffde4072e219105c532.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Camilo Madrigal - Center Stage",
@@ -26956,7 +26348,7 @@ export const lorcanaCards = [
     "cardNum": 75,
     "bodyText": "ENCORE! ENCORE!: When this character is banished\nin a challenge, return this card to your hand.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -26969,7 +26361,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/76_7eada0448a07ed0ca02e1d4eb6acc57ae4690807.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/76_7eada0448a07ed0ca02e1d4eb6acc57ae4690807.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Flower - Shy Skunk",
@@ -26981,7 +26373,7 @@ export const lorcanaCards = [
     "cardNum": 76,
     "bodyText": "LOOKING FOR FRIENDS: Whenever you play another\ncharacter, look at the top card of your deck. Put it\non either the top or the bottom of your deck.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -26993,7 +26385,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/77_4f676de3b01ac5e09bff758f970da3adc20e2751.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/77_4f676de3b01ac5e09bff758f970da3adc20e2751.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Forest Duel",
@@ -27003,7 +26395,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-077",
     "cardNum": 77,
     "bodyText": "Your characters gain Challenger +2 and \"When this\ncharacter is banished in a challenge, return this\ncard to your hand\" this turn. (They get +2 {s} while\nchallenging.)",
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "setId": "ROJ"
   },
   {
@@ -27014,7 +26406,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/78_a536cf1fc707534ce9ff7b134575801f49f15491.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/78_a536cf1fc707534ce9ff7b134575801f49f15491.jpg",
     "cost": 3,
     "inkable": true,
     "name": "They Never Come Back",
@@ -27024,7 +26416,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-078",
     "cardNum": 78,
     "bodyText": "Up to 2 chosen characters can't ready at the start of\ntheir next turn. Draw a card.",
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "setId": "ROJ"
   },
   {
@@ -27036,7 +26428,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/79_4f6a9d5abb7ab8455c9e4339d349b584320ec7be.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/79_4f6a9d5abb7ab8455c9e4339d349b584320ec7be.jpg",
     "cost": 9,
     "inkable": false,
     "name": "Fantastical and Magical",
@@ -27045,7 +26437,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-079",
     "cardNum": 79,
     "bodyText": "Sing Together 9 (Any number of your or your\nteammates' characters with total cost 9 or more may\n{e} to sing this song for free.)\nFor each character that sang this song, draw a card\nand gain 1 lore.",
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "setId": "ROJ"
   },
   {
@@ -27056,7 +26448,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/80_2406b5aef7276513c3c81661726d134ad3ca90f8.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/80_2406b5aef7276513c3c81661726d134ad3ca90f8.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Pull the Lever!",
@@ -27065,7 +26457,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-080",
     "cardNum": 80,
     "bodyText": "Choose one:\n- Draw 2 cards.\n- Each opponent chooses and discards a card.",
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "setId": "ROJ"
   },
   {
@@ -27077,7 +26469,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/81_25e0f1bfa276bb0f8b57d0e592405353d71b757b.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/81_25e0f1bfa276bb0f8b57d0e592405353d71b757b.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Into the Unknown",
@@ -27086,7 +26478,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-081",
     "cardNum": 81,
     "bodyText": "(A character with cost 3 or more can {e} to sing this\nsong for free.)\nPut chosen exerted character into their player's inkwell\nfacedown and exerted.",
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "setId": "ROJ"
   },
   {
@@ -27097,7 +26489,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/82_cf2ea1fc54a5bc230366db04a695687eebd4bf58.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/82_cf2ea1fc54a5bc230366db04a695687eebd4bf58.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Everybody's Got a Weakness",
@@ -27106,7 +26498,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-082",
     "cardNum": 82,
     "bodyText": "Move 1 damage counter from each damaged character\nyou have in play to chosen opposing character. Draw a\ncard for each damage counter moved this way.",
-    "dateModified": "2025-06-02 03:22:16.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "setId": "ROJ"
   },
   {
@@ -27117,7 +26509,7 @@ export const lorcanaCards = [
     "color": "Amethyst",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/83_079beb48eb8393818e25e50a67e65be612b12eb9.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/83_079beb48eb8393818e25e50a67e65be612b12eb9.jpg",
     "cost": 2,
     "inkable": false,
     "name": "Scarab",
@@ -27127,7 +26519,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-083",
     "cardNum": 83,
     "bodyText": "SEARCH THE SANDS: {e}, 2 {i} - Return an Illusion\ncharacter card from your discard to your hand.",
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "setId": "ROJ"
   },
   {
@@ -27138,7 +26530,7 @@ export const lorcanaCards = [
     "color": "Amethyst, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/84_684ee493fd2767a14f07d6e357ab84ac673773a9.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/84_684ee493fd2767a14f07d6e357ab84ac673773a9.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Ice Spikes",
@@ -27147,7 +26539,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-084",
     "cardNum": 84,
     "bodyText": "HOLD STILL: When you play this item, exert chosen\nopposing character.\nIT'S STUCK {e}, 1 {i} - Exert chosen opposing item.\nIt can't ready at the start of its next turn.",
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "setId": "ROJ"
   },
   {
@@ -27159,7 +26551,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/85_360ef467c550593ff6f3fec72b7f6585e242905c.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/85_360ef467c550593ff6f3fec72b7f6585e242905c.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Wilhelmina Packard - The Radio Operator",
@@ -27170,7 +26562,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-085",
     "cardNum": 85,
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27183,7 +26575,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/86_08ccb52387556ce62c14f436da95f8720baaa68a.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/86_08ccb52387556ce62c14f436da95f8720baaa68a.jpg",
     "cost": 7,
     "inkable": true,
     "name": "Basil - Undercover Detective",
@@ -27194,7 +26586,7 @@ export const lorcanaCards = [
     "cardNum": 86,
     "bodyText": "INCAPACITATE: When you play this character, you\nmay return chosen character to their player's hand.\nINTERFERE Whenever this character quests, chosen\nopponent discards a card at random.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 5,
     "setId": "ROJ"
   },
@@ -27207,7 +26599,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/87_01e6e0a7579db9740ac3085d669e4ba402e13d36.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/87_01e6e0a7579db9740ac3085d669e4ba402e13d36.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Tramp - Observant Guardian",
@@ -27219,7 +26611,7 @@ export const lorcanaCards = [
     "cardNum": 87,
     "bodyText": "HOW DO I GET IN?: When you play this character, chosen\ncharacter gains Ward until the start of your next turn.\n(Opponents can't choose them except to challenge.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27232,7 +26624,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/88_bc2b7130b04c7200db4790b39889f2e2cd84098e.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/88_bc2b7130b04c7200db4790b39889f2e2cd84098e.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Chaca - Junior Chipmunk",
@@ -27243,7 +26635,7 @@ export const lorcanaCards = [
     "cardNum": 88,
     "bodyText": "IN CAHOOTS: When you play this character, if\nyou have a character named Tipo in play, chosen\nopposing character gains Reckless during their next\nturn. (They can't quest and must challenge if able.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27256,7 +26648,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/89_8af8976d364cdf9584c68d7dc8b77fcef5b8860f.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/89_8af8976d364cdf9584c68d7dc8b77fcef5b8860f.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Tipo - Junior Chipmunk",
@@ -27268,7 +26660,7 @@ export const lorcanaCards = [
     "cardNum": 89,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -27281,7 +26673,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/90_b0f2931c1aec674bb28cd9ae54471dc4a22cb6c7.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/90_b0f2931c1aec674bb28cd9ae54471dc4a22cb6c7.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Bill the Lizard - Chimney Sweep",
@@ -27293,7 +26685,7 @@ export const lorcanaCards = [
     "cardNum": 90,
     "bodyText": "NOTHING TO IT: While another character in play\nhas damage, this character gains Evasive. (Only\ncharacters with Evasive can challenge them.)",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -27306,7 +26698,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/91_2d0992163394b65487a2ef20ec77df014a47a3fa.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/91_2d0992163394b65487a2ef20ec77df014a47a3fa.jpg",
     "cost": 4,
     "inkable": true,
     "name": "March Hare - Hare-Brained Eccentric",
@@ -27318,7 +26710,7 @@ export const lorcanaCards = [
     "cardNum": 91,
     "bodyText": "LIGHT THE CANDLES: When you play this\ncharacter, you may deal 2 damage to chosen\ndamaged character.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27331,7 +26723,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/92_24c4c2b08319c4dbc231d640dfcdee7158ffa10c.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/92_24c4c2b08319c4dbc231d640dfcdee7158ffa10c.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Fred - Major Science Enthusiast",
@@ -27343,7 +26735,7 @@ export const lorcanaCards = [
     "cardNum": 92,
     "bodyText": "SPITTING FIRE!: When you play this character, you\nmay banish chosen item.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -27356,7 +26748,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/93_509130ff42ca870b5e2c39febf23d6a3e38d7de7.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/93_509130ff42ca870b5e2c39febf23d6a3e38d7de7.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Mad Dog - Karnage's First Mate",
@@ -27368,7 +26760,7 @@ export const lorcanaCards = [
     "cardNum": 93,
     "bodyText": "ARE YOU SURE THIS IS SAFE, CAPTAIN?: If you have a\ncharacter named Don Karnage in play, you pay 1 {i}\nless to play this character.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -27381,7 +26773,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/94_d9cdcac87116234fc9cbd461b24ba2f7206a9929.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/94_d9cdcac87116234fc9cbd461b24ba2f7206a9929.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Dale - Bumbler",
@@ -27392,7 +26784,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-094",
     "cardNum": 94,
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -27405,7 +26797,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/95_5b907a5ac16f71de91ebd0308d132565feaba67c.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/95_5b907a5ac16f71de91ebd0308d132565feaba67c.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Louis - Endearing Alligator",
@@ -27416,7 +26808,7 @@ export const lorcanaCards = [
     "cardNum": 95,
     "bodyText": "SENSITIVE SOUL: This character enters play exerted.\nFRIENDLIER THAN HE LOOKS When you play this\ncharacter, chosen opposing character gains Reckless\nduring their next turn. (They can't quest and must\nchallenge if able.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:40.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -27429,7 +26821,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/96_b6a1340dd22233648675aa542fc61d49b6ae3524.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/96_b6a1340dd22233648675aa542fc61d49b6ae3524.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Napoleon - Clever Bloodhound",
@@ -27440,7 +26832,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-096",
     "cardNum": 96,
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27453,7 +26845,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/97_54788faea60e5cab35d2d2240588d4d8c8f94e85.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/97_54788faea60e5cab35d2d2240588d4d8c8f94e85.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Chip - Quick Thinker",
@@ -27465,7 +26857,7 @@ export const lorcanaCards = [
     "cardNum": 97,
     "bodyText": "I'LL HANDLE THIS When you play this character,\nchosen opponent chooses and discards a card.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27478,7 +26870,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/98_c845f1576380bb016047090ebcaf6d09a4ea05b1.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/98_c845f1576380bb016047090ebcaf6d09a4ea05b1.jpg",
     "cost": 7,
     "inkable": true,
     "name": "Fred - Giant-Sized",
@@ -27489,7 +26881,7 @@ export const lorcanaCards = [
     "cardNum": 98,
     "bodyText": "Shift 5 (You may pay 5 {i} to play this on top of one of\nyour characters named Fred.)\nI LIKE WHERE THIS IS HEADING Whenever this character\nquests, reveal cards from the top of your deck until you\nreveal a Floodborn character card. Put that card into\nyour hand and shuffle the rest into your deck.",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 5,
     "setId": "ROJ"
   },
@@ -27502,7 +26894,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/99_22615c491d4ffed7f36ae0e9be8d00da6da0d593.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/99_22615c491d4ffed7f36ae0e9be8d00da6da0d593.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Gadget Hackwrench - Quirky Scientist",
@@ -27514,7 +26906,7 @@ export const lorcanaCards = [
     "cardNum": 99,
     "bodyText": "GOLLY!: When you play this character, if an\nopponent has more cards in their hand than you,\nyou may draw a card.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27527,7 +26919,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/100_b0199315f7843a4298e44e697f987aceb0bb7c6f.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/100_b0199315f7843a4298e44e697f987aceb0bb7c6f.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Raya - Infiltration Expert",
@@ -27538,7 +26930,7 @@ export const lorcanaCards = [
     "cardNum": 100,
     "bodyText": "UNCONVENTIONAL TACTICS: Whenever this\ncharacter quests, you may pay 2 {i} to ready\nanother chosen character.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 5,
     "setId": "ROJ"
   },
@@ -27551,7 +26943,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/101_fc98fe9c34523ce5788e4800a735e7c68630f9fe.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/101_fc98fe9c34523ce5788e4800a735e7c68630f9fe.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Rapunzel - High Climber",
@@ -27562,7 +26954,7 @@ export const lorcanaCards = [
     "cardNum": 101,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nWRAPPED UP Whenever this character quests,\nchosen opposing character can't quest during\ntheir next turn.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -27575,7 +26967,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/102_deed1ba7dd28e4b0aa88a1dc955f68a977164e4f.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/102_deed1ba7dd28e4b0aa88a1dc955f68a977164e4f.jpg",
     "cost": 4,
     "inkable": false,
     "name": "Flynn Rider - Breaking and Entering",
@@ -27587,7 +26979,7 @@ export const lorcanaCards = [
     "cardNum": 102,
     "bodyText": "THIS IS A VERY BIG DAY: Whenever this character\nis challenged, the challenging player may choose\nand discard a card. If they don't, you gain 2 lore.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -27600,7 +26992,7 @@ export const lorcanaCards = [
     "color": "Emerald, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/103_9ba90f5c7ea24182e507aef2fac1b1b7f781f8ea.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/103_9ba90f5c7ea24182e507aef2fac1b1b7f781f8ea.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Dormouse - Easily Agitated",
@@ -27612,7 +27004,7 @@ export const lorcanaCards = [
     "cardNum": 103,
     "bodyText": "VERY RUDE INDEED: When you play this character,\nyou may put 1 damage counter on chosen\ncharacter.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -27625,7 +27017,7 @@ export const lorcanaCards = [
     "color": "Emerald, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/104_e6732aa858a85d279a36dd2747771f2f4ce76057.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/104_e6732aa858a85d279a36dd2747771f2f4ce76057.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Alice - Clumsy as Can Be",
@@ -27636,7 +27028,7 @@ export const lorcanaCards = [
     "cardNum": 104,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of\none of your characters named Alice.)\nACCIDENT PRONE Whenever this character\nquests, put 1 damage counter on each other\ncharacter.",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:17.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -27649,7 +27041,7 @@ export const lorcanaCards = [
     "color": "Emerald, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/105_210f51940ca9ae5719f44b87ba7a438739a91659.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/105_210f51940ca9ae5719f44b87ba7a438739a91659.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Queen of Hearts - Haughty Monarch",
@@ -27661,7 +27053,7 @@ export const lorcanaCards = [
     "cardNum": 105,
     "bodyText": "COUNT OFF!: While there are 5 or more characters\nwith damage in play, this character gets +3 {l}.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -27674,7 +27066,7 @@ export const lorcanaCards = [
     "color": "Emerald, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/106_9932b39a21df70fe7866e977a459b9dcdb1b827d.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/106_9932b39a21df70fe7866e977a459b9dcdb1b827d.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Hiro Hamada - Intuitive Thinker",
@@ -27685,7 +27077,7 @@ export const lorcanaCards = [
     "cardNum": 106,
     "bodyText": "LOOK FOR A NEW ANGLE: {e} - Ready chosen\nFloodborn character.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -27698,7 +27090,7 @@ export const lorcanaCards = [
     "color": "Emerald, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/107_df39c0c74fba4299f8fdfc78002d161dccf091fb.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/107_df39c0c74fba4299f8fdfc78002d161dccf091fb.jpg",
     "cost": 4,
     "inkable": false,
     "name": "Go Go Tomago - Cutting Edge",
@@ -27709,7 +27101,7 @@ export const lorcanaCards = [
     "cardNum": 107,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your\ncharacters named Go Go Tomago.)\nEvasive (Only characters with Evasive can challenge this\ncharacter.)\nZERO RESISTANCE When you play this character, if you used\nShift to play her, you may put chosen character into their\nplayer's inkwell facedown and exerted.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27722,7 +27114,7 @@ export const lorcanaCards = [
     "color": "Emerald, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/108_a38bbd306f5fedea6b7b2a5979a571eca86b25ab.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/108_a38bbd306f5fedea6b7b2a5979a571eca86b25ab.jpg",
     "cost": 3,
     "inkable": false,
     "name": "Don Karnage - Air Pirate Leader",
@@ -27733,7 +27125,7 @@ export const lorcanaCards = [
     "cardNum": 108,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nSCORNFUL TAUNT Whenever you play an action\nthat isn't a song, chosen opposing character gains\nReckless during their next turn. (They can't quest\nand must challenge if able.)",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27746,7 +27138,7 @@ export const lorcanaCards = [
     "color": "Emerald, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/109_bf1b76255dafbf9e0e26b89b7a5a04edace5e3fe.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/109_bf1b76255dafbf9e0e26b89b7a5a04edace5e3fe.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Captain Hook - The Pirate King",
@@ -27757,7 +27149,7 @@ export const lorcanaCards = [
     "cardNum": 109,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one\nof your characters named Captain Hook.)\nGIVE 'EM ALL YOU GOT! Once during your turn,\nwhenever an opposing character is damaged, your\nPirate characters get +2 {s} and gain Resist +2 this\nturn. (Damage dealt to them is reduced by 2.)",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -27770,7 +27162,7 @@ export const lorcanaCards = [
     "color": "Emerald, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/110_048dd59e0774575666d5c0638d45dc571eadc339.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/110_048dd59e0774575666d5c0638d45dc571eadc339.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Maui - Stubborn Trickster",
@@ -27781,7 +27173,7 @@ export const lorcanaCards = [
     "cardNum": 110,
     "bodyText": "I'M NOT FINISHED YET When this character is banished,\nchoose one:\n- Put 2 damage counters on all opposing characters.\n- Banish all opposing items.\n- Banish all opposing locations.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -27794,7 +27186,7 @@ export const lorcanaCards = [
     "color": "Emerald, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/111_9815104f2881c9d5820e22e6ac6119e83e7f423b.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/111_9815104f2881c9d5820e22e6ac6119e83e7f423b.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Honey Lemon - Costumed Catalyst",
@@ -27805,7 +27197,7 @@ export const lorcanaCards = [
     "cardNum": 111,
     "bodyText": "LET'S DO THIS!: Whenever you play a Floodborn\ncharacter, if you used Shift to play them, you may\nreturn chosen character to their player's hand.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27818,7 +27210,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/112_7a5cd74eb4114c5004e3233827d0586f9ba32d63.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/112_7a5cd74eb4114c5004e3233827d0586f9ba32d63.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Jock - Attentive Uncle",
@@ -27830,7 +27222,7 @@ export const lorcanaCards = [
     "cardNum": 112,
     "bodyText": "VOICE OF EXPERIENCE: When you play this character, if\nyou have 3 or more other characters in play, gain 2 lore.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -27843,7 +27235,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/113_b0e854c5f20ad211457c996f212487fe1b8cd695.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/113_b0e854c5f20ad211457c996f212487fe1b8cd695.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Archimedes - Resourceful Owl",
@@ -27854,7 +27246,7 @@ export const lorcanaCards = [
     "cardNum": 113,
     "bodyText": "YOU DON'T NEED THAT: When you play this\ncharacter, you may banish chosen item.\nNOW, THAT'S NOT BAD During your turn,\nwhenever an item is banished, you may draw a\ncard, then choose and discard a card.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -27866,7 +27258,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/114_ca6babf290e1ec435ee47fea96aadc5671756867.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/114_ca6babf290e1ec435ee47fea96aadc5671756867.jpg",
     "cost": 3,
     "inkable": true,
     "name": "He Who Steals and Runs Away",
@@ -27876,7 +27268,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-114",
     "cardNum": 114,
     "bodyText": "Banish chosen item. Draw a card.",
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "setId": "ROJ"
   },
   {
@@ -27888,7 +27280,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/115_762df6e061fa8e3faa70bfa789620fb5990bf18a.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/115_762df6e061fa8e3faa70bfa789620fb5990bf18a.jpg",
     "cost": 8,
     "inkable": true,
     "name": "Stopped Chaos in Its Tracks",
@@ -27897,7 +27289,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-115",
     "cardNum": 115,
     "bodyText": "Sing Together 8 (Any number of your or your\nteammates' characters with total cost 8 or more may\n{e} to sing this song for free.)\nReturn up to 2 chosen characters with 3 {s} or less\neach to their player's hand.",
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "setId": "ROJ"
   },
   {
@@ -27908,7 +27300,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/116_7abbbb8cd3265648a7365b76851755193fda6f27.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/116_7abbbb8cd3265648a7365b76851755193fda6f27.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Wrong Lever!",
@@ -27917,7 +27309,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-116",
     "cardNum": 116,
     "bodyText": "Choose one:\n- Return chosen character to their player's hand.\n- Put a card named Pull the Lever! from your discard on\nthe bottom of your deck to put chosen character on\nthe bottom of their player's deck.",
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "setId": "ROJ"
   },
   {
@@ -27928,7 +27320,7 @@ export const lorcanaCards = [
     "color": "Emerald, Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/117_9674c713f088e9b661cac2aa6d86cc6403465a5f.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/117_9674c713f088e9b661cac2aa6d86cc6403465a5f.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Undermine",
@@ -27938,7 +27330,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-117",
     "cardNum": 117,
     "bodyText": "Chosen opponent chooses and discards a card. Chosen\ncharacter gets +2 {s} this turn.",
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "setId": "ROJ"
   },
   {
@@ -27949,7 +27341,7 @@ export const lorcanaCards = [
     "color": "Emerald, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/118_3f8f19bd4f7219e9c8b5d0d8b9b6c8ffd509eb2a.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/118_3f8f19bd4f7219e9c8b5d0d8b9b6c8ffd509eb2a.jpg",
     "cost": 3,
     "inkable": false,
     "name": "Walk the Plank!",
@@ -27959,7 +27351,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-118",
     "cardNum": 118,
     "bodyText": "Your Pirate characters gain \"{e} - Banish chosen\ndamaged character\" this turn.",
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "setId": "ROJ"
   },
   {
@@ -27970,7 +27362,7 @@ export const lorcanaCards = [
     "color": "Emerald",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/119_960584354e8dcea8b364285abd322ca9bc463d39.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/119_960584354e8dcea8b364285abd322ca9bc463d39.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Chem Purse",
@@ -27980,7 +27372,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-119",
     "cardNum": 119,
     "bodyText": "HERE'S THE BEST PART: Whenever you play a character,\nif you used Shift to play them, they get +4 {s} this turn.",
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "setId": "ROJ"
   },
   {
@@ -27991,7 +27383,7 @@ export const lorcanaCards = [
     "color": "Emerald, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/120_f9ab6bf84bd022d4309b8e647cf16923d3a12afa.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/120_f9ab6bf84bd022d4309b8e647cf16923d3a12afa.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Jeweled Collar",
@@ -28001,7 +27393,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-120",
     "cardNum": 120,
     "bodyText": "WELCOME EXTRAVAGANCE: Whenever one of your\ncharacters is challenged, you may put the top card of\nyour deck into your inkwell facedown and exerted.",
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "setId": "ROJ"
   },
   {
@@ -28013,7 +27405,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/121_697e10e0458aa3d8827fef3871b3e6ce8b17f230.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/121_697e10e0458aa3d8827fef3871b3e6ce8b17f230.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Gloyd Orangeboar - Fierce Competitor",
@@ -28025,7 +27417,7 @@ export const lorcanaCards = [
     "cardNum": 121,
     "bodyText": "PUMPKIN SPICE: When you play this character,\neach opponent loses 1 lore and you gain 1 lore.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -28038,7 +27430,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/122_eb189fb80ceb96df7f9d99b14e2db72481de5f0f.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/122_eb189fb80ceb96df7f9d99b14e2db72481de5f0f.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Honest John - Shameless Schemer",
@@ -28049,7 +27441,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-122",
     "cardNum": 122,
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 7,
     "setId": "ROJ"
   },
@@ -28062,7 +27454,7 @@ export const lorcanaCards = [
     "color": "Ruby, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/123_78701e6d2a5b3b8f9623ec2dc2e2d192646fb6ea.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/123_78701e6d2a5b3b8f9623ec2dc2e2d192646fb6ea.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Gyro Gearloose - Eccentric Inventor",
@@ -28073,7 +27465,7 @@ export const lorcanaCards = [
     "cardNum": 123,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nI'LL SHOW YOU! When you play this character,\nchosen opposing character gets -3 {s} this turn.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:41.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -28086,7 +27478,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/124_3c2d4a95240db03bbeb15b16b3c8758b916ddb89.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/124_3c2d4a95240db03bbeb15b16b3c8758b916ddb89.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Vanellope Von Schweetz - Spunky Speedster",
@@ -28098,7 +27490,7 @@ export const lorcanaCards = [
     "cardNum": 124,
     "bodyText": "Evasive (Only characters with Evasive can challenge\nthis character.)",
     "willpower": 1,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -28111,7 +27503,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/125_8cd1999b818f23bba5fe456d743b65059401af4f.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/125_8cd1999b818f23bba5fe456d743b65059401af4f.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Brutus - Fearsome Crocodile",
@@ -28123,7 +27515,7 @@ export const lorcanaCards = [
     "cardNum": 125,
     "bodyText": "SPITEFUL: During your turn, when this character\nis banished, if one of your characters was damaged\nthis turn, gain 2 lore.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -28136,7 +27528,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/126_b2b34253992ae784f7da0eb60d8e441e55e32f31.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/126_b2b34253992ae784f7da0eb60d8e441e55e32f31.jpg",
     "cost": 3,
     "inkable": true,
     "name": "The Dodo - Outlandish Storyteller",
@@ -28148,7 +27540,7 @@ export const lorcanaCards = [
     "cardNum": 126,
     "bodyText": "EXTRAORDINARY SITUATION: This character gets\n+1 {s} for each 1 damage on him.",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:18.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -28161,7 +27553,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/127_e2b1cea3da55e534d41df0c269a5103a71873fa6.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/127_e2b1cea3da55e534d41df0c269a5103a71873fa6.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Alice - Courageous Keyholder",
@@ -28173,7 +27565,7 @@ export const lorcanaCards = [
     "cardNum": 127,
     "bodyText": "THIS WAY OUT: When you play this character, you\nmay ready chosen damaged character of yours.\nThey can't quest for the rest of this turn.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -28186,7 +27578,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/128_7968de639d8a4f5cf383de3c8c1f2d65b99cf016.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/128_7968de639d8a4f5cf383de3c8c1f2d65b99cf016.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Lumiere - Nimble Candelabra",
@@ -28198,7 +27590,7 @@ export const lorcanaCards = [
     "cardNum": 128,
     "bodyText": "QUICK-STEP: While you have an item card in\nyour discard, this character gains Evasive. (Only\ncharacters with Evasive can challenge them.)",
     "willpower": 1,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -28211,7 +27603,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/129_553e014d605c4039f1177e61667d1ca5b38d18f5.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/129_553e014d605c4039f1177e61667d1ca5b38d18f5.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Gaston - Arrogant Showoff",
@@ -28223,7 +27615,7 @@ export const lorcanaCards = [
     "cardNum": 129,
     "bodyText": "BREAK APART: When you play this character, you\nmay banish one of your items to give chosen\ncharacter +2 {s} this turn.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -28236,7 +27628,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/130_d4e328fbdfacdf00aaef0eabdc04704a162960c0.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/130_d4e328fbdfacdf00aaef0eabdc04704a162960c0.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Mushu - Fast-Talking Dragon",
@@ -28248,7 +27640,7 @@ export const lorcanaCards = [
     "cardNum": 130,
     "bodyText": "LET'S GET THIS SHOW ON THE ROAD: {e} - Chosen\ncharacter gains Rush this turn. (They can\nchallenge the turn they're played.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -28261,7 +27653,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/131_30cef4186fdcffcc9778e8e54379c6c2f12c7f2e.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/131_30cef4186fdcffcc9778e8e54379c6c2f12c7f2e.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Cri-Kee - Part of the Team",
@@ -28273,7 +27665,7 @@ export const lorcanaCards = [
     "cardNum": 131,
     "bodyText": "AT HER SIDE: While you have 2 or more other exerted\ncharacters in play, this character gets +2 {l}.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -28286,7 +27678,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/132_aeb810d0c742082a87b562771e79be1736d47686.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/132_aeb810d0c742082a87b562771e79be1736d47686.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Lafayette - Sleepy Basset Hound",
@@ -28297,7 +27689,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-132",
     "cardNum": 132,
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 7,
     "setId": "ROJ"
   },
@@ -28310,7 +27702,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/133_d753c244d66de6398f42389407627d8041a178f0.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/133_d753c244d66de6398f42389407627d8041a178f0.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Figaro - Tuxedo Cat",
@@ -28322,7 +27714,7 @@ export const lorcanaCards = [
     "cardNum": 133,
     "bodyText": "PLAYFULNESS: Opposing items enter play exerted.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -28335,7 +27727,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/134_12a485f10892a5d7623888b33e72a21c42acaf69.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/134_12a485f10892a5d7623888b33e72a21c42acaf69.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Thumper - Young Bunny",
@@ -28347,7 +27739,7 @@ export const lorcanaCards = [
     "cardNum": 134,
     "bodyText": "YOU CAN DO IT!: {e} - Chosen character gets +3 {s}\nthis turn.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -28360,7 +27752,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/135_f49fc5b37feb18038abe238da6f26eab352735ad.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/135_f49fc5b37feb18038abe238da6f26eab352735ad.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Wreck-It Ralph - Back Seat Driver",
@@ -28372,7 +27764,7 @@ export const lorcanaCards = [
     "cardNum": 135,
     "bodyText": "CHARGED UP: When you play this character,\nchosen Racer character gets +4 {s} this turn.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -28385,7 +27777,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/136_3d51db5f39f45529fb25087a8025b1e7a9a8a2e9.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/136_3d51db5f39f45529fb25087a8025b1e7a9a8a2e9.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Tinker Bell - Insistent Fairy",
@@ -28396,7 +27788,7 @@ export const lorcanaCards = [
     "cardNum": 136,
     "bodyText": "Evasive (Only characters with Evasive can challenge\nthis character.)\nPAY ATTENTION Whenever you play a character with\n5 {s} or more, you may exert them to gain 2 lore.",
     "willpower": 1,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -28409,7 +27801,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/137_7861718d402199ea506554691e4d405947eb21d4.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/137_7861718d402199ea506554691e4d405947eb21d4.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Lilo - Causing an Uproar",
@@ -28420,7 +27812,7 @@ export const lorcanaCards = [
     "cardNum": 137,
     "bodyText": "STOMPIN' TIME!: During your turn, if you've played\n3 or more actions this turn, you may play this\ncharacter for free.\nRAAAWR! When you play this character, ready\nchosen character. They can't quest for the rest of\nthis turn.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -28433,7 +27825,7 @@ export const lorcanaCards = [
     "color": "Ruby, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/138_acbebdf65123af9d5a813f1129f69182d63972ef.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/138_acbebdf65123af9d5a813f1129f69182d63972ef.jpg",
     "cost": 2,
     "inkable": true,
     "name": "LeFou - Cake Thief",
@@ -28445,7 +27837,7 @@ export const lorcanaCards = [
     "cardNum": 138,
     "bodyText": "ALL FOR ME: {e}, Banish one of your items -\nChosen opponent loses 1 lore and you gain 1 lore.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -28458,7 +27850,7 @@ export const lorcanaCards = [
     "color": "Ruby, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/139_245ab9b58ba0c49db1258ee24e24e23b7ae90460.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/139_245ab9b58ba0c49db1258ee24e24e23b7ae90460.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Lumiere - Fired Up",
@@ -28469,7 +27861,7 @@ export const lorcanaCards = [
     "cardNum": 139,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of\nyour characters named Lumiere.)\nEvasive (Only characters with Evasive can challenge\nthis character.)\nSACREBLEU! Whenever one of your items is\nbanished, this character gets +1 {l} this turn.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -28482,7 +27874,7 @@ export const lorcanaCards = [
     "color": "Ruby, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/140_72471be6dddeeb754476e213c78d82eb7a713652.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/140_72471be6dddeeb754476e213c78d82eb7a713652.jpg",
     "cost": 2,
     "inkable": true,
     "name": "The Coachman - Greedy Deceiver",
@@ -28493,7 +27885,7 @@ export const lorcanaCards = [
     "cardNum": 140,
     "bodyText": "WILD RIDE: While 2 or more characters of yours\nare exerted, this character gets +2 {s} and\ngains Evasive. (Only characters with Evasive can\nchallenge them.)",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -28506,7 +27898,7 @@ export const lorcanaCards = [
     "color": "Ruby, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/141_d1050420f3b320a39afbf55872372ac64d19a7f8.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/141_d1050420f3b320a39afbf55872372ac64d19a7f8.jpg",
     "cost": 4,
     "inkable": false,
     "name": "Mulan - Charging Ahead",
@@ -28517,7 +27909,7 @@ export const lorcanaCards = [
     "cardNum": 141,
     "bodyText": "Reckless (This character can't quest and must challenge\neach turn if able.)\nBURST OF SPEED During your turn, this character gains\nEvasive. (They can challenge characters with Evasive.)\nLONG RANGE This character can challenge ready\ncharacters.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -28530,7 +27922,7 @@ export const lorcanaCards = [
     "color": "Ruby, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/142_e895ef11204117f8364202a038cfb6e81f8a4f64.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/142_e895ef11204117f8364202a038cfb6e81f8a4f64.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Mushu - Your Worst Nightmare",
@@ -28541,7 +27933,7 @@ export const lorcanaCards = [
     "cardNum": 142,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your\ncharacters named Mushu.)\nALL FIRED UP Whenever you play another character, they\ngain Rush, Reckless, and Evasive this turn. (They can\nchallenge the turn they're played. They can't quest and\nmust challenge if able. They can challenge characters with\nEvasive.)",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -28554,7 +27946,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/143_8408e2308a9c10c88d06fadcb2c1f9762c450016.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/143_8408e2308a9c10c88d06fadcb2c1f9762c450016.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Mr. Snoops - Betrayed Partner",
@@ -28566,7 +27958,7 @@ export const lorcanaCards = [
     "cardNum": 143,
     "bodyText": "DOUBLE-CROSSING CROOK!: During your turn, when\nthis character is banished, you may draw a card.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -28579,7 +27971,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/144_88136f41b62afba04948e5408d3d1ddc37bab782.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/144_88136f41b62afba04948e5408d3d1ddc37bab782.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Friend Owl - Cantankerous Neighbor",
@@ -28590,7 +27982,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-144",
     "cardNum": 144,
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -28603,7 +27995,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/145_6054f34ea8b2c901e6084d19f4314a0931a240c0.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/145_6054f34ea8b2c901e6084d19f4314a0931a240c0.jpg",
     "cost": 4,
     "inkable": false,
     "name": "Faline - Playful Fawn",
@@ -28614,7 +28006,7 @@ export const lorcanaCards = [
     "cardNum": 145,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nPRECOCIOUS FRIEND While you have a character\nin play with more {s} than each opposing\ncharacter, this character gets +2 {l}.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -28627,7 +28019,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/146_43c2e2266e6098516a775fef516bceb00f27b504.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/146_43c2e2266e6098516a775fef516bceb00f27b504.jpg",
     "cost": 3,
     "inkable": false,
     "name": "Prince John - Fraidy-Cat",
@@ -28639,7 +28031,7 @@ export const lorcanaCards = [
     "cardNum": 146,
     "bodyText": "HELP! HELP!: Whenever an opponent plays a\ncharacter, deal 1 damage to this character.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "strength": 5,
     "setId": "ROJ"
   },
@@ -28652,7 +28044,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/147_f336c86deceeacbc375228a8719fdceabdce2100.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/147_f336c86deceeacbc375228a8719fdceabdce2100.jpg",
     "cost": 8,
     "inkable": true,
     "name": "Nothing We Won't Do",
@@ -28661,7 +28053,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-147",
     "cardNum": 147,
     "bodyText": "Sing Together 8 (Any number of your or your\nteammates' characters with total cost 8 or more may\n{e} to sing this song for free.)\nReady all your characters. For the rest of this turn,\nthey take no damage from challenges and can't quest.",
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "setId": "ROJ"
   },
   {
@@ -28672,7 +28064,7 @@ export const lorcanaCards = [
     "color": "Ruby, Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/148_4ea26f3311c66811a30511439ac9b93cc426d272.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/148_4ea26f3311c66811a30511439ac9b93cc426d272.jpg",
     "cost": 6,
     "inkable": false,
     "name": "Get Out!",
@@ -28682,7 +28074,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-148",
     "cardNum": 148,
     "bodyText": "Banish chosen character, then return an item card\nfrom your discard to your hand.",
-    "dateModified": "2025-06-02 03:22:19.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "setId": "ROJ"
   },
   {
@@ -28693,7 +28085,7 @@ export const lorcanaCards = [
     "color": "Ruby, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/149_3840cd7cebbae4d7a792e9b85207ec95a046fd81.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/149_3840cd7cebbae4d7a792e9b85207ec95a046fd81.jpg",
     "cost": 1,
     "inkable": false,
     "name": "Light the Fuse",
@@ -28703,7 +28095,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-149",
     "cardNum": 149,
     "bodyText": "Deal 1 damage to chosen character for each exerted\ncharacter you have in play.",
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "setId": "ROJ"
   },
   {
@@ -28714,7 +28106,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/150_e21e79976afcdb2b30a0815f2412ca02372e16cc.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/150_e21e79976afcdb2b30a0815f2412ca02372e16cc.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Twitterpated",
@@ -28724,7 +28116,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-150",
     "cardNum": 150,
     "bodyText": "Chosen character gains Evasive until the start of your next\nturn. (Only characters with Evasive can challenge them.)",
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "setId": "ROJ"
   },
   {
@@ -28735,7 +28127,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/151_bf364e1238cf57c956b0561da39a1e5061fb128c.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/151_bf364e1238cf57c956b0561da39a1e5061fb128c.jpg",
     "cost": 7,
     "inkable": false,
     "name": "Most Everyone's Mad Here",
@@ -28745,7 +28137,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-151",
     "cardNum": 151,
     "bodyText": "Gain lore equal to the damage on chosen character,\nthen banish them.",
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:42.0",
     "setId": "ROJ"
   },
   {
@@ -28756,7 +28148,7 @@ export const lorcanaCards = [
     "color": "Ruby",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/152_78f0d8c945a8447bf056ecf8541655485dd48eba.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/152_78f0d8c945a8447bf056ecf8541655485dd48eba.jpg",
     "cost": 1,
     "inkable": true,
     "name": "The Sword of Shan-Yu",
@@ -28766,7 +28158,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-152",
     "cardNum": 152,
     "bodyText": "WORTHY WEAPON: {e}, {e} one of your characters -\nReady chosen character. They can't quest for the rest\nof this turn.",
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "setId": "ROJ"
   },
   {
@@ -28778,7 +28170,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/153_a860167e59be54be85220db65c2c6851fe765305.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/153_a860167e59be54be85220db65c2c6851fe765305.jpg",
     "cost": 4,
     "inkable": true,
     "name": "The Mouse Queen - Ruler of Mousedom",
@@ -28789,7 +28181,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-153",
     "cardNum": 153,
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -28802,7 +28194,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/154_d0faa2b5b11e398a9fe03bbdabf2ebee9a303e2f.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/154_d0faa2b5b11e398a9fe03bbdabf2ebee9a303e2f.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Sir Pellinore - Seasoned Knight",
@@ -28814,7 +28206,7 @@ export const lorcanaCards = [
     "cardNum": 154,
     "bodyText": "CODE OF HONOR: Whenever this character quests,\nyour other characters gain Support this turn.\n(Whenever they quest, you may add their {s} to\nanother chosen character's {s} this turn.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -28827,7 +28219,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/155_a561ae9b0e7e0877a2eca23c34e990f5e1f39372.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/155_a561ae9b0e7e0877a2eca23c34e990f5e1f39372.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Anita Radcliffe - Dog Lover",
@@ -28838,7 +28230,7 @@ export const lorcanaCards = [
     "cardNum": 155,
     "bodyText": "I'LL TAKE CARE OF YOU When you play this\ncharacter, you may give chosen Puppy character\nResist +1 until the start of your next turn.\n(Damage dealt to them is reduced by 1.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -28851,7 +28243,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/156_3a643876deb8cd4f0b8311fa4f2b61f12507d453.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/156_3a643876deb8cd4f0b8311fa4f2b61f12507d453.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Olaf - Recapping the Story",
@@ -28863,7 +28255,7 @@ export const lorcanaCards = [
     "cardNum": 156,
     "bodyText": "ENDLESS TALE: When you play this character,\nchosen opposing character gets -1 {s} this turn.",
     "willpower": 1,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -28876,7 +28268,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/157_d78685317d1d1413d89b102f2117712f66e9cd30.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/157_d78685317d1d1413d89b102f2117712f66e9cd30.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Anna - Trusting Sister",
@@ -28887,7 +28279,7 @@ export const lorcanaCards = [
     "cardNum": 157,
     "bodyText": "WE CAN DO THIS TOGETHER: When you play this\ncharacter, if you have a character named Elsa in\nplay, you may put the top card of your deck into\nyour inkwell facedown and exerted.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -28900,7 +28292,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/158_638d512ab37245c8830820cfd3e5150eecea3198.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/158_638d512ab37245c8830820cfd3e5150eecea3198.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Wasabi - Always Prepared",
@@ -28912,7 +28304,7 @@ export const lorcanaCards = [
     "cardNum": 158,
     "bodyText": "Support (Whenever this character quests, you\nmay add their {s} to another chosen character's\n{s} this turn.)",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -28925,7 +28317,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/159_4c5f86758420395230649620bd2b2d7ffd4625ba.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/159_4c5f86758420395230649620bd2b2d7ffd4625ba.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Go Go Tomago - Mechanical Engineer",
@@ -28937,7 +28329,7 @@ export const lorcanaCards = [
     "cardNum": 159,
     "bodyText": "NEED THIS!: When you play a Floodborn character\non this card, you may put the top card of your\ndeck into your inkwell facedown and exerted.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -28950,7 +28342,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/160_100410aca309eb1b9cb8f6460eb617dbd00e79f0.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/160_100410aca309eb1b9cb8f6460eb617dbd00e79f0.jpg",
     "cost": 4,
     "inkable": true,
     "name": "The Wardrobe - Perceptive Friend",
@@ -28962,7 +28354,7 @@ export const lorcanaCards = [
     "cardNum": 160,
     "bodyText": "I HAVE JUST THE THING! {e}, Choose and discard\nan item card - Draw 2 cards.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -28975,7 +28367,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/161_bfdbb85fe9431bf65a3dd636cd355e9979923fee.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/161_bfdbb85fe9431bf65a3dd636cd355e9979923fee.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Mrs. Potts - Head Housekeeper",
@@ -28987,7 +28379,7 @@ export const lorcanaCards = [
     "cardNum": 161,
     "bodyText": "CLEAN UP: {e}, Banish one of your items - Draw a card.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29000,7 +28392,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/162_eeb1a4ef233fc727285d6901965a9eba4571fc27.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/162_eeb1a4ef233fc727285d6901965a9eba4571fc27.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Jasmine - Resourceful Infiltrator",
@@ -29011,7 +28403,7 @@ export const lorcanaCards = [
     "cardNum": 162,
     "bodyText": "JUST WHAT YOU NEED: When you play this\ncharacter, you may give another chosen character\nResist +1 until the start of your next turn.\n(Damage dealt to them is reduced by 1.)",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -29024,7 +28416,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/163_4249667070bf948b626a4a76962ae4877fe4f082.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/163_4249667070bf948b626a4a76962ae4877fe4f082.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Little Sister - Responsible Rabbit",
@@ -29036,7 +28428,7 @@ export const lorcanaCards = [
     "cardNum": 163,
     "bodyText": "LET ME HELP: When you play this character,\nyou may remove up to 1 damage from chosen\ncharacter.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -29049,7 +28441,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/164_4434441b88c2b1217d99ddc69b63e9f9fd7eceda.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/164_4434441b88c2b1217d99ddc69b63e9f9fd7eceda.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Adelaide Bonfamille - Patron of the Arts",
@@ -29060,7 +28452,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-164",
     "cardNum": 164,
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29073,7 +28465,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/165_d685d6c6821424eeb1b6b9d8fd7f731af4eccf24.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/165_d685d6c6821424eeb1b6b9d8fd7f731af4eccf24.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Nani - Heist Mastermind",
@@ -29084,7 +28476,7 @@ export const lorcanaCards = [
     "cardNum": 165,
     "bodyText": "STICK TO THE PLAN: {e} - Another chosen character\ngains Resist +2 this turn. (Damage dealt to them is\nreduced by 2.)\nIT'S UP TO YOU, LILO Your characters named Lilo gain\nSupport. (Whenever they quest, you may add their {s}\nto another chosen character's {s} this turn.)",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -29097,7 +28489,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/166_f74490ff985b8435cfb0332eded60745051af08a.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/166_f74490ff985b8435cfb0332eded60745051af08a.jpg",
     "cost": 3,
     "inkable": false,
     "name": "Stitch - Experiment 626",
@@ -29108,7 +28500,7 @@ export const lorcanaCards = [
     "cardNum": 166,
     "bodyText": "SO NAUGHTY: When you play this character, each opponent\nputs the top card of their deck into their inkwell facedown\nand exerted.\nSTEALTH MODE At the start of your turn, if this card is in\nyour discard, you may choose and discard a card with ? to\nplay this character for free and he enters play exerted.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -29121,7 +28513,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/167_767da596cb625d8c18ef3d11aacb85dd6c16bca1.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/167_767da596cb625d8c18ef3d11aacb85dd6c16bca1.jpg",
     "cost": 8,
     "inkable": true,
     "name": "Ratigan - Greedy Genius",
@@ -29132,7 +28524,7 @@ export const lorcanaCards = [
     "cardNum": 167,
     "bodyText": "Ward (Opponents can't choose this character\nexcept to challenge.)\nTIME RUNS OUT At the end of your turn, if you\ndidn't put any cards into your inkwell this turn,\nbanish this character.",
     "willpower": 7,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 6,
     "setId": "ROJ"
   },
@@ -29145,7 +28537,7 @@ export const lorcanaCards = [
     "color": "Sapphire, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/168_5fdb3e89478347684a933d57d1b6c27a09c9b78d.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/168_5fdb3e89478347684a933d57d1b6c27a09c9b78d.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Arthur - Determined Squire",
@@ -29157,7 +28549,7 @@ export const lorcanaCards = [
     "cardNum": 168,
     "bodyText": "NO MORE BOOKS: Skip your turn's Draw step.",
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 6,
     "setId": "ROJ"
   },
@@ -29170,7 +28562,7 @@ export const lorcanaCards = [
     "color": "Sapphire, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/169_5d1b5d5ed135b36074c69448f4d1637e10308535.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/169_5d1b5d5ed135b36074c69448f4d1637e10308535.jpg",
     "cost": 2,
     "inkable": false,
     "name": "Bernard - Over-Prepared",
@@ -29182,7 +28574,7 @@ export const lorcanaCards = [
     "cardNum": 169,
     "bodyText": "GO DOWN THERE AND INVESTIGATE: When you play\nthis character, if you have an Ally character in\nplay, you may draw a card.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:20.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29195,7 +28587,7 @@ export const lorcanaCards = [
     "color": "Sapphire, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/170_dba86df76650ce61834383c6dc17cd1410020eb7.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/170_dba86df76650ce61834383c6dc17cd1410020eb7.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Aladdin - Vigilant Guard",
@@ -29206,7 +28598,7 @@ export const lorcanaCards = [
     "cardNum": 170,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of your\ncharacters must choose one with Bodyguard if able.)\nSAFE PASSAGE Whenever one of your Ally characters\nquests, you may remove up to 2 damage from this\ncharacter.",
     "willpower": 9,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -29219,7 +28611,7 @@ export const lorcanaCards = [
     "color": "Sapphire, Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/171_d709513c423116e2ef43fe17fce315a3f8452ee6.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/171_d709513c423116e2ef43fe17fce315a3f8452ee6.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Jasmine - Steady Strategist",
@@ -29230,7 +28622,7 @@ export const lorcanaCards = [
     "cardNum": 171,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of one of\nyour characters named Jasmine.)\nALWAYS PLANNING Whenever this character quests,\nlook at the top 3 cards of your deck. You may reveal\nan Ally character card and put it into your hand. Put\nthe rest on the bottom of your deck in any order.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29243,7 +28635,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/172_897318cbd3f79b0ca05b4286ab7cf263589ff0b9.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/172_897318cbd3f79b0ca05b4286ab7cf263589ff0b9.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Roquefort - Lock Expert",
@@ -29255,7 +28647,7 @@ export const lorcanaCards = [
     "cardNum": 172,
     "bodyText": "SAFEKEEPING: Whenever this character quests,\nyou may put chosen item into its player's inkwell\nfacedown and exerted.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:43.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29268,7 +28660,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/173_65ae3773d13e991d1e02b6db9ff5aaf083dbb72e.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/173_65ae3773d13e991d1e02b6db9ff5aaf083dbb72e.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Jumba Jookiba - Critical Scientist",
@@ -29279,7 +28671,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-173",
     "cardNum": 173,
     "willpower": 6,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -29292,7 +28684,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/174_8ed3bf0e61edaf2c9175aa12ab25b6e340d67cde.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/174_8ed3bf0e61edaf2c9175aa12ab25b6e340d67cde.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Geppetto - Skilled Craftsman",
@@ -29304,7 +28696,7 @@ export const lorcanaCards = [
     "cardNum": 174,
     "bodyText": "SEEKING INSPIRATION: Whenever this character\nquests, you may choose and discard any number\nof item cards to gain 1 lore for each item card\ndiscarded this way.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -29317,7 +28709,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/175_5d72d182b00644de55a65ae26d2bd0c6470aa4fd.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/175_5d72d182b00644de55a65ae26d2bd0c6470aa4fd.jpg",
     "cost": 6,
     "inkable": true,
     "name": "Heads Held High",
@@ -29326,7 +28718,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-175",
     "cardNum": 175,
     "bodyText": "Sing Together 6 (Any number of your or your\nteammates' characters with total cost 6 or more may {e}\nto sing this song for free.)\nRemove up to 3 damage from any number of chosen\ncharacters. All opposing characters get -3 {s} this turn.",
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "setId": "ROJ"
   },
   {
@@ -29337,7 +28729,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/176_e6dd3216e5a0da1eb2c19c3c833d28f7461bc7c6.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/176_e6dd3216e5a0da1eb2c19c3c833d28f7461bc7c6.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Pouncing Practice",
@@ -29347,7 +28739,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-176",
     "cardNum": 176,
     "bodyText": "Chosen character gets -2 {s} this turn. Chosen\ncharacter of yours gains Evasive this turn. (They can\nchallenge characters with Evasive.)",
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "setId": "ROJ"
   },
   {
@@ -29359,7 +28751,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/177_4085ca9a3882b3be4ab3e05a9c175a8f22667f32.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/177_4085ca9a3882b3be4ab3e05a9c175a8f22667f32.jpg",
     "cost": 6,
     "inkable": false,
     "name": "Down in New Orleans",
@@ -29368,7 +28760,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-177",
     "cardNum": 177,
     "bodyText": "(A character with cost 6 or more can {e} to sing this\nsong for free.)\nLook at the top 3 cards of your deck. You may reveal a\ncharacter, item, or location card with cost 6 or less and\nplay it for free. Put the rest on the bottom of your deck\nin any order.",
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "setId": "ROJ"
   },
   {
@@ -29379,7 +28771,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/178_6c7a686e16bb45e8640d02b82f1739e3e453d0ba.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/178_6c7a686e16bb45e8640d02b82f1739e3e453d0ba.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Television Set",
@@ -29389,7 +28781,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-178",
     "cardNum": 178,
     "bodyText": "IS IT ON YET?: {e}, 1 {i} - Look at the top card of your deck.\nIf it's a Puppy character card, you may reveal it and put it into\nyour hand. Otherwise, put it on the bottom of your deck.",
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "setId": "ROJ"
   },
   {
@@ -29400,7 +28792,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/179_d6211504eaef872134d689f8c3e7949d78b08ae7.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/179_d6211504eaef872134d689f8c3e7949d78b08ae7.jpg",
     "cost": 3,
     "inkable": false,
     "name": "Belle's Favorite Book",
@@ -29410,7 +28802,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-179",
     "cardNum": 179,
     "bodyText": "CHAPTER THREE: {e}, Banish one of your other items -\nPut the top card of your deck into your inkwell\nfacedown and exerted.",
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "setId": "ROJ"
   },
   {
@@ -29421,7 +28813,7 @@ export const lorcanaCards = [
     "color": "Sapphire",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/180_73a5eed582d9b98284622bba69afdce1c2315207.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/180_73a5eed582d9b98284622bba69afdce1c2315207.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Atlantean Crystal",
@@ -29430,7 +28822,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-180",
     "cardNum": 180,
     "bodyText": "SHIELDING LIGHT: {e}, 2 {i} - Chosen character gains\nResist +2 and Support until the start of your next turn.\n(Damage dealt to them is reduced by 2. Whenever\nthey quest, you may add their {s} to another chosen\ncharacter's {s} this turn.)",
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "setId": "ROJ"
   },
   {
@@ -29442,7 +28834,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/181_701556fd427823de597b56a15f795b906d9ed865.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/181_701556fd427823de597b56a15f795b906d9ed865.jpg",
     "cost": 7,
     "inkable": true,
     "name": "Atitaya - Fang General",
@@ -29453,7 +28845,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-181",
     "cardNum": 181,
     "willpower": 7,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 7,
     "setId": "ROJ"
   },
@@ -29466,7 +28858,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/182_57b39ee3ce63e2cecf953daa3d16fc73d625332d.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/182_57b39ee3ce63e2cecf953daa3d16fc73d625332d.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Bobby - Purple Pigeon",
@@ -29478,7 +28870,7 @@ export const lorcanaCards = [
     "cardNum": 182,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of your\ncharacters must choose one with Bodyguard if able.)",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -29491,7 +28883,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/183_8ea03f473205138971bfb00aad16d0e5336764b7.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/183_8ea03f473205138971bfb00aad16d0e5336764b7.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Magic Carpet - Phantom Rug",
@@ -29502,7 +28894,7 @@ export const lorcanaCards = [
     "cardNum": 183,
     "bodyText": "Vanish (When an opponent chooses this character for\nan action, banish them.)\nSPECTRAL FORCE Your other Illusion characters gain\nChallenger +1. (They get +1 {s} while challenging.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29515,7 +28907,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/184_a2214b78666f479bc6a60e9b57c53a79b11a8968.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/184_a2214b78666f479bc6a60e9b57c53a79b11a8968.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Prince Achmed - Rival Suitor",
@@ -29527,7 +28919,7 @@ export const lorcanaCards = [
     "cardNum": 184,
     "bodyText": "UNWELCOME PROPOSAL: When you play this\ncharacter, you may exert chosen Princess\ncharacter.",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29540,7 +28932,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/185_9fc1395b3d8a410c75c2c6443b5f987ab5a851d3.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/185_9fc1395b3d8a410c75c2c6443b5f987ab5a851d3.jpg",
     "cost": 1,
     "inkable": false,
     "name": "Dumptruck - Karnage's Second Mate",
@@ -29552,7 +28944,7 @@ export const lorcanaCards = [
     "cardNum": 185,
     "bodyText": "LET ME AT 'EM: When you play this character, you\nmay deal 1 damage to chosen character.",
     "willpower": 1,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -29565,7 +28957,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/186_1002fc44d95f3cf307806278ac008aa39eae486b.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/186_1002fc44d95f3cf307806278ac008aa39eae486b.jpg",
     "cost": 1,
     "inkable": true,
     "name": "Captain Hook - Forceful Duelist",
@@ -29577,7 +28969,7 @@ export const lorcanaCards = [
     "cardNum": 186,
     "bodyText": "Challenger +2 (While challenging, this character\ngets +2 {s}.)",
     "willpower": 2,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -29590,7 +28982,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/187_6122c9090e5d367488b3ab77155e9a90eed85805.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/187_6122c9090e5d367488b3ab77155e9a90eed85805.jpg",
     "cost": 3,
     "inkable": true,
     "name": "General Li - Head of the Imperial Army",
@@ -29602,7 +28994,7 @@ export const lorcanaCards = [
     "cardNum": 187,
     "bodyText": "Resist +1 (Damage dealt to this character is\nreduced by 1.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29615,7 +29007,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/188_2121a33a34ffab89734e29f58a28d5939e22df18.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/188_2121a33a34ffab89734e29f58a28d5939e22df18.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Monterey Jack - Defiant Protector",
@@ -29626,7 +29018,7 @@ export const lorcanaCards = [
     "cardNum": 188,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of your\ncharacters must choose one with Bodyguard if able.)",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 4,
     "setId": "ROJ"
   },
@@ -29639,7 +29031,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/189_405a2b04bd88d4c91e957c7dda5b012b7892b4cc.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/189_405a2b04bd88d4c91e957c7dda5b012b7892b4cc.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Genie - Satisfied Dragon",
@@ -29650,7 +29042,7 @@ export const lorcanaCards = [
     "cardNum": 189,
     "bodyText": "BUG CATCHER: During your turn, this character\ngains Evasive. (They can challenge characters\nwith Evasive.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -29663,7 +29055,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/190_804560fc1ccb3c880e57f07bed0de7ac0e0eb647.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/190_804560fc1ccb3c880e57f07bed0de7ac0e0eb647.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Toby Turtle - Wary Friend",
@@ -29675,7 +29067,7 @@ export const lorcanaCards = [
     "cardNum": 190,
     "bodyText": "HARD SHELL: While this character is exerted, he gains\nResist +1. (Damage dealt to them is reduced by 1.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -29688,7 +29080,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/191_cccd06d002dee4f7acb0c0d446af91e0663abd69.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/191_cccd06d002dee4f7acb0c0d446af91e0663abd69.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Arianna - Queen of Corona",
@@ -29699,7 +29091,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-191",
     "cardNum": 191,
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 5,
     "setId": "ROJ"
   },
@@ -29712,7 +29104,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/192_574c44033adf32ba5decfb33cf4056fe042e7fa7.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/192_574c44033adf32ba5decfb33cf4056fe042e7fa7.jpg",
     "cost": 3,
     "inkable": true,
     "name": "Zipper - Flying Ranger",
@@ -29723,7 +29115,7 @@ export const lorcanaCards = [
     "cardNum": 192,
     "bodyText": "BEST MATES: If you have a character named\nMonterey Jack in play, you pay 1 {i} less to play\nthis character.\nBURST OF SPEED During your turn, this character\ngains Evasive. (They can challenge characters\nwith Evasive.)",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:21.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29736,7 +29128,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/193_8fffa6e18fe2cd18109f3134a4064aae472aaeb2.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/193_8fffa6e18fe2cd18109f3134a4064aae472aaeb2.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Khan - War Horse",
@@ -29747,7 +29139,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-193",
     "cardNum": 193,
     "willpower": 7,
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29760,7 +29152,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/194_18286ffb940afc8c45fd1333d611c1ef01c7490d.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/194_18286ffb940afc8c45fd1333d611c1ef01c7490d.jpg",
     "cost": 3,
     "inkable": false,
     "name": "Vinnie - Green Pigeon",
@@ -29772,7 +29164,7 @@ export const lorcanaCards = [
     "cardNum": 194,
     "bodyText": "LEARNING EXPERIENCE: During an opponent's turn,\nwhenever one of your other characters is banished,\ngain 1 lore.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 1,
     "setId": "ROJ"
   },
@@ -29785,7 +29177,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/195_70a43420548ef241d3629c79d782f8b53598fcc0.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/195_70a43420548ef241d3629c79d782f8b53598fcc0.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Iago - Out of Reach",
@@ -29797,7 +29189,7 @@ export const lorcanaCards = [
     "cardNum": 195,
     "bodyText": "SELF-PRESERVATION: While you have another\nexerted character in play, this character can't be\nchallenged.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -29810,7 +29202,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/196_debca02435c4828253b7b9c0e842aaa8c17569e4.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/196_debca02435c4828253b7b9c0e842aaa8c17569e4.jpg",
     "cost": 2,
     "inkable": true,
     "name": "Nathaniel Flint - Notorious Pirate",
@@ -29822,7 +29214,7 @@ export const lorcanaCards = [
     "cardNum": 196,
     "bodyText": "PREDATORY INSTINCT: You can't play this character\nunless an opposing character was damaged this turn.",
     "willpower": 3,
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -29835,7 +29227,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/197_fcb3cad56f3eae86090eabe018dfedc531b6cea6.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/197_fcb3cad56f3eae86090eabe018dfedc531b6cea6.jpg",
     "cost": 7,
     "inkable": true,
     "name": "Vincenzo Santorini - The Explosives Expert",
@@ -29847,7 +29239,7 @@ export const lorcanaCards = [
     "cardNum": 197,
     "bodyText": "I JUST LIKE TO BLOW THINGS UP When you play\nthis character, you may deal 3 damage to chosen\ncharacter.",
     "willpower": 8,
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 2,
     "setId": "ROJ"
   },
@@ -29860,7 +29252,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/198_58a33c428901479fa07ac658d3ea4fce954cfe84.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/198_58a33c428901479fa07ac658d3ea4fce954cfe84.jpg",
     "cost": 5,
     "inkable": true,
     "name": "Namaari - Single-Minded Rival",
@@ -29871,7 +29263,7 @@ export const lorcanaCards = [
     "cardNum": 198,
     "bodyText": "STRATEGIC EDGE: When you play this character\nand at the start of your turn, you may draw a card,\nthen choose and discard a card.\nEXTREME FOCUS This character gets +1 {s} for\neach card in your discard.",
     "willpower": 5,
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 0,
     "setId": "ROJ"
   },
@@ -29884,7 +29276,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/199_9cd46f164a79a38f2156c9b1fc2d1cbeb9ef8123.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/199_9cd46f164a79a38f2156c9b1fc2d1cbeb9ef8123.jpg",
     "cost": 10,
     "inkable": false,
     "name": "Mickey Mouse - Giant Mouse",
@@ -29895,7 +29287,7 @@ export const lorcanaCards = [
     "cardNum": 199,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of your\ncharacters must choose one with Bodyguard if able.)\nTHE BIGGEST STAR EVER When this character\nis banished, deal 5 damage to each opposing\ncharacter.",
     "willpower": 10,
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:44.0",
     "strength": 10,
     "setId": "ROJ"
   },
@@ -29908,7 +29300,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/200_30005877c8458fe7b8aabd010cb96d31bbdcdc55.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/200_30005877c8458fe7b8aabd010cb96d31bbdcdc55.jpg",
     "cost": 4,
     "inkable": true,
     "name": "Stitch - Alien Troublemaker",
@@ -29920,7 +29312,7 @@ export const lorcanaCards = [
     "cardNum": 200,
     "bodyText": "I WIN! During your turn, whenever this character\nbanishes another character in a challenge, you may\ndraw a card and gain 1 lore.",
     "willpower": 4,
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "strength": 3,
     "setId": "ROJ"
   },
@@ -29932,7 +29324,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/201_dfb52fe834c389df9a4e03bdf20296d88e85e2b5.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/201_dfb52fe834c389df9a4e03bdf20296d88e85e2b5.jpg",
     "cost": 3,
     "inkable": false,
     "name": "Desperate Plan",
@@ -29942,7 +29334,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-201",
     "cardNum": 201,
     "bodyText": "If you have no cards in your hand, draw until you have\n3 cards in your hand. Otherwise, choose and discard\nany number of cards, then draw that many cards.",
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "setId": "ROJ"
   },
   {
@@ -29954,7 +29346,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/202_cc8a92e5ad79b15a74213f147c0eb67a69e397fa.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/202_cc8a92e5ad79b15a74213f147c0eb67a69e397fa.jpg",
     "cost": 7,
     "inkable": false,
     "name": "Beyond the Horizon",
@@ -29963,7 +29355,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-202",
     "cardNum": 202,
     "bodyText": "Sing Together 7 (Any number of your or your\nteammates' characters with total cost 7 or more may\n{e} to sing this song for free.)\nChoose any number of players. They discard their\nhands and draw 3 cards each.",
-    "dateModified": "2025-06-02 03:26:55.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "setId": "ROJ"
   },
   {
@@ -29974,7 +29366,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/203_d79ef46d125fda5bb31afd13fe6a80a784a48fe4.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/203_d79ef46d125fda5bb31afd13fe6a80a784a48fe4.jpg",
     "cost": 2,
     "inkable": false,
     "name": "Quick Shot",
@@ -29983,7 +29375,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-203",
     "cardNum": 203,
     "bodyText": "Deal 1 damage to chosen character. Draw a card.",
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "setId": "ROJ"
   },
   {
@@ -29994,7 +29386,7 @@ export const lorcanaCards = [
     "color": "Steel",
     "gamemode": "",
     "franchise": "",
-    "image": "https://api.lorcana.ravensburger.com/images/en/set8/cards/1468x2048/204_958b1104387b7f9c0c548865fca2dd43e3d840d6.jpg",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/204_958b1104387b7f9c0c548865fca2dd43e3d840d6.jpg",
     "cost": 3,
     "inkable": false,
     "name": "Hamster Ball",
@@ -30003,7 +29395,7 @@ export const lorcanaCards = [
     "uniqueId": "ROJ-204",
     "cardNum": 204,
     "bodyText": "ROLL WITH THE PUNCHES: {e}, 1 {i} - Chosen character\nwith no damage gains Resist +2 until the start of your\nnext turn. (Damage dealt to them is reduced by 2.)",
-    "dateModified": "2025-06-02 03:22:22.0",
+    "dateModified": "2025-10-04 17:40:45.0",
     "setId": "ROJ"
   },
   {
@@ -30026,8 +29418,7 @@ export const lorcanaCards = [
     "cardNum": 1,
     "bodyText": "Tell Everybody: During opponents' turns, you can't lost lore.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -30050,8 +29441,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-002",
     "cardNum": 2,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "SSK"
   },
@@ -30074,8 +29464,7 @@ export const lorcanaCards = [
     "cardNum": 3,
     "bodyText": "Singer 6 (This-character counts as cost6 {i} to sing songs.)\r It's Beautiful, No?: When you play this character, you may play a song with cost 6 or\r less for free.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-02-17 03:29:28.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Singer 6"
@@ -30100,8 +29489,7 @@ export const lorcanaCards = [
     "cardNum": 4,
     "bodyText": "Support (Whenever this character quests, you\nmay add their {s} to another chosen character's {s}\nthis turn.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Support"
@@ -30126,8 +29514,7 @@ export const lorcanaCards = [
     "cardNum": 5,
     "bodyText": "Brothers Forever:\r While this character is exerted,\r your characters named Koda can't be challenged.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -30150,8 +29537,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-006",
     "cardNum": 6,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-09-20 00:31:24.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -30174,8 +29560,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-007",
     "cardNum": 7,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -30186,7 +29571,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-08-11T16:31:04",
     "setNum": 5,
     "color": "Amber",
-    "franchise": "Lilo and Stitch",
+    "franchise": "Lilo & Stitch",
     "image": "https://lorcana-api.com/images/lilo/junior_cake_decorator/lilo-junior_cake_decorator-large.png",
     "cost": 2,
     "inkable": true,
@@ -30199,8 +29584,7 @@ export const lorcanaCards = [
     "cardNum": 8,
     "bodyText": "Support (Whenever this character quests, you\nmay add their {s} to another chosen character's\n{s} this turn.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK",
     "abilities": "Support"
@@ -30225,8 +29609,7 @@ export const lorcanaCards = [
     "cardNum": 9,
     "bodyText": "You've Got To Pay To Play:Whenever this\r character quests, chosen opposing character gets\r -1{s} until the start of your next turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -30250,8 +29633,7 @@ export const lorcanaCards = [
     "cardNum": 10,
     "bodyText": "Bodyguard (This character may enter play exerted.\nAn opposing character who challenges one of\nyour characters must choose one with Bodyguard\nif able.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Bodyguard"
@@ -30276,8 +29658,7 @@ export const lorcanaCards = [
     "cardNum": 11,
     "bodyText": "Singer 5 (This character counts as cost 5 to sing\nsongs.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Singer 5"
@@ -30301,8 +29682,7 @@ export const lorcanaCards = [
     "cardNum": 12,
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of\r one of your characters named Fix-lt Felix, Jr.)\r Building Together: Your locations get +2 {w}.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK",
     "abilities": "Shift 3"
@@ -30326,8 +29706,7 @@ export const lorcanaCards = [
     "cardNum": 13,
     "bodyText": "Bodyguard (This character may enter play exerted.\r An opposing character who challenges one of your\r characters must choose one with Bodyguard if able.)\r \r Song Of The Herd: For each song card in your\r discard, you pay 1{i} less to play this character.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Bodyguard"
@@ -30352,8 +29731,7 @@ export const lorcanaCards = [
     "cardNum": 14,
     "bodyText": "Not Without My Family: You can't play this\r character unless you have 5 or more characters in\r play.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "SSK"
   },
@@ -30376,8 +29754,7 @@ export const lorcanaCards = [
     "cardNum": 15,
     "bodyText": "Shift 4 (You may pay 4{i}  to play this on top of one of\r your characters named Minnie Mouse.)\r Parade Order: When you play this character, if you\r used Shift to play her, you may search your deck for\r a character card and reveal that card to all players.\r Shuffle your deck and put that card on top of it.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK",
     "abilities": "Shift 4"
@@ -30401,8 +29778,7 @@ export const lorcanaCards = [
     "cardNum": 16,
     "bodyText": "Big Prize: Whenever this character quests, each\r opponent reveals the top card of their deck. If it's\r a character card, they may put it into their hand.\r Otherwise, they put it on the bottom of their\r deck.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -30426,8 +29802,7 @@ export const lorcanaCards = [
     "cardNum": 17,
     "bodyText": "Oh, My Land!: When you play this character, if\r you have a location in play, draw a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -30450,8 +29825,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-018",
     "cardNum": 18,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -30474,8 +29848,7 @@ export const lorcanaCards = [
     "cardNum": 19,
     "bodyText": "Shift 2 (You may pay 2{i} to play this on top of one of\nyour characters named Vanellope von Schweetz.)\nI HEREBY DECREE: Whenever you play another\nPrincess character, all opposing characters get -1{s}\nuntil the start of your next turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-09-20 00:31:24.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Shift 2"
@@ -30500,8 +29873,7 @@ export const lorcanaCards = [
     "cardNum": 20,
     "bodyText": "Fan Favorite: Whenever you play a song, gain 1 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -30525,8 +29897,7 @@ export const lorcanaCards = [
     "cardNum": 21,
     "bodyText": "I've Got The Coolest Friend: When you play \r this character, return a character card from your\r discard to your hand. If that card is a Princess\r character card, gain 2 lore.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "SSK"
   },
@@ -30550,8 +29921,7 @@ export const lorcanaCards = [
     "cardNum": 22,
     "bodyText": "If It Pleases The Lady: When you play this\ncharacter, chosen opposing character gets -5 {s}\nuntil the start of your next turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -30574,8 +29944,7 @@ export const lorcanaCards = [
     "cardNum": 23,
     "bodyText": "Reindeer Games: When you play this character,\r you may ready chosen character. They can't quest\r or challenge for the rest of this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -30599,8 +29968,7 @@ export const lorcanaCards = [
     "cardNum": 24,
     "bodyText": "Patch Them Up: Whenever this character quests,\nyou may remove up to 2 damage from chosen\ncharacter.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -30621,8 +29989,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-025",
     "cardNum": 25,
     "bodyText": "(A character with cost 4 or more can {e} to sing this song for\nfree.)\nRemove up to 3 damage from chosen character and ready\nthem. They can't quest or challenge for the rest of this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -30642,8 +30009,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-026",
     "cardNum": 26,
     "bodyText": "Remove up to 4 damage from chosen character.\nDraw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -30663,8 +30029,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-027",
     "cardNum": 27,
     "bodyText": "Play a character with cost 5 or less from your\ndiscard for free.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -30683,8 +30048,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-028",
     "cardNum": 28,
     "bodyText": "(A character with cost 6 or more can {e} to sing this\nsong for free.)\nName a card. Return all character cards with that\nname from your discard to your hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -30703,8 +30067,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-029",
     "cardNum": 29,
     "bodyText": "Reveal the top 2 cards of your deck. Put revealed\ncharacter cards into your hand. Put the rest on the\nbottom of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -30723,8 +30086,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-030",
     "cardNum": 30,
     "bodyText": "Renewing Essence: {e} - Remove up to 2 damage\nfrom chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -30743,8 +30105,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-031",
     "cardNum": 31,
     "bodyText": "Symbol Of Nobility: At the start of your turn, if you have a\nPrincess or Queen character in play, gain 1 lore.\nRoyal Search: {e}, 2{i} - Reveal the top card of your deck.\nIf it's a Princess or Queen character card, you may put it into\nyour hand. Otherwise, put it on the top of your deck.\n",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -30764,8 +30125,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-032",
     "cardNum": 32,
     "bodyText": "Amber Light: {e} - Remove up to 1 damage from each\nof your characters.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -30786,8 +30146,7 @@ export const lorcanaCards = [
     "cardNum": 33,
     "bodyText": "Safe And Sound: Characters get +3{w} while here.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 1
   },
@@ -30809,8 +30168,7 @@ export const lorcanaCards = [
     "cardNum": 34,
     "bodyText": "Our Humble Home: While you have 3 or more characters here, you may\nbanish this location to play a character from your discard for free.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 2
   },
@@ -30833,8 +30191,7 @@ export const lorcanaCards = [
     "cardNum": 35,
     "bodyText": "Shift 6 (You may pay 6{i} to play this on top of one of\nyour characters named Maleficent.)\nListen Well, All Of You: When you play this character,\nfor each of your characters named Maleficent in play,\nreturn a chosen opposing character, item, or location\nwith cost 3 or less to their player's hand.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 7,
     "setId": "SSK",
     "abilities": "Shift 6"
@@ -30858,8 +30215,7 @@ export const lorcanaCards = [
     "cardNum": 36,
     "bodyText": "Turning Tides: When you play this character,\nyou may move up to 2 damage counters from\nchosen character to chosen opposing character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "SSK"
   },
@@ -30883,8 +30239,7 @@ export const lorcanaCards = [
     "cardNum": 37,
     "bodyText": "Move It!: When you play this character,\nchosen character gains Rush this turn. (They can\nchallenge the turn they're played.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -30908,8 +30263,7 @@ export const lorcanaCards = [
     "cardNum": 38,
     "bodyText": "Give Me Time To Think: When you play this\ncharacter and when he leaves play, look at the\ntop 2 cards of your deck. Put one on the top of\nyour deck and the other on the bottom.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -30933,8 +30287,7 @@ export const lorcanaCards = [
     "cardNum": 39,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Evasive"
@@ -30958,8 +30311,7 @@ export const lorcanaCards = [
     "cardNum": 40,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nParting Gift: When this character is banished,\nyou may draw a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Evasive"
@@ -30984,8 +30336,7 @@ export const lorcanaCards = [
     "cardNum": 41,
     "bodyText": "Unearthed: When you play this character, each\nopponent draws a card.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -31008,8 +30359,7 @@ export const lorcanaCards = [
     "cardNum": 42,
     "bodyText": "Recurring Gust: When this character is\nbanished in a challenge, return this card to your\nhand.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -31032,8 +30382,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-043",
     "cardNum": 43,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -31056,8 +30405,7 @@ export const lorcanaCards = [
     "cardNum": 44,
     "bodyText": "A Little Game: When you play this character, banish\nher or return another chosen character of yours to your\nhand.\nSneaky Move: At the start of your turn, you may move\nup to 2 damage counters from this character to chosen\nopposing character.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -31079,8 +30427,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-045",
     "cardNum": 45,
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -31103,8 +30450,7 @@ export const lorcanaCards = [
     "cardNum": 46,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of\none of your characters named Anna.)\nExceptional Power: When you play this\ncharacter, exert all opposing characters.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK",
     "abilities": "Shift 4"
@@ -31128,8 +30474,7 @@ export const lorcanaCards = [
     "cardNum": 47,
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of one of your\ncharacters named Archimedes.)\nEvasive (Only characters with Evasive can challenge this\ncharacter.)\nChallenger +3 (While challenging, this character gets +3{s}.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK",
     "abilities": "Shift 3, Evasive, Challenger 3"
@@ -31153,8 +30498,7 @@ export const lorcanaCards = [
     "cardNum": 48,
     "bodyText": "Rush (This character can challenge the turn they're played.)\nEvasive (Only characters with Evasive can challenge this\ncharacter.)\nCrystallize: When you play this character, exert chosen\nopposing character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Rush, Evasive"
@@ -31179,8 +30523,7 @@ export const lorcanaCards = [
     "cardNum": 49,
     "bodyText": "Phenomenal Showman: While this character is\nexerted, opposing characters can't ready at the\nstart of their turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "SSK"
   },
@@ -31203,8 +30546,7 @@ export const lorcanaCards = [
     "cardNum": 50,
     "bodyText": "Clear The Path: For each exerted character\nopponents have in play, you pay 1{i} less to\nplay this character.\nEvasive (Only characters with Evasive can\nchallenge this character.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "SSK",
     "abilities": "Evasive"
@@ -31228,8 +30570,7 @@ export const lorcanaCards = [
     "cardNum": 51,
     "bodyText": "What An Awkward Situation: Whenever this\ncharacter quests, you may choose and discard a\ncard to return chosen character, item, or location\nwith cost 3 or less to their player's hand.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "SSK"
   },
@@ -31252,8 +30593,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-052",
     "cardNum": 52,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "SSK"
   },
@@ -31276,8 +30616,7 @@ export const lorcanaCards = [
     "cardNum": 53,
     "bodyText": "Playing With Power: During opponents' turns,\nif an effect would cause you to discard one or\nmore cards from your hand, you don't discard.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -31300,8 +30639,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-054",
     "cardNum": 54,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -31324,8 +30662,7 @@ export const lorcanaCards = [
     "cardNum": 55,
     "bodyText": "Rush (This character con challenge the turn\nthey're played.)\nSurprising Skill: When you play this character,\nhe gains Challenger +4 this turn. (They get +4\nwhile challenging.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK",
     "abilities": "Rush"
@@ -31350,8 +30687,7 @@ export const lorcanaCards = [
     "cardNum": 56,
     "bodyText": "Growing Powers: When you play this character,\neach opponent chooses and exerts one of their\nready characters.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -31375,8 +30711,7 @@ export const lorcanaCards = [
     "cardNum": 57,
     "bodyText": "Pleasing The Queen: {e} - Chosen exerted\ncharacter can't ready at the start of their next\nturn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -31399,8 +30734,7 @@ export const lorcanaCards = [
     "cardNum": 58,
     "bodyText": "Imitate: Whenever this character quests, you\nmay gain lore equal to the {l} of chosen other\ncharacter of yours. Return that character to your\nhand.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -31421,8 +30755,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-059",
     "cardNum": 59,
     "bodyText": "Draw a card. Chosen character gains Challenger +2\nthis turn. (They get +2{s}  while challenging.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -31442,8 +30775,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-060",
     "cardNum": 60,
     "bodyText": "Draw 3 cards.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -31462,8 +30794,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-061",
     "cardNum": 61,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for\nfree.)\nShuffle chosen card from your discard into your deck.\nReveal the top card of your deck. If it has the same name\nas the chosen card, you may play the revealed card for free.\nOtherwise, put it into your hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -31483,8 +30814,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-062",
     "cardNum": 62,
     "bodyText": "Gain 2 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -31504,8 +30834,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-063",
     "cardNum": 63,
     "bodyText": "Chosen character gains Challenger +3 and \"When this\ncharacter is banished in a challenge, return this card to\nyour hand\" this turn. (They get +3{s} while challenging.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -31524,8 +30853,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-064",
     "cardNum": 64,
     "bodyText": "Extract Of Amethyst: 2{i}, Banish this item - Return\nchosen character, item, or location with cost 3 or less\nto their player's hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -31545,8 +30873,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-065",
     "cardNum": 65,
     "bodyText": "An unexpected Find: {e}, 2{i} - Draw a card.\nA Perilous Power: {e}, 2{i}, Discard a card - Exert\nchosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -31566,8 +30893,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-066",
     "cardNum": 66,
     "bodyText": "Amethyst Light: {e} - Each player may draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -31588,8 +30914,7 @@ export const lorcanaCards = [
     "cardNum": 67,
     "bodyText": "Eternal Winter: When you play this location, choose an exerted\ncharacter. While this location is in play, that character can't ready at the\nstart of their turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 1
   },
@@ -31611,8 +30936,7 @@ export const lorcanaCards = [
     "cardNum": 68,
     "bodyText": "Lost In A Book: Whenever a character is banished while here, you may\ndraw a card.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 1
   },
@@ -31635,8 +30959,7 @@ export const lorcanaCards = [
     "cardNum": 69,
     "bodyText": "Tag Me In!: For each 1 damage on opposing characters, you pay 1{i} less to play this character.\nWard (Opponents can't choose this character except to challenge.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "SSK",
     "abilities": "Ward"
@@ -31660,8 +30983,7 @@ export const lorcanaCards = [
     "cardNum": 70,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\nEasy Pickings: While challenging a damaged character, this character gets +2{s}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Evasive"
@@ -31685,8 +31007,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-071",
     "cardNum": 71,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "SSK"
   },
@@ -31710,8 +31031,7 @@ export const lorcanaCards = [
     "cardNum": 72,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Evasive"
@@ -31736,8 +31056,7 @@ export const lorcanaCards = [
     "cardNum": 73,
     "bodyText": "Silent Performance: This character can't {e} to sing songs.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -31761,8 +31080,7 @@ export const lorcanaCards = [
     "cardNum": 74,
     "bodyText": "Cause A Panic: When you play this character, you may deal 2 damage to chosen damaged character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -31786,8 +31104,7 @@ export const lorcanaCards = [
     "cardNum": 75,
     "bodyText": "Fiddle Faddle: While being challenged, this character gets +2{s}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -31811,8 +31128,7 @@ export const lorcanaCards = [
     "cardNum": 76,
     "bodyText": "Ray Of Hope: When you play this character, you\nmay pay 1{i} to give chosen character +2 {s} this\nturn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -31836,8 +31152,7 @@ export const lorcanaCards = [
     "cardNum": 77,
     "bodyText": "Trick Shot: When you play this character, if an\nopponent has a damaged character in play, gain 1\nlore.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -31860,8 +31175,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-078",
     "cardNum": 78,
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -31884,8 +31198,7 @@ export const lorcanaCards = [
     "cardNum": 79,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nIn Disguise: Whenever this character quests,\nyou pay 2{i} less for the next action you play this\nturn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Evasive"
@@ -31909,8 +31222,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-080",
     "cardNum": 80,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -31934,8 +31246,7 @@ export const lorcanaCards = [
     "cardNum": 81,
     "bodyText": "Rowdy Guest: Damaged characters can't\nchallenge this character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -31957,8 +31268,7 @@ export const lorcanaCards = [
     "cardNum": 82,
     "bodyText": "Evasive (Only characters with Evasive can\nchallenge this character.)\nDo Say Hello To Mr. Arrow: When you play this character, you may pay 3{i} to banish chosen\ndamaged character.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Evasive"
@@ -31982,8 +31292,7 @@ export const lorcanaCards = [
     "cardNum": 83,
     "bodyText": "Slayer Of Dragons: When you play this character,\nbanish chosen opposing Dragon character.\nPressing The Advantage: Whenever he challenges\na damaged character, ready this character after the\nchallenge.",
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -32006,8 +31315,7 @@ export const lorcanaCards = [
     "cardNum": 84,
     "bodyText": "Shift 5 (You may pay 5{i} to play this on top of one\nof your characters named Clarabelle.)\nKeep In Step: At the end of your turn, if chosen\nopponent has more cards in their hand than you, you\nmay draw cards until you have the same number.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "SSK",
     "abilities": "Shift 5"
@@ -32031,8 +31339,7 @@ export const lorcanaCards = [
     "cardNum": 85,
     "bodyText": "Royal Resolution: When you play this character,\nyou may pay 2{i} to choose one:\n• Each opponent chooses and discards a card.\n• Chosen character gets +2{s} this turn.\n• Banish chosen damaged character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -32055,8 +31362,7 @@ export const lorcanaCards = [
     "cardNum": 86,
     "bodyText": "Butterfingers: When you play this character,\nyou may pay 2{i}  to banish chosen item.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -32080,8 +31386,7 @@ export const lorcanaCards = [
     "cardNum": 87,
     "bodyText": "Here Kitty, Kitty, Kitty: When you play this\ncharacter, you may exert chosen damaged\ncharacter.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -32104,8 +31409,7 @@ export const lorcanaCards = [
     "cardNum": 88,
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of\none of your characters named Robin Hood.)\nClever Plan: This character gets +1{l} for each\nopposing damaged character in play.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Shift 3"
@@ -32130,8 +31434,7 @@ export const lorcanaCards = [
     "cardNum": 89,
     "bodyText": "Mother Knows Best: When you play this\ncharacter, you may pay 3{i} to return chosen\ncharacter to their player's hand.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -32155,8 +31458,7 @@ export const lorcanaCards = [
     "cardNum": 90,
     "bodyText": "One Step Behind: When you play this character,\nif an opponent has more cards in their hand than\nyou, you may draw a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-09-09 17:28:18.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -32179,8 +31481,7 @@ export const lorcanaCards = [
     "cardNum": 91,
     "bodyText": "Stick Around For Dinner: This character gets +1{s}\nfor each other Hyena character you have in play.\nWhat Have We Got Here: Whenever one of your\nHyena characters challenges a damaged character,\ngain 2 lore.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -32203,8 +31504,7 @@ export const lorcanaCards = [
     "cardNum": 92,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of\none of your characters named Mother Gothel.)\nThe World Is Dark: When you play this\ncharacter, each opponent chooses one of their\ncharacters and returns that card to their hand.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK",
     "abilities": "Shift 4"
@@ -32228,8 +31528,7 @@ export const lorcanaCards = [
     "cardNum": 93,
     "bodyText": "Ward (Opponents can't choose this character\nexcept to challenge.)\nLife's not fair, is it?: Whenever one of your\ncharacters challenges a damaged character, you\nmay draw a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK",
     "abilities": "Ward"
@@ -32251,8 +31550,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-094",
     "cardNum": 94,
     "bodyText": "Draw 3 cards, then put 2 cards from your hand on the\ntop of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -32272,8 +31570,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-095",
     "cardNum": 95,
     "bodyText": "Draw a card. Chosen character gains Reckless during their\nnext turn. (They can't quest and must challenge if able.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -32292,8 +31589,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-096",
     "cardNum": 96,
     "bodyText": "(A character with cost 4 or more can {e} to sing this\nsong for free.)\nShuffle chosen character, item, or location into their\nplayer's deck. That player draws 2 cards.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -32312,8 +31608,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-097",
     "cardNum": 97,
     "bodyText": "If chosen opponent has more cards in their hand than\nyou, draw cards until you have the same number.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -32332,8 +31627,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-098",
     "cardNum": 98,
     "bodyText": "You Look Regal: If you have a character named Prince\nJohn in play, you pay 1{i} less to play this item.\nA Feeling Of Power: At the end of each opponent's\nturn, if they have more than 3 cards in their hand, they\ndiscard until they have 3 cards in their hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -32352,8 +31646,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-099",
     "cardNum": 99,
     "bodyText": "Extract Of Emerald: 2{i}, Banish this item - Your\ncharacters gain Ward until the start of your next turn.\n(Opponents can't choose them except to challenge.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -32373,8 +31666,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-100",
     "cardNum": 100,
     "bodyText": "Emerald Light: During opponents' turns, whenever\none of your characters is banished, you may return\nchosen character to their player's hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -32395,8 +31687,7 @@ export const lorcanaCards = [
     "cardNum": 101,
     "bodyText": "Forest Home: Your characters named Robin Hood may move here for free.\nFamiliar Terrain: Characters gain Ward and \"{e}, 1{i} - Deal 2 damage to chosen\ndamaged character\" while here. (Opponents can't choose them except to challenge.)",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 2
   },
@@ -32418,8 +31709,7 @@ export const lorcanaCards = [
     "cardNum": 102,
     "bodyText": "Snack Time: Opposing damaged characters gain Reckless. (They can't\nquest and must challenge if able.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 1
   },
@@ -32442,8 +31732,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-103",
     "cardNum": 103,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -32466,8 +31755,7 @@ export const lorcanaCards = [
     "cardNum": 104,
     "bodyText": "Refreshing Break: Whenever you ready this character, gain 1 lore for each 1 damage on him.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -32491,8 +31779,7 @@ export const lorcanaCards = [
     "cardNum": 105,
     "bodyText": "Royally Big Rewards: At the end of your turn, if you have any characters in play with 5{s} or more, gain 2 lore. If you have any in play with 10{s} or more, gain 5 lore instead.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -32515,8 +31802,7 @@ export const lorcanaCards = [
     "cardNum": 106,
     "bodyText": "Rush (This character can challenge the turn they're played.)\nGame Jump: This character also counts as being named King Candy for Shift.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Rush, Shift"
@@ -32540,8 +31826,7 @@ export const lorcanaCards = [
     "cardNum": 107,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of one of your characters named Donald Duck.)\r Humble Pie: When you play this character, if you used Shift to play him, each opponent loses 2 lore.\r Raging Duck: While an opponent has 10 or more lore, this character gets +6{s}",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Shift 4"
@@ -32565,8 +31850,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-108",
     "cardNum": 108,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -32590,8 +31874,7 @@ export const lorcanaCards = [
     "cardNum": 109,
     "bodyText": "Long Live the King - When you play this character, you may banish chosen character named Mufasa.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "SSK"
   },
@@ -32615,8 +31898,7 @@ export const lorcanaCards = [
     "cardNum": 110,
     "bodyText": "Rush (This character can challenge the turn they're played.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Rush"
@@ -32641,8 +31923,7 @@ export const lorcanaCards = [
     "cardNum": 111,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -32666,8 +31947,7 @@ export const lorcanaCards = [
     "cardNum": 112,
     "bodyText": "Perfect Partners: While you have a character named Minnie Mouse in play, this character gets +2{s}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -32691,8 +31971,7 @@ export const lorcanaCards = [
     "cardNum": 113,
     "bodyText": "Nothing Can Stand in My Way: While this character has damage, he gets +2{s}.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -32716,8 +31995,7 @@ export const lorcanaCards = [
     "cardNum": 114,
     "bodyText": "Showstopper: When you play this character, if you have a location in play, each opponent loses 1 lore.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -32740,8 +32018,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-115",
     "cardNum": 115,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 7,
     "setId": "SSK"
   },
@@ -32764,8 +32041,7 @@ export const lorcanaCards = [
     "cardNum": 116,
     "bodyText": "Scram!: When you play this character, if you have another character named Pete in play, you may banish chosen opposing character.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "SSK"
   },
@@ -32788,8 +32064,7 @@ export const lorcanaCards = [
     "cardNum": 117,
     "bodyText": "Shift 2 (You may pay 2{i} to play this on top of one of your characters named Taffyta Muttonfudge.)\nNew Roster: Once per turn, when this character moves to a location, gain 2 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Shift 2"
@@ -32813,8 +32088,7 @@ export const lorcanaCards = [
     "cardNum": 118,
     "bodyText": "My Greatest Performance: Whenever this character quests, look at the top 4 cards of your deck. You my reveal an action card with cost 6 or less and play it for free. Put the rest in your discard.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -32837,8 +32111,7 @@ export const lorcanaCards = [
     "cardNum": 119,
     "bodyText": "A Man Among Men!: For each damaged character you have in play, you pay 2{i} less to play this character.\nRush (This character can challenge the turn they're played.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 10,
     "setId": "SSK",
     "abilities": "Rush"
@@ -32862,8 +32135,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-120",
     "cardNum": 120,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -32886,8 +32158,7 @@ export const lorcanaCards = [
     "cardNum": 121,
     "bodyText": "Reckless (This character can't quest and must challenge each turn if able.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Reckless"
@@ -32912,8 +32183,7 @@ export const lorcanaCards = [
     "cardNum": 122,
     "bodyText": "Plucky Play: Whenever this character challenges another character, each opponent loses 1 lore.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -32936,8 +32206,7 @@ export const lorcanaCards = [
     "cardNum": 123,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of one of your characters named Ratigan.)\r Evasive (Only characters with Evasive can challenge this character.)\r Delightfully Wicked: Your damaged characters get +2{s}.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "SSK",
     "abilities": "Shift 4, Evasive"
@@ -32961,8 +32230,7 @@ export const lorcanaCards = [
     "cardNum": 124,
     "bodyText": "Rush (This character can challenge the turn they're played.)\nPixlexia: When you play this character, she gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-09-20 00:31:24.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Rush, Evasive"
@@ -32986,8 +32254,7 @@ export const lorcanaCards = [
     "cardNum": 125,
     "bodyText": "I Laugh in the Face of Danger: When you play this character, chosen character gets +2{s} this turn.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -33011,8 +32278,7 @@ export const lorcanaCards = [
     "cardNum": 126,
     "bodyText": "Dance-Off: Whenever this character or one of your characters named Mickey Mouse challenges another character, gain 1 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -33033,8 +32299,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-127",
     "cardNum": 127,
     "bodyText": "Deal 1 damage to chosen character of yours. They gain Rush and get +1{s} this turn. (They can challenge the turn they're played.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "abilities": "Rush"
   },
@@ -33054,8 +32319,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-128",
     "cardNum": 128,
     "bodyText": "Ready chosen character of yours. They can't quest for the rest of this turn. If a Villain character is chosen, gain 1 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33075,8 +32339,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-129",
     "cardNum": 129,
     "bodyText": "(A character with cost 7 or more can {e} to sing this song for free.)\r \r Ready all your characters. They can't quest for the rest of this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33096,8 +32359,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-130",
     "cardNum": 130,
     "bodyText": "Banish chosen character of yours to banish chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33117,8 +32379,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-131",
     "cardNum": 131,
     "bodyText": "Your characters get +2{s} this turn.\nWhenever one of your characters with Reckless challenges another character this turn, gain 2 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "abilities": "Reckless"
   },
@@ -33138,8 +32399,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-132",
     "cardNum": 132,
     "bodyText": "Vile Concoction: 1{i}, Banish this item - Chosen character gets +3{s} this turn. If a Villain character is chosen, they get +4{s} instead.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33158,8 +32418,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-133",
     "cardNum": 133,
     "bodyText": "Power Appointed: At the start of your turn, if you have a character in play with more {s} than each opposing character in play, each opponent loses 1 lore and you gain lore equal to the lore lost.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33179,8 +32438,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-134",
     "cardNum": 134,
     "bodyText": "Ruby Light: {e} - Chosen character gets +1{s} this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33200,8 +32458,7 @@ export const lorcanaCards = [
     "cardNum": 135,
     "bodyText": "On Your Marks!: Once per turn, you may {e} chosen character here and deal them 1 damage to move them to another location for free.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 0
   },
@@ -33222,8 +32479,7 @@ export const lorcanaCards = [
     "cardNum": 136,
     "bodyText": "Misfits' Revelry: While you have a damaged character here, this location gets +2{l}.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 1
   },
@@ -33246,8 +32502,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-137",
     "cardNum": 137,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -33270,8 +32525,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-138",
     "cardNum": 138,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -33295,8 +32549,7 @@ export const lorcanaCards = [
     "cardNum": 139,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "SSK",
     "abilities": "Ward"
@@ -33320,8 +32573,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-140",
     "cardNum": 140,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "SSK"
   },
@@ -33345,8 +32597,7 @@ export const lorcanaCards = [
     "cardNum": 141,
     "bodyText": "Taxes Never Fail Me: Whenever you play an item, this character gets +2{s} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -33370,8 +32621,7 @@ export const lorcanaCards = [
     "cardNum": 142,
     "bodyText": "Long Live the King!: Your characters named Arthur gain Resist +1",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK",
     "abilities": "Resist +1"
@@ -33395,8 +32645,7 @@ export const lorcanaCards = [
     "cardNum": 143,
     "bodyText": "Helpful Supplies: At the start of your turn, if you have an item in play, gain 1 lore.\nPerfect Directions: At the start of your turn, if you have a location in play, gain 1 lore.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "SSK"
   },
@@ -33419,8 +32668,7 @@ export const lorcanaCards = [
     "cardNum": 144,
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of one of your characters named The Queen.)\nWard (Opponents can't choose this character except to challenge.)\nReflections of Vanity: For each other character named The Queen you have in play, this character gets +1{l}.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Shift 3, Ward"
@@ -33444,8 +32692,7 @@ export const lorcanaCards = [
     "cardNum": 145,
     "bodyText": "Every Little Bit Helps: For each item you have in play, you pay 1{i} less to play this character.\nSupport (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "SSK",
     "abilities": "Support"
@@ -33469,8 +32716,7 @@ export const lorcanaCards = [
     "cardNum": 146,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)\nOne on the Way: During your turn, when you put a card into your inkwell, if it's the second card you've put into your inkwell this turn, you may draw a card.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Support"
@@ -33495,8 +32741,7 @@ export const lorcanaCards = [
     "cardNum": 147,
     "bodyText": "Beautiful, Lovely Taxes: {e} - Play an item from your hand or discard with cost 5 or less for free, exerted.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -33519,8 +32764,7 @@ export const lorcanaCards = [
     "cardNum": 148,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\nGatherer of the Wicked: When you play this character, look at the top 3 cards of your deck. You may reveal any number of character cards named The Queen and put them into your hand. Put the rest on the bottom of your deck in any order.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Ward"
@@ -33544,8 +32788,7 @@ export const lorcanaCards = [
     "cardNum": 149,
     "bodyText": "Outplacement: When you play this character, you may put chosen item or location into its player's inkwell facedown and exerted.\nBy Invite Only: 4{i} - Your other characters gain Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Resist +1"
@@ -33569,8 +32812,7 @@ export const lorcanaCards = [
     "cardNum": 150,
     "bodyText": "A Delicate Balance: When you play this character, Exert all cards in your inkwell, then return 2 cards at random from your inkwell to your hand.\nEverything the Light Touches: Whenever this character quests, ready all cards in your inkwell.",
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -33593,8 +32835,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-151",
     "cardNum": 151,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK"
   },
@@ -33618,8 +32859,7 @@ export const lorcanaCards = [
     "cardNum": 152,
     "bodyText": "Cake Catapult - When you play this character, chosen character gets -2{s} this turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -33643,8 +32883,7 @@ export const lorcanaCards = [
     "cardNum": 153,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Support"
@@ -33668,8 +32907,7 @@ export const lorcanaCards = [
     "cardNum": 154,
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of one of your characters named King Candy.)\nChanging the Code: When you play this character, you may draw 2 cards, then put a card from your hand on the bottom of your deck.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Shift 3"
@@ -33694,8 +32932,7 @@ export const lorcanaCards = [
     "cardNum": 155,
     "bodyText": "Baffling Mystery: When you play this character, you may put the top card of your deck into your inkwell facedown and exerted.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -33718,8 +32955,7 @@ export const lorcanaCards = [
     "cardNum": 156,
     "bodyText": "Your Brothers Need Guidance: When you play this character, you may remove up to 1 damage from chosen character or location.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -33743,8 +32979,7 @@ export const lorcanaCards = [
     "cardNum": 157,
     "bodyText": "Measure Me Again: When you play this character, you may put a card from your hand into your inkwell facedown and exerted.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -33767,8 +33002,7 @@ export const lorcanaCards = [
     "cardNum": 158,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\nUshered into the Party: When you play this character, your other characters gain Ward until the start of your next turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Ward"
@@ -33792,8 +33026,7 @@ export const lorcanaCards = [
     "cardNum": 159,
     "bodyText": "Shift 5 (You may pay 5{i} to play this on top of one of your characters named Merlin.)\nOverdeveloped Brain: When you play this character, if you used Shift to play him, you may search your deck for any card, put that card into your hand, then shuffle your deck.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Shift 5"
@@ -33815,8 +33048,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-160",
     "cardNum": 160,
     "bodyText": "Look at the top 5 cards of your deck. Put one into your hand and the rest on the bottom of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33836,8 +33068,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-161",
     "cardNum": 161,
     "bodyText": "Banish any number of your items, then draw a card for each item banished this way.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33857,8 +33088,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-162",
     "cardNum": 162,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\nRemove up to 2 damage from any number of chosen characters.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33878,8 +33108,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-163",
     "cardNum": 163,
     "bodyText": "Put chosen item or location into its player's inkwell facedown and exerted.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33899,8 +33128,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-164",
     "cardNum": 164,
     "bodyText": "Put chosen character of yours into your inkwell facedown and exerted.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33920,8 +33148,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-165",
     "cardNum": 165,
     "bodyText": "Congratulations, Soldier: {e}, 2{i}, Banish this item - Chosen character of yours gets +2{l} this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33941,8 +33168,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-166",
     "cardNum": 166,
     "bodyText": "Find What's Hidden: {e}, 2{i} - Look at the top 3 cards of your deck. You may reveal an item card and put it into your hand. Put the rest on the bottom of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33962,8 +33188,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-167",
     "cardNum": 167,
     "bodyText": "Hockety Pockety: {e}, 1{i} - Return an item card from your discard to your hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -33983,8 +33208,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-168",
     "cardNum": 168,
     "bodyText": "Powering Up: This item enters play exerted.\nSapphire Light: {e}, 2{i}, Banish one of your items - Gain 2 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -34005,8 +33229,7 @@ export const lorcanaCards = [
     "cardNum": 169,
     "bodyText": "Warm Welcome: Characters with Support get +1{l} and +2{w} while here.",
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 2,
     "abilities": "Support"
@@ -34028,8 +33251,7 @@ export const lorcanaCards = [
     "cardNum": 170,
     "bodyText": "Knowledge is Power: Each player plays with the top card of their deck face up.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 1
   },
@@ -34040,7 +33262,7 @@ export const lorcanaCards = [
     "dateAdded": "2024-08-12T00:17:05",
     "setNum": 5,
     "color": "Steel",
-    "franchise": "Lilo and Stitch",
+    "franchise": "Lilo & Stitch",
     "image": "https://lorcana-api.com/images/stitch/team_underdog/stitch-team_underdog-large.png",
     "cost": 4,
     "inkable": false,
@@ -34053,8 +33275,7 @@ export const lorcanaCards = [
     "cardNum": 171,
     "bodyText": "Heave Ho!: When you play this character, you may deal 2 damage to chosen character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -34078,8 +33299,7 @@ export const lorcanaCards = [
     "cardNum": 172,
     "bodyText": "Challenger +7 (While challenging, this character gets +7{s}.)\nIntimidating Gaze: Opposing characters with cost 4 or less can't challenge.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "SSK",
     "abilities": "Challenger +7"
@@ -34104,8 +33324,7 @@ export const lorcanaCards = [
     "cardNum": 173,
     "bodyText": "Face the Past: During your turn, whenever this character banishes another character in a challenge, you may draw a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -34128,8 +33347,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-174",
     "cardNum": 174,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -34152,8 +33370,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-175",
     "cardNum": 175,
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -34177,8 +33394,7 @@ export const lorcanaCards = [
     "cardNum": 176,
     "bodyText": "Resist +1 (Damage dealt to this character is reduced by 1.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK",
     "abilities": "Resist +1"
@@ -34202,8 +33418,7 @@ export const lorcanaCards = [
     "cardNum": 177,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "SSK",
     "abilities": "Bodyguard"
@@ -34228,8 +33443,7 @@ export const lorcanaCards = [
     "cardNum": 178,
     "bodyText": "Challenger +1 (While challenging, this character gets +1{s}.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK",
     "abilities": "Challenger 1"
@@ -34254,8 +33468,7 @@ export const lorcanaCards = [
     "cardNum": 179,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "SSK",
     "abilities": "Bodyguard"
@@ -34279,8 +33492,7 @@ export const lorcanaCards = [
     "cardNum": 180,
     "bodyText": "Headwind: When you play this character, chosen knight character gains Challenger +2 this turn. (They get +2{s} when challenging.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Challenger +2"
@@ -34304,8 +33516,7 @@ export const lorcanaCards = [
     "cardNum": 181,
     "bodyText": "Stronger Together: When you play this character, if you have another Knight character in play, you may deal 1 damage to chosen character or location.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -34328,8 +33539,7 @@ export const lorcanaCards = [
     "cardNum": 182,
     "bodyText": "I Don't Have Any Other Choice: For each opposing character banished in a challenge this turn, you pay 2{i} less to play this character.\nResist +3 (Damage dealt to this character is reduced by 3.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "SSK",
     "abilities": "Resist +3"
@@ -34354,8 +33564,7 @@ export const lorcanaCards = [
     "cardNum": 183,
     "bodyText": "Natural Leader: This character gains Resist +1 for each other Knight character you have in play. (Damage dealt to this character is reduced by 1 for each other Knight.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-05-30 16:42:30.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Resist +1"
@@ -34380,8 +33589,7 @@ export const lorcanaCards = [
     "cardNum": 184,
     "bodyText": "I'm Warning You!: During your turn, whenever one of your characters banishes a character in a challenge, you may deal 1 damage to chosen character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -34404,8 +33612,7 @@ export const lorcanaCards = [
     "cardNum": 185,
     "bodyText": "Shift 5 (You may pay 5{i} to play this on top of one of your characters named Kronk.)\nAre You on the List?: During your turn, whenever this character banishes another character in a challenge, you may play a character with cost 5 or less for free.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "SSK",
     "abilities": "Shift 5"
@@ -34429,8 +33636,7 @@ export const lorcanaCards = [
     "cardNum": 186,
     "bodyText": "Boon of Resilience: While one of your Knight characters is at a location, that character gains Resist +2. (Damage dealt to them is reduced by 2.)\nBurst of Speed: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Resist +2, Evasive"
@@ -34455,8 +33661,7 @@ export const lorcanaCards = [
     "cardNum": 187,
     "bodyText": "Re-Pete: {e} - Reveal the top card of your deck. If it's a character card named Pete, you may play it for free.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -34479,8 +33684,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-188",
     "cardNum": 188,
     "willpower": 10,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 7,
     "setId": "SSK"
   },
@@ -34503,8 +33707,7 @@ export const lorcanaCards = [
     "cardNum": 189,
     "bodyText": "Impress the Princess: While you have a character named Snow White in play, this character gains Bodyguard. (An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Bodyguard"
@@ -34528,8 +33731,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-190",
     "cardNum": 190,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK"
   },
@@ -34552,8 +33754,7 @@ export const lorcanaCards = [
     "cardNum": 191,
     "bodyText": "Burst of Speed: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "SSK",
     "abilities": "Evasive"
@@ -34577,8 +33778,7 @@ export const lorcanaCards = [
     "cardNum": 192,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of one of your characters named Simba.)\nFearsome Roar: When you play this character, you may banish chosen item or location.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Shift 4"
@@ -34602,8 +33802,7 @@ export const lorcanaCards = [
     "cardNum": 193,
     "bodyText": "Drastic Measures: When you play this character, you may discard your hand to draw 2 cards.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "SSK"
   },
@@ -34626,8 +33825,7 @@ export const lorcanaCards = [
     "cardNum": 194,
     "bodyText": "Shift 5 (You may pay 5{i} to play this on top of one of your characters named Arthur.)\r Knighted by the King: When you play this character, chosen character gains Challenger +2 and Resist +2 and can challenge ready characters this turn. (They get +2{s} while challenging. Damage dealt to them is reduced by 2.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK",
     "abilities": "Shift 5,  Challenger +2, Resist +2"
@@ -34652,8 +33850,7 @@ export const lorcanaCards = [
     "cardNum": 195,
     "bodyText": "Blow the Whistle: When you play this character, opponents can't play actions until the start of your next turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "SSK"
   },
@@ -34673,8 +33870,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-196",
     "cardNum": 196,
     "bodyText": "Choose one:\n- Deal 1 damage to each opposing character without Evasive.\n- Deal 3 damage to each opposing character with Evasive.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "abilities": "Evasive"
   },
@@ -34695,8 +33891,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-197",
     "cardNum": 197,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\nChosen character can't challenge during their next turn. Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -34715,8 +33910,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-198",
     "cardNum": 198,
     "bodyText": "Chosen character gains Resist +1 and Evasive this turn. (Damage dealt to them is reduced by 1. They can challenge characters with Evasive.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "abilities": "Resist +1, Evasive"
   },
@@ -34737,8 +33931,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-199",
     "cardNum": 199,
     "bodyText": "Your characters gain \"{e}, 1{i} - Deal 1 damage to chosen character\" this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -34757,8 +33950,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-200",
     "cardNum": 200,
     "bodyText": "Deflect: Banish this item - Chosen character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "abilities": "Resist +1"
   },
@@ -34778,8 +33970,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-201",
     "cardNum": 201,
     "bodyText": "Well Crafted: {e} - Chosen character gains Resist +2 until the start of your next turn. (Damage dealt to them is reduced by 2.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "abilities": "Resist +2"
   },
@@ -34800,8 +33991,7 @@ export const lorcanaCards = [
     "uniqueId": "SSK-202",
     "cardNum": 202,
     "bodyText": "Steel Light: {e} - Deal 1 damage to chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK"
   },
   {
@@ -34822,8 +34012,7 @@ export const lorcanaCards = [
     "cardNum": 203,
     "bodyText": "There's No One I'd Rather Be Than Me: Villain characters gain \"{e}, 3{i} - Play a character with the same name as this character for free\" while here.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 2
   },
@@ -34845,8 +34034,7 @@ export const lorcanaCards = [
     "cardNum": 204,
     "bodyText": "Mountain Defense: During your turn, the first time you move a character here, you may deal 1 damage to chosen character. If the moved character is a Knight, deal 2 damage instead.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-05-30 16:41:42.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "SSK",
     "moveCost": 2
   },
@@ -34871,8 +34059,7 @@ export const lorcanaCards = [
     "cardNum": 1,
     "bodyText": "Voiceless - This character can't {e} to sing songs.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -34896,8 +34083,7 @@ export const lorcanaCards = [
     "cardNum": 2,
     "bodyText": "Singer 5 (This character counts as cost 5 to sing songs.) \n\nMusical Debut - When you play this character, look at the top 4 cards of your deck. You may reveal a song card and put it into your hand. Put the rest on the bottom of your deck in any order.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Singer 5"
@@ -34922,8 +34108,7 @@ export const lorcanaCards = [
     "cardNum": 3,
     "bodyText": "Singer 5 (This character counts as cost 5 to sing songs.) \n\nA Wonderful Dream - {e} - Remove up to 3 damage from chosen Princess character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Singer 5"
@@ -34949,8 +34134,7 @@ export const lorcanaCards = [
     "cardNum": 4,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\n\nAnd Two For Tea! - When you play this character, you may remove up to 2 damage from each of your Musketeer characters.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Bodyguard"
@@ -34976,8 +34160,7 @@ export const lorcanaCards = [
     "cardNum": 5,
     "bodyText": "Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Hades.) \n\nSinister Plot - This character gets +1 {l} for each other Villain character you have in play.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "TFC",
     "abilities": "Shift 6"
@@ -35003,8 +34186,7 @@ export const lorcanaCards = [
     "cardNum": 6,
     "bodyText": "Well of Souls - When you play this character, return a character card from your discard to your hand.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -35029,8 +34211,7 @@ export const lorcanaCards = [
     "cardNum": 7,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC",
     "abilities": "Support"
@@ -35056,8 +34237,7 @@ export const lorcanaCards = [
     "cardNum": 8,
     "bodyText": "Loyal - If you have a character named Gaston in play, you pay 1 {i} less to play this character.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -35081,8 +34261,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-009",
     "cardNum": 9,
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -35106,8 +34285,7 @@ export const lorcanaCards = [
     "cardNum": 10,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\n\nSupport (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Bodyguard, Support"
@@ -35133,8 +34311,7 @@ export const lorcanaCards = [
     "cardNum": 11,
     "bodyText": "Horse Kick - When you play this character, chosen character gets -2 {s} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -35158,8 +34335,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-012",
     "cardNum": 12,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -35183,8 +34359,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-013",
     "cardNum": 13,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -35209,8 +34384,7 @@ export const lorcanaCards = [
     "cardNum": 14,
     "bodyText": "We Can Fix It - Whenever this character quests, you may ready your other Princess Characters. They can't quest for the rest of this turn.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -35234,8 +34408,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-015",
     "cardNum": 15,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -35260,8 +34433,7 @@ export const lorcanaCards = [
     "cardNum": 16,
     "bodyText": "Heroism - When this character challenges and is banished, you may banish the challenged character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -35285,8 +34457,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-017",
     "cardNum": 17,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -35310,8 +34481,7 @@ export const lorcanaCards = [
     "cardNum": 18,
     "bodyText": "Gleam and Glow - When you play this character, remove up to 3 damage from one of your characters. Draw a card for each 1 damage removed this way.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -35336,8 +34506,7 @@ export const lorcanaCards = [
     "cardNum": 19,
     "bodyText": "Singer 4 (This character counts as cost 4 to sing songs.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Singer 4"
@@ -35363,8 +34532,7 @@ export const lorcanaCards = [
     "cardNum": 20,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Bodyguard"
@@ -35390,8 +34558,7 @@ export const lorcanaCards = [
     "cardNum": 21,
     "bodyText": "Ohana - When you play this character, if you have 2 or more other characters in play, you may draw 2 cards.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -35415,8 +34582,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-022",
     "cardNum": 22,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -35441,8 +34607,7 @@ export const lorcanaCards = [
     "cardNum": 23,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Stitch.) \n\nAdoring Fans - Whenever you play a character with cost 2 or less, you may exert them to draw a card.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Shift 4"
@@ -35468,8 +34633,7 @@ export const lorcanaCards = [
     "cardNum": 24,
     "bodyText": "Tastes Like Chicken - When you play this character, you may remove up to 1 damage from chosen character.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -35490,8 +34654,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-025",
     "cardNum": 25,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.) \n\nLook at the top 4 cards of your deck. You may reveal a character card and put it into your hand. Put the rest on the bottom of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35511,8 +34674,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-026",
     "cardNum": 26,
     "bodyText": "Chosen character gets -2 {s} this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-09-09 17:28:18.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35533,8 +34695,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-027",
     "cardNum": 27,
     "bodyText": "(A character with cost 4 or more can {e} to sing this song for free.)\n\nRemove up to 3 damage from each of your characters.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35555,8 +34716,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-028",
     "cardNum": 28,
     "bodyText": "Remove up to 2 damage from chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35577,8 +34737,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-029",
     "cardNum": 29,
     "bodyText": "You may play a character with cost 5 or less for free.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35599,8 +34758,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-030",
     "cardNum": 30,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\n\nReturn a character card from your discard to your hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35621,8 +34779,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-031",
     "cardNum": 31,
     "bodyText": "Each opponent chooses and discards 2 cards.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35643,8 +34800,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-032",
     "cardNum": 32,
     "bodyText": "Straighten Hair: {e} - Remove up to 1 damage from chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35665,8 +34821,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-033",
     "cardNum": 33,
     "bodyText": "Birthday Lights - {e} - You play 1 {i} less for the next character you play this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35687,8 +34842,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-034",
     "cardNum": 34,
     "bodyText": "Now, Sing! - Whenever you play a song, you may pay 1 {i} to draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -35712,8 +34866,7 @@ export const lorcanaCards = [
     "cardNum": 35,
     "bodyText": "Loving Heart - When you play this character, if you have a character named Elsa in play, choose an opposing character. The chosen character doesn't ready at the start of their next turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -35737,8 +34890,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-036",
     "cardNum": 36,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -35762,8 +34914,7 @@ export const lorcanaCards = [
     "cardNum": 37,
     "bodyText": "Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Dr. Facilier.) \n\nInto The Shadows - Whenever one of your other characters is banished in a challenge, you may return that card to your hand.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Shift 5"
@@ -35789,8 +34940,7 @@ export const lorcanaCards = [
     "cardNum": 38,
     "bodyText": "Challenger +2 (When challenging, this character get +2 {s}.) ",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "TFC",
     "abilities": "Challenger +2"
@@ -35815,8 +34965,7 @@ export const lorcanaCards = [
     "cardNum": 39,
     "bodyText": "Dreams Made Real - Whenever you play a song, you may look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -35840,8 +34989,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-040",
     "cardNum": 40,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -35866,8 +35014,7 @@ export const lorcanaCards = [
     "cardNum": 41,
     "bodyText": "Freeze -{e} - Exert chosen opposing character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -35892,8 +35039,7 @@ export const lorcanaCards = [
     "cardNum": 42,
     "bodyText": "Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Elsa.) \n\nDeep Freeze - When you play this character, exert up to 2 chosen characters. They can't ready at the start of their next turn.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Shift 6"
@@ -35919,8 +35065,7 @@ export const lorcanaCards = [
     "cardNum": 43,
     "bodyText": "Rush (This character can challenge the turn they're played.) \n\nDexterous Lunge - Your characters named Jetsam gain Rush.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Rush"
@@ -35946,8 +35091,7 @@ export const lorcanaCards = [
     "cardNum": 44,
     "bodyText": "Hidden Wonders - This character gets +1 {s} for each card in your hand.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "TFC"
   },
@@ -35972,8 +35116,7 @@ export const lorcanaCards = [
     "cardNum": 45,
     "bodyText": "Challenger +3 (When challenging, this character gets +3 {s}.) ",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Challenger +3"
@@ -35999,8 +35142,7 @@ export const lorcanaCards = [
     "cardNum": 46,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.) \n\nSinister Slither - Your characters named Flotsam gain Evasive.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -36026,8 +35168,7 @@ export const lorcanaCards = [
     "cardNum": 47,
     "bodyText": "Sweep - When you play this character, you may shuffle a card from any discard into its player's deck.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -36051,8 +35192,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-048",
     "cardNum": 48,
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -36077,8 +35217,7 @@ export const lorcanaCards = [
     "cardNum": 49,
     "bodyText": "Cast My Spell! - When you play this character, you may draw a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -36103,8 +35242,7 @@ export const lorcanaCards = [
     "cardNum": 50,
     "bodyText": "Durable - When this character is banished in a challenge, you may return this card to your hand.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -36129,8 +35267,7 @@ export const lorcanaCards = [
     "cardNum": 51,
     "bodyText": "Animate Broom - You pay 1 {i} less to play Broom characters.\n\nCeaseless Worker - Whenever one of your Broom characters is banished in a challenge, you may return that card to your hand.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -36154,8 +35291,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-052",
     "cardNum": 52,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -36180,8 +35316,7 @@ export const lorcanaCards = [
     "cardNum": 53,
     "bodyText": "Camouflage -  While you have another character in play, this character gains Evasive. (Only characters with Evasive can challenge them.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -36207,8 +35342,7 @@ export const lorcanaCards = [
     "cardNum": 54,
     "bodyText": "Rush (This character can challenge the turn they're played.) ",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Rush"
@@ -36233,8 +35367,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-055",
     "cardNum": 55,
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -36259,8 +35392,7 @@ export const lorcanaCards = [
     "cardNum": 56,
     "bodyText": "I Summon Thee - {e} - Draw a card.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -36284,8 +35416,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-057",
     "cardNum": 57,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -36309,8 +35440,7 @@ export const lorcanaCards = [
     "cardNum": 58,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.) \r \r Loyal and Devoted - Your characters named Peter Pan gain Challenger +1.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Evasive, Challenger +1"
@@ -36336,8 +35466,7 @@ export const lorcanaCards = [
     "cardNum": 59,
     "bodyText": "It's Too Easy! - When you play this character, each opponent loses 1 lore. You may draw a card for each 1 lore lost this way.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -36362,8 +35491,7 @@ export const lorcanaCards = [
     "cardNum": 60,
     "bodyText": "You're Excused - Whenever this character quests, look at the top card of your deck. Put it on either the top or the bottom of your deck",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -36388,8 +35516,7 @@ export const lorcanaCards = [
     "cardNum": 61,
     "bodyText": "Rush (This character can challenge the turn they're played.) \n\nChallenger +4 (While challenging, this character get +4 {s}.) ",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "TFC",
     "abilities": "Rush, Challenger +4"
@@ -36412,8 +35539,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-062",
     "cardNum": 62,
     "bodyText": "Return a character or item with cost 2 or less to their player's hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -36434,8 +35560,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-063",
     "cardNum": 63,
     "bodyText": "Exert chosen opposing character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -36456,8 +35581,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-064",
     "cardNum": 64,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\n\nDraw 2 Cards",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -36478,8 +35602,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-065",
     "cardNum": 65,
     "bodyText": "(A character with cost 1 or more can {e} to sing this song for free.)\n\nLook at the top 3 cards of your deck. Put them back on the top of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -36500,8 +35623,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-066",
     "cardNum": 66,
     "bodyText": "Speak! - {e}, 4 {i} - Draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -36522,8 +35644,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-067",
     "cardNum": 67,
     "bodyText": "Peer Into The Depths - {e} - Look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -36544,8 +35665,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-068",
     "cardNum": 68,
     "bodyText": "I'm Late! - {e}, 1{i} - Chosen character gains Rush this turn. (They can challenge the turn they're played.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC",
     "abilities": "Rush"
   },
@@ -36570,8 +35690,7 @@ export const lorcanaCards = [
     "cardNum": 69,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.) ",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Ward"
@@ -36597,8 +35716,7 @@ export const lorcanaCards = [
     "cardNum": 70,
     "bodyText": "Rush (This character can challenge the turn they're played.) \n\nRoar - When you play this character, exert all opposing damaged characters.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Rush"
@@ -36624,8 +35742,7 @@ export const lorcanaCards = [
     "cardNum": 71,
     "bodyText": "Lose Something? - When this character is challenged and banished, banish the challenging character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "TFC"
   },
@@ -36650,8 +35767,7 @@ export const lorcanaCards = [
     "cardNum": 72,
     "bodyText": "You'll Be Sorry! - When this character is challenged and banished, you may return chosen character to their player's hand.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -36675,8 +35791,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-073",
     "cardNum": 73,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -36701,8 +35816,7 @@ export const lorcanaCards = [
     "cardNum": 74,
     "bodyText": "Here Comes The Smolder - Whenever this character is challenged, the challenging player chooses and discards a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -36727,8 +35841,7 @@ export const lorcanaCards = [
     "cardNum": 75,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.) \n\nDisappear - When you play this character, you may return chosen character to their player's hand.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -36753,8 +35866,7 @@ export const lorcanaCards = [
     "cardNum": 76,
     "bodyText": "Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Genie.) \n\nEvasive (Only characters with Evasive can challenge this character.) \n\nPhenomenal Cosmic Power! - Whenever this character quests, you may play an action with cost 5 or less for free.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Shift 6, Evasive"
@@ -36779,8 +35891,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-077",
     "cardNum": 77,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -36804,8 +35915,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-078",
     "cardNum": 78,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -36829,8 +35939,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-079",
     "cardNum": 79,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -36854,8 +35963,7 @@ export const lorcanaCards = [
     "cardNum": 80,
     "bodyText": "You Got A Problem? - {e} - Chosen character gains Reckless during their next turn. (They can't quest and must challenge if able.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC",
     "abilities": "Reckless"
@@ -36881,8 +35989,7 @@ export const lorcanaCards = [
     "cardNum": 81,
     "bodyText": "Puppynapping - Whenever this character quests, chosen opposing character can't quest during their next turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -36907,8 +36014,7 @@ export const lorcanaCards = [
     "cardNum": 82,
     "bodyText": "Pick Your Fights - When you play this character and whenever he quests, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC",
     "abilities": "Reckless"
@@ -36933,8 +36039,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-083",
     "cardNum": 83,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -36959,8 +36064,7 @@ export const lorcanaCards = [
     "cardNum": 84,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.) \n\nNo Touchy! - When this character is challenged and banished, you may banish the challenging character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Ward"
@@ -36986,8 +36090,7 @@ export const lorcanaCards = [
     "cardNum": 85,
     "bodyText": "Do It Again! - When you play this character, you may return an action card from your discard to your hand.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -37012,8 +36115,7 @@ export const lorcanaCards = [
     "cardNum": 86,
     "bodyText": "Tea Party - Whenever this character is challenged, you may draw a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -37038,8 +36140,7 @@ export const lorcanaCards = [
     "cardNum": 87,
     "bodyText": "Wonder Boy - When you play this character, chosen character gets +2 {s} this turn.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -37064,8 +36165,7 @@ export const lorcanaCards = [
     "cardNum": 88,
     "bodyText": "Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Mickey Mouse.) \n\nMisdirection - Whenever you play an action, chosen opposing character can't quest during their next turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "TFC",
     "abilities": "Shift 5"
@@ -37090,8 +36190,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-089",
     "cardNum": 89,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -37116,8 +36215,7 @@ export const lorcanaCards = [
     "cardNum": 90,
     "bodyText": "Skip The Drama, Stay With Mama - While this character is exerted, opposing characters can't quest.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -37142,8 +36240,7 @@ export const lorcanaCards = [
     "cardNum": 91,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.) ",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -37168,8 +36265,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-092",
     "cardNum": 92,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -37193,8 +36289,7 @@ export const lorcanaCards = [
     "cardNum": 93,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.) \n\nPixie Dust - When you play this character, chosen character gains Evasive this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -37217,8 +36312,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-094",
     "cardNum": 94,
     "bodyText": "Return an action card from your discard to your hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -37239,8 +36333,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-095",
     "cardNum": 95,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\n\nReturn chosen character to their player's hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -37261,8 +36354,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-096",
     "cardNum": 96,
     "bodyText": "Deal 2 damage to chosen damaged character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -37283,8 +36375,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-097",
     "cardNum": 97,
     "bodyText": "Whenever one of your characters quests this turn, each opponent loses 1 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -37305,8 +36396,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-098",
     "cardNum": 98,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\n\nEach opponent chooses and discards a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -37327,8 +36417,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-099",
     "cardNum": 99,
     "bodyText": "Chosen character gains Reckless during their next turn. (They can't quest and must challenge if able.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC",
     "abilities": "Reckless"
   },
@@ -37350,8 +36439,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-100",
     "cardNum": 100,
     "bodyText": "Chosen character gets +2 {s} this turn. If a villain character is chosen, they get +3 {s} instead.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -37372,8 +36460,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-101",
     "cardNum": 101,
     "bodyText": "The Cards Will Tell - {e} - You pay 1 {i} less for the next action you play this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -37394,8 +36481,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-102",
     "cardNum": 102,
     "bodyText": "Slash - {e} - Chosen character gets +1 {s} this turn. If a character named Aladdin is chosen, he get +2 {s} instead.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -37418,8 +36504,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-103",
     "cardNum": 103,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -37443,8 +36528,7 @@ export const lorcanaCards = [
     "cardNum": 104,
     "bodyText": "Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Aladdin.) \r \r Daring Exploit - During your turn, whenever this character banishes another character in a challenge, you gain 2 lore and each opponent loses 2 lore.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC",
     "abilities": "Shift 5"
@@ -37470,8 +36554,7 @@ export const lorcanaCards = [
     "cardNum": 105,
     "bodyText": "Improvise - When you play this character, each opponent loses 1 lore.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -37495,8 +36578,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-106",
     "cardNum": 106,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "TFC"
   },
@@ -37521,8 +36603,7 @@ export const lorcanaCards = [
     "cardNum": 107,
     "bodyText": "Rush (This character can challenge the turn they're played.) \n\nYou Coward! - While this character is exerted, opposing characters with Evasive gain Reckless. (They can't quest and must challenge if able.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC",
     "abilities": "Rush, Evasive, Reckless"
@@ -37547,8 +36628,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-108",
     "cardNum": 108,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -37573,8 +36653,7 @@ export const lorcanaCards = [
     "cardNum": 109,
     "bodyText": "That's No Blizzard! - Whenever you play a character named Anna, ready this character. This character can't quest for the rest of this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -37599,8 +36678,7 @@ export const lorcanaCards = [
     "cardNum": 110,
     "bodyText": "Reckless (This character can't quest and must challenge each turn if able.) ",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Reckless"
@@ -37626,8 +36704,7 @@ export const lorcanaCards = [
     "cardNum": 111,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -37653,8 +36730,7 @@ export const lorcanaCards = [
     "cardNum": 112,
     "bodyText": "Fan The Flames - When you play this character, ready chosen character. They can't quest for the rest of this turn.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -37679,8 +36755,7 @@ export const lorcanaCards = [
     "cardNum": 113,
     "bodyText": "Dragon Fire - When you play this character, you may banish chosen character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 7,
     "setId": "TFC"
   },
@@ -37705,8 +36780,7 @@ export const lorcanaCards = [
     "cardNum": 114,
     "bodyText": "Rush (This character can challenge the turn they're played.) \n\nReckless (This character can't quest and must challenge each turn if able.) ",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "TFC",
     "abilities": "Rush, Reckless"
@@ -37732,8 +36806,7 @@ export const lorcanaCards = [
     "cardNum": 115,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -37758,8 +36831,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-116",
     "cardNum": 116,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -37784,8 +36856,7 @@ export const lorcanaCards = [
     "cardNum": 117,
     "bodyText": "This Is Not Who You Are - When you play this character, you may banish chosen character named Te Ka.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -37809,8 +36880,7 @@ export const lorcanaCards = [
     "cardNum": 118,
     "bodyText": "Lead By Example - During your turn, whenever this character banishes another character in a challenge, your other characters get +1 {l} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -37835,8 +36905,7 @@ export const lorcanaCards = [
     "cardNum": 119,
     "bodyText": "Rush (This character can challenge the turn they're played.) ",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Rush"
@@ -37862,8 +36931,7 @@ export const lorcanaCards = [
     "cardNum": 120,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.) ",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -37889,8 +36957,7 @@ export const lorcanaCards = [
     "cardNum": 121,
     "bodyText": "Tangle - When you play this character, each opponent loses 1 lore.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -37914,8 +36981,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-122",
     "cardNum": 122,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -37940,8 +37006,7 @@ export const lorcanaCards = [
     "cardNum": 123,
     "bodyText": "Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Scar.) \n\nRousing Speech - When you play this character, ready your characters with cost 3 or less. They can't quest for the rest of this turn.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "TFC",
     "abilities": "Shift 6"
@@ -37966,8 +37031,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-124",
     "cardNum": 124,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -37991,8 +37055,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-125",
     "cardNum": 125,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -38017,8 +37080,7 @@ export const lorcanaCards = [
     "cardNum": 126,
     "bodyText": "Reckless (This character can't quest and must challenge each turn if able.) ",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 8,
     "setId": "TFC",
     "abilities": "Reckless"
@@ -38044,8 +37106,7 @@ export const lorcanaCards = [
     "cardNum": 127,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.) ",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -38068,8 +37129,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-128",
     "cardNum": 128,
     "bodyText": "(A character with cost 7 or more can {e} to sing this song for free.)\n\nBanish all Characters.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38090,8 +37150,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-129",
     "cardNum": 129,
     "bodyText": "Chosen character gains Rush this turn. (They can challenge the turn they're played.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC",
     "abilities": "Rush"
   },
@@ -38113,8 +37172,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-130",
     "cardNum": 130,
     "bodyText": "Banish chosen character",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38135,8 +37193,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-131",
     "cardNum": 131,
     "bodyText": "Ready chosen character. They can't quest for the rest of this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38157,8 +37214,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-132",
     "cardNum": 132,
     "bodyText": "Chosen Character gets +2 {s} this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38179,8 +37235,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-133",
     "cardNum": 133,
     "bodyText": "Each opponent loses 1 lore.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38201,8 +37256,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-134",
     "cardNum": 134,
     "bodyText": "Take A Bite . . . - 1 {i}, Banish this item - Exert chosen character. If a princess character is chosen, banish her instead.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38223,8 +37277,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-135",
     "cardNum": 135,
     "bodyText": "Fireproof - {e}, 3 {i} - Ready chosen character. They can't quest for the rest of this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38245,8 +37298,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-136",
     "cardNum": 136,
     "bodyText": "Final Enchantment - Banish this item - Banish chosen villain character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38270,8 +37322,7 @@ export const lorcanaCards = [
     "cardNum": 137,
     "bodyText": "Look At This Stuff - Whenever you play an item, you may ready this character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -38296,8 +37347,7 @@ export const lorcanaCards = [
     "cardNum": 138,
     "bodyText": "Disarming Beauty - When you play this character, chosen character gets -2 {s} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -38322,8 +37372,7 @@ export const lorcanaCards = [
     "cardNum": 139,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Aurora.) \r \r Protective Embrace - Your other characters gain Ward. (Opponents can't choose them except to challenge.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Shift 3, Ward"
@@ -38348,8 +37397,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-140",
     "cardNum": 140,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -38374,8 +37422,7 @@ export const lorcanaCards = [
     "cardNum": 141,
     "bodyText": "Tinker - Whenever this character quests, you pay 1 {i} less for the next item you play this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -38400,8 +37447,7 @@ export const lorcanaCards = [
     "cardNum": 142,
     "bodyText": "Read A Book - During your turn, you may put an additional card from your hand into your inkwell facedown.\n\nMy Favorite Part! - While you have 10 or more cards in your inkwell, this character gets +4 {l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -38426,8 +37472,7 @@ export const lorcanaCards = [
     "cardNum": 143,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character‘s {s} this turn.) ",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Support"
@@ -38453,8 +37498,7 @@ export const lorcanaCards = [
     "cardNum": 144,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.) ",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Ward"
@@ -38479,8 +37523,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-145",
     "cardNum": 145,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -38505,8 +37548,7 @@ export const lorcanaCards = [
     "cardNum": 146,
     "bodyText": "I Will Be With You - When this character is banished, you may put this card into your inkwell facedown and exerted.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -38531,8 +37573,7 @@ export const lorcanaCards = [
     "cardNum": 147,
     "bodyText": "Is There A Downside To This? - When you play this character, you may put chosen opposing character into their player's inkwell facedown.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -38556,8 +37597,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-148",
     "cardNum": 148,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -38581,8 +37621,7 @@ export const lorcanaCards = [
     "cardNum": 149,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Jasmine.) \n\nCaretaker - When you play this character and whenever she quests, you may remove up to 2 damage from each of your characters.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Shift 3"
@@ -38607,8 +37646,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-150",
     "cardNum": 150,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -38632,8 +37670,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-151",
     "cardNum": 151,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -38657,8 +37694,7 @@ export const lorcanaCards = [
     "cardNum": 152,
     "bodyText": "Give It A Try - Whenever this character quests, you pay 2 {i} less for the next item you play this turn.\n\nIt Works! - Whenever you play an item, you may draw a card.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -38683,8 +37719,7 @@ export const lorcanaCards = [
     "cardNum": 153,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Support"
@@ -38710,8 +37745,7 @@ export const lorcanaCards = [
     "cardNum": 154,
     "bodyText": "Get A Clue - When you play this character, you may put the top card of your deck into your inkwell facedown and exerted.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -38735,8 +37769,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-155",
     "cardNum": 155,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -38761,8 +37794,7 @@ export const lorcanaCards = [
     "cardNum": 156,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Support"
@@ -38788,8 +37820,7 @@ export const lorcanaCards = [
     "cardNum": 157,
     "bodyText": "Feed The Poor - When you play this character, if an opponent has more cards in their hand than you, draw a card.\r \r Good Shot - During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Evasive"
@@ -38815,8 +37846,7 @@ export const lorcanaCards = [
     "cardNum": 158,
     "bodyText": "Insidious Plot - When you play this character, chosen opposing character gets -5 {s} this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -38841,8 +37871,7 @@ export const lorcanaCards = [
     "cardNum": 159,
     "bodyText": "What Have We Here? - When you play this character and whenever he quests, you may return an item card from your discard to your hand.\n\nGlam - This character gets +1 {l} for each item you have in play.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -38866,8 +37895,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-160",
     "cardNum": 160,
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -38889,8 +37917,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-161",
     "cardNum": 161,
     "bodyText": "Look at the top 2 cards of your deck. Put one into your hand and the other on the bottom of the deck.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38911,8 +37938,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-162",
     "cardNum": 162,
     "bodyText": "Return an item card from your discard to your hand.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38933,8 +37959,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-163",
     "cardNum": 163,
     "bodyText": "(A character with cost 5 or more can {e} to sing this song for free.)\n\nPut chosen character into their player's inkwell facedown and exerted.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38955,8 +37980,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-164",
     "cardNum": 164,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\n\nPut the top card of your deck into your inkwell facedown and exerted.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -38977,8 +38001,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-165",
     "cardNum": 165,
     "bodyText": "Chosen Character gains Support this turn. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC",
     "abilities": "Support"
   },
@@ -39000,8 +38023,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-166",
     "cardNum": 166,
     "bodyText": "Consider The Coconut - Whenever you play a character, you may remove up to 2 damage from chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39022,8 +38044,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-167",
     "cardNum": 167,
     "bodyText": "See The Future - {e} - Chosen character gets +1 {l} this turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39044,8 +38065,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-168",
     "cardNum": 168,
     "bodyText": "Go Ahead And Sing - {e} - Put any card from your hand into your inkwell facedown.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39066,8 +38086,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-169",
     "cardNum": 169,
     "bodyText": "Healing Pollen - Banish this item - Remove up to 3 damage from chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39087,8 +38106,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-170",
     "cardNum": 170,
     "bodyText": "Command - {e}- Chosen character gains Support this turn. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC",
     "abilities": "Support"
   },
@@ -39112,8 +38130,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-171",
     "cardNum": 171,
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -39138,8 +38155,7 @@ export const lorcanaCards = [
     "cardNum": 172,
     "bodyText": "Break - When you play this character, you may banish chosen item.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -39164,8 +38180,7 @@ export const lorcanaCards = [
     "cardNum": 173,
     "bodyText": "Double The Powder - When you play this character, you may return an action card named Fire the Cannons! from your discard to your hand.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -39190,8 +38205,7 @@ export const lorcanaCards = [
     "cardNum": 174,
     "bodyText": "Challenger +2 (When challenging, this character gets +2 {s}.) ",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC",
     "abilities": "Challenger +2"
@@ -39216,8 +38230,7 @@ export const lorcanaCards = [
     "cardNum": 175,
     "bodyText": "Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Captain Hook.) \n\nChallenger +3 When challenging, this character get +3 {s}.) \n\nStolen Dust - Characters with cost 3 or less can't challenge this character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Shift 3, Challenger +3"
@@ -39242,8 +38255,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-176",
     "cardNum": 176,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -39267,8 +38279,7 @@ export const lorcanaCards = [
     "cardNum": 177,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.) \n\nStay Alert! - During your turn, your Musketeer characters gain Evasive. (They can challenge characters with Evasive.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Bodyguard, Evasive"
@@ -39294,8 +38305,7 @@ export const lorcanaCards = [
     "cardNum": 178,
     "bodyText": "Under Arrest - Characters with cost 2 or less can't challenge your characters.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "TFC"
   },
@@ -39319,8 +38329,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-179",
     "cardNum": 179,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -39345,8 +38354,7 @@ export const lorcanaCards = [
     "cardNum": 180,
     "bodyText": "Stage A Little Accident - Whenever this character quests, you may deal 1 damage to chosen character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -39371,8 +38379,7 @@ export const lorcanaCards = [
     "cardNum": 181,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC",
     "abilities": "Bodyguard"
@@ -39397,8 +38404,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-182",
     "cardNum": 182,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -39422,8 +38428,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-183",
     "cardNum": 183,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "TFC"
   },
@@ -39447,8 +38452,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-184",
     "cardNum": 184,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC"
   },
@@ -39472,8 +38476,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-185",
     "cardNum": 185,
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 8,
     "setId": "TFC"
   },
@@ -39497,8 +38500,7 @@ export const lorcanaCards = [
     "cardNum": 186,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\n\nAll For One - Your other musketeer character get +1 {s}.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC",
     "abilities": "Bodyguard"
@@ -39524,8 +38526,7 @@ export const lorcanaCards = [
     "cardNum": 187,
     "bodyText": "Challenger +2 (When challenging, this character get +2 {s}.) ",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC",
     "abilities": "Challenger +2"
@@ -39551,8 +38552,7 @@ export const lorcanaCards = [
     "cardNum": 188,
     "bodyText": "Guess What? - When you play this character, you may draw a card, then choose and discard a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "TFC"
   },
@@ -39577,8 +38577,7 @@ export const lorcanaCards = [
     "cardNum": 189,
     "bodyText": "Challenger +4 (While challenging, this character gets +4 {s}.)\n\nPOUNCE: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Challenger +4, Evasive"
@@ -39604,8 +38603,7 @@ export const lorcanaCards = [
     "cardNum": 190,
     "bodyText": "I Know What I Have To Do - During your turn, whenever this character banishes another character in a challenge, you gain 1 lore.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "TFC"
   },
@@ -39630,8 +38628,7 @@ export const lorcanaCards = [
     "cardNum": 191,
     "bodyText": "Aye Aye, Captain - While you have a Captain character in play, this character gets +1 {l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -39656,8 +38653,7 @@ export const lorcanaCards = [
     "cardNum": 192,
     "bodyText": "Seek The Heart - During your turn, whenever this character banishes another character in a challenge, you gain 2 lore.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "TFC"
   },
@@ -39681,8 +38677,7 @@ export const lorcanaCards = [
     "cardNum": 193,
     "bodyText": "Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Tinker Bell.) \n\nROCK THE BOAT: When you play this character, deal 1 damage to each opposing character.\n\nPuny Pirate! - During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen opposing character.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "TFC",
     "abilities": "Shift 4"
@@ -39708,8 +38703,7 @@ export const lorcanaCards = [
     "cardNum": 194,
     "bodyText": "Battle Plans - {e} - Draw a card, then choose and discard a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "TFC"
   },
@@ -39731,8 +38725,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-195",
     "cardNum": 195,
     "bodyText": "(A character with cost 5 or more can {e} to sing this song for free.)\n\nEach player discards their hand and draws 7 cards.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39753,8 +38746,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-196",
     "cardNum": 196,
     "bodyText": "Banish chosen item.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39775,8 +38767,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-197",
     "cardNum": 197,
     "bodyText": "Deal 2 damage to chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39797,8 +38788,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-198",
     "cardNum": 198,
     "bodyText": "(A character with cost 5 or more can {e} to sing this song for free.)\n\nDeal 2 damage to each opposing character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39819,8 +38809,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-199",
     "cardNum": 199,
     "bodyText": "Draw 2 cards, then choose and discard 2 cards.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39841,8 +38830,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-200",
     "cardNum": 200,
     "bodyText": "Deal 3 damage to chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39863,8 +38851,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-201",
     "cardNum": 201,
     "bodyText": "Show Me - {e}, 3 {i} - If you have no cards in your hand, draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39885,8 +38872,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-202",
     "cardNum": 202,
     "bodyText": "Clang! - Banish this item - Chosen character can't challenge during their next turn.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39907,8 +38893,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-203",
     "cardNum": 203,
     "bodyText": "All For One And One For All - Whenever one of your characters with Bodyguard is banished, you may draw a card.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC",
     "abilities": "Bodyguard"
   },
@@ -39930,8 +38915,7 @@ export const lorcanaCards = [
     "uniqueId": "TFC-204",
     "cardNum": 204,
     "bodyText": "Quick Shot - {e}, 2 {i}: Deal 1 damage to chosen character.",
-    "cardVariants": "",
-    "dateModified": "2024-08-29 16:27:12.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "TFC"
   },
   {
@@ -39954,8 +38938,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-001",
     "cardNum": 1,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -39980,8 +38963,7 @@ export const lorcanaCards = [
     "cardNum": 2,
     "bodyText": "To the Table - When you play this character, you may search your deck for a Madrigal character card and reveal that card to all players. Shuffle your deck and put that card on top of it.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -40006,8 +38988,7 @@ export const lorcanaCards = [
     "cardNum": 3,
     "bodyText": "Singer 7 (This character counts as cost 7 to sing songs.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Singer 7"
@@ -40032,8 +39013,7 @@ export const lorcanaCards = [
     "cardNum": 4,
     "bodyText": "Singer 9 (This character counts as cost 9 to sing songs.)\nBeautiful Voice - Whenever this character sings a song, your other Princess characters get +1{l} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Singer 9"
@@ -40059,8 +39039,7 @@ export const lorcanaCards = [
     "cardNum": 5,
     "bodyText": "As You Were! - Whenever this character quests, you may give chosen character -2{s} until the start of your next turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -40072,7 +39051,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Amber",
     "gamemode": "Lorcana",
-    "franchise": "Disney Classics",
+    "franchise": "Classic Disney",
     "image": "https://lorcana-api.com/images/daisy_duck/lovely_lady/daisy_duck-lovely_lady-large.png",
     "cost": 1,
     "inkable": true,
@@ -40084,8 +39063,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-006",
     "cardNum": 6,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -40110,8 +39088,7 @@ export const lorcanaCards = [
     "cardNum": 7,
     "bodyText": "Infiltration - When you play this character, each opponent chooses and discards a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -40135,8 +39112,7 @@ export const lorcanaCards = [
     "cardNum": 8,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\nWait For Me! - When you play this character, chosen character gets +1{l} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Bodyguard"
@@ -40161,8 +39137,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-009",
     "cardNum": 9,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -40187,8 +39162,7 @@ export const lorcanaCards = [
     "cardNum": 10,
     "bodyText": "Dubious Recruitment - {e}: You pay 2{i} less for the next character you play this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -40200,7 +39174,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Amber",
     "gamemode": "Lorcana",
-    "franchise": "Disney Classics",
+    "franchise": "Classic Disney",
     "image": "https://lorcana-api.com/images/golden_harp/enchanter_of_the_land/golden_harp-enchanter_of_the_land-large.png",
     "cost": 1,
     "inkable": true,
@@ -40213,8 +39187,7 @@ export const lorcanaCards = [
     "cardNum": 11,
     "bodyText": "Stolen Away - At the end of your turn, if you didn't play a song this turn, banish this character",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -40239,8 +39212,7 @@ export const lorcanaCards = [
     "cardNum": 12,
     "bodyText": "En Gawrsh! - Whenever you play a character with Bodyguard, ready this character. He can't quest for the rest of this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Bodyguard"
@@ -40266,8 +39238,7 @@ export const lorcanaCards = [
     "cardNum": 13,
     "bodyText": "Signature Recipe - When you play this character, you may remove up to 2 damage from chosen character. If you removed damage this way, you may draw a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -40291,8 +39262,7 @@ export const lorcanaCards = [
     "cardNum": 14,
     "bodyText": "Here Boy - If you have a character named Prince Eric in play, you play 1{i} less to play this character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS"
   },
@@ -40304,7 +39274,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Amber",
     "gamemode": "Lorcana",
-    "franchise": "Disney Classics",
+    "franchise": "Classic Disney",
     "image": "https://lorcana-api.com/images/mickey_mouse/leader_of_the_band/mickey_mouse-leader_of_the_band-large.png",
     "cost": 4,
     "inkable": true,
@@ -40316,8 +39286,7 @@ export const lorcanaCards = [
     "cardNum": 15,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)\nStrike Up the Music - When you play this character, chosen character gains Support this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Support"
@@ -40342,8 +39311,7 @@ export const lorcanaCards = [
     "cardNum": 16,
     "bodyText": "Shift 5 (You may pay 5{i} to play this on top of one of your characters named Mickey Mouse.)\nBodyguard, Support\nMusketeers United - When you play this character, if you used Shift to play him, you may draw a card for each character with Bodyguard you have in play.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Shift 5, Bodyguard, Support"
@@ -40368,8 +39336,7 @@ export const lorcanaCards = [
     "cardNum": 17,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\nDramatic Entrance - When you play this character, banish chosen opposing character with 5{s} or more.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Bodyguard"
@@ -40394,8 +39361,7 @@ export const lorcanaCards = [
     "cardNum": 18,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)\nSaving the Miracle - Whenever this character quests, your other Madrigal characters ger +1{l} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Support"
@@ -40421,8 +39387,7 @@ export const lorcanaCards = [
     "cardNum": 19,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Support"
@@ -40435,7 +39400,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Amber",
     "gamemode": "Lorcana",
-    "franchise": "Disney Classics",
+    "franchise": "Classic Disney",
     "image": "https://lorcana-api.com/images/pluto/rescue_dog/pluto-rescue_dog-large.png",
     "cost": 5,
     "inkable": true,
@@ -40448,8 +39413,7 @@ export const lorcanaCards = [
     "cardNum": 20,
     "bodyText": "To the Rescue - When you play this character, you may remove up to 3 damage from one of your characters.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS"
   },
@@ -40473,8 +39437,7 @@ export const lorcanaCards = [
     "cardNum": 21,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Bodyguard"
@@ -40499,8 +39462,7 @@ export const lorcanaCards = [
     "cardNum": 22,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of one of your characters named Prince Eric.)\nUnder Vanessa's Spell - While you have a character named Ursula in play, this character gains Bodyguard and gets +2{w}. (An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "URS",
     "abilities": "Shift 4, Bodyguard"
@@ -40513,7 +39475,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Amber",
     "gamemode": "Lorcana",
-    "franchise": "Lilo and Stitch",
+    "franchise": "Lilo & Stitch",
     "image": "https://lorcana-api.com/images/stitch/alien_dancer/stitch-alien_dancer-large.png",
     "cost": 2,
     "inkable": true,
@@ -40525,8 +39487,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-023",
     "cardNum": 23,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -40550,8 +39511,7 @@ export const lorcanaCards = [
     "cardNum": 24,
     "bodyText": "Shift: Discard a song card (You may discard a song card to play this on top of one of your characters named Ursula.)\nVanessa's Design - Whenever this character quests, chosen opponent reveals their hand and discards a non-character card of your choice.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Shift"
@@ -40577,8 +39537,7 @@ export const lorcanaCards = [
     "cardNum": 25,
     "bodyText": "Singer 4 (This character counts as cost 4 to sing songs.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Singer 4"
@@ -40601,8 +39560,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-026",
     "cardNum": 26,
     "bodyText": "Return a character card from your discard to your hand. Then remove up to 2 damage from chosen character.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -40612,7 +39570,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Amber",
     "gamemode": "Lorcana",
-    "franchise": "Disney Classics",
+    "franchise": "Classic Disney",
     "image": "https://lorcana-api.com/images/first_aid/first_aid-large.png",
     "cost": 1,
     "inkable": true,
@@ -40623,8 +39581,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-027",
     "cardNum": 27,
     "bodyText": "Remove up to 1 damage from each of your characters.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -40644,8 +39601,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-028",
     "cardNum": 28,
     "bodyText": "Sing Together 7 (Any number of your or your teammates' characters with total cost 7 or more may {e} to sing this song for free.)\nLook at the top 5 cards of your deck. You may reveal up to 2 character cards and put them into your hand. Put the rest on the bottom of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Sing Together 7"
   },
@@ -40667,8 +39623,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-029",
     "cardNum": 29,
     "bodyText": "(A character with cost X or more can {e} to sing this song for free.)\nAll opposing characters get -2{s} until the start of your next turn.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -40688,8 +39643,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-030",
     "cardNum": 30,
     "bodyText": "Each opponent may choose and discard a card. For each opponent who doesn't, you gain 2 lore.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -40709,8 +39663,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-031",
     "cardNum": 31,
     "bodyText": "Abuela's Gift - Banish this item: If you have 3 or more characters in play, gain 2 lore and remove up to 2 damage from chosen location.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -40720,7 +39673,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Amber",
     "gamemode": "Lorcana",
-    "franchise": "Lilo and Stitch",
+    "franchise": "Lilo & Stitch",
     "image": "https://lorcana-api.com/images/record_player/record_player-large.png",
     "cost": 2,
     "inkable": true,
@@ -40730,8 +39683,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-032",
     "cardNum": 32,
     "bodyText": "Look at This! - Whenever you play a song, chosen character gets -2{s} until the start of your next turn.\nHit Parade - Your characters named Stitch count as having +1 cost to sing songs.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -40752,8 +39704,7 @@ export const lorcanaCards = [
     "cardNum": 33,
     "bodyText": "Underwater Acoustics - Characters count as having +2 cost to sing songs while here.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 2
   },
@@ -40776,8 +39727,7 @@ export const lorcanaCards = [
     "cardNum": 34,
     "bodyText": "Save a Soul - Whenever a character quests while here, you may pay 3{i} to return a character card from your discard to your hand.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 2
   },
@@ -40801,8 +39751,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-035",
     "cardNum": 35,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -40827,8 +39776,7 @@ export const lorcanaCards = [
     "cardNum": 36,
     "bodyText": "Shift 5 (You may pay 5{i} to play this on top of one of your characters named Belle.)\nEnhanced Healing - When you play this character, move up to 3 damage counters from chosen character to chosen opposing character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS",
     "abilities": "Shift 3"
@@ -40854,8 +39802,7 @@ export const lorcanaCards = [
     "cardNum": 37,
     "bodyText": "Here Now, Don't Do That - When you play this character, move up to 1 damage counter from chosen character to chosen opposing character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -40879,8 +39826,7 @@ export const lorcanaCards = [
     "cardNum": 38,
     "bodyText": "It Was Your Vision - When you play this character, chosen character gains \"When this character is banished in a challenge, you may return this card to your hand\" this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS"
   },
@@ -40904,8 +39850,7 @@ export const lorcanaCards = [
     "cardNum": 39,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\nYou Just Have to See It - {e}: Name a card, then reveal the top card of your deck. If it's the named card, put that card into your hand and gain 3 lore. Otherwise, put it on the top of your deck.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Evasive"
@@ -40930,8 +39875,7 @@ export const lorcanaCards = [
     "cardNum": 40,
     "bodyText": "Many Forms - At the start of your turn, you may choose one:\n- This character gets +1{l} this turn.\n- This character gains Challenger +2 this turn. (While challenging, this character gets +2{s}.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Challenger +2"
@@ -40956,8 +39900,7 @@ export const lorcanaCards = [
     "cardNum": 41,
     "bodyText": "Magical Informant - When you play this character, if an opponent has an exerted character in play, you may draw a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -40982,8 +39925,7 @@ export const lorcanaCards = [
     "cardNum": 42,
     "bodyText": "Tempest - {e}: Chosen character gains Challenger +2 and Rush this turn. (They get +2{s} while challenging. They can challenge the turn they're played.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Challenger +2, Rush"
@@ -41009,8 +39951,7 @@ export const lorcanaCards = [
     "cardNum": 43,
     "bodyText": "Quick Escape - When this character is banished in a challenge, return this card to your hand.\nOminous Pair - Your characters named Jetsam gain \"When this character is banished in a challenge, return this card to your hand.\"",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS"
   },
@@ -41034,8 +39975,7 @@ export const lorcanaCards = [
     "cardNum": 44,
     "bodyText": "Shift: Discard 2 cards (You may discard 2 cards to play this on top of one of your characters named Flotsam or Jetsam.)\n(This character counts as being named both Flotsam and Jetsam.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "URS",
     "abilities": "Shift"
@@ -41060,8 +40000,7 @@ export const lorcanaCards = [
     "cardNum": 45,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\nLadies First - During your turn, if no other character has quested this turn, this character gets +3{l}.\nLeave it to me - Whenever this character quests, your other characters can't quest for the rest of this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Evasive"
@@ -41087,8 +40026,7 @@ export const lorcanaCards = [
     "cardNum": 46,
     "bodyText": "Challenger +2 (While challenging, this character gets +2{s}.)\nOminous Pair - Your characters named Flotsam gain Challenger +2.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Challenger +2"
@@ -41114,8 +40052,7 @@ export const lorcanaCards = [
     "cardNum": 47,
     "bodyText": "Rush (This character can challenge the turn they're played.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS",
     "abilities": "Rush"
@@ -41141,8 +40078,7 @@ export const lorcanaCards = [
     "cardNum": 48,
     "bodyText": "Nice and Tidy - Whenever you play another character, you may banish this character to draw a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -41166,8 +40102,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-049",
     "cardNum": 49,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -41191,8 +40126,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-050",
     "cardNum": 50,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -41217,8 +40151,7 @@ export const lorcanaCards = [
     "cardNum": 51,
     "bodyText": "Behemoth - This character gets +1{s} for each card in your hand.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "URS"
   },
@@ -41242,8 +40175,7 @@ export const lorcanaCards = [
     "cardNum": 52,
     "bodyText": "It'll Turn Out All Right - When you play this character, if you have a character named Lumiere or Cogsworth in play, you may draw a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -41267,8 +40199,7 @@ export const lorcanaCards = [
     "cardNum": 53,
     "bodyText": "It Looks Like rain - When you play this character, you may exert chosen opposing character. That character can't ready at the start of their next turn unless they're at a location.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -41292,8 +40223,7 @@ export const lorcanaCards = [
     "cardNum": 54,
     "bodyText": "Rush (This character can challenge the turn they're played.)\nEvasive (Only characters with Evasive can challenge this character.)\nFly, of Course! - You other characters with Evasive gain Rush.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Rush, Evasive"
@@ -41318,8 +40248,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-055",
     "cardNum": 55,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -41344,8 +40273,7 @@ export const lorcanaCards = [
     "cardNum": 56,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS",
     "abilities": "Evasive"
@@ -41371,8 +40299,7 @@ export const lorcanaCards = [
     "cardNum": 57,
     "bodyText": "Challenger +2 (While challenging, this character gets +2{s}.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Challenger +2"
@@ -41397,8 +40324,7 @@ export const lorcanaCards = [
     "cardNum": 58,
     "bodyText": "Shift 5 (You may pay 5{i} to play this on top of one of your characters named Ursula.)\nNow I am the Ruler! - Whenever this character quests, exert chosen character.\nYou'll Listen to Me! - Other characters can't exert to sing songs.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS",
     "abilities": "Shift 5"
@@ -41446,8 +40372,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-060",
     "cardNum": 60,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\nReturn chosen character, Item, or location with cost 2 or less to their player's hand.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -41468,8 +40393,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-061",
     "cardNum": 61,
     "bodyText": "Sing Together 10 (Any number of your or your teammates' characters with total cost 10 or more may {e} to sing this song for free.)\nChosen player draws 5 cards.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Sing Together 10"
   },
@@ -41490,8 +40414,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-062",
     "cardNum": 62,
     "bodyText": "Chosen character gins Rush this turn. (They can challenge the turn they're played.)",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Rush"
   },
@@ -41513,8 +40436,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-063",
     "cardNum": 63,
     "bodyText": "Each opponent chooses and exerts one of their characters. Those characters can't ready at the start of their next turn.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -41534,8 +40456,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-064",
     "cardNum": 64,
     "bodyText": "Dispel the Entanglement - Banish this item: Chosen character named Beast gets +2{l} this turn. If you have a character named Belle in play, Move up to 3 damage counters from chosen character to chosen opposing character.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -41556,8 +40477,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-065",
     "cardNum": 65,
     "bodyText": "Mystical Petals - {e}, 2{i}: Move 1 damage counter from chosen character to chosen opposing character.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -41578,8 +40498,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-066",
     "cardNum": 66,
     "bodyText": "Symbol of Power - Banish this item: Chosen character gets +1{s} this turn for each card in your hand.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -41600,8 +40519,7 @@ export const lorcanaCards = [
     "cardNum": 67,
     "bodyText": "Our Home - At the start of your turn, if you have a character here gain 1 lore.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 1
   },
@@ -41624,8 +40542,7 @@ export const lorcanaCards = [
     "cardNum": 68,
     "bodyText": "Slippery Halls - Whenever a character is banished in a challenge while here, you may return them to your hand.\nSeat of Power - Characters named Ursula get +1{l} while here.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 2
   },
@@ -41650,8 +40567,7 @@ export const lorcanaCards = [
     "cardNum": 69,
     "bodyText": "Spreading Good Fortune - When you play this character, your other characters get +3{s} this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -41675,8 +40591,7 @@ export const lorcanaCards = [
     "cardNum": 70,
     "bodyText": "Shift: Discard an action card (You may discard an action card to play this on top of one of your characters named Diablo.)\nEvasive (Only characters with Evasive can challenge this character.)\nCircle Far and Wide - During each opponent's turn, whenever they draw a card while this character is exerted, you may draw a card.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Shift, Evasive"
@@ -41702,8 +40617,7 @@ export const lorcanaCards = [
     "cardNum": 71,
     "bodyText": "Scout Ahead - When you play this character, you may look at each opponent's hand.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -41728,8 +40642,7 @@ export const lorcanaCards = [
     "cardNum": 72,
     "bodyText": "Sad-Eyed Puppy - When this character is challenged and banished, each opponent chooses one of their characters and returns that card to their hand.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -41753,8 +40666,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-073",
     "cardNum": 73,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -41778,8 +40690,7 @@ export const lorcanaCards = [
     "cardNum": 74,
     "bodyText": "Here's the Trade-Off - {e}, Banish one of your other characters: Play a character with the same name as the banished character for free.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -41803,8 +40714,7 @@ export const lorcanaCards = [
     "cardNum": 75,
     "bodyText": "Fatten You Up - When you play this character, if an opponent has more cards in their inkwell than you, you may put the top card of your deck into your inkwell facedown and exerted.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -41828,8 +40738,7 @@ export const lorcanaCards = [
     "cardNum": 76,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\nProtective Goddess - Your characters named Zeus gain Ward.\nYou're a True Hero - Your characters named Hercules gain Evasive. (Only characters with Evasive can challenge them.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Ward, Evasive"
@@ -41855,8 +40764,7 @@ export const lorcanaCards = [
     "cardNum": 77,
     "bodyText": "Sneaky Idea - When you play this character, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Reckless"
@@ -41881,8 +40789,7 @@ export const lorcanaCards = [
     "cardNum": 78,
     "bodyText": "Cunning Maneuver - When you play this character and whenever she's challenged, each opponent chooses and discards a card.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -41907,8 +40814,7 @@ export const lorcanaCards = [
     "cardNum": 79,
     "bodyText": "Shady Deal - When you play this character, choose and discard a card or banish this character.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -41932,8 +40838,7 @@ export const lorcanaCards = [
     "cardNum": 80,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\nPeople Always Do Crazy Things - Whenever you play a character named Hercules, You may ready this character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS",
     "abilities": "Ward"
@@ -41958,8 +40863,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-081",
     "cardNum": 81,
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -41984,8 +40888,7 @@ export const lorcanaCards = [
     "cardNum": 82,
     "bodyText": "Reporting for Duty - While this character is exerted, if you have a character named pain in play, your Villain characters can't be challenged.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -42009,8 +40912,7 @@ export const lorcanaCards = [
     "cardNum": 83,
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of one of your characters named Pegasus.)\nEvasive (Only characters with Evasive can challenge this character.)\nHop On! - When you play this character, if you used Shift to play him, your characters gain Evasive until the start of your next turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Shift 3, Evasive"
@@ -42036,8 +40938,7 @@ export const lorcanaCards = [
     "cardNum": 84,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Evasive"
@@ -42062,8 +40963,7 @@ export const lorcanaCards = [
     "cardNum": 85,
     "bodyText": "I Clobber You! - Whenever this character quests while he has 5{s} or more, return chosen character with 2{s} or less to their player's hand.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -42087,8 +40987,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-086",
     "cardNum": 86,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -42112,8 +41011,7 @@ export const lorcanaCards = [
     "cardNum": 87,
     "bodyText": "Shift 6 (You may pay 6{i} to play this on top of one of your characters named Prince Philip.)\nEvasive (Only characters with Evasive can challenge this character.)\nSwift and Sure - When you play this character, banish all opposing damaged characters.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "URS",
     "abilities": "Shift 6, Evasive"
@@ -42139,8 +41037,7 @@ export const lorcanaCards = [
     "cardNum": 88,
     "bodyText": "Shining Beacon. You other Hero characters gain Ward. (Opponents can't choose them except to challenge.)",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Ward"
@@ -42166,8 +41063,7 @@ export const lorcanaCards = [
     "cardNum": 89,
     "bodyText": "All Will Be Seen - When you play this character, look at the top card of each opponent's deck.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -42191,8 +41087,7 @@ export const lorcanaCards = [
     "cardNum": 90,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\nThe Gospel Truth - Whenever you play a song, you may return chosen character with 2{s} or less to their player's hand.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Ward"
@@ -42217,8 +41112,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-091",
     "cardNum": 91,
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS"
   },
@@ -42243,8 +41137,7 @@ export const lorcanaCards = [
     "cardNum": 92,
     "bodyText": "Target Practice - Whenever a this character challenges another character, he gets +{s} equal to the {s} of chosen character this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "URS"
   },
@@ -42255,7 +41148,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Emerald",
     "gamemode": "Lorcana",
-    "franchise": "Disney Classics",
+    "franchise": "Classic Disney",
     "image": "https://lorcana-api.com/images/dodge!/dodge!-large.png",
     "cost": 2,
     "inkable": true,
@@ -42266,8 +41159,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-093",
     "cardNum": 93,
     "bodyText": "Chosen character gains Ward and Evasive until the start of your next turn. (Opponents can't choose them except to challenge. Only characters with Evasive can challenge them.)",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Ward, Evasive"
   },
@@ -42278,7 +41170,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Emerald",
     "gamemode": "Lorcana",
-    "franchise": "Snow White and the Seven Dwarves",
+    "franchise": "Snow White and the Seven Dwarfs",
     "image": "https://lorcana-api.com/images/make_the_potion/make_the_potion-large.png",
     "cost": 2,
     "inkable": false,
@@ -42288,8 +41180,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-094",
     "cardNum": 94,
     "bodyText": "Choose one:\n- Banish chosen item.\n- Deal 2 damage to chosen damaged character",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -42310,8 +41201,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-095",
     "cardNum": 95,
     "bodyText": "Sing Together 8 (Any number of your or your teammates' characters with total cost 8 or more may {e} to sing this song for free.)\r Put all opposing characters with 2{s} or less on the bottom of their player's decks in any order.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Sing Together 8"
   },
@@ -42333,8 +41223,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-096",
     "cardNum": 96,
     "bodyText": "Each opponent may choose and discard a card. For each opponent who doesn't, you draw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -42355,8 +41244,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-097",
     "cardNum": 97,
     "bodyText": "(A character with cost X or more can {e} to sing this song for free.)\nReturn chosen character to their player's hand, then that player discards a card at random.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -42377,8 +41265,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-098",
     "cardNum": 98,
     "bodyText": "Fresh Ink - When you play this item, draw a card.\nUnexpected treasure - All cards in your hand count as having {n}.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -42399,8 +41286,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-099",
     "cardNum": 99,
     "bodyText": "Fine Print - Whenever an opponent plays a song, you may draw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -42421,8 +41307,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-100",
     "cardNum": 100,
     "bodyText": "Danger Revealed - At the start of your turn, if an opposing character has damage, gain 1 lore.\nTrapped! Damage counters can't be removed.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -42444,8 +41329,7 @@ export const lorcanaCards = [
     "cardNum": 101,
     "bodyText": "Revitalizing Waters - Characters get +1{s} and +1{w} while here.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 1
   },
@@ -42468,8 +41352,7 @@ export const lorcanaCards = [
     "cardNum": 102,
     "bodyText": "Abandon Hope - While you have an exerted character here, opposing characters get -1{l}.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 2
   },
@@ -42494,8 +41377,7 @@ export const lorcanaCards = [
     "cardNum": 103,
     "bodyText": "That Hurts!: This character enters play with 4 damage.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -42519,8 +41401,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-104",
     "cardNum": 104,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "URS"
   },
@@ -42545,8 +41426,7 @@ export const lorcanaCards = [
     "cardNum": 105,
     "bodyText": "War Injury: This character can't challenge.\nHead of The Household: {e} - Ready chosen character named Mulan. She can't quest for the rest of this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "URS"
   },
@@ -42571,8 +41451,7 @@ export const lorcanaCards = [
     "cardNum": 106,
     "bodyText": "Narrow Advantage: At the start of your turn, if you have a character in play with more {s} than each opposing character, gain 3 lore.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -42584,7 +41463,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Ruby",
     "gamemode": "Lorcana",
-    "franchise": "Disney Classics",
+    "franchise": "Classic Disney",
     "image": "https://lorcana-api.com/images/goofy/super_goof/goofy-super_goof-large.png",
     "cost": 4,
     "inkable": true,
@@ -42597,8 +41476,7 @@ export const lorcanaCards = [
     "cardNum": 107,
     "bodyText": "Rush (This character can challenge the turn they're played.)\nSuper Peanut Powers: Whenever this character challenges another character, gain 2 lore.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Rush"
@@ -42624,8 +41502,7 @@ export const lorcanaCards = [
     "cardNum": 108,
     "bodyText": "Rush (This character can challenge the turn they're played.)\n",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Rush"
@@ -42650,8 +41527,7 @@ export const lorcanaCards = [
     "cardNum": 109,
     "bodyText": "Rush (This character can challenge the turn they're played.)\nReckless (This character can't quest and must challenge each turn if able.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 7,
     "setId": "URS",
     "abilities": "Rush, Reckless"
@@ -42676,8 +41552,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-110",
     "cardNum": 110,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -42701,8 +41576,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-111",
     "cardNum": 111,
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -42726,8 +41600,7 @@ export const lorcanaCards = [
     "cardNum": 112,
     "bodyText": "Shift: Discard a character card (You may discard a character card to play this on top of one of your characters name Li Shang.)\nLead the Charge: Your characters with 4{s} or more get +1{l}.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Shift"
@@ -42753,8 +41626,7 @@ export const lorcanaCards = [
     "cardNum": 113,
     "bodyText": "Fervent Address: Your other characters get +1{s}.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -42805,8 +41677,7 @@ export const lorcanaCards = [
     "cardNum": 115,
     "bodyText": "Time To Shine: Whenever you play an action, this character gets +2{s} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -42831,8 +41702,7 @@ export const lorcanaCards = [
     "cardNum": 116,
     "bodyText": "Battle Wound - This character enters play with 2 damage.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -42856,8 +41726,7 @@ export const lorcanaCards = [
     "cardNum": 117,
     "bodyText": "Two-Weapon Fighting: During your turn, whenever this character deals damage to another  character in a challenge, you may deal the same amount of damage to another chosen character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -42881,8 +41750,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-118",
     "cardNum": 118,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 7,
     "setId": "URS"
   },
@@ -42907,8 +41775,7 @@ export const lorcanaCards = [
     "cardNum": 119,
     "bodyText": "Fancy Footwork: Whenever you play an action, this character takes no damage from challenge this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS"
   },
@@ -42933,8 +41800,7 @@ export const lorcanaCards = [
     "cardNum": 120,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Evasive"
@@ -42960,8 +41826,7 @@ export const lorcanaCards = [
     "cardNum": 121,
     "bodyText": "Don't Cross Me: Whenever this character challenges another character, gain 1 lore for each other damaged character you have in play.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -42986,8 +41851,7 @@ export const lorcanaCards = [
     "cardNum": 122,
     "bodyText": "We Have Come Together: When you play this character, ready chosen character of yours at a  location. They can't quest for the rest of this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -43012,8 +41876,7 @@ export const lorcanaCards = [
     "cardNum": 123,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\nBring On The Heat!: When you play this character, banish chosen opposing character with 1{s} or less.",
     "willpower": 1,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Evasive"
@@ -43039,8 +41902,7 @@ export const lorcanaCards = [
     "cardNum": 124,
     "bodyText": "Surge of Power: This character gets +1{s} for each card in opponents' hands.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -43064,8 +41926,7 @@ export const lorcanaCards = [
     "cardNum": 125,
     "bodyText": "Shift 6 (You may pay 6{i} to play this on top of one of your characters named Sisu.)\nI Got This!: When you play this character, banish all opposing characters with 2{s} or less.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "URS",
     "abilities": "Shift 6"
@@ -43091,8 +41952,7 @@ export const lorcanaCards = [
     "cardNum": 126,
     "bodyText": "Reckless (This character can't quest and must attack each turn if able.)",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Reckless"
@@ -43117,8 +41977,7 @@ export const lorcanaCards = [
     "cardNum": 127,
     "bodyText": "Evasive (Only characters with Evasive can challenge this character.)\nOn a Roll: When you play this character, you may move him and one of your other characters to the same location for free. The other characters get +2{s} this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Evasive"
@@ -43141,8 +42000,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-128",
     "cardNum": 128,
     "bodyText": "Sing Together 6 (Any number of you or your teammates' characters with total cost 6 or more may {e} to sing this song for free.)\nEach opponent loses 2 lore. You gain 2 lore.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Sing Together 6"
   },
@@ -43164,8 +42022,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-129",
     "cardNum": 129,
     "bodyText": "(A character with cost 4 or more can {e} to sing this song for free.)\nEach opponent chooses and banishes one of their characters.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -43186,8 +42043,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-130",
     "cardNum": 130,
     "bodyText": "Banish chosen character with 2{s} or less.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -43208,8 +42064,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-131",
     "cardNum": 131,
     "bodyText": "Call To The Front: Whenever one of your characters challenge another character, you may pay 1{i} less for the next character you play this turn.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -43229,8 +42084,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-132",
     "cardNum": 132,
     "bodyText": "Discipline And Strength: {e}, 2{i} - Chosen character gets +2 {s} this turn. Whenever they challenge another character this turn, you may draw a card.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -43251,8 +42105,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-133",
     "cardNum": 133,
     "bodyText": "Walk!: 2{i}, Banish this item - Choose one:\n• Banish chosen Hero character.\n• Ready chosen Villain character. They can't quest for the rest of this turn.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -43272,8 +42125,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-134",
     "cardNum": 134,
     "bodyText": "Extract of Ruby: 1{i}, Banish this item - Chosen character gains Rush and gets +2{s} this turn. (They can challenge the turn they're played.)",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Rush"
   },
@@ -43295,8 +42147,7 @@ export const lorcanaCards = [
     "cardNum": 135,
     "bodyText": "Routine Ruckus: Whenever a character with 3{s} or more challenge another character while here, gain 1 lore. If the challenging character has 6{s} or more, gain 3 lore instead.",
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 2
   },
@@ -43319,8 +42170,7 @@ export const lorcanaCards = [
     "cardNum": 136,
     "bodyText": "Strength of Mind: 1{i} - Chosen character here gets +1{s} this turn.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 1
   },
@@ -43345,8 +42195,7 @@ export const lorcanaCards = [
     "cardNum": 137,
     "bodyText": "I Was Born Ready: If you have another Hero character in play, this character gets +1{l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -43371,8 +42220,7 @@ export const lorcanaCards = [
     "cardNum": 138,
     "bodyText": "Let Me Help You: Whenever this character quests, your other Hero characters get +1{l} this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -43396,8 +42244,7 @@ export const lorcanaCards = [
     "cardNum": 139,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)\nThe Girl Who Has Everything: While you have more items in play than each opponent, this character gets +2{l}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Ward"
@@ -43422,8 +42269,7 @@ export const lorcanaCards = [
     "cardNum": 140,
     "bodyText": "Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Aurora.)\nPreserver: Opponents can't choose your items for abilities or effects.\nRoyal Inventory: {e} one of your items - Look at the top card of your deck and put it on either the top or the bottom of your deck.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Shift 2"
@@ -43449,8 +42295,7 @@ export const lorcanaCards = [
     "cardNum": 141,
     "bodyText": "Ward (Opponents can't choose this character except to challenge.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Ward"
@@ -43476,8 +42321,7 @@ export const lorcanaCards = [
     "cardNum": 142,
     "bodyText": "You Better Talk Fast: Your other Villain characters gain Support. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Support"
@@ -43502,8 +42346,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-143",
     "cardNum": 143,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -43528,8 +42371,7 @@ export const lorcanaCards = [
     "cardNum": 144,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)\nI'm Not a Guppy: If you have a character named Ariel in play, you may pay 1 {i} less to play this character.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Support"
@@ -43554,8 +42396,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-145",
     "cardNum": 145,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -43580,8 +42421,7 @@ export const lorcanaCards = [
     "cardNum": 146,
     "bodyText": "Royal Schemes: When you play this character, if a Princess or Queen character is in play, gain 1 lore.",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -43606,8 +42446,7 @@ export const lorcanaCards = [
     "cardNum": 147,
     "bodyText": "Enduring Love: When this character is banished, you may put this card into your inkwell facedown and exerted.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -43631,8 +42470,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-148",
     "cardNum": 148,
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 8,
     "setId": "URS"
   },
@@ -43656,8 +42494,7 @@ export const lorcanaCards = [
     "cardNum": 149,
     "bodyText": "Shift: Discard an item card (You may discard an item card to play this on top of one of your characters named Olaf.)\nCarrots All Around!: Whenever he quests, each of your other characters gets +{s} equal to this character's {s} this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Shift"
@@ -43683,8 +42520,7 @@ export const lorcanaCards = [
     "cardNum": 150,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",
     "willpower": 2,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Support"
@@ -43710,8 +42546,7 @@ export const lorcanaCards = [
     "cardNum": 151,
     "bodyText": "Colorful Tactics: When you play this character, look at the top 3 cards of your deck and put them back in any order.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -43735,8 +42570,7 @@ export const lorcanaCards = [
     "cardNum": 152,
     "bodyText": "Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)\nBest Defense: Whenever one of your characters is chosen for Support, they gain Resist +1 this turn. (Damage dealt to them is reduced by 1.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Support, Resist +1"
@@ -43762,8 +42596,7 @@ export const lorcanaCards = [
     "cardNum": 153,
     "bodyText": "Perceptive Partner: While you have a character named Pascal in play, this character gains Ward. (Opponents can't choose them except to challenge.)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Ward"
@@ -43789,8 +42622,7 @@ export const lorcanaCards = [
     "cardNum": 154,
     "bodyText": "let Me See: When you play this character, look at the top 4 cards of your deck. You may reveal an item card and put it into your hand. Put the rest on the bottom of your deck in any order.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -43814,8 +42646,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-155",
     "cardNum": 155,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "URS"
   },
@@ -43827,7 +42658,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Sapphire",
     "gamemode": "Lorcana",
-    "franchise": "Snow White and the Seven Dwarves",
+    "franchise": "Snow White and the Seven Dwarfs",
     "image": "https://lorcana-api.com/images/the_queen/diviner/the_queen-diviner-large.png",
     "cost": 3,
     "inkable": true,
@@ -43839,8 +42670,7 @@ export const lorcanaCards = [
     "cardNum": 156,
     "bodyText": "Consult the Spellbook: {e} - Look at the top 4 cards of your deck. You may reveal an item card and put it into your hand. If that item costs 3 or less, you may play it for free instead and it enters play exerted. Put the rest on the bottom of your deck in any order.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -43864,8 +42694,7 @@ export const lorcanaCards = [
     "cardNum": 157,
     "bodyText": "A Culinary Masterpiece: When you play this character, remove up to 2 damage from chosen character.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -43889,8 +42718,7 @@ export const lorcanaCards = [
     "cardNum": 158,
     "bodyText": "Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Triton.)\nImposing Presence: Opposing characters get -1 {s} for each location you have in play.",
     "willpower": 9,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 7,
     "setId": "URS",
     "abilities": "Shift 6"
@@ -43916,8 +42744,7 @@ export const lorcanaCards = [
     "cardNum": 159,
     "bodyText": "Consign to the Depths: {e}, Banish one of your items - Gain 3 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -43941,8 +42768,7 @@ export const lorcanaCards = [
     "cardNum": 160,
     "bodyText": "Superior Swimmer: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)\nKeeper of Atlantica: Whenever one of your locations is banished, you may put that card into your inkwell facedown and exerted.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Evasive"
@@ -43967,8 +42793,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-161",
     "cardNum": 161,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -43989,8 +42814,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-162",
     "cardNum": 162,
     "bodyText": "Sing Together 8 (Any number of your or your teammates' characters with total cost 8 or more may {e} to sing this song for free.)\nLook at the top 7 cards of your deck. Put 2 into your hand. Put the rest on the bottom of your deck in any order.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Sing Together 8"
   },
@@ -44012,8 +42836,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-163",
     "cardNum": 163,
     "bodyText": "Banish chosen item. Its player gains 2 lore.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -44034,8 +42857,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-164",
     "cardNum": 164,
     "bodyText": "(A character with cost 2 or more can {e} to sing this song for free.)\nChosen character gets -3 {s} this turn.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -44056,8 +42878,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-165",
     "cardNum": 165,
     "bodyText": "(A character with cost 6 or more can {e} to sing this song for free.)\nReturn up to 2 item cards from your discard into your hand.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -44077,8 +42898,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-166",
     "cardNum": 166,
     "bodyText": "Icy Defense: Whenever your play a character, they gain Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Resist +1"
   },
@@ -44099,8 +42919,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-167",
     "cardNum": 167,
     "bodyText": "Asleep: This item enters play exerted.\nAwaken: {e} - Put a character card from your discard into your inkwell facedown and exerted.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -44121,8 +42940,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-168",
     "cardNum": 168,
     "bodyText": "Chilly Labor: {e} - Chosen character gets -1 {s} this turn.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -44144,8 +42962,7 @@ export const lorcanaCards = [
     "cardNum": 169,
     "bodyText": "Treasure Trove: While you have 3 or more items in play, this location gets +2 {l}.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 2
   },
@@ -44168,8 +42985,7 @@ export const lorcanaCards = [
     "cardNum": 170,
     "bodyText": "Help the Wounded: Whenever a character quests while here, remove up to 2 damage from them. If they're a Hero character, remove up to 4 damage instead.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 1
   },
@@ -44193,8 +43009,7 @@ export const lorcanaCards = [
     "cardNum": 171,
     "bodyText": "Shift: Discard a location card (You may discard a location card to play this on top of one of your characters named Aladdin.)\nCrashing Though: Whenever this character quests, you may banish chosen item.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Shift"
@@ -44219,8 +43034,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-172",
     "cardNum": 172,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS"
   },
@@ -44244,8 +43058,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-173",
     "cardNum": 173,
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -44270,8 +43083,7 @@ export const lorcanaCards = [
     "cardNum": 174,
     "bodyText": "I Want More: Whenever you play a song, you may draw a card, then choose and discard a card.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -44295,8 +43107,7 @@ export const lorcanaCards = [
     "cardNum": 175,
     "bodyText": "Shift 4 (You may pay 4{i} to play this on top of one of your characters named Ariel.)\nAmplified Voice: Whenever you play a song, you may pay 2{i} to deal 3 damage to chosen character.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Shift 4"
@@ -44322,8 +43133,7 @@ export const lorcanaCards = [
     "cardNum": 176,
     "bodyText": "Resist +1 (Damage dealt to this character is reduced by 1.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Resist +1"
@@ -44349,8 +43159,7 @@ export const lorcanaCards = [
     "cardNum": 177,
     "bodyText": "Overly Cautious: While this character has no damage, he gets +2{l}.",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 0,
     "setId": "URS"
   },
@@ -44374,8 +43183,7 @@ export const lorcanaCards = [
     "cardNum": 178,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 4,
     "setId": "URS",
     "abilities": "Bodyguard"
@@ -44401,8 +43209,7 @@ export const lorcanaCards = [
     "cardNum": 179,
     "bodyText": "Boarding Party: During your turn, whenever this character banishes a character in a challenge, your other characters get +1 {l} this turn.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -44426,8 +43233,7 @@ export const lorcanaCards = [
     "cardNum": 180,
     "bodyText": "Bodyguard (This character may enter play exerted. An opposing character who challenges on of your characters must chose one with Bodyguard if able.)\nResist +1 (Damage dealt to this character is reduced by 1)",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 6,
     "setId": "URS",
     "abilities": "Bodyguard, Resist +1"
@@ -44452,8 +43258,7 @@ export const lorcanaCards = [
     "cardNum": 181,
     "bodyText": "I Learned From the Best: During your turn, you may play this character for free if an opposing character was banished in a challenge this turn.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -44477,8 +43282,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-182",
     "cardNum": 182,
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 5,
     "setId": "URS"
   },
@@ -44503,8 +43307,7 @@ export const lorcanaCards = [
     "cardNum": 183,
     "bodyText": "Full of Spirit: Your Hero characters get +1{s}.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -44529,8 +43332,7 @@ export const lorcanaCards = [
     "cardNum": 184,
     "bodyText": "I'm the Strong One: While you have another character in play, this character gets +2{s}.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS"
   },
@@ -44555,8 +43357,7 @@ export const lorcanaCards = [
     "cardNum": 185,
     "bodyText": "Winged for a Day: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Evasive"
@@ -44581,8 +43382,7 @@ export const lorcanaCards = [
     "cardNum": 186,
     "bodyText": "Resist +1 (Damage dealt to this character is reduced by 1.)\nArmy of Brooms: This character gets +2{s} for each other character named Magic Broom you have in play",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Resist +1"
@@ -44595,7 +43395,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Steel",
     "gamemode": "Lorcana",
-    "franchise": "Disney Classics",
+    "franchise": "Classic Disney",
     "image": "https://lorcana-api.com/images/mickey_mouse/playful_sorcerer/mickey_mouse-playful_sorcerer-large.png",
     "cost": 5,
     "inkable": true,
@@ -44608,7 +43408,7 @@ export const lorcanaCards = [
     "bodyText": "Shift 3 (You may pay 3{i} to play this on top of one of your characters named Mickey Mouse.)\nResist +1 (Damage dealt to this character is reduced by 1.)\nSweep Away: When you play this character, deal damage to chosen character equal to the number of Broom characters you have in play.",
     "willpower": 4,
     "cardVariants": "(QU1, placeholder)",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:30:41.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Shift 3, Resist +1"
@@ -44621,7 +43421,7 @@ export const lorcanaCards = [
     "setNum": 4,
     "color": "Steel",
     "gamemode": "Lorcana",
-    "franchise": "Disney Classics",
+    "franchise": "Classic Disney",
     "image": "https://lorcana-api.com/images/mickey_mouse/standard_bearer/mickey_mouse-standard_bearer-large.png",
     "cost": 2,
     "inkable": true,
@@ -44634,8 +43434,7 @@ export const lorcanaCards = [
     "cardNum": 188,
     "bodyText": "Stand Strong: When you play this character, chosen character gains Challenger +2 this turn. (They gain +2{s} while challenging.)",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 1,
     "setId": "URS",
     "abilities": "Challenger +2"
@@ -44660,8 +43459,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-189",
     "cardNum": 189,
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -44685,8 +43483,7 @@ export const lorcanaCards = [
     "cardNum": 190,
     "bodyText": "You Gotta Stay Focused: Your Hero characters gain Challenger +1 (They get +1{s} while challenging)\nShameless Promoter: Whenever you play a Hero character, gain 1 lore.",
     "willpower": 3,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Challenger +1"
@@ -44738,8 +43535,7 @@ export const lorcanaCards = [
     "cardNum": 192,
     "bodyText": "Steady Gaze: While you have no cards in your hand, characters with cost 4 or less can't  challenge this character.",
     "willpower": 4,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS"
   },
@@ -44763,8 +43559,7 @@ export const lorcanaCards = [
     "cardNum": 193,
     "bodyText": "Challenger +2 (While challenging, this character gets +2{s}.)\nResist +2 (Damage dealt to this character is reduced by 2.)\nYou Gave it Your Best: During your turn, whenever this character banishes another character in a challenge, you may draw a card.",
     "willpower": 6,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 3,
     "setId": "URS",
     "abilities": "Challenger +2, Resist +2"
@@ -44790,8 +43585,7 @@ export const lorcanaCards = [
     "cardNum": 194,
     "bodyText": "Challenger +2 (While challenging, this character gets +2{s})",
     "willpower": 5,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "strength": 2,
     "setId": "URS",
     "abilities": "Challenger +2"
@@ -44814,8 +43608,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-195",
     "cardNum": 195,
     "bodyText": "Deal 1 damage to each opposing character. You may banish chosen location.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -44836,8 +43629,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-196",
     "cardNum": 196,
     "bodyText": "(A character with cost 4 or more can {e} to sing this song for free.)\nBanish all items.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -44857,8 +43649,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-197",
     "cardNum": 197,
     "bodyText": "(A character with cost 3 or more can {e} to sing this song for free.)\nChosen character gains Resist +2 until the start of your next turn. If a Hero character is chosen, they may also challenge ready character this turn. (Damage dealt to them is reduced by 2.)",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Resist +2"
   },
@@ -44879,8 +43670,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-198",
     "cardNum": 198,
     "bodyText": "Sing Together 10 (Any number of your or your teammates' characters with total cost 10 or more may {e} to sing this song for free.)\nDeal 3 damage to up to 3 chosen characters and/or locations.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Sing Together 10"
   },
@@ -44902,8 +43692,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-199",
     "cardNum": 199,
     "bodyText": "Each opponent chooses one of their characters and deals 2 damage to them.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -44923,8 +43712,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-200",
     "cardNum": 200,
     "bodyText": "Resourceful: When you play this item, you may draw a card.\nExtract of Steel: 1{i}, Banish this item - Chosen character of yours gains Bodyguard until the start of your next turn. (An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Bodyguard"
   },
@@ -44945,8 +43733,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-201",
     "cardNum": 201,
     "bodyText": "Within Range: {e}, 1{i} - Chosen Hero character gains Challenger +2 and Evasive this turn. (They get +2{s} while challenging . They can challenge characters with Evasive.)",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "abilities": "Challenger +2, Evasive"
   },
@@ -44968,8 +43755,7 @@ export const lorcanaCards = [
     "uniqueId": "URS-202",
     "cardNum": 202,
     "bodyText": "BA-BOOM!: {e}, 2{i}, Discard a card - Deal 2 damage to chosen character or location.",
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS"
   },
   {
@@ -44991,8 +43777,7 @@ export const lorcanaCards = [
     "cardNum": 203,
     "bodyText": "Protect The Realm: While you have an exerted character here, your other locations can't be challenged.",
     "willpower": 8,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 2
   },
@@ -45015,13 +43800,8 @@ export const lorcanaCards = [
     "cardNum": 204,
     "bodyText": "If You Can Make it Here: During your turn, whenever a character banishes another character in a challenge while here, gain 2 lore.",
     "willpower": 7,
-    "cardVariants": "",
-    "dateModified": "2025-03-03 04:13:40.0",
+    "dateModified": "2025-09-07 21:37:34.0",
     "setId": "URS",
     "moveCost": 1
   }
 ]
-
-export const cardCount = 1837
-
-export const lastUpdated = "2025-09-07T12:41:32.410Z"
