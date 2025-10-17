@@ -43,14 +43,30 @@ export async function loadRuleConfigs() {
 // Simple analysis functions
 export async function analyzeLorcanaData(
   ruleConfig = 'core-constructed',
-  colorFilters = ['all']
+  colorFilters = ['all'],
+  setFilters = ['all']
 ) {
   const cards = await loadLorcanaCards(ruleConfig)
 
+  let filteredCards = cards
+
+  // Filter by sets first
+  if (!setFilters.includes('all')) {
+    filteredCards = filteredCards.filter((card) => setFilters.includes(card.setNum.toString()))
+  }
+
   // Filter by colors - if "all" is selected, show all cards, otherwise filter by selected colors
-  const filteredCards = colorFilters.includes('all')
-    ? cards
-    : cards.filter((card) => colorFilters.includes(card.color))
+  if (!colorFilters.includes('all')) {
+    filteredCards = filteredCards.filter((card) => {
+      // Handle multi-color cards (e.g., "Amber, Steel")
+      if (card.color && card.color.includes(',')) {
+        const cardColors = card.color.split(',').map(c => c.trim())
+        return cardColors.some(color => colorFilters.includes(color))
+      }
+      // Handle single color cards
+      return colorFilters.includes(card.color)
+    })
+  }
 
   // Calculate average cost
   const totalCost = filteredCards.reduce(
@@ -101,19 +117,36 @@ export async function analyzeLorcanaData(
     averageWillpower,
     ruleConfig,
     colorFilters,
+    setFilters,
   }
 }
 
 export async function getCardStatistics(
   ruleConfig = 'core-constructed',
-  colorFilters = ['all']
+  colorFilters = ['all'],
+  setFilters = ['all']
 ) {
   const cards = await loadLorcanaCards(ruleConfig)
 
+  let filteredCards = cards
+
+  // Filter by sets first
+  if (!setFilters.includes('all')) {
+    filteredCards = filteredCards.filter((card) => setFilters.includes(card.setNum.toString()))
+  }
+
   // Filter by colors - if "all" is selected, show all cards, otherwise filter by selected colors
-  const filteredCards = colorFilters.includes('all')
-    ? cards
-    : cards.filter((card) => colorFilters.includes(card.color))
+  if (!colorFilters.includes('all')) {
+    filteredCards = filteredCards.filter((card) => {
+      // Handle multi-color cards (e.g., "Amber, Steel")
+      if (card.color && card.color.includes(',')) {
+        const cardColors = card.color.split(',').map(c => c.trim())
+        return cardColors.some(color => colorFilters.includes(color))
+      }
+      // Handle single color cards
+      return colorFilters.includes(card.color)
+    })
+  }
 
   // Simple statistics
   const typeCounts = {}
