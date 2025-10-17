@@ -77,14 +77,28 @@ const SimulatorPage = () => {
     setIsSimulating(true)
     
     try {
+      // Find the actual deck data for both players
+      const allDecks = [...testDecks, ...userDecks]
+      const player1DeckData = allDecks.find(deck => deck.id === player1Deck)
+      const player2DeckData = allDecks.find(deck => deck.id === player2Deck)
+
+      if (!player1DeckData || !player2DeckData) {
+        throw new Error("Could not find deck data for selected decks")
+      }
+
+      console.log("Sending deck data to simulator:", {
+        player1Deck: player1DeckData,
+        player2Deck: player2DeckData
+      })
+
       const response = await fetch(getApiUrl("/simulate"), {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          player1Deck,
-          player2Deck,
+          player1Deck: player1DeckData.cards, // Send just the cards array
+          player2Deck: player2DeckData.cards, // Send just the cards array
           firstPlayer,
           strategy,
           maxTurns: maxTurns * 2, // Double the turns to get turns per player
